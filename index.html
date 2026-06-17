@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W24</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {--ivory:#faf9f5;--ivory-warm:#f0eee6;--ivory-deep:#e3dacc;--ink:#141413;--ink-soft:#3d3d3a;--mid-gray:#b0aea5;--light-gray:#e8e6dc;--terracotta:#d97757;}
+*{box-sizing:border-box} body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55;padding:64px 32px;} .shell{max-width:1040px;margin:0 auto;}
+.masthead{display:flex;justify-content:space-between;gap:32px;border-bottom:1px solid var(--light-gray);padding-bottom:24px;margin-bottom:48px} h1,h2{font-family:"Fraunces",Georgia,serif;font-weight:400} h1{font-size:32px;margin:0} .meta{font-family:"JetBrains Mono",monospace;font-size:13px;text-align:right;color:var(--ink-soft)} .scan-note{margin-top:8px;color:var(--mid-gray)}
+.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:48px;margin-bottom:40px} .overline,.meta-row{font-family:"JetBrains Mono",monospace;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mid-gray)} .hero h2{font-size:44px;line-height:1.12;margin:10px 0 0} .hero .u{text-decoration:underline;text-decoration-color:var(--terracotta);text-underline-offset:6px;text-decoration-thickness:3px} .metric{display:flex;justify-content:space-between;border-bottom:1px solid var(--light-gray);padding:10px 0;font-size:15px} .metric b{font-family:"JetBrains Mono",monospace;font-weight:400}
+.proof{background:var(--ink);color:var(--ivory);padding:28px 32px;margin:0 0 80px} .proof h3{font-family:"Fraunces",Georgia,serif;font-size:30px;font-weight:400;margin:10px 0 12px} .proof p{color:var(--ivory-warm);max-width:760px}
+.section{margin:80px 0 28px;border-top:2px solid var(--ink);padding-top:20px} .section h2{font-size:34px;margin:0} .threads{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:72px} .thread{border-top:1px solid var(--light-gray);padding-top:16px} .thread h3{font-size:22px;margin:0 0 10px} .thread p{color:var(--ink-soft);font-size:17px}
+.events{display:grid;gap:26px} .card{background:var(--ivory-warm);padding:28px 32px;border-radius:8px} .card h3{font-size:22px;line-height:1.25;margin:8px 0 14px} .body{font-size:17px;color:var(--ink-soft)} .body b{color:var(--ink)} .evidence-stack{background:var(--ivory);border:1px solid var(--light-gray)} .bullets{list-style:none;padding:0;margin:8px 0 0} .bullets li{border-bottom:1px solid var(--light-gray);padding:8px 0;color:var(--ink-soft)} .src,.tl-date{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--mid-gray);margin-right:10px} .timeline-card{background:var(--ivory);border-left:3px solid var(--terracotta);border-radius:0} .tl-row{border-bottom:1px solid var(--light-gray);padding:8px 0;margin-bottom:14px}
+.source{font-family:"JetBrains Mono",monospace;font-size:14px;margin-top:16px;padding-top:12px;border-top:1px solid var(--light-gray)} .source a{color:var(--ink-soft);text-decoration:underline;text-decoration-color:currentColor;transition:color .15s ease} .source a:hover{color:var(--terracotta)} .source a:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px} .proof .source a{color:var(--ivory)} .proof .source a:hover{color:var(--terracotta)}
+.fin-summary{border-top:1px solid var(--light-gray);border-bottom:1px solid var(--light-gray);padding:22px 0;color:var(--ink-soft);font-size:17px} .memo{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:72px;border-top:2px solid var(--ink);padding-top:28px} .memo h3{font-size:22px} .memo p{border-bottom:1px solid var(--light-gray);padding-bottom:12px;color:var(--ink-soft)} .colophon{font-family:"JetBrains Mono",monospace;text-align:center;color:var(--mid-gray);font-size:13px;margin-top:64px;border-top:1px solid var(--light-gray);padding-top:24px}
+@media(max-width:760px){body{padding:48px 20px}.masthead,.hero,.threads,.memo{display:block}.meta{text-align:left;margin-top:16px}.hero h2{font-size:34px}}
+</style>
+</head>
+<body>
+<!-- Design direction: refined industrial intelligence dossier -->
+<main class="shell">
+<header class="masthead"><h1>中美太空算力周报</h1><div class="meta"><strong>2026-W24</strong><br>2026.06.08–2026.06.14<br>Compiled 2026.06.17<div class="scan-note">Pass A/B/C 完成 · 事件表 139 · 正文 71 · 融资占比 29.6%</div></div></header>
+<section class="hero"><div><div class="overline">Lead Claim</div><h2>太空算力从<span class="u">概念叙事</span>进入工程验证，美国监管约束同步升温</h2></div><div><div class="metric"><span>事件表</span><b>139</b></div><div class="metric"><span>正文</span><b>71</b></div><div class="metric"><span>融资占比</span><b>29.6%</b></div><div class="metric"><span>S/A</span><b>16</b></div><div class="metric"><span>政策·科技·融资</span><b>28·22·21</b></div></div></section>
+<section class="proof"><div class="overline">Proof Object</div><h3>同一周出现三类证据：试验卫星、轨道 AI 数据中心设计、空间数据中心论文。</h3><p>北京太空算力试验卫星在轨验证能源与散热，SpaceX AI1/Gigasat 把轨道数据中心制造指标推到台前，arXiv 空间数据中心论文补足网络拓扑和软件编排框架。</p><div class="source"><a href="https://www.space.com/space-exploration/satellites/elon-musk-wants-to-put-1-million-ai-satellites-in-space-heres-how-spacex-could-do-it" target="_blank" rel="noopener noreferrer">Source: Space.com ↗</a></div></section>
+<section class="section"><h2>三条主线</h2></section><div class="threads"><div class="thread"><h3>政策</h3><p>中国商业航天进入条例、基地、平台和发射服务招标的落地周；美国则把 AI 模型出口管制、数据中心电网压力和在轨后勤推到监管前台。</p></div><div class="thread"><h3>科技</h3><p>SpaceX AI1/Gigasat、北京太空算力试验卫星、空间数据中心论文构成“轨道算力”三重证据，Starlink 与中国卫星互联网发射继续补载体侧能力。</p></div><div class="thread"><h3>融资</h3><p>正文精选 21 条融资，芯片 10、商业航天 5、AI 算力 6；其余 60 条压入数据库，避免融资淹没政策和科技判断。</p></div></div>
+<section class="section"><h2>Core Event Dossier</h2></section><div class="events"><div class="card">
+  <div class="meta-row">A · Policy · China · 06/08</div>
+  <h3>商业航天火箭箭体及发动机增材制造技改项目环评受理</h3>
+  <div class='body'><b>判断</b> 鹰潭市生态环境局拟受理商业航天火箭箭体及火箭发动机增材制造技改项目二期环评，属于商业火箭制造供应链扩产信号。<br><br><b>影响</b> 政策/采购/监管信号影响太空算力、卫星互联网或 AI 算力基础设施的建设节奏。<br><br><b>对我们的意义</b> 影响可用载体、发射/在轨服务和卫星网络资源供给。<br><br><b>后续跟踪</b> 跟踪后续公告、监管文件、合同落地或技术验证结果。</div>
+  <div class="source"><a href="http://sthjj.yingtan.gov.cn/art/2026/6/8/art_11961_1594373.html" target="_blank" rel="noopener noreferrer">Source: 鹰潭市生态环境局 ↗</a></div>
+</div>
+<div class="card evidence-stack">
+  <div class="meta-row">A · Policy · China · 06/08</div>
+  <h3>海南自由贸易港商业航天促进条例征求意见</h3>
+  <ul class='bullets'><li><span class='src'>中国网财经</span>海南就商业航天促进条例征求意见，内容覆盖商业发射计划、发射成本、产业发展、航天数据、航天旅游、财政支持等制度安排。</li><li><span class='src'>Impact</span>政策/采购/监管信号影响太空算力、卫星互联网或 AI 算力基础设施的建设节奏。</li><li><span class='src'>Next</span>跟踪后续公告、监管文件、合同落地或技术验证结果。</li></ul>
+  <div class="source"><a href="http://finance.china.com.cn/news/20260608/6311131.shtml" target="_blank" rel="noopener noreferrer">Source: 中国网财经 ↗</a></div>
+</div>
+<div class="card timeline-card">
+  <div class="meta-row">A · Financing · Europe · 06/12</div>
+  <h3>ICEYE raises funding at about €1bn valuation</h3>
+  <div class='tl-row'><span class='tl-date'>06/12</span><span>Financial Times 报道 SAR 卫星公司 ICEYE 融资，属于遥感星座融资与商业航天资本候选。</span></div><div class='body'><b>判断</b> 融资事件反映芯片、商业航天或 AI 算力链条的资本配置方向。<br><b>对我们的意义</b> 影响可用载体、发射/在轨服务和卫星网络资源供给。<br><b>后续跟踪</b> 跟踪后续公告、监管文件、合同落地或技术验证结果。</div>
+  <div class="source"><a href="https://www.ft.com/content/39dd5512-f7f0-4bf2-9317-cd9b12c7b5ba" target="_blank" rel="noopener noreferrer">Source: Financial Times ↗</a></div>
+</div>
+<div class="card">
+  <div class="meta-row">S · Technology · Global · 06/10</div>
+  <h3>空间数据中心与边缘 AI 研究论文发布</h3>
+  <div class='body'><b>判断</b> arXiv 论文讨论低轨空间数据中心星座架构、星间链路、计算资源组织和软件服务编排，并以遥感和月球探索为用例。<br><br><b>影响</b> 技术或任务节点影响星座部署、在轨服务、星上计算或 AI 基础设施路线。<br><br><b>对我们的意义</b> 作为太空算力主航道标杆，需跟踪技术指标、客户验证和商业化节奏。<br><br><b>后续跟踪</b> 跟踪后续公告、监管文件、合同落地或技术验证结果。</div>
+  <div class="source"><a href="https://arxiv.org/abs/2605.19892" target="_blank" rel="noopener noreferrer">Source: arXiv ↗</a></div>
+</div>
+<div class="card evidence-stack">
+  <div class="meta-row">S · Technology · US · 06/10</div>
+  <h3>SpaceX AI1 卫星设计披露 120kW 计算载荷</h3>
+  <ul class='bullets'><li><span class='src'>Tom&#x27;s Hardware</span>Tom&#x27;s Hardware 报道 SpaceX AI1 轨道数据中心卫星设计，含可替换芯片载荷、120kW 持续计算功耗和大型散热结构。</li><li><span class='src'>Impact</span>技术或任务节点影响星座部署、在轨服务、星上计算或 AI 基础设施路线。</li><li><span class='src'>Next</span>跟踪后续公告、监管文件、合同落地或技术验证结果。</li></ul>
+  <div class="source"><a href="https://www.tomshardware.com/tech-industry/spacex-details-its-ai1-compute-satellite" target="_blank" rel="noopener noreferrer">Source: Tom&#x27;s Hardware ↗</a></div>
+</div>
+<div class="card timeline-card">
+  <div class="meta-row">S · Technology · US · 06/10</div>
+  <h3>SpaceX orbital AI computing concept receives media coverage</h3>
+  <div class='tl-row'><span class='tl-date'>06/10</span><span>中文科技媒体报道 SpaceX 轨道 AI 计算相关概念，作为星上计算/轨道算力市场背景候选。</span></div><div class='body'><b>判断</b> 技术或任务节点影响星座部署、在轨服务、星上计算或 AI 基础设施路线。<br><b>对我们的意义</b> 作为太空算力主航道标杆，需跟踪技术指标、客户验证和商业化节奏。<br><b>后续跟踪</b> 跟踪后续公告、监管文件、合同落地或技术验证结果。</div>
+  <div class="source"><a href="https://new.qq.com/" target="_blank" rel="noopener noreferrer">Source: 腾讯科技 ↗</a></div>
+</div>
+<div class="card">
+  <div class="meta-row">S · Technology · US · 06/11</div>
+  <h3>SpaceX 披露百万颗 AI 卫星与轨道数据中心构想</h3>
+  <div class='body'><b>判断</b> Space.com 报道马斯克在 6 月 8 日视频中描述 AI 卫星、太阳能、散热器和激光链路，并计划建设 AI 卫星生产设施。<br><br><b>影响</b> 技术或任务节点影响星座部署、在轨服务、星上计算或 AI 基础设施路线。<br><br><b>对我们的意义</b> 作为太空算力主航道标杆，需跟踪技术指标、客户验证和商业化节奏。<br><br><b>后续跟踪</b> 跟踪后续公告、监管文件、合同落地或技术验证结果。</div>
+  <div class="source"><a href="https://www.space.com/space-exploration/satellites/elon-musk-wants-to-put-1-million-ai-satellites-in-space-heres-how-spacex-could-do-it" target="_blank" rel="noopener noreferrer">Source: Space.com ↗</a></div>
+</div>
+<div class="card evidence-stack">
+  <div class="meta-row">S · Technology · China · 06/12</div>
+  <h3>北京太空算力试验卫星开展在轨验证</h3>
+  <ul class='bullets'><li><span class='src'>中新经纬</span>中新经纬报道，北京星空院第二代算力试验卫星正在在轨验证太空数据中心能源与散热方案，展示太空数据太空算路径。</li><li><span class='src'>Impact</span>技术或任务节点影响星座部署、在轨服务、星上计算或 AI 基础设施路线。</li><li><span class='src'>Next</span>跟踪后续公告、监管文件、合同落地或技术验证结果。</li></ul>
+  <div class="source"><a href="https://www.jwview.com/jingwei/html/06-12/674697.shtml" target="_blank" rel="noopener noreferrer">Source: 中新经纬 ↗</a></div>
+</div></div>
+<section class="section"><h2>融资其余条目</h2></section><p class="fin-summary">本周境内/境外融资清单另有 60 条相关融资留在数据库版，主要集中在芯片/半导体、AI 应用与算力服务、商业航天供应链等方向。正文只保留 21 条，以维持融资占比 29.6%。详见数据库版 5C.1/5C.2/5C.3。</p>
+<section class="memo"><div><h3>机会</h3><p>围绕星载算力、空间能源散热、激光链路和抗辐照计算模块建立技术雷达。</p><p>商业航天基地和轻舟货运飞船招标说明中国供给侧正在打开更多商业入口。</p></div><div><h3>风险</h3><p>AI 模型出口管制显示“算力/模型”本身可能成为监管对象，不只是芯片。</p><p>数据中心地方阻力可能倒逼轨道算力叙事升温，但也会提高安全审查强度。</p></div><div><h3>下周必须看</h3><p>SpaceX 是否发布 AI1/Gigasat 或百万 AI 卫星的一手文件。</p><p>海南商业航天条例和北京太空算力试验卫星是否出现后续指标或政策反馈。</p></div></section>
+<div class="colophon">中美太空算力周报 · 2026-W24 · Compiled 2026.06.17 · Internal use</div>
+</main></body></html>
