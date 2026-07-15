@@ -2,229 +2,148 @@ name: Update website to latest weekly report
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - "reports/**"
-
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: update-weekly-index
-  cancel-in-progress: true
-
 jobs:
-  update-index:
+  publish:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Find latest and previous reports
-        id: reports
+      - name: Build latest page and one-week navigation
         shell: bash
         run: |
           set -euo pipefail
 
-          mapfile -t report_dirs < <(
-            find reports \
-              -mindepth 1 \
-              -maxdepth 1 \
-              -type d \
-              -name 'w*-reports' \
-              -printf '%f\n' |
-            sort -V
+          mapfile -t WEEK_DIRS < <(
+            while IFS= read -r dir; do
+              if [[ "$dir" =~ /w([0-9]+)-reports$ ]]; then
+                printf '%s\t%s\n' "${BASH_REMATCH[1]}" "$dir"
+              fi
+            done < <(find reports -mindepth 1 -maxdepth 1 -type d -name 'w*-reports' -print) |
+              sort -n -k1,1
           )
 
-          report_count=${#report_dirs[@]}
-
-          if [ "$report_count" -eq 0 ]; then
-            echo "No wN-reports folders found under reports/."
+          if (( ${#WEEK_DIRS[@]} == 0 )); then
+            echo "No reports/wN-reports directories found."
             exit 1
           fi
 
-          latest_dir="${report_dirs[$((report_count - 1))]}"
-          latest_path="reports/$latest_dir"
+          latest_entry="${WEEK_DIRS[-1]}"
+          latest_week="${latest_entry%%$'\t'*}"
+          latest_dir="${latest_entry#*$'\t'}"
+          latest_html="$(find "$latest_dir" -maxdepth 1 -type f -name '老板版_*.html' -print -quit)"
 
-          latest_html=$(
-            find "$latest_path" \
-              -maxdepth 1 \
-              -type f \
-              -name '老板版_*.html' |
-            sort |
-            tail -n 1
-          )
-
-          if [ -z "$latest_html" ]; then
-            echo "No 老板版 HTML found in $latest_path."
+          if [[ -z "$latest_html" ]]; then
+            echo "No 老板版_*.html found in $latest_dir"
             exit 1
           fi
 
-          echo "Latest folder: $latest_dir"
-          echo "Latest HTML: $latest_html"
-
-          echo "latest_dir=$latest_dir" >> "$GITHUB_OUTPUT"
-          echo "latest_html=$latest_html" >> "$GITHUB_OUTPUT"
-
-          if [ "$report_count" -ge 2 ]; then
-            previous_dir="${report_dirs[$((report_count - 2))]}"
-            previous_path="reports/$previous_dir"
-
-            previous_html=$(
-              find "$previous_path" \
-                -maxdepth 1 \
-                -type f \
-                -name '老板版_*.html' |
-              sort |
-              tail -n 1
-            )
-
-            if [ -z "$previous_html" ]; then
-              echo "No 老板版 HTML found in $previous_path."
+          previous_week=""
+          previous_dir=""
+          previous_html=""
+          if (( ${#WEEK_DIRS[@]} >= 2 )); then
+            previous_entry="${WEEK_DIRS[-2]}"
+            previous_week="${previous_entry%%$'\t'*}"
+            previous_dir="${previous_entry#*$'\t'}"
+            previous_html="$(find "$previous_dir" -maxdepth 1 -type f -name '老板版_*.html' -print -quit)"
+            if [[ -z "$previous_html" ]]; then
+              echo "No 老板版_*.html found in $previous_dir"
               exit 1
             fi
-
-            previous_number="${previous_dir#w}"
-            previous_number="${previous_number%-reports}"
-            previous_week="W$previous_number"
-
-            echo "Previous folder: $previous_dir"
-            echo "Previous HTML: $previous_html"
-            echo "Previous week: $previous_week"
-
-            echo "has_previous=true" >> "$GITHUB_OUTPUT"
-            echo "previous_dir=$previous_dir" >> "$GITHUB_OUTPUT"
-            echo "previous_html=$previous_html" >> "$GITHUB_OUTPUT"
-            echo "previous_week=$previous_week" >> "$GITHUB_OUTPUT"
-          else
-            echo "No previous report found."
-            echo "has_previous=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Copy latest report to index.html
-        shell: bash
-        run: |
-          set -euo pipefail
+          export LATEST_WEEK="$latest_week"
+          export LATEST_HTML="$latest_html"
+          export PREVIOUS_WEEK="$previous_week"
+          export PREVIOUS_HTML="$previous_html"
 
-          cp "${{ steps.reports.outputs.latest_html }}" index.html
-
-          echo "Copied:"
-          echo "${{ steps.reports.outputs.latest_html }}"
-          echo "to index.html"
-
-      - name: Inject previous-week button into index.html
-        if: steps.reports.outputs.has_previous == 'true'
-        shell: bash
-        env:
-          PREVIOUS_HTML: ${{ steps.reports.outputs.previous_html }}
-          PREVIOUS_WEEK: ${{ steps.reports.outputs.previous_week }}
-        run: |
-          set -euo pipefail
-
-          python3 - <<'PY'
+          python3 <<'PY'
           import os
+          import re
           from pathlib import Path
-
-          index_path = Path("index.html")
-          html = index_path.read_text(encoding="utf-8")
 
           marker = "<!-- PREVIOUS_WEEK_BUTTON -->"
+          start = "<!-- WEEKLY_NAV_START -->"
+          end = "<!-- WEEKLY_NAV_END -->"
+          generated_nav = re.compile(
+              re.escape(start) + r".*?" + re.escape(end),
+              flags=re.DOTALL,
+          )
 
-          if marker not in html:
-              raise SystemExit(
-                  "PREVIOUS_WEEK_BUTTON marker not found in latest HTML."
+          report_files = list(Path("reports").glob("w*-reports/老板版_*.html"))
+          for path in report_files:
+              html = path.read_text(encoding="utf-8")
+              html = generated_nav.sub(marker, html)
+              path.write_text(html, encoding="utf-8")
+
+          latest_week = os.environ["LATEST_WEEK"]
+          latest_path = Path(os.environ["LATEST_HTML"])
+          latest_html = latest_path.read_text(encoding="utf-8")
+          if marker not in latest_html:
+              raise SystemExit(f"Marker missing in latest report: {latest_path}")
+
+          previous_week = os.environ.get("PREVIOUS_WEEK", "")
+          previous_name = os.environ.get("PREVIOUS_HTML", "")
+
+          if previous_week and previous_name:
+              previous_path = Path(previous_name)
+              previous_href = previous_path.as_posix()
+              back_button = (
+                  f'{start}<a class="previous-button" href="{previous_href}">'
+                  f'← W{previous_week} 周报</a>{end}'
               )
+              index_html = latest_html.replace(marker, back_button, 1)
 
-          previous_html = os.environ["PREVIOUS_HTML"]
-          previous_week = os.environ["PREVIOUS_WEEK"]
+              previous_html = previous_path.read_text(encoding="utf-8")
+              if marker not in previous_html:
+                  raise SystemExit(f"Marker missing in previous report: {previous_path}")
+              forward_button = (
+                  f'{start}<a class="previous-button" href="../../index.html">'
+                  f'W{latest_week} 周报 →</a>{end}'
+              )
+              previous_path.write_text(
+                  previous_html.replace(marker, forward_button, 1),
+                  encoding="utf-8",
+              )
+          else:
+              index_html = latest_html.replace(marker, "", 1)
 
-          button = f'''
-          <a
-            href="{previous_html}"
-            style="
-              display:inline-block;
-              margin-top:18px;
-              padding:12px 16px;
-              border:1px solid var(--light-gray);
-              border-radius:8px;
-              background:var(--ivory-deep);
-              color:var(--ink);
-              font-size:14px;
-              font-weight:500;
-              letter-spacing:.02em;
-              line-height:1.3;
-              text-decoration:none;
-            "
-          >← {previous_week} 周报</a>
-          '''.strip()
-
-          html = html.replace(marker, button, 1)
-          index_path.write_text(html, encoding="utf-8")
-
-          print(
-              f"Injected previous-week button: "
-              f"{previous_week} -> {previous_html}"
-          )
+          Path("index.html").write_text(index_html, encoding="utf-8")
+          print(f"Published W{latest_week} to index.html")
+          if previous_week:
+              print(f"Navigation enabled only between W{latest_week} and W{previous_week}")
           PY
 
-      - name: Remove unused marker when no previous report exists
-        if: steps.reports.outputs.has_previous != 'true'
+      - name: Verify generated links
         shell: bash
         run: |
           set -euo pipefail
-
-          python3 - <<'PY'
-          from pathlib import Path
-
-          index_path = Path("index.html")
-          html = index_path.read_text(encoding="utf-8")
-
-          html = html.replace(
-              "<!-- PREVIOUS_WEEK_BUTTON -->",
-              "",
-          )
-
-          index_path.write_text(html, encoding="utf-8")
-          PY
-
-      - name: Verify generated index.html
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if [ ! -s index.html ]; then
-            echo "index.html is missing or empty."
-            exit 1
-          fi
-
+          test -s index.html
           if grep -q '<!-- PREVIOUS_WEEK_BUTTON -->' index.html; then
-            echo "Unprocessed button marker remains in index.html."
+            echo "Unresolved navigation marker remains in index.html"
             exit 1
           fi
 
-          echo "Generated index.html successfully."
-
-      - name: Commit updated index.html
+      - name: Commit generated pages
         shell: bash
         run: |
           set -euo pipefail
-
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add index.html
-
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html reports/
           if git diff --cached --quiet; then
-            echo "index.html is already current."
+            echo "No generated changes to commit."
             exit 0
           fi
-
-          git commit -m "Update website to latest weekly report"
+          git commit -m "Update latest weekly report navigation"
           git push
