@@ -42,6 +42,7 @@ jobs:
           latest_week="${latest_entry%%$'\t'*}"
           latest_dir="${latest_entry#*$'\t'}"
           latest_html="$(find "$latest_dir" -maxdepth 1 -type f -name '老板版_*.html' -print -quit)"
+          latest_dashboard="$latest_dir/financing-dashboard-preview.html"
 
           if [[ -z "$latest_html" ]]; then
             echo "No 老板版_*.html found in $latest_dir"
@@ -64,6 +65,7 @@ jobs:
 
           export LATEST_WEEK="$latest_week"
           export LATEST_HTML="$latest_html"
+          export LATEST_DASHBOARD="$latest_dashboard"
           export PREVIOUS_WEEK="$previous_week"
           export PREVIOUS_HTML="$previous_html"
 
@@ -120,6 +122,32 @@ jobs:
 
           Path("index.html").write_text(index_html, encoding="utf-8")
           print(f"Published W{latest_week} to index.html")
+
+          dashboard_path = Path(os.environ["LATEST_DASHBOARD"])
+          root_dashboard = Path("financing-dashboard-preview.html")
+          if dashboard_path.is_file():
+              dashboard_html = dashboard_path.read_text(encoding="utf-8")
+              report_name = latest_path.name
+              local_back = f'href="{report_name}"'
+              if local_back not in dashboard_html:
+                  raise SystemExit(
+                      f"Dashboard back link does not target {report_name}: {dashboard_path}"
+                  )
+              dashboard_html = dashboard_html.replace(
+                  local_back,
+                  'href="index.html"',
+                  1,
+              )
+              root_dashboard.write_text(dashboard_html, encoding="utf-8")
+              print(f"Published W{latest_week} financing dashboard to repository root")
+          elif 'href="financing-dashboard-preview.html"' in index_html:
+              raise SystemExit(
+                  f"Latest report links to financing dashboard but file is missing: {dashboard_path}"
+              )
+          elif root_dashboard.exists():
+              root_dashboard.unlink()
+              print("Removed stale root financing dashboard")
+
           if previous_week:
               print(f"Navigation enabled only between W{latest_week} and W{previous_week}")
           PY
@@ -133,6 +161,10 @@ jobs:
             echo "Unresolved navigation marker remains in index.html"
             exit 1
           fi
+          if grep -q 'href="financing-dashboard-preview.html"' index.html; then
+            test -s financing-dashboard-preview.html
+            grep -q 'href="index.html"' financing-dashboard-preview.html
+          fi
 
       - name: Commit generated pages
         shell: bash
@@ -140,7 +172,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html reports/
+          git add index.html financing-dashboard-preview.html reports/
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0
