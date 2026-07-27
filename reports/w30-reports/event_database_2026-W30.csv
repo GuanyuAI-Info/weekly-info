@@ -1,0 +1,439 @@
+﻿event_id,date,published_date,country,sector,domain,entity,event_title,event_summary,source_name,source_type,source_url,source_tier,secondary_sources,space_compute_relevance_score,industry_impact_score,novelty_score,total_score,priority,reason_for_priority,include_in_report,implication,meaning_for_us,next_watch,analyst_note,source_discovery_flag
+W30-S010,2026-07-20,2026-07-20,China,Technology,Space computing,SenseTime / ADASpace,SenseTime Joins ADASpace Space-computing Constellation Project,"SenseTime and ADASpace agreed to cooperate on a planned 2,800-satellite network intended to perform AI computing tasks in orbit.",Light Reading,Fail-Closed supplemental scan,https://www.lightreading.com/satellite/china-s-sensetime-backs-ai-space-computing-project,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-P002,2026-07-21,2026-07-21,China,Technology,Public scan,中国太空算力产业,太空算力，将数据中心搬上天（经济聚焦·走进“中国智造”）_新闻频道_央视网(cctv.com),太空算力，将数据中心搬上天（经济聚焦·走进“中国智造”）_新闻频道_央视网(cctv.com) (https://news.cctv.com/2026/07/21/ARTIcuK9D5xVwBft09bq5IUu260721.shtml),news.cctv.com,Public web,https://news.cctv.com/2026/07/21/ARTIcuK9D5xVwBft09bq5IUu260721.shtml,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-S024,2026-07-24,2026-07-24,China,Technology,On-orbit AI / rapid Earth observation,Dongpo-13 / Dongpo-14,AI-powered Chinese Satellites Set 1.5-hour Orbital Imaging Record,Dongpo-13 and Dongpo-14 used onboard AI payloads and an integrated space-ground workflow to return imagery about 1.5 hours after entering orbit.,People's Daily Online,Fail-Closed supplemental scan,https://en.people.cn/n3/2026/0724/c90000-20481401.html,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S025,2026-07-24,2026-07-24,China,Technology,Space data center demonstration,Chenguang-1,Chenguang-1 Launches Space-data-center Technology Demonstration,"Chenguang-1 launched to demonstrate energy, thermal-control, and server technologies needed by a space data center.",People's Daily Online Beijing,Fail-Closed supplemental scan,https://bj.people.com.cn/n2/2026/0724/c14540-41649011.html,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-F095,2026-07-20,2026-07-20,China,Financing,commercial_space,星波动力,星波动力完成B轮融资,运载机构轻量化解决方案提供商；原始金额：-；投资方：太浩创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/251b6438d1bb14ca5b9e13160045d90e.html,Manual,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-F099,2026-07-20,2026-07-20,China,Financing,commercial_space,星遥光宇,星遥光宇完成数亿元战略融资,公开报道口径为数亿元战略融资；用于空间激光通信、星载红外遥感技术迭代和智能产线升级。,腾讯新闻（科创板日报）,Manual financing import,https://news.qq.com/rain/a/20260720A0A2G800,Manual,https://www.qcc.com/product/ec0045fff1e598b802a4ad30868b8010.html,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F102,2026-07-20,2026-07-20,China,Financing,commercial_space,折跃科技,折跃科技完成天使轮融资,电动垂直起降整机核心系统供应商；原始金额：-；投资方：鑫霓资产，一村资本，Empower Alpha Limited，RoboX (BVI) Limited；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/e18e761a7f272fe4eac31f4a0d85f4c2.html,Manual,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-P040,2026-07-21,2026-07-21,US,Financing,commercial_space,AST SpaceMobile,PRN_FinancialWrapper | PR Newswire - AST SpaceMobile Announces Completion of Private Offering of $1.15 Billion of Convertible Senior Notes Due 2034,"PRN_FinancialWrapper | PR Newswire - AST SpaceMobile Announces Completion of Private Offering of $1.15 Billion of Convertible Senior Notes Due 2034 (https://markets.financialcontent.com/prnews.pressre/article/bizwire-2026-7-21-ast-spacemobile-announces-completion-of-private-offering-of-115-billion-of-convertible-senior-notes-due-2034)
+citeturn736view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://markets.financialcontent.com/prnews.pressre/article/bizwire-2026-7-21-ast-spacemobile-announces-completion-of-private-offering-of-115-billion-of-convertible-senior-notes-due-2034"",""lineno"":null}); Total lines: 595
+L0: cite0†Accessibility Statement†www.cision.com cite1†Skip Navigation [Input]
+L1: 
+L2:   * cite2†News in Focus L3:     *       * ## cite3†Browse News Releases L4: 
+L5:       * cite4†All News Releases L6:       * cite5†All Public Company L7:       * cite6†English-only L8:       * ## cite3†News Releases Overview L9: 
+L10:       * ## cite7†Multimedia Gallery L11: 
+L12:       * cite8†All Multimedia L13:       * cite9†All Photos L14:       * cite10†All Videos L15:       * ## cite7†Multimedia Gallery Overview L16: 
+L17:       * ## cite11†Trending Topics L18: 
+L19:       * cite11†All Trending Topics L20:   * cite2†Business & Money L21:     *       * ## cite12†Auto & Transportation L22:       * cite13†All Automotive & Transportation L23:       * cite14†Aerospace, Defense L24:       * cite15†Air Freight L25:       * cite16†Airlines & Aviation L26:       * cite17†Automotive L27:       * cite18†Maritime & Shipbuilding L28:       * cite19†Railroads and Intermodal Transportation L29:       * cite20†Supply Chain/Logistics L30:       * cite21†Transportation, Trucking & Railroad",markets.financialcontent.com,Public web,https://markets.financialcontent.com/prnews.pressre/article/bizwire-2026-7-21-ast-spacemobile-announces-completion-of-private-offering-of-115-billion-of-convertible-senior-notes-due-2034,A_Active,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F090,2026-07-21,2026-07-21,China,Financing,commercial_space,富林岚,富林岚完成数千万元Pre-A+++轮融资,旋翼系统研产商；原始金额：-；投资方：中衡设计；人民币换算：N/A；美元换算：N/A。,腾讯新闻（猎云网）,Manual financing import,https://news.qq.com/rain/a/20260721A07V1L00,Manual,https://www.qcc.com/product/effd45cbf89d56aab75f75a3c0cbc85b.html,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F093,2026-07-21,2026-07-21,China,Financing,commercial_space,北京通飞,北京通飞完成种子轮融资,民营新能源飞机制造商；原始金额：-；投资方：新鼎资本；人民币换算：N/A；美元换算：N/A。,腾讯新闻（亿欧数据）,Manual financing import,https://news.qq.com/rain/a/20260723A0CXC100,Manual,https://www.qcc.com/product/303d46274fd0b11ba3be7ccf4e7aa5c8.html,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F106,2026-07-21,2026-07-21,Global,Financing,commercial_space,deltaVision,deltaVision完成股权融资融资,航空航天流体系统制造商；原始金额：1020万欧元；投资方：KT Ventures，Valemount Capital，Futury Capital；人民币换算：78781740.00；美元换算：11595952.25。,企查查（境外）,Manual financing import,https://www.qcc.com/product/6792b6a9e5c367d7e14d6a0ff9b5390f.html,Manual,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境外）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 EUR。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-S021,2026-07-21,2026-07-21,US,Policy,Science and technology strategy,White House OSTP,White House Publishes 'Science: A New Golden Age' Technology Strategy Report,"The White House science strategy report sets priorities including AI agents for science, domestic semiconductor research, and the Genesis Mission.",White House,Fail-Closed supplemental scan,https://www.whitehouse.gov/science/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-F082,2026-07-22,2026-07-22,China,Financing,commercial_space,素泰智能,素泰智能完成B轮融资,卫星通信芯片及解决方案提供商；原始金额：-；投资方：鼎晖投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/7dc1cd082a697830caf9bbb3173d369a.html,Manual,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-S001,2026-07-22,2026-07-22,US,Technology,In-space servicing,NASA / DARPA / Northrop Grumman,Robotic Servicing Mission Launches with NASA Support,"Northrop Grumman's MRV carrying DARPA's RSGS robotic payload launched July 21 to demonstrate inspection, upgrade, and life-extension services for GEO satellites.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S013,2026-07-22,2026-07-22,US,Policy,Satellite licensing,FCC,FCC Adopts Space and Earth-station Licensing Process Overhaul,The FCC approved a licensing-process overhaul intended to create a faster assembly-line workflow for space- and earth-station applications.,Via Satellite,Fail-Closed supplemental scan,https://www.satellitetoday.com/eletter/news-feed/,A_Active,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S018,2026-07-22,2026-07-22,US,Policy,AI for science,NASA Genesis Mission,NASA Joins Genesis Mission to Apply AI to Space Engineering and Mission Data,"NASA joined the interagency Genesis Mission, pairing mission archives and engineering expertise with federal AI and computing capabilities.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/news-release/nasa-joins-genesis-mission-to-accelerate-ai-driven-discovery/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S020,2026-07-22,2026-07-22,US,Policy,AI for science funding,White House Genesis Mission,White House Announces More Than $5 Billion for Genesis AI-for-Science Mission,"The White House announced more than $5 billion for the Genesis Mission, including AI-driven microelectronics R&D and analysis of NASA's space-data archives.",White House,Fail-Closed supplemental scan,https://www.whitehouse.gov/releases/2026/07/45502/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-F078,2026-07-23,2026-07-23,China,Financing,ai,星旺空间,星旺空间完成天使轮融资,太空算力基础设施与在轨服务提供商；原始金额：数千万元；投资方：中关村资本，民银国际，深圳穹顶天算投资合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,腾讯新闻（亿欧数据）,Manual financing import,https://news.qq.com/rain/a/20260724A05YC700,Manual,https://www.qcc.com/product/33888e6d16d6df8a55eaf58a446aa094.html,5,3,4,4.20,A,相关性5/5、产业影响3/5、新颖性4/5；加权4.20。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-S005,2026-07-24,2026-07-24,US,Technology,Autonomous navigation / cislunar,NASA CAPSTONE 02,NASA Announces CAPSTONE 02 Dual-spacecraft Technology Demonstration,"CAPSTONE 02 will demonstrate autonomous navigation, inter-satellite coordination, rendezvous, and proximity operations with two lunar-orbit spacecraft.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-P015,2026-07-25,2026-07-25,China,Technology,Public scan,甘德一号01星,国内首颗商业空间碎片监测卫星发射成功_央广网,国内首颗商业空间碎片监测卫星发射成功_央广网 (https://tech.cnr.cn/gstj/20260725/t20260725_527728801.shtml),tech.cnr.cn,Public web,https://tech.cnr.cn/gstj/20260725/t20260725_527728801.shtml,A_Active,https://www.stdaily.com/web/gdxw/2026-07/24/content_552960.html,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P013 as same event atom.,Pass_A_or_B
+W30-F059,2026-07-25,2026-07-25,China,Financing,commercial_space,热数科技,热数科技完成A轮融资,商业航天结构和热控系统配套商；原始金额：-；投资方：高信资本，熙正基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/731b5bd71eeef4dcb5d8039e25da121c.html,Manual,,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,用于校准技术路线、生态合作、融资对标或政策风险判断。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-P006,2026-07-20,2026-07-20,China,Technology,Public scan,,2026 World AI Conference and High-Level Meeting on Global AI Governance,2026 World AI Conference and High-Level Meeting on Global AI Governance (https://www.stdaily.com/web/English/2026-07/20/content_550246.html),stdaily.com,Public web,https://www.stdaily.com/web/English/2026-07/20/content_550246.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 corrected publication date from source URL.,Pass_A_or_B
+W30-P020,2026-07-20,2026-07-20,China,Policy,Public scan,,关于公开征求《制造业数字化仿真 仿真环境管理要求》等6项电子行业推荐性国家标准报批意见的公示,关于公开征求《制造业数字化仿真 仿真环境管理要求》等6项电子行业推荐性国家标准报批意见的公示 (https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_8adf4d424daa4340b6d3025ee1eeaf44.html),wap.miit.gov.cn,Public web,https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_8adf4d424daa4340b6d3025ee1eeaf44.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P037,2026-07-20,2026-07-20,US,Technology,Public scan,NASA Artemis III,"Four astronauts, 3 spacecraft, 2 weeks in orbit: Artemis III will be NASA's most complicated mission ever | Space","Four astronauts, 3 spacecraft, 2 weeks in orbit: Artemis III will be NASA's most complicated mission ever | Space (https://www.space.com/space-exploration/artemis/four-astronauts-3-spacecraft-2-weeks-in-orbit-artemis-iii-will-be-nasas-most-complicated-mission-ever)
+citeturn703view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.space.com/space-exploration/artemis/four-astronauts-3-spacecraft-2-weeks-in-orbit-artemis-iii-will-be-nasas-most-complicated-mission-ever"",""lineno"":null}); Total lines: 437
+L0: cite0†Image†sb.scorecardresearch.com cite1†Skip to main content L1: 
+L2: [Input] [Input]
+L3:   *   * cite2†Space Exploration L4:     * cite3†Launches & Spacecraft L5:       * cite4†Private spaceflight L6:       * cite5†Human spaceflight L7:       * cite6†SpaceX L8:       * cite7†Blue Origin L9:       * cite8†Virgin Galactic L10:       * cite9†United Launch Alliance L11:     * cite10†Search for Life L12:       * cite11†Exoplanets L13:       * cite12†SETI L14:       * cite13†Aliens L15:     * cite14†Missions L16:       * cite15†International Space Station L17:       * cite16†Space Shuttle L18:       * cite17†Apollo L19:       * cite18†Artemis L20:       * cite19†Voyager L21:       * cite20†Asteroid & Comet Missions L22:       * cite21†Mars rovers L23:       * cite22†New Horizons L24:       * cite20†Parker Solar Probe L25:     * cite23†Satellites L26:   * cite24†Astronomy L27:     * cite25†Solar System L28:       * cite26†The Sun L29:       * cite27†Asteroids L30:       * cite28†Mars L31:       * cite29†Comets L32:       * cite30†Mercury L33:       * cite31†Jupiter L34:       * cite32†Saturn L35:       * cite33†Pluto L36:       * cite34†Ve",space.com,Public web,https://www.space.com/space-exploration/artemis/four-astronauts-3-spacecraft-2-weeks-in-orbit-artemis-iii-will-be-nasas-most-complicated-mission-ever,A_Active,https://apnews.com/article/2d1f10bd676c296bc7db5e0c56cb9a4e,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P038 as same event atom.,Pass_A_or_B
+W30-P043,2026-07-20,2026-07-20,US,Policy,Public scan,FERC,Order No. 917 | Federal Energy Regulatory Commission,"Order No. 917 | Federal Energy Regulatory Commission (https://www.ferc.gov/order-917)
+citeturn839view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ferc.gov/order-917"",""lineno"":null}); Total lines: 759
+L0: cite0† Skip to main content  L1: 
+L2: cite1† FERC Federal Energy Regulatory Commission  Mobile Menu Button
+L3: 
+L4:   * Search Search
+L5:   * Industries & Data
+L6:     * Electric
+L7: 
+L8: * * *
+L9: 
+L10:       * cite2†Overview L11:       * cite3†Power Sales and Markets L12:       * cite4†Incentives L13:       * cite5†Electric Reliability L14:       * cite6†Electric Transmission L15:       * cite7†Electric Transmission Siting L16:       * cite8†General Information L17:     * Natural Gas
+L18: 
+L19: * * *
+L20:       * cite9†Overview L21:       * cite10†Landowner Resources L22:       * cite11†Safety and Inspections L23:       * cite12†Environment L24:     * Market Assessments
+L25: 
+L26: * * *
+L27: 
+L28:       * cite13†Overview L29:       * cite14†Reports & Analysis L30:       * cite15†Data Sources L31:       * cite16†Natural Gas Markets L32:       * cite17†Electric Power Markets L33:     * Hydropower
+L34: 
+L35: * * *
+L36: 
+L37:       * cite18†Overview L38:       * cite19†Licensing L39:       * cite20†Administration and Compliance L40:       * cite21†Dam Safety and Inspections L41:     * Oil
+L42: 
+L43: * * *
+L44:       * cite22†Overview L45:       * cite23†Annual Charges L46:       * cite24†General Information L47:       * cite25†Staff Oil Pipeline Handbooks L48:     * Resources
+L49: 
+L50: * * *
+L51:       * cite26†Overview L52:       * cite27†FERC Staff Reports and Papers L53:       * cite28†Guides L54:       * cite29†The Process L55:       * cite3",ferc.gov,Public web,https://www.ferc.gov/news-events/events/notational-orders-2026-07-20-07202026,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P045,2026-07-20,2026-07-20,China,Policy,Public scan,,2026年全国工业和信息化主管部门负责同志座谈会在京召开,"2026年全国工业和信息化主管部门负责同志座谈会在京召开 (https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_b6e07e126a124eee8a0a8c5f57631056.html)
+citeturn852view2 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_b6e07e126a124eee8a0a8c5f57631056.html"",""lineno"":null}); Total lines: 23
+L0: cite0†首页 > cite1†新闻发布 > cite2†部领导活动 L1: # 2026年全国工业和信息化主管部门负责同志座谈会在京召开
+L2: 
+L3: 发布时间：2026-07-20 19:32 来源：办公厅、工信微报
+L4: 
+L5: 2026年7月20日，全国工业和信息化主管部门负责同志座谈会在京召开。会议坚持以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会精神，认真贯彻落实党中央、国务院决策部署，分析把握行业发展中的重大问题，进一步统一思想、坚定信心、奋发作为，确保全面完成全年目标任务。工业和信息化部党组书记、部长李乐成出席会议并讲话，部党组成员、副部长辛国斌主持会议，部领导叶民、熊继军、柯吉欣、谢远生、姚来英、高东升、钟志红、王卫明出席会议。
+L6: 
+L7: cite3†Image: 1.jpg L8: 会议指出，今年以来，在以习近平同志为核心的党中央坚强领导下，工业和信息化系统深入开展树立和践行正确政绩观学习教育，着力推动高质量发展，工业经济稳健前行、向新向优，重点产业链高质量发展行动深入推进，重点领域关键核心技术加速突破，制造业智能化绿色化融合化发展步伐加快，优质企业梯度培育体系不断完善，信息通信业高质量发展稳步推进，行业治理持续加强。上半年，全国规模以上工业增加值同比增长5.4%，其中制造业增加值同比增长5.6%，规模以上装备制造业、高技术制造业增加值同比分别增长9.3%、13.3%，高于规模以上工业增速3.9和7.9个百分点。
+L9: 
+L10: cite4†Image: 2.jpg L11: 会议强调，做好下半年工作，直接关系全年目标实现，关系“十五五”良好开局。全系统要切实把思想和行动统一到以习近平同志为核心的党中央对形势的科学判断和决策部署上来，进一步理清思路、找准路径，坚定信心、真抓实干，确保高质量完成全年目标任务。要保持制造业合理比重，优化资源要素保障，健全保持制造业合理比重投入机制，支持工业大省大市挑大梁，引导各地因地制宜构建各具特色和优势的现代化产业体系，进一步做强做优做大制造业。提升制造业价值创造能力，推动科技创新和产业创新深度融合，延伸拓展产业链条，持续优化产业结构，提升产业链自主可控水平和产业核心竞争力，推动制造业迈向全球价值链中高端。",miit.gov.cn,Public web,https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_b6e07e126a124eee8a0a8c5f57631056.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P056,2026-07-20,2026-07-20,China,Policy,Public scan,,〖郑栅洁主任主持召开民营企业座谈会 围绕上半年经济形势和做好下半年经济工作听取意见建议〗-国家发展和改革委员会,"〖郑栅洁主任主持召开民营企业座谈会 围绕上半年经济形势和做好下半年经济工作听取意见建议〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/fzggw/wld/zsj/zyhd/202607/t20260720_1406607.html)
+citeturn913view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/fzggw/wld/zsj/zyhd/202607/t20260720_1406607.html"",""lineno"":null}); Total lines: 18
+L0: cite0†首页 > cite1†机构设置 > cite2†委领导 > cite3†郑栅洁 > cite4†重要活动 L1: ## 郑栅洁主任主持召开民营企业座谈会 围绕上半年经济形势和做好下半年经济工作听取意见建议
+L2: 
+L3: 发布时间：2026/07/20
+L4: 
+L5: 来源：政研室
+L6: 
+L7: cite5†Image [ 打印 ]
+L8: 
+L9: 　　7月20日，国家发展改革委主任郑栅洁主持召开民营企业座谈会，与来自食品加工、工业自动化测试设备制造、营销服务、人形机器人研发、物联网服务等领域的三全食品、华兴源创、易点天下、银河通用机器人、飞尚科技等5家企业负责人沟通交流，围绕上半年经济形势和下半年经济工作听取意见建议。
+L10: 
+L11: 　　会上，参会企业负责人围绕会议主题，结合各自行业特点与企业生产经营情况等，对上半年经济形势进行了分析。大家普遍认为，今年以来外部不稳定不确定因素增多，我国经济顶住压力、稳中有进，展现出强大韧性和活力，目前企业生产经营平稳，市场预期稳步改善，有能力、有信心完成全年生产经营目标。参会企业还围绕推动产业链上下游协同、促进传统产业改造升级、加大创新人才培养力度、加强数据等要素保障、规范招标投标市场秩序等方面提出意见建议。
+L12: 　　郑栅洁认真倾听参会企业负责人发言，并与大家互动交流，逐一回应诉求建议。他表示，企业对经济运行的感知和判断，为我们监测分析经济形势、研究制定政策举措、实施宏观调控提供了积极参考，企业有活力，经济才有动力。今年是“十五五”开局之年，在以习近平同志为核心的党中央坚强领导下，宏观政策持续发力，上半年我国经济总体平稳，新质生产力培育壮大，高质量发展向新向优。虽然外部环境变化带来不少困难挑战，但我国经济长期向好的支撑条件和基本趋势没有改变，希望广大民营企业家坚定发展信心，深入挖掘需求升级和产业升级机遇，坚守主业、做强实业，为推动经济社会高质量发展多作贡献。做好下半年经济工作对完成全年发展目标十分重要。国家发展改革委将深入贯彻落实党中央和国务院决策部署，发挥好存量政策和增量政策集成效应，加快培育消费新增长点，持续推动“十五五”规划纲要重大工程项目实施，推进新旧动能平稳接续转换，加快场景培育和开放，进一步构建高质量数据供给体系，纵深推进全国统一大市场建设，不断增强经济发展内生动力，激发市场活力。同时，实施好“法治护航民营经济”行动，加力推动民营经济促进法配套制度建设，发挥好多层次与民营企业常态化沟通交流机制作用，持续营造良好环境，全力促进民营经济高质量发展。
+L13: 　　国家发展改革委副主任沈竹林，办公厅、综合司、民营局主要负责同志参会。
+L14: 
+L15: 附件：
+L16: 
+L17: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/fzggw/wld/zsj/zyhd/202607/t20260720_1406607.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P058,2026-07-20,2026-07-20,China,Policy,Public scan,,〖世界人工智能合作组织(WAICO)推进会成功召开〗-国家发展和改革委员会,"〖世界人工智能合作组织(WAICO)推进会成功召开〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html)
+citeturn913view2 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html"",""lineno"":null}); Total lines: 21
+L0: cite0†首页 > cite1†发展改革工作 L1: ## 世界人工智能合作组织(WAICO)推进会成功召开
+L2: 
+L3: 发布时间：2026/07/20
+L4: 
+L5: 来源：政研室
+L6: 
+L7: cite2†Image [ 打印 ]
+L8: 
+L9: 　　7月17日，国家发展改革委、外交部在上海召开世界人工智能合作组织推进会，与签署成立世界人工智能合作组织协定的各国代表，共同就人工智能全球治理、产业务实合作、世界人工智能合作组织建设运行等议题交换意见。
+L10: 
+L11: cite3†Image L12: 
+L13: 　　7月16日，29国代表签署成立世界人工智能合作组织的协定，成为创始成员国。世界人工智能合作组织是一个共商共建、开放包容的多边合作平台，秉持以人为本、向上向善的理念，推进各成员国人工智能能力建设，加强发展战略、治理规则、技术标准的对接协调，促进应用赋能和务实合作，推进形成具有广泛共识的全球治理框架，确保人工智能朝着有益、安全、公平方向健康有序发展，助力各国现代化进程。
+L14: 　　本次推进会在签署协定的基础上，与各成员国进一步共谋共议，促进组织尽快发挥实效。会上，中方介绍了人工智能发展与治理的成效和经验，提出了各成员国加强合作的工作建议，表示愿在组织框架下进一步共享自身发展成果，与各成员国一道携力推进务实合作。同时，充分听取各成员国意见建议，共同将组织成立好、建设好、发展好。
+L15: 
+L16: 　　与会各国代表积极肯定成立世界人工智能合作组织的重要意义，分享了对组织定位、运行、合作领域的展望，希望结合本国发展特点参与组织建设。本次会议就积极发挥组织作用、进一步开展人工智能国际合作形成广泛共识。
+L17: 
+L18: 附件：
+L19: 
+L20: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F100,2026-07-20,2026-07-20,China,Financing,ai,中科量枢,中科量枢完成天使+轮融资,量子计算全栈式软件基础设施及生态建设商；原始金额：数千万元；投资方：北工投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/1e05f60a6c642320a3bdff1c8920de70.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-S012,2026-07-20,2026-07-20,Global,Policy,AI regulation,European Commission,European Commission Publishes AI-system Transparency Guidelines,The European Commission published guidelines on transparency obligations for providers and deployers of specified AI systems.,European Commission,Fail-Closed supplemental scan,https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S014,2026-07-20,2026-07-20,Global,Technology,Earth-observation launch,ESA FLEX / Sentinel-3C,ESA Opens Media Programme for FLEX and Sentinel-3C Launch,"ESA opened the launch media programme for the FLEX and Copernicus Sentinel-3C satellites, planned to fly together on Vega-C.",ESA,Fail-Closed supplemental scan,https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S022,2026-07-20,2026-07-20,US,Policy,National space policy signal,White House,White House Issues Presidential Message for Space Exploration Day,The White House issued its annual Space Exploration Day message highlighting national space priorities and U.S. space leadership.,White House,Fail-Closed supplemental scan,https://www.whitehouse.gov/priorities/tech-innovation/,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-R001,2026-07-20,2026-07-20,US,Financing,semiconductor,Siemens / Precision Innovations,Siemens Signs Agreement to Acquire Precision Innovations,"Siemens signed an agreement to acquire Precision Innovations, adding AI-powered early-stage SoC planning and design exploration to its EDA portfolio; terms were not disclosed.",Siemens,Official,https://news.siemens.com/en-us/siemens-to-acquire-precision-innovations/,A_Active,,2,4,3,2.80,B,AI辅助SoC设计工具并购，产业影响4/5；加权2.80，作为芯片设计工具链趋势补充。,Brief,EDA并购显示AI正在进入芯片架构探索与设计流程，影响定制算力芯片的研发周期和成本。,关注面向低功耗、边缘与宇航场景的定制SoC设计效率变化。,看交易交割、产品整合及首批客户设计周期变化。,Stage 5前发现C级正文泄漏后补扫；Siemens官方页面验证日期和交易事实。,Stage5_C_Leak_Fix
+W30-R004,2026-07-20,2026-07-20,US,Financing,semiconductor,Infinity,Infinity Raises $15 Million for Hardware-Portable AI Inference Kernels,"Infinity raised $15 million at a $100 million valuation to develop AI-inference kernel software intended to run across SRAM, GPUs, mobile chips and systolic-array hardware.",TechCrunch,Industry_Media,https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/,A_Active,,2,4,3,2.80,B,跨芯片推理内核融资，产业影响4/5；加权2.80，归入芯片软件栈趋势补充。,Brief,跨硬件推理内核若成熟，可降低AI工作负载对单一芯片软件生态的绑定。,关注其对异构星载/边缘算力软件可移植性的潜在价值。,看支持的芯片范围、推理性能、客户部署和收入。,Stage 5前发现C级正文泄漏后补扫；TechCrunch页面验证日期、金额、估值和产品定位。,Stage5_C_Leak_Fix
+W30-F085,2026-07-21,2026-07-21,China,Financing,semiconductor,蓝河科技,蓝河科技完成数亿元B6轮融资,化合物半导体生长设备制造商；原始金额：数亿元；投资方：中国互联网投资基金，泰达科投，长江证券；人民币换算：N/A；美元换算：N/A。,界面新闻,Manual financing import,https://www.jiemian.com/article/14802331.html,Manual,https://www.qcc.com/product/2c3d172d006426a91df5423c910a7364.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F088,2026-07-21,2026-07-21,China,Financing,defense,衡惯科技,衡惯科技完成A轮融资,惯性导航技术研发商；原始金额：-；投资方：吴江创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/30f53eb31fc51d02348b2bf1a1fd8400.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：国防/高可靠/宇航级；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F089,2026-07-21,2026-07-21,China,Financing,ai,昉擎科技,昉擎科技完成Pre-A+轮融资,AI计算产品与服务提供商；原始金额：-；投资方：尚势资本，水木创投，汇祺投资，海通创意资本，徐汇科创投，铭哲资产，中金资本，珠海华金领创基金，上海衡算管理咨询合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/3d8af5aa7f7128bc3b70f1ba360d755a.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-F091,2026-07-21,2026-07-21,China,Financing,ai,芯途异构,芯途异构完成天使+轮融资,异构计算解决海量数据存储问题提供商；原始金额：-；投资方：南山战新投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/9f31407e7c5ea114ea419eff53cec728.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-F105,2026-07-21,2026-07-21,Global,Financing,ai,SkyPilot,SkyPilot完成种子轮融资,AI算力编排控制平台提供商；原始金额：2000万美元；投资方：Lux Capital，Amplify Partners，Coatue，Foundation Capital，Race Capital，The House Fund，个人（Ali Ghodsi，Jeff Dean，Guillermo Rauch，Amjad Masad，Clem Delangue，Tristan Handy）；人民币换算：135878000.00；美元换算：20000000.00。,企查查（境外）,Manual financing import,https://www.qcc.com/product/6748bdc9ba826943e8db06b4101536f9.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境外）清单 + 行业归属：AI算力/AI基础设施；原始币种 USD。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-S002,2026-07-21,2026-07-21,Global,Technology,Satellite data pipeline,NASA / ISRO NISAR,US-India NISAR Satellite Begins Continuous Calibrated Data Release,"NASA began continuous release of calibrated NISAR L-band products, opening access to a mission producing dozens of terabytes of radar data per day.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/missions/nisar/us-india-satellite-delivers-data-reveals-hummingbird-in-antarctica/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S003,2026-07-21,2026-07-21,US,Technology,Radiation monitoring / CubeSat,NASA REAL CubeSat,NASA-backed REAL CubeSat Instrument Demonstrates Compact Multi-view Particle Sensing,The REAL CubeSat's miniaturized multi-view energetic-particle instrument remained operational and was fine-tuned to improve sensitivity in the LEO radiation environment.,NASA Science,Fail-Closed supplemental scan,https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S007,2026-07-21,2026-07-21,US,Technology,Space telescope deployment,NASA Roman Space Telescope,NASA Schedules Roman Telescope Mission Briefing Ahead of August Launch,"NASA set a mission briefing for the Roman Space Telescope, then scheduled to launch August 30 and carry a high-contrast exoplanet imaging technology demonstration.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S008,2026-07-21,2026-07-21,US,Technology,LEO constellation deployment,SpaceX Starlink,SpaceX Launches Starlink Batch After Rare Pad Abort,A Falcon 9 successfully launched Starlink satellites from Vandenberg one day after an ignition-stage abort.,Space.com,Fail-Closed supplemental scan,https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-39-b1082-vsfb-ocisly,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S009,2026-07-21,2026-07-21,China,Technology,AI data center,Z.ai,Z.ai Reportedly Operates 1-GW AI Data Center on Chinese Chips,A report said Z.ai is operating a gigawatt-scale AI data center using domestic accelerator clusters without Nvidia silicon.,Tom's Hardware,Fail-Closed supplemental scan,https://www.tomshardware.com/tech-industry/artificial-intelligence/z-ai-powers-up-1gw-ai-data-center-built-entirely-on-chinese-chips,Watch,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-R002,2026-07-21,2026-07-21,US,Financing,semiconductor,Siemens / Defacto Technologies,Siemens Signs Agreement to Acquire Defacto Technologies,Siemens signed an agreement to acquire Defacto Technologies to expand automated SoC design creation and strengthen its end-to-end EDA flow; terms were not disclosed.,Siemens,Official,https://news.siemens.com/en-us/siemens-to-acquire-defacto-technologies/,A_Active,,2,4,3,2.80,B,自动化SoC设计工具并购，产业影响4/5；加权2.80，作为芯片设计工具链趋势补充。,Brief,连续EDA收购说明芯片设计自动化和复杂SoC整合正在加速集中。,跟踪定制星载和边缘芯片设计工具链的效率与供应商格局。,看交割、客户迁移和与Siemens现有数字设计工具的整合。,Stage 5前发现C级正文泄漏后补扫；Siemens官方页面验证日期和交易事实。,Stage5_C_Leak_Fix
+W30-P014,2026-07-22,2026-07-22,China,Technology,Public scan,中国卫星互联网,2026年中国卫星互联网市场规模及全球主要星座在轨规模预测分析（图）-中商情报网,2026年中国卫星互联网市场规模及全球主要星座在轨规模预测分析（图）-中商情报网 (https://www.askci.com/news/chanye/20260722/092419278468345977566533.shtml),askci.com,Public web,https://www.askci.com/news/chanye/20260722/092419278468345977566533.shtml,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P022,2026-07-22,2026-07-22,China,Policy,Public scan,工业和信息化部,工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知,工业和信息化部办公厅关于组织开展国家级零碳工厂建设工作的通知 (https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_e27f0b7be4914613ac52b8ac4e6a8c21.html),wap.miit.gov.cn,Public web,https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_e27f0b7be4914613ac52b8ac4e6a8c21.html,S_Core,https://wap.miit.gov.cn/zwgk/zcjd/art/2026/art_4c5f050be71f49c5a91683de955663b3.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P019 as same event atom.,Pass_A_or_B
+W30-P023,2026-07-22,2026-07-22,China,Policy,Public scan,,浙江通信管理局对2026年下半年市场服务工作再部署再推进,浙江通信管理局对2026年下半年市场服务工作再部署再推进 (https://wap.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_0af6333bf07b4789a1b2def9242a7e48.html),wap.miit.gov.cn,Public web,https://wap.miit.gov.cn/xwfb/gxdt/dfdt/art/2026/art_0af6333bf07b4789a1b2def9242a7e48.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P049,2026-07-22,2026-07-22,China,Policy,Public scan,,China to expand imports of advanced tech equipment in 2026-2030,"China to expand imports of advanced tech equipment in 2026-2030 (https://english.www.gov.cn/news/202607/22/content_WS6a606f81c6d00ca5f9a0c58e.html)
+citeturn856view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""http://english.www.gov.cn/news/202607/22/content_WS6a606f81c6d00ca5f9a0c58e.html"",""lineno"":null}); Total lines: 53
+L0: cite0†App†app.www.gov.cn L1: 
+L2: [Input] [Input] [Input]
+L3: 
+L4: [Input]
+L5: 
+L6:   * cite1†HOME L7:   * cite2†NEWS L8:   * cite3†INSTITUTIONS L9:   * cite4†POLICIES L10:   * cite5†ARCHIVE L11: 
+L12: cite6†中文†www.gov.cn L13: 
+L14: cite7†Image L15: 
+L16:   * cite1†HOME L17: 
+L18:   * cite2†NEWS L19: 
+L20:   * cite3†INSTITUTIONS L21: 
+L22:   * cite4†POLICIES L23: 
+L24:   * cite5†ARCHIVE L25: 
+L26:   * cite6†中文†www.gov.cn L27: 
+L28: cite8†Image L29: 
+L30: China to expand imports of advanced tech equipment in 2026-2030
+L31: 
+L32: Updated: July 22, 2026 15:21 Xinhua cite9†Image L33: BEIJING, July 22 -- China will broaden imports of advanced technology equipment, key components, energy resources and quality agricultural products, while diversifying source countries, during the 15th Five-Year Plan period (2026-2030), the country's top customs official said on Wednesday.
+L34: 
+L35: Sun Meijun, head of the General Administration of Customs, made the remarks at a press conference held by the State Council Information Office.
+L36: Efforts will be made to promote better coordination between imports and exports, negotiate and sign more trade cooperation documents, and facilitate the entry of quality global goods into the Chinese market, in a bid to share China's vast market opportunities with the world while offering Chinese consumers more diversified choices, the official noted.
+L37: ###",english.www.gov.cn,Public web,http://english.www.gov.cn/news/202607/22/content_WS6a606f81c6d00ca5f9a0c58e.html,S_Core,https://www.gov.cn/lianbo/202607/content_7076127.htm | https://www.gov.cn/gongbao/2026/issue_12866/202607/content_7075911.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P050 as same event atom. Stage 3 merged W30-P051 as same event atom.,Pass_A_or_B
+W30-P052,2026-07-22,2026-07-22,China,Policy,Public scan,,〖北京（京津冀）国际科创中心部署2026年度任务 三地2030年建成世界级科创策源地〗-国家发展和改革委员会,"〖北京（京津冀）国际科创中心部署2026年度任务 三地2030年建成世界级科创策源地〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/xwdt/ztzl/jjyxtfz/202607/t20260722_1406627.html)
+citeturn912view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/xwdt/ztzl/jjyxtfz/202607/t20260722_1406627.html"",""lineno"":null}); Total lines: 18
+L0: cite0†首页 > cite1†新闻动态 > cite2†专题专栏 > cite3†京津冀协同发展 L1: ## 北京（京津冀）国际科创中心部署2026年度任务 三地2030年建成世界级科创策源地
+L2: 
+L3: 发布时间：2026/07/22
+L4: 
+L5: 来源：区域司
+L6: 
+L7: cite4†Image [ 打印 ]
+L8: 
+L9: 　　5月16日，央地共建北京（京津冀）国际科技创新中心工作推进会明确，北京市将强化创新策源和龙头引领作用、天津市发挥先进制造研发优势、河北省拓展产业应用场景，三地向着2030年建成世界级科技创新策源地，2035年建成世界主要科学中心、人才中心和创新高地的目标持续迈进。
+L10: 
+L11: 　　2026年，京津冀三地将建设全球基础研究高地，强化战略科技力量与重大科技基础设施建设。国家自然科学基金京津冀联合基金将探索设立，高能同步辐射光源线站工程、人类衰老机理与干预研究设施等项目将推动立项。现代化产业体系将在京津冀三地持续升级。三地致力打造全球人工智能创新高地，培育世界级医药健康产业集群，推进新一代信息技术产业提质增效，抢占未来产业发展制高点。三地还将组建跨区域创新联合体。中关村新一批先行先试改革措施将继续出台，三地合作园区将推进政策互动、标准互认，促进创新要素自由流动。国际交流平台也将持续在京津冀搭建。
+L12: 
+L13: 　　（转自  北京日报）
+L14: 
+L15: 附件：
+L16: 
+L17: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/xwdt/ztzl/jjyxtfz/202607/t20260722_1406627.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F080,2026-07-22,2026-07-22,China,Financing,commercial_space,交信北斗,交信北斗完成增资工商变更（2025年交易交割）,本周节点是2025年已审议的2.3亿元增资完成工商变更，不是本周新发起的B轮融资。,证券之星（上市公司公告镜像）,Manual financing import,https://stock.stockstar.com/notice/SN2026072400035703.shtml,Manual,https://www.qcc.com/product/185ae62f622677a9ac02cf8edd4b97f2.html,3,3,2,2.80,B,相关性3/5、产业影响3/5、新颖性2/5；加权2.80。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-S011,2026-07-22,2026-07-22,US,Policy,AI data center standards,NIST,NIST Holds Workshop on AI Data-center Architecture and Security Standards,"NIST convened a two-day workshop focused on AI data-center architecture, security posture, and emerging standards.",NIST,Fail-Closed supplemental scan,https://www.nist.gov/news-events/events/2026/07/securing-ai-data-center-architecture-security-posture-and-emerging,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S015,2026-07-22,2026-07-22,US,Technology,Deep-space sensing,NASA Juno,NASA Juno Measures Subsurface Heat on Io,"Juno's microwave radiometer produced the first measurements of temperature below Io's surface, demonstrating subsurface remote sensing at multiple wavelengths.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S017,2026-07-22,2026-07-22,Global,Technology,Satellite communications,Lite Coms,Lite Coms Receives $22 Million Government and Defence SATCOM Contract,Lite Coms received a reported $22 million contract to provide satellite communications equipment for operational-readiness use.,Via Satellite,Fail-Closed supplemental scan,https://www.satellitetoday.com/eletter/news-feed/,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-P001,2026-07-23,2026-07-23,China,Technology,Public scan,,把算力直接“搬”上卫星---四川日报电子版,把算力直接“搬”上卫星---四川日报电子版 (https://epaper.scdaily.cn/shtml/scrb/20260723/1085179.html),epaper.scdaily.cn,Public web,https://epaper.scdaily.cn/shtml/scrb/20260723/1085179.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P017,2026-07-23,2026-07-23,China,Technology,Public scan,国产光互连产业链,超节点建设周期开启 国产光互连生态加速结盟 _ 东方财富网,超节点建设周期开启 国产光互连生态加速结盟 _ 东方财富网 (https://finance.eastmoney.com/a/202607233817773411.html),finance.eastmoney.com,Public web,https://finance.eastmoney.com/a/202607233817773411.html,A_Active,https://wap.eastmoney.com/a/202607233817773411.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P018 as same event atom.,Pass_A_or_B
+W30-P046,2026-07-23,2026-07-23,China,Policy,Public scan,,2026年亚太经合组织数字和人工智能部长会议在成都举行,"2026年亚太经合组织数字和人工智能部长会议在成都举行 (https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_75ccfbf768704a3aaa390fd39394033e.html)
+citeturn853view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_75ccfbf768704a3aaa390fd39394033e.html"",""lineno"":null}); Total lines: 15
+L0: cite0†首页 > cite1†新闻发布 > cite2†部领导活动 L1: # 2026年亚太经合组织数字和人工智能部长会议在成都举行
+L2: 
+L3: 发布时间：2026-07-23 20:09 来源：国际合作司、办公厅、工信微报
+L4: 
+L5: 7月23日，工业和信息化部在四川省成都市举办2026年亚太经合组织（APEC）数字和人工智能部长会议。中共中央政治局委员、国务院副总理张国清出席会议并致辞。工业和信息化部部长李乐成作为会议主席主持会议。2026年APEC高官会主席陈旭大使、APEC秘书处执行主任爱德华多·佩德罗萨、APEC工商咨询理事会数字和创新工作组主席珍妮特·德·席尔瓦出席开幕式并发言。工业和信息化部副部长熊继军代表中方就会议议题发言。APEC成员经济体数字技术和人工智能主管部门部长和代表，APEC观察员、APEC秘书处和APEC工商咨询理事会等代表出席会议。
+L6: 
+L7: cite3†Image: 微信图片_2026-07-23_200516_975.jpg L8: 数字和人工智能部长会议是APEC框架下重要的部长级会议之一，是促进亚太地区数字和信息通信领域交流合作的重要平台。本次会议围绕落实习近平主席在2025年APEC第三十二次领导人非正式会议上提出的“强化数智赋能，塑造亚太创新发展新优势”重要倡议，将“数字和人工智能技术赋能亚太共同体”作为会议主题。各经济体聚焦三方面议题进行深入讨论：一是加强数字和人工智能技术赋能发展，释放数字和人工智能技术在医疗、教育、交通、农业、工业、文化等领域的赋能潜力，让人工智能成果普惠共享。二是促进普遍和有意义的数字连接，构建快速、可靠、泛在、可负担且具韧性的数字和信息通信基础设施，为数字和人工智能赋能发展提供坚实底座。三是支持数字包容与数字技能提升，弥合数字鸿沟和智能鸿沟，让所有人共享人工智能知识成果和数字红利。
+L9: 
+L10: cite4†Image: 微信图片_2026-07-23_200522_243.jpg L11: 
+L12: 会议通过《2026年APEC数字和人工智能部长声明（成都声明）》，一致同意共同推动数字和人工智能技术赋能亚太共同体，为未来一段时期APEC深化数字和人工智能领域合作搭建了行动框架。
+L13: 
+L14: 〖返回顶部〗 〖关闭窗口〗 〖打印本页〗",miit.gov.cn,Public web,https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_75ccfbf768704a3aaa390fd39394033e.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P054,2026-07-23,2026-07-23,China,Policy,Public scan,,〖一图读懂 | 《可再生能源发展“十五五”规划》〗-国家发展和改革委员会,"〖一图读懂 | 《可再生能源发展“十五五”规划》〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/xxgk/jd/zctj/202607/t20260723_1406646.html)
+citeturn912view2 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/xxgk/jd/zctj/202607/t20260723_1406646.html"",""lineno"":null}); Total lines: 20
+L0: cite0†首页 > cite1†政务公开 > cite2†解读 > cite3†政策图解 L1: 
+L2: ## 一图读懂 | 《可再生能源发展“十五五”规划》
+L3: 
+L4: 发布时间：2026/07/23
+L5: 
+L6: 来源：能源局
+L7: 
+L8: cite4†Image [ 打印 ]
+L9: 
+L10:  cite5†Image L11: 
+L12: 附件：
+L13: 
+L14: 相关政策与解读
+L15: 
+L16:   * cite6†关于印发《可再生能源发展“十五五”规划》的通知(发改能源〔2026〕1067号) L17:   * cite7†《可再生能源发展“十五五”规划》答记者问 L18: 
+L19: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/xxgk/jd/zctj/202607/t20260723_1406646.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F075,2026-07-23,2026-07-23,China,Financing,semiconductor,元川微科技,元川微完成数亿元Pre-A轮融资,AI推理算力芯片研发商；原始金额：数亿元；投资方：IDG资本，孚腾资本，九坤投资，尚颀资本，顺禧基金，徐汇科创投；人民币换算：N/A；美元换算：N/A。,新京报,Manual financing import,https://www.bjnews.com.cn/detail/1784866357129635.html,Manual,https://www.qcc.com/product/6384827982b1ab5151f79442d45d2415.html,3,4,3,3.30,B,相关性3/5、产业影响4/5、新颖性3/5；加权3.30。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F076,2026-07-23,2026-07-23,China,Financing,semiconductor,艾捷科芯,艾捷科芯完成天使+轮融资,AI大算力芯片与生成式AI研发商；原始金额：-；投资方：国智投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/98e119b00ba5c10d290329c4bdab8156.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。,Manual_Import
+W30-F103,2026-07-23,2026-07-23,Global,Financing,semiconductor,Etched.ai,Etched.ai完成3亿美元C轮融资,语言模型推理专用芯片设计研发商；原始金额：3亿美元；投资方：红杉基金，Andreessen Horowitz，SK海力士，Jane Street Capital，Diffusion Capital，个人（Peter Thiel，Andrej Karpathy，Dylan Field，Amjad Masad）；人民币换算：2038170000.00；美元换算：300000000.00。,Data Center Dynamics,Manual financing import,https://www.datacenterdynamics.com/en/news/ai-chip-startup-etched-closes-300m-funding-round-doubles-its-valuation-to-103bn/,Manual,https://www.qcc.com/product/55d09f8a90c24cd02666831c2cb6ab4c.html,3,4,3,3.30,B,相关性3/5、产业影响4/5、新颖性3/5；加权3.30。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境外）清单 + 行业归属：半导体核心环节；原始币种 USD。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F104,2026-07-23,2026-07-23,Global,Financing,defense,Cathedral,Cathedral完成股权融资融资,国防 AI 网络安全科技研发商；原始金额：1.6亿美元；投资方：Andreessen Horowitz，红杉基金；人民币换算：1087024000.00；美元换算：160000000.00。,企查查（境外）,Manual financing import,https://www.qcc.com/product/1323dcbaafd656f25a32e7c5a6bac090.html,Manual,,3,4,3,3.30,B,相关性3/5、产业影响4/5、新颖性3/5；加权3.30。,Database_Only,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境外）清单 + 行业归属：国防/高可靠/宇航级；原始币种 USD。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-S006,2026-07-23,2026-07-23,US,Technology,ISS research,NASA / ISS Expedition 74,NASA Reviews Expedition 74 Research and Robotic Demonstrations,"NASA summarized Expedition 74 work spanning semiconductor materials, small robotic arms, station maintenance, and other in-orbit research ahead of crew return.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-chris-williams-closes-out-space-station-mission/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S026,2026-07-23,2026-07-23,China,Technology,Satellite data relay,Tianlian-2 06,China Launches Tianlian-2 06 Data-relay Satellite,"China launched Tianlian-2 06 to strengthen continuous relay, tracking, telemetry, and data-transmission support for crewed spacecraft and other satellites.",Xinhua,Fail-Closed supplemental scan,https://www.news.cn/tech/20260724/6b83f3d13ab1491397b5cdf1ab2883b9/c.html,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-R003,2026-07-23,2026-07-23,US,Financing,semiconductor,Photon Queue,Photon Queue Raises $4 Million Seed Round for Quantum Memory Devices,"Photon Queue raised $4 million led by Playground Global to accelerate quantum-memory product development, manufacturing and customer deployments.",Data Center Dynamics,Industry_Media,https://www.datacenterdynamics.com/en/news/photon-queue-raises-4m-in-seed-round-for-quantum-memory-devices/,A_Active,,2,4,3,2.80,B,量子存储硬件已向实验室客户部署，产业影响4/5；加权2.80。,Brief,资金进入光量子存储器的产品化和制造环节，为下一代计算与互连提供外围硬件信号。,作为光子存储、量子互连和低功耗计算硬件的外圈技术对标。,看新增部署、制造良率、存储时长与客户复购。,Stage 5前发现C级正文泄漏后补扫；DCD页面验证日期、金额和投资方。,Stage5_C_Leak_Fix
+W30-P021,2026-07-24,2026-07-24,China,Policy,Public scan,工业和信息化部,关于公开征求《汽车芯片信息安全技术规范》等10项推荐性国家标准报批意见的公示,关于公开征求《汽车芯片信息安全技术规范》等10项推荐性国家标准报批意见的公示 (https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_219211f7e3504b7581e5930e04dacd2e.html),wap.miit.gov.cn,Public web,https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_219211f7e3504b7581e5930e04dacd2e.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P039,2026-07-24,2026-07-24,US,Technology,Public scan,SpaceX,What time is SpaceX's Starship Flight 13 launch today? (Full mission timeline) | Space,"What time is SpaceX's Starship Flight 13 launch today? (Full mission timeline) | Space (https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time)
+citeturn704view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time"",""lineno"":null}); Total lines: 529
+L0: cite0†Image†sb.scorecardresearch.com cite1†Skip to main content L1: 
+L2: [Input] [Input]
+L3:   *   * cite2†Space Exploration L4:     * cite3†Launches & Spacecraft L5:       * cite4†Private spaceflight L6:       * cite5†Human spaceflight L7:       * cite6†SpaceX L8:       * cite7†Blue Origin L9:       * cite8†Virgin Galactic L10:       * cite9†United Launch Alliance L11:     * cite10†Search for Life L12:       * cite11†Exoplanets L13:       * cite12†SETI L14:       * cite13†Aliens L15:     * cite14†Missions L16:       * cite15†International Space Station L17:       * cite16†Space Shuttle L18:       * cite17†Apollo L19:       * cite18†Artemis L20:       * cite19†Voyager L21:       * cite20†Asteroid & Comet Missions L22:       * cite21†Mars rovers L23:       * cite22†New Horizons L24:       * cite20†Parker Solar Probe L25:     * cite23†Satellites L26:   * cite24†Astronomy L27:     * cite25†Solar System L28:       * cite26†The Sun L29:       * cite27†Asteroids L30:       * cite28†Mars L31:       * cite29†Comets L32:       * cite30†Mercury L33:       * cite31†Jupiter L34:       * cite32†Saturn L35:       * cite33†Pluto L36:       * cite34†Venus L37:       * cite35†Dwarf Planets L38:       * cite36†Neptune L39:       * cite37†Uranus L40:     * cite3",space.com,Public web,https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time,A_Active,https://finance.eastmoney.com/a/202607233817997251.html,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering. Stage 3 merged W30-P007 as same event atom.,Pass_A_or_B
+W30-P048,2026-07-24,2026-07-24,China,Policy,Public scan,,China issues integrated transport services plan for 2026-2030,"China issues integrated transport services plan for 2026-2030 (https://english.www.gov.cn/news/202607/24/content_WS6a636b62c6d00ca5f9a0c699.html)
+citeturn855view2 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""http://english.www.gov.cn/news/202607/24/content_WS6a636b62c6d00ca5f9a0c699.html"",""lineno"":null}); Total lines: 56
+L0: cite0†App†app.www.gov.cn L1: 
+L2: [Input] [Input] [Input]
+L3: 
+L4: [Input]
+L5: 
+L6:   * cite1†HOME L7:   * cite2†NEWS L8:   * cite3†INSTITUTIONS L9:   * cite4†POLICIES L10:   * cite5†ARCHIVE L11: 
+L12: cite6†中文†www.gov.cn L13: 
+L14: cite7†Image L15: 
+L16:   * cite1†HOME L17: 
+L18:   * cite2†NEWS L19: 
+L20:   * cite3†INSTITUTIONS L21: 
+L22:   * cite4†POLICIES L23: 
+L24:   * cite5†ARCHIVE L25: 
+L26:   * cite6†中文†www.gov.cn L27: 
+L28: cite8†Image L29: 
+L30: China issues integrated transport services plan for 2026-2030
+L31: 
+L32: Updated: July 24, 2026 21:40 Xinhua cite9†Image L33: BEIJING, July 24 -- China has issued a plan to comprehensively advance the high-quality development of integrated transport services during the 15th Five-Year Plan period (2026-2030), the Ministry of Transport announced Friday.
+L34: 
+L35: The plan was jointly issued by the ministry, the National Railway Administration, the Civil Aviation Administration of China and the State Post Bureau. It aims to largely establish a modern integrated transport service system by 2030.
+L36: Under the plan, China will improve connections among different modes of transport, make passenger transfers more convenient and enhance freight logistics services. It will also promote the integration of transport and tourism, improve services at transport hubs, and strengthen rural passenger transport, freight and delivery services.
+L37",english.www.gov.cn,Public web,http://english.www.gov.cn/news/202607/24/content_WS6a636b62c6d00ca5f9a0c699.html,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F063,2026-07-24,2026-07-24,China,Financing,semiconductor,屿西半导体,屿西半导体完成A+轮融资,高性能射频微波芯片服务商；原始金额：约亿元；投资方：成都科创投集团，龙江基金；人民币换算：N/A；美元换算：N/A。,投中网,Manual financing import,https://www.chinaventure.com.cn/news/83-20260724-392445.html,Manual,https://www.qcc.com/product/cacb6f68f3e30e3d6588da88d1460b69.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F064,2026-07-24,2026-07-24,China,Financing,semiconductor,原粒半导体,原粒半导体完成A轮融资,AIChiplet 算力芯片及解决方案提供商；原始金额：超7亿元；投资方：九安医疗，汤臣倍健，绿茵生态，北洋海棠基金，IDG资本，武岳峰科创，英诺基金，一维创投，仁爱基金；人民币换算：700000000.00；美元换算：103033603.67。,36氪,Manual financing import,https://www.36kr.com/p/3909480373212548,Manual,https://www.qcc.com/product/e391cc1b050da9c1178eef79c8f56e6e.html,3,4,3,3.30,B,相关性3/5、产业影响4/5、新颖性3/5；加权3.30。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-F070,2026-07-24,2026-07-24,China,Financing,ai,和光量子,和光量子完成天使轮融资,通用容错光量子计算系统研发商；原始金额：-；投资方：中赢创投；人民币换算：N/A；美元换算：N/A。,腾讯新闻（科创板日报）,Manual financing import,https://news.qq.com/rain/a/20260724A0CVG000,Manual,https://www.qcc.com/product/814e30ab69ed184b263b428abdfb62a2.html,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。,Manual_Import
+W30-S004,2026-07-24,2026-07-24,US,Technology,Launch infrastructure,NASA / Blue Origin,NASA and Blue Origin Agree on New Glenn Second-stage Hot-fire Testing,NASA will provide Stennis B-2 test-stand engineering and infrastructure support for New Glenn second-stage hot-fire testing.,NASA,Fail-Closed supplemental scan,https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S027,2026-07-24,2026-07-24,China,Technology,Commercial launch / satellite deployment,CAS Space / Lijian-1,Lijian-1 Launches Five Commercial Satellites,The fifteenth Lijian-1 flight deployed five satellites from the Dongfeng Commercial Space Innovation Test Zone.,China National Space Administration,Fail-Closed supplemental scan,https://www.cnsa.gov.cn/n6758823/n6758838/c10764836/content.html,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S028,2026-07-24,2026-07-24,US,Technology,Deep-space sensing / mission data,NASA ESCAPADE,NASA Releases ESCAPADE Dual-band Earth-Moon Observation,"NASA released visible and thermal-infrared observations captured by an ESCAPADE spacecraft during its deep-space cruise, demonstrating the mission's dual-band sensing capability.",NASA Science,Fail-Closed supplemental scan,https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S016,2026-07-25,2026-07-25,Global,Policy,Military space operations,French Space Command,French Space Command Details Operational Satellite-support Posture,Reporting from France's Toulouse space-command center described the operational use of satellites in support of French and allied military activity.,Le Monde,Fail-Closed supplemental scan,https://www.lemonde.fr/en/international/article/2026/07/25/at-france-s-space-command-center-in-toulouse-the-space-war-is-already-underway_6755814_4.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性≤2最高B约束。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S019,2026-07-26,2026-07-26,US,Technology,ISS operations,ISS Expedition 75,ISS Expedition 75 Begins with AI and In-space Manufacturing Research,"Expedition 75 began July 26 with planned work on in-space manufacturing, augmented reality, AI-assisted crew health checks, and tissue bioprinting.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/mission/expedition-75/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-S023,2026-07-26,2026-07-26,US,Technology,ISS mission milestone,Soyuz MS-28 / Expedition 74,Expedition 74 Crew Undocks from ISS for Return to Earth,"Soyuz MS-28 undocked from the ISS carrying the departing Expedition 74 crew, marking the operational transition to Expedition 75.",NASA,Fail-Closed supplemental scan,https://www.nasa.gov/blogs/spacestation/2026/07/26/expedition-74-crew-undocks-in-soyuz-for-return-to-earth/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,进入阶段4复核：关注其对星上算力供给、载体部署、数据链路或地面AI基础设施的影响。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Added after Stage 3 structural shortfall; independently validated in-window event atom.,Fail_Closed_Supplement
+W30-P004,2026-07-20,2026-07-20,China,Policy,Public scan,,2026年07月份质监业务行政许可公示① - 郑州市市场监督管理局,2026年07月份质监业务行政许可公示① - 郑州市市场监督管理局 (https://amr.zhengzhou.gov.cn/tzgg/10163233.jhtml),amr.zhengzhou.gov.cn,Public web,https://amr.zhengzhou.gov.cn/tzgg/10163233.jhtml,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P009,2026-07-20,2026-07-20,China,Technology,Public scan,,重磅利好，京东方A2026-032号7月17日机构调研完整原文（内容基于公告PD_财富号_东方财富网,重磅利好，京东方A2026-032号7月17日机构调研完整原文（内容基于公告PD_财富号_东方财富网 (https://caifuhao.eastmoney.com/news/20260720183532177549980),caifuhao.eastmoney.com,Public web,https://caifuhao.eastmoney.com/news/20260720183532177549980,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P041,2026-07-20,2026-07-20,US,Technology,Public scan,,"Ancient sandstorm leaves behind wreckage on Mars photo of the day for July 20, 2026 | Space","Ancient sandstorm leaves behind wreckage on Mars photo of the day for July 20, 2026 | Space (https://www.space.com/astronomy/mars/ancient-sandstorm-leaves-behind-wreckage-on-mars-space-photo-of-the-day-for-july-20-2026)
+citeturn739view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.space.com/astronomy/mars/ancient-sandstorm-leaves-behind-wreckage-on-mars-space-photo-of-the-day-for-july-20-2026"",""lineno"":null}); Total lines: 414
+L0: cite0†Image†sb.scorecardresearch.com cite1†Skip to main content L1: 
+L2: [Input] [Input]
+L3:   *   * cite2†Space Exploration L4:     * cite3†Launches & Spacecraft L5:       * cite4†Private spaceflight L6:       * cite5†Human spaceflight L7:       * cite6†SpaceX L8:       * cite7†Blue Origin L9:       * cite8†Virgin Galactic L10:       * cite9†United Launch Alliance L11:     * cite10†Search for Life L12:       * cite11†Exoplanets L13:       * cite12†SETI L14:       * cite13†Aliens L15:     * cite14†Missions L16:       * cite15†International Space Station L17:       * cite16†Space Shuttle L18:       * cite17†Apollo L19:       * cite18†Artemis L20:       * cite19†Voyager L21:       * cite20†Asteroid & Comet Missions L22:       * cite21†Mars rovers L23:       * cite22†New Horizons L24:       * cite20†Parker Solar Probe L25:     * cite23†Satellites L26:   * cite24†Astronomy L27:     * cite25†Solar System L28:       * cite26†The Sun L29:       * cite27†Asteroids L30:       * cite28†Mars L31:       * cite29†Comets L32:       * cite30†Mercury L33:       * cite31†Jupiter L34:       * cite32†Saturn L35:       * cite33†Pluto L36:       * cite34†Venus L37:       * cite35†Dwarf Planets L38:       * cite36†Neptun",space.com,Public web,https://www.space.com/astronomy/mars/ancient-sandstorm-leaves-behind-wreckage-on-mars-space-photo-of-the-day-for-july-20-2026,A_Active,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F094,2026-07-20,2026-07-20,China,Financing,semiconductor,博顿光电,博顿光电完成B+轮融资,新型离子源及离子束装备生产商；原始金额：超亿元；投资方：毅达资本，中信建投资本，友谊时光，达武创投，南控基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/28563065-7add-46b1-8b17-3e8199beedf7.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F096,2026-07-20,2026-07-20,China,Financing,semiconductor,华芯巨数,华芯巨数完成A轮融资,EDA解决方案提供商；原始金额：-；投资方：华睿投资，禾合创投，复琢投资，杭州高投颠覆性技术成果转化一期创业投资合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/13937051f82f17d0a552ca82d8521bfe.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F097,2026-07-20,2026-07-20,China,Financing,semiconductor,创视半导体,创视半导体完成A轮融资,CMOS图像传感器芯片研发商；原始金额：-；投资方：广汽资本，毅达资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/9657d8c1c5d8e4319e15581cf2e1ce31.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F098,2026-07-20,2026-07-20,China,Financing,semiconductor,大仪加行,大仪加行完成天使+轮融资,电子测试系统研发商；原始金额：-；投资方：南山创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/fb14b3f1401e3bff6a25b6a7175c303f.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F101,2026-07-20,2026-07-20,China,Financing,semiconductor,朗道科技,朗道科技完成天使轮融资,半导体制造专用设备研发商；原始金额：-；投资方：中芯聚源投资，沃衍资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/4385884d90a859cdc1e8bd0e03c48fcf.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-P008,2026-07-21,2026-07-21,China,Technology,Public scan,,航天工程：公司生产经营活动正常，不涉及商业航天及航天相关业务|界面新闻 · 快讯,航天工程：公司生产经营活动正常，不涉及商业航天及航天相关业务|界面新闻 · 快讯 (https://www.jiemian.com/article/14797850.html),jiemian.com,Public web,https://www.jiemian.com/article/14797850.html,A_Active,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F086,2026-07-21,2026-07-21,China,Financing,semiconductor,得翼通信,得翼通信完成A+轮融资,数字化射频技术研发商；原始金额：-；投资方：诺辉投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/c750a89fdcbe4b8695a2d41a01d21e94.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F087,2026-07-21,2026-07-21,China,Financing,semiconductor,速易联芯,速易联芯完成A+轮融资,高速互联解决方案提供商；原始金额：-；投资方：金雨茂物；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/be781a71e28c39bd4d901381c7fc9335.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F092,2026-07-21,2026-07-21,China,Financing,semiconductor,华芯云睿,华芯云睿完成天使轮融资,高性能传感芯片研发商；原始金额：数千万元；投资方：哇牛资本，善达投资，领军创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/35178facc3e85fec712f56dc1f211109.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-P024,2026-07-22,2026-07-22,China,Policy,Public scan,,关于公开征求《电动自行车锂离子电池拆解破碎安全技术要求》等20项强制性国家标准 制修订计划项目意见的公示,关于公开征求《电动自行车锂离子电池拆解破碎安全技术要求》等20项强制性国家标准 制修订计划项目意见的公示 (https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_198126c72ff047b2afaec904f16c3ac5.html),wap.miit.gov.cn,Public web,https://wap.miit.gov.cn/jgsj/kjs/jscx/bzgf/art/2026/art_198126c72ff047b2afaec904f16c3ac5.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P055,2026-07-22,2026-07-22,China,Policy,Public scan,,〖海南自贸港正式开启“掌上通关”服务 实现“一部手机畅通关”〗-国家发展和改革委员会,"〖海南自贸港正式开启“掌上通关”服务 实现“一部手机畅通关”〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/xwdt/ztzl/hnqmshggkf/zjhn/202607/t20260722_1406629.html)
+citeturn912view3 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/xwdt/ztzl/hnqmshggkf/zjhn/202607/t20260722_1406629.html"",""lineno"":null}); Total lines: 17
+L0: cite0†首页 > cite1†新闻动态 > cite2†专题专栏 > cite3†海南全面深化改革开放 > cite4†走进海南 L1: 
+L2: ## 海南自贸港正式开启“掌上通关”服务 实现“一部手机畅通关”
+L3: 
+L4: 发布时间：2026/07/22
+L5: 
+L6: 来源：区域司
+L7: 
+L8: cite5†Image [ 打印 ]
+L9: 
+L10: 　　2026年6月4日，海南省商务厅、省大数据发展中心依托“海易办”平台正式上线“封关运作专区”，将“二线出岛核放清单申报”等核心通关业务从电脑端延伸至移动端。这一创新举措标志着海南自贸港正式开启“掌上通关”服务，实现“一部手机畅通关”，进一步提升了全岛封关运作后的贸易便利化水平。
+L11: 
+L12: 　　（转自  人民网）
+L13: 
+L14: 附件：
+L15: 
+L16: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/xwdt/ztzl/hnqmshggkf/zjhn/202607/t20260722_1406629.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P057,2026-07-22,2026-07-22,China,Policy,Public scan,,〖关于第五批全国社会信用体系建设示范区名单的公示〗-国家发展和改革委员会,"〖关于第五批全国社会信用体系建设示范区名单的公示〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260722_1406637.html)
+citeturn913view1 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260722_1406637.html"",""lineno"":null}); Total lines: 81
+L0: cite0†首页 > cite1†新闻动态 > cite2†通知公告 L1: ## 关于第五批全国社会信用体系建设示范区名单的公示
+L2: 
+L3: 发布时间：2026/07/22
+L4: 
+L5: 来源：财金司
+L6: 
+L7: cite3†Image [ 打印 ]
+L8: 
+L9: 　　按照有关工作要求，国家发展改革委会同中国人民银行组织开展了全国社会信用体系建设示范区创建工作。经组织地方推荐、材料核实和综合评估等工作，拟确定北京市朝阳区等20个城市（区）为第五批全国社会信用体系建设示范区，现予以公示。
+L10: 
+L11: 　　公示期为2026年7月22日至28日（5个工作日）。
+L12: 
+L13: 　　如对公示内容有异议，请在公示期内以书面形式提出意见，并反馈至国家发展改革委财金司。书面意见请写明提出异议的事实依据及证明材料，以及意见提出人的姓名、有效身份证件复印件、工作单位、地址邮编和联系方式等。
+L14: 
+L15: 　　联系电话：（010）68502226
+L16: 
+L17: 　　传真：（010）68502318
+L18: 
+L19: 　　通讯地址：北京市西城区月坛南街38号
+L20: 
+L21: 　　邮政编码：100824
+L22: 
+L23: 　　附件：第五批全国社会信用体系建设示范区名单
+L24: 
+L25: 
+L26: 
+L27: 国家发展改革委财金司
+L28: 
+L29: 2026年7月21日
+L30: 
+L31: 
+L32: 
+L33: 　　附件：
+L34: 
+L35: 第五批全国社会信用体系建设示范区名单
+L36: 
+L37: （按城市所在省份排序）
+L38: 
+L39: 　　1、北京市朝阳区
+L40: 　　2、天津市武清区
+L41: 
+L42: 　　3、山西省晋城市
+L43: 
+L44: 　　4、内蒙古自治区鄂尔多斯市
+L45: 
+L46: 　　5、辽宁省沈阳市
+L47: 
+L48: 　　6、黑龙江省鸡西市
+L49: 
+L50: 　　7、上海市奉贤区
+L51: 
+L52: 　　8、江苏省连云港市
+L53: 
+L54: 　　9、安徽省滁州市
+L55: 
+L56: 　　10、福建省三明市
+L57: 
+L58: 　　11、山东省临沂市
+L59: 
+L60: 　　12、河南省开封市
+L61: 
+L62: 　　13、湖北省十堰市
+L63: 
+L64: 　　14、湖南省湘潭市
+L65: 
+L66: 　　15、广东省珠海市
+L67: 
+L68: 　　16、重庆市大渡口区
+L69: 
+L70: 　　17、云南省昆明市
+L71: 
+L72: 　　18、甘肃省平凉市
+L73: 
+L74: 　　19、宁夏回族自治区吴忠市
+L75: 
+L76: 　　20、新疆生产建设兵团第八师石河子市
+L77: 
+L78: 附件：
+L79: 
+L80: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260722_1406637.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F079,2026-07-22,2026-07-22,China,Financing,semiconductor,东微电子,东微电子完成C轮融资,微电子芯片耗材生产商；原始金额：-；投资方：金璞基金，大成投资，建广顺创基金，北京昌科金投资，德阳创驰科技发展有限公司，杭州鑫合未来自有资金投资合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/c6c628fe-5374-478f-b14c-2aab695628cb.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F081,2026-07-22,2026-07-22,China,Financing,semiconductor,星火半导体,星火半导体完成B轮融资,半导体存储产品研发生产商；原始金额：-；投资方：粤科母基金，赣投投资，粤科金融，创东方投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/4160e8fbce717f33bc6ab37b5cd2e41a.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F083,2026-07-22,2026-07-22,China,Financing,semiconductor,圭步微电子,圭步微电子完成A轮融资,智能驾驶传感芯片技术研发商；原始金额：超亿元；投资方：景祥资本，兰璞资本，豪威集团，江北科投集团，博世；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/156e3bf7301b545e6810324e6631360b.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F084,2026-07-22,2026-07-22,China,Financing,semiconductor,璇相科技,璇相科技完成A轮融资,超表面光芯片研发商；原始金额：-；投资方：峰瑞资本，德迅投资，风投侠，深圳山与贰号投资合伙企业（有限合伙），VVC Fund V Pte. Ltd.，Newlight Management Limited，EvolvingPI Fund LP；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/a87edbc638dcbcc47307438010e33043.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-P044,2026-07-23,2026-07-23,China,Technology,Public scan,,2026年上半年我国造船三大指标全面增长，国际市场份额继续领先,"2026年上半年我国造船三大指标全面增长，国际市场份额继续领先 (https://www.miit.gov.cn/gxsj/tjfx/zbgy/mycb/art/2026/art_f2d924ac33764467a2de5ce8481bc736.html)
+citeturn852view0 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.miit.gov.cn/gxsj/tjfx/zbgy/mycb/art/2026/art_f2d924ac33764467a2de5ce8481bc736.html"",""lineno"":null}); Total lines: 9
+L0: cite0†首页 > cite1†工信数据 > cite2†统计分析 > cite3†装备工业 > cite4†民用船舶 L1: 
+L2: # 2026年上半年我国造船三大指标全面增长，国际市场份额继续领先
+L3: 
+L4: 发布时间：2026-07-23 06:57 来源：装备工业二司
+L5: 
+L6: 2026年1—6月，我国造船完工量3650万载重吨，同比增长51.2%，占世界总量的62.2%；新接订单量12106万载重吨，同比增长173.1%，占世界总量的82.3%；截至6月底，手持订单量36325万载重吨，同比增长54.9%，占世界总量的71.2%。我国造船三大指标全面增长，国际市场份额保持全球领先。
+L7: 
+L8: 〖返回顶部〗 〖关闭窗口〗 〖打印本页〗",miit.gov.cn,Public web,https://www.miit.gov.cn/gxsj/tjfx/zbgy/mycb/art/2026/art_f2d924ac33764467a2de5ce8481bc736.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F072,2026-07-23,2026-07-23,China,Financing,semiconductor,邦芯半导体,邦芯半导体完成C轮融资,半导体加工设备研发生产商；原始金额：数千万元；投资方：初芯控股集团；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/57c6fb14a4a864543675e6e00b7921ce.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F073,2026-07-23,2026-07-23,China,Financing,semiconductor,博升光电,博升光电完成C轮融资,半导体激光器芯片研发商；原始金额：-；投资方：YF Genius Core Limited；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/11268c01-dda9-4719-a5a2-b0d75f2ba058.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F074,2026-07-23,2026-07-23,China,Financing,semiconductor,致卓光电,致卓光电完成A轮融资,磁光晶态材料供应商；原始金额：-；投资方：兴银投资，国科创投，朱紫坊创投，福建产投，福州创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/9c7b6c1e758ef3d2379b53e495f816d1.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F077,2026-07-23,2026-07-23,China,Financing,semiconductor,南通基合半导体,南通基合半导体完成天使轮融资,电子专用材料制造商；原始金额：-；投资方：元禾璞华，金雨茂物，东布洲创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/1b43b2c984719985f49517456032b78c.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-P005,2026-07-24,2026-07-24,China,Policy,Public scan,,2026年7月重点群体灵活就业社会保险补贴政策 拟补贴名单公示,2026年7月重点群体灵活就业社会保险补贴政策 拟补贴名单公示 (https://www.xuhui.gov.cn/zfjg_qzfbm_rbj_bmdt/20260724/575356.html),xuhui.gov.cn,Public web,https://www.xuhui.gov.cn/zfjg_qzfbm_rbj_bmdt/20260724/575356.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-P053,2026-07-24,2026-07-24,China,Policy,Public scan,,〖国家发展改革委体制改革综合司关于研究课题入选单位的公告〗-国家发展和改革委员会,"〖国家发展改革委体制改革综合司关于研究课题入选单位的公告〗-国家发展和改革委员会 (https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260724_1406671.html)
+citeturn912view1 [wordlim: 200] Content type: text/html; Source: open({""ref_id"":""https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260724_1406671.html"",""lineno"":null}); Total lines: 29
+L0: cite0†首页 > cite1†新闻动态 > cite2†通知公告 L1: 
+L2: ## 国家发展改革委体制改革综合司关于研究课题入选单位的公告
+L3: 
+L4: 发布时间：2026/07/24
+L5: 
+L6: 来源：体改司
+L7: 
+L8: cite3†Image [ 打印 ]
+L9: 
+L10: 　　2026年4月，我司发布了《国家发展改革委体制改革综合司2026年研究课题征集公告》，全国多家研究机构、高等院校、社会团体和智库积极响应、踊跃参与。按照课题管理有关要求，经严格评审，现确定相关课题承担单位及负责人（见附件）。
+L11: 
+L12: 　　请入选单位及时与我司联系，严格按照要求填写课题合同书，由具有独立法人资格单位的负责人签字并加盖单位公章，以适当形式提交我司。
+L13: 
+L14: 　　在此，对积极参与课题征集的有关单位和专家，表示诚挚感谢。
+L15: 
+L16: 　　附件：国家发展改革委体制改革综合司2026年度研究课题入选单位名单
+L17: 
+L18: 
+L19: 
+L20: 国家发展改革委体制改革综合司
+L21: 
+L22: 2026年7月23日
+L23: 
+L24: 附件：
+L25: 
+L26: cite4†国家发展改革委体制改革综合司2026年度研究课题入选单位名单 L27: 
+L28: 排行榜",ndrc.gov.cn,Public web,https://www.ndrc.gov.cn/xwdt/tzgg/202607/t20260724_1406671.html,S_Core,,1,1,2,1.20,C,相关性1/5、产业影响1/5、新颖性2/5；加权1.20。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,Pass C verified in-window; Stage 2 retains all hits without relevance filtering.,Pass_A_or_B
+W30-F060,2026-07-24,2026-07-24,China,Financing,semiconductor,亚笙半导体,亚笙半导体完成数千万元B++轮融资,Sub-FAB附属设备研发商；原始金额：数千万元；投资方：汉理资本，弘晖基金，泰达科投；人民币换算：N/A；美元换算：N/A。,天天基金网（转载科创板日报）,Manual financing import,https://fund.eastmoney.com/a/202607243820730896.html,Manual,https://www.qcc.com/product/1619fa52a7bcc44790dccc7d3ca7b63f.html,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。 Stage 5检查发现C级误入正文，已由补扫B级事件等量替换。,Manual_Import
+W30-F061,2026-07-24,2026-07-24,China,Financing,semiconductor,银科启瑞,银科启瑞完成B轮融资,化合物半导体高端外延芯片材料研发商；原始金额：-；投资方：厦门高新投，厦门创投；人民币换算：N/A；美元换算：N/A。,投资厦门 / 厦门日报,Manual financing import,https://www.investxiamen.org.cn/detail/13357.html,Manual,https://www.qcc.com/product/83d59aedc77fec733717c2e46fbf8fdb.html,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。 Stage 5检查发现C级误入正文，已由补扫B级事件等量替换。,Manual_Import
+W30-F062,2026-07-24,2026-07-24,China,Financing,semiconductor,微合科技,微合科技完成A+轮融资,5G智能蜂窝通信芯片设计研发商；原始金额：-；投资方：国新基金；人民币换算：N/A；美元换算：N/A。,腾讯新闻（亿欧数据）,Manual financing import,https://news.qq.com/rain/a/20260726A09H8H00,Manual,https://www.qcc.com/product/c060a2d36be0650b5cff121399605fd3.html,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；已找到公开报道，企查查降为交叉验证。 Stage 5检查发现C级误入正文，已由补扫B级事件等量替换。,Manual_Import
+W30-F065,2026-07-24,2026-07-24,China,Financing,semiconductor,吉盛微半导体,吉盛微半导体完成A轮融资,半导体零件研发供应商；原始金额：-；投资方：农银投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/789f6f2617da03e07fa7342dfdcb4d22.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 融资来源补全门已执行：公司+金额/轮次、公司+日期、公司+投资方三类查询；截至2026-07-27未找到可确认本周交易的独立公开来源，保留企查查主记录。 Stage 5检查发现C级误入正文，已由补扫B级事件等量替换。,Manual_Import
+W30-F066,2026-07-24,2026-07-24,China,Financing,semiconductor,瑞康光联,瑞康光联完成A轮融资,光电子器件制造商；原始金额：-；投资方：玖睿投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/ef2dcccab09a53f9a0328c9c06c8bc65.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F067,2026-07-24,2026-07-24,China,Financing,semiconductor,中科赛飞,中科赛飞完成天使轮融资,车规级数模混合芯片提供商；原始金额：-；投资方：广州长金企业管理有限公司；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/ab200c6105d611c62e718ccedb310f14.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F068,2026-07-24,2026-07-24,China,Financing,semiconductor,诺万芯,诺万芯完成天使轮融资,光电互联芯片提供商；原始金额：-；投资方：成都高新创投，嘉禾资产，胜蓝股份，成都隐势企业管理中心（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/e4d4dfe666fe21e99df1ec6cba86ee45.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F069,2026-07-24,2026-07-24,China,Financing,semiconductor,中砥半导体,中砥半导体完成天使轮融资,磷化铟单晶产品研发商；原始金额：-；投资方：观新生元创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/f67a3c318d20b5d9373f9c54f9ee4458.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Stage 4 financing 30% cap compression.,Manual_Import
+W30-F071,2026-07-24,2026-07-24,China,Financing,semiconductor,清智光微,清智光微完成种子轮融资,高速纳米级晶圆量检测设备生产商；原始金额：约千万元；投资方：清智资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/434419045507eb20e6188d15fa6fb12b.html,Manual,,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性≤2最高B约束。,Database_Only,与太空算力主航道缺少可验证关联，仅留数据库。,作为趋势与外围对照。,跟踪后续正式公告、在轨数据、合同执行或下一任务节点。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 4 financing 30% cap compression.,Manual_Import
