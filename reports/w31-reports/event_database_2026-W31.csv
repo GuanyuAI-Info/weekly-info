@@ -1,0 +1,1751 @@
+﻿event_id,date,published_date,country,sector,domain,entity,event_title,event_summary,source_name,source_type,source_url,source_tier,secondary_sources,space_compute_relevance_score,industry_impact_score,novelty_score,total_score,priority,reason_for_priority,include_in_report,implication,meaning_for_us,next_watch,analyst_note,source_discovery_flag
+W31-E012,2026-07-27,2026-07-27,China,Policy,Public scan,,国星宇航与商汤规划“千星万P”太空算力星座,"中经记者谭伦北京报道
+人工智能基础设施竞争,正在从地面走向太空。
+在日前举行的2026世界人工智能大会(WAIC2026)期间,成都国星宇航科技股份有限公司与商汤科技宣布共建“商汤太空算力星座”。根据双方规划,该项目将按照“单星验证—平台建设—星座组网”的路径推进,计划2026年完成首批“商汤号”算力卫星组网验证,2028年建设星地混合云商用算力骨干网,到2030年形成由千颗级算力卫星组成、总算力超过万P(每秒千万亿次浮点运算)的太空算力星座。
+这一合作,也首度将“空间计算”这一此前更多停留在技术探索阶段的新概念,推向产业关注中心。
+根据行业定义,所谓空间计算,并非简单地把服务器搬到太空,而是在卫星平台上部署计算芯片、存储模块以及人工智能算法,使卫星具备数据采集、实时分析和智能决策能力,实现从“采集数据—传回地面—集中处理”向“在轨计算—结果回传”的模式转变。
+近年来,随着大模型、生成式AI快速发展,全球算力需求持续增长。与此同时,传统地面智算中心正在面临能源、电力、土地以及散热等多重约束。尤其是人工智能训练和推理任务不断扩大,对数据中心的能源供给提出更高要求。国际能源署此前预计,全球数据中心电力消耗将在人工智能发展的推动下持续增长,未来几年可能成为全球新增电力需求的重要来源之一。
+在此背景下,将部分计算能力部署到太空的尝试,正在成为全球科技企业探索的新方向。
+为何向太空延伸?
+谁能够率先形成成熟的空间计算体系,也可能影响未来人工智能产业资源分布格局。
+过去十余年,全球算力基础设施建设基本围绕地面数据中心展开。从互联网时代的云计算中心,到人工智能时代的智算中心,算力增长始终依赖服务器集群、电力供应以及网络连接能力。
+但生成式AI的快速发展,正在改变这一模式。通信分析师周桂军指出,与传统互联网应用相比,大模型训练和推理需要消耗更大规模的计算资源。尤其是在多模态模型、智能体等",财经头条,Public web,https://t.cj.sina.com.cn/articles/view/1650111241/625ab30902001h10u?finpagefr=p_104_a,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P017.,Pass_C_supplemental
+W31-S013,2026-07-27,2026-07-27,US,Technology,space_compute,SES Space & Defense / Starlab,SES and Starlab design always-on relay communications for commercial station,"The partners agreed to integrate O3b mPOWER-based low-latency relay services into Starlab, supporting continuous telemetry, researcher access and mission awareness for the planned AI-enabled station.",SES,Company newsroom,https://www.ses.com/news/press-release/ses-space-defense-and-starlab-enter-agreement-to-enable-communications-for,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E055,2026-07-30,2026-07-30,China,Policy,Public scan,,“星枢计划”发布首发星座“一主二辅”架构,"本报讯
+近日,在2026世界人工智能大会“未来计算
+未来算力”专题论坛上,“星枢计划”首发星座正式发布。
+据了解,“星枢计划”由复旦大学联合上海星枢天算牵头研制,项目在工程验证阶段将发射2颗算力星+12颗边缘计算星,在商业部署阶段计划发射50颗算力星+100颗边缘计算星,在商业运营阶段将完成千星部署。
+本次对外发布的首发星座采用“一主二辅”星簇架构,即“1颗中心算力主星+1颗伏羲气象星+1颗即时遥感星”极简星簇布局,构成独立闭环最小算力验证单元,三星依托星间激光链路互联互通,所有数据采集、AI推理、研判分析全部在轨完成,无须下传海量原始遥感数据。
+未来,“星枢计划”将推出两大核心全域场景服务,释放天基算力广阔市场需求。一方面,提供按需即问即算分布式太空算力服务。依托“一主二辅”星簇分布式算力底座,搭建标准化算力调用接口,面向政府、能源、航运、金融、科研机构提供分时、在轨算力租赁。地面企业海量时空数据可加密上传星座完成AI训练、时空融合运算,按需灵活采购短时推理、长期算力包,大幅降低地面机房建设与算力成本。另一方面,支撑全域天基智能一体化场景服务。基于复旦大学自研伏羲、大禹、微波视觉等行业专用大模型,自动完成气象预警、灾害监测、港口航运、电网巡检等标准化情报产品,为应急、气象、自然资源、能源等部门提供常态化太空即时遥感服务支撑,削减人工判读与地面算力投入。
+“星枢计划”项目落地将加速上海太空算力产业集聚,预计5年带动上下游配套企业超百家,有望助推上海太空算力相关产业年产值突破千亿元。同时,“星枢计划”将助力共建“一带一路”,面向共建国家提供气象、遥感普惠算力服务,共建跨境灾害、生态监测体系等。(邓聪)",人民邮电报,Public web,https://rmydb.cnii.com.cn/html/2026/20260730/20260730_005/20260730_005_08_5608.html,A_Active,,5,4,4,4.50,S,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。,Yes,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P083.,Pass_C_supplemental
+W31-E051,2026-07-27,2026-07-27,US,Technology,Public scan,,NASA公布三次美国舱外活动计划,"Editor’s
+note:
+This
+media
+advisory
+was
+updated
+July
+27,
+2026
+to
+reflect
+an
+updated
+start
+time
+for
+the
+spacewalk
+on
+Thursday,
+Aug.
+6.
+NASA
+will
+provide
+coverage
+as
+astronauts
+venture
+outside
+the
+International
+Space
+Station
+during
+three
+spacewalks
+in
+August
+to
+continue
+upgrading
+solar
+arrays,
+replace
+a
+communications
+antenna,
+and
+connect
+power
+and
+data
+cables
+in
+support
+of
+space
+station
+operations.
+Experts
+will
+preview
+the
+upcoming
+spacewalks
+during
+a
+news
+conference
+at
+2
+p.m.
+EDT,
+Thursday,
+July
+30,
+from
+NASA’s
+Johnson
+Space
+Center
+in
+Houston.
+NASA
+will
+stream
+these
+events
+through
+a
+variety
+of
+platforms.
+Learn
+where
+to
+watch
+online:
+https://www.nasa.gov/live
+NASA
+participants
+in
+the
+news
+conference
+include:
+Bill
+Spetch,
+deputy
+manager
+of
+Commercial,
+Low
+Earth
+Orbit
+Program
+Chris
+Dobbins,
+s",NASA,Public web,https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/,A_Active,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P075.,Pass_C_supplemental
+W31-S002,2026-07-27,2026-07-27,US,Policy,satellite,FCC / SES,FCC approves Upper C-band order with satellite clearing incentives,The FCC approved an order to auction 160 MHz of Upper C-band spectrum; SES said about $5.6 billion of incentives are contingent on clearing milestones in 2030 and 2031.,SES,Company newsroom,https://www.ses.com/news/press-release/ses-statement-on-fcc-upper-cband-auction-decision,A_Active,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-S010,2026-07-27,2026-07-27,US,Technology,satellite,NASA Roman Space Telescope,NASA completes fueling milestone for Roman Space Telescope,"NASA fueled the Roman Space Telescope ahead of its planned late-August launch, moving the flagship observatory through a final ground-processing milestone.",NASA,Government,https://science.nasa.gov/blogs/roman/2026/07/27/nasa-fuels-roman-space-telescope-for-late-august-launch/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E118,2026-07-28,2026-07-28,Global,Financing,commercial_space,Array Labs,Array Labs完成A轮融资,遥感卫星技术研发商；原始金额：2100万美元；投资方：三菱电机，Catapult Ventures，KOMPAS VC，Y Combinator；人民币换算：142577400.00；美元换算：21000000.00。,PR Newswire,Newswire,https://www.prnewswire.com/news-releases/array-labs-raises-additional-21m-anchored-by-strategic-investment-from-mitsubishi-electric-302836035.html,A_Active,https://www.qcc.com/product/ba2a3dcbf19b9f5d80216f2c529a8140.html,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,来自企查查（境外）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 USD。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F156.,Manual_Import
+W31-S001,2026-07-28,2026-07-28,US,Policy,commercial_space,FAA,FAA launches initiative to streamline commercial-space licensing,"The FAA proposed allowing waivers from duplicative environmental review requirements for certain launch, reentry and spaceport licenses, with a 30-day comment period.",Federal Aviation Administration,Government,https://www.faa.gov/newsroom/liftoff-trumps-transportation-secretary-sean-p-duffy-announces-major-move-streamline,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-S009,2026-07-28,2026-07-28,US,Technology,satellite,NASA / Katalyst Space,Katalyst LINK spacecraft enters commissioning for NASA Swift orbit boost,"NASA reported commissioning progress for the robotic spacecraft intended to rendezvous with and raise the orbit of the Swift observatory, a commercial in-space servicing demonstration.",NASA,Government,https://science.nasa.gov/blogs/swift/2026/07/28/commissioning-update-for-spacecraft-to-boost-nasas-swift/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E096,2026-07-30,2026-07-30,China,Financing,commercial_space,空天时代,空天时代完成天使+轮融资,空天动力及高速飞行器研产商；原始金额：-；投资方：飞凡创投，顺禧基金，芯能创投；人民币换算：N/A；美元换算：N/A。,投中网,行业媒体,https://www.chinaventure.com.cn/news/110-20260730-392528.html,A_Active,https://www.qcc.com/product/d7a4251d55828e2728c0e0be2e6f20ee.html,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F134.,Manual_Import
+W31-S008,2026-07-30,2026-07-30,US,Technology,satellite,NRO / SpaceX / U.S. Space Force,NRO schedules NROL-95 national-security launch on Falcon 9,"The NRO, Space Systems Command and SpaceX scheduled NROL-95 from Cape Canaveral, adding another U.S. national-security payload deployment node.",National Reconnaissance Office,Government,https://www.nro.gov/launches/launch-nrol-95/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E088,2026-07-31,2026-07-31,China,Financing,commercial_space,创智联恒,创智联恒完成A+轮融资,低轨卫星通信产品研发应用服务商；原始金额：-；投资方：粤开资本，成都科创投集团，和而泰，励石资本；人民币换算：N/A；美元换算：N/A。,腾讯新闻,综合媒体,https://news.qq.com/rain/a/20260731A06Z5W00,A_Active,https://www.qcc.com/product/d26be076a351a9c657d894fa85fa1b32.html,4,3,4,3.70,A,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。,Yes,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F126.,Manual_Import
+W31-S011,2026-07-31,2026-07-31,US,Technology,commercial_space,NASA / SpaceX,NASA and SpaceX advance Starship wind-tunnel testing,NASA Ames tested a Super Heavy Version 3 scale model across transonic and supersonic regimes to improve loads and reentry-flight modeling for the Starship human landing system.,NASA,Government,https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/,S_Core,,4,4,4,4.00,A,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。,Yes,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E002,2026-07-27,2026-07-27,China,Policy,Public scan,,太空算力的技术挑战、应用价值与发展路径_《人民论坛》_党刊推荐_文库_宣讲家网,"当前,随着人工智能快速发展和卫星互联网持续演进,太空正成为数字基础设施拓展的重要方向,卫星也由传统航天基础设施逐步演变为未来通信网络的重要组成部分。同时,通信网络技术持续演进,卫星系统与5G、6G网络的融合趋势日益明显。3GPP
+Release
+17已将非地面网络(NTN)纳入5G标准体系,为卫星接入5G网络、物联网终端接入,以及面向手机终端的卫星通信能力奠定标准基础;面向6G,空天地一体化覆盖将进一步推动卫星成为移动通信网络的重要组成部分。通信、遥感、导航等各类卫星系统正在形成更复杂的数据生产与服务体系。通信和遥感卫星在轨产生海量数据,导航系统提供关键时空基准并支撑多源数据融合,但受功率、频谱及地面站窗口限制,数据生成速度长期快于星地下行能力,形成所谓的“数据与传输能力剪刀差”,且这一差距随着星座扩张继续扩大。当人类向外开拓的空间需求,与算力向上突破的发展需求相互交汇,将计算能力部署至太空便不再是技术构想,而是破解现实瓶颈、重塑数字基础设施格局的战略选择。通俗而言,太空算力是将计算、存储、网络等能力,以及支撑这些能力的芯片、载荷、操作系统、软件和模型部署到卫星或其他在轨平台,并通过分布式协同,将分散在轨的计算资源组织起来,向地面及太空提供持续、协同和可扩展的算力服务。
+太空算力的需求驱动与发展趋势
+随着卫星网络基础能力显著增强,上层业务形态按照通信网络与信息系统的演进规律持续扩展并趋于复杂,通信、导航、遥感与信息服务在现代社会运行和国家安全体系中的战略地位不断提升。当前,卫星系统虽已具备一定在轨处理和智能功能,但总体仍以信号转发为主,计算能力主要发挥辅助支撑作用。随着手机直连卫星、6G/NTN卫星互联网等新型业务形态出现,身份认证、接入控制、会话管理和数据处理等功能逐步向星上延伸,太空算力由提升系统效率的辅助手段,逐步演变为空天网络运行和演进的基础能力。
+除业务演进带来",www.71.cn,Public web,http://www.71.cn/2026/0727/1297821.shtml,A_Active,,5,4,4,4.50,B,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。 编辑复核后调整为B级。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P002. Editorial override after atom review: explainer, duplicate coverage, or underlying event outside the window.",Pass_C_supplemental
+W31-E014,2026-07-27,2026-07-27,China,Policy,Public scan,,"算力上天!中国首个太空算力创新中心揭牌,""星上计算""赛道如何打开万亿空间?_财经频道_证券之星","当AI算力需求以指数级增长推动地面数据中心不断扩容,一个新的方向正在悄然打开——将算力送入太空。7月23日,蓝箭鸿擎(雄安)空间科技有限公司与中国星网数字科技有限公司、北京邮电大学共同为三方共建的""太空算力技术创新中心""揭牌。这是国内太空算力领域首个汇聚产业平台、顶尖高校与工程企业三类核心主体的协同创新载体。与此同时,国星宇航与商汤科技在2026世界人工智能大会上宣布共建""商汤算力星座"",规划到2030年建成由千颗级算力卫星组成、总算力超万P的太空算力星座。短期内,多个太空算力项目密集推进,一个全新的产业赛道正在加速成型。从""通信卫星""到""算力卫星"",从""天基传输""到""天基计算"",当卫星不再仅仅扮演""天上的信号中继站""角色,而是开始具备在轨实时处理数据、运行AI算法的能力,一场关于算力基础设施的""升空革命""已经拉开序幕。三方携手——国内首个太空算力协同创新载体诞生7月23日,蓝箭鸿擎(雄安)空间科技有限公司与北京邮电大学、中国星网数字科技有限公司共同为三方共建的""太空算力技术创新中心""揭牌。据悉,这是国内太空算力领域首个以""产业平台+顶尖高校+工程企业""模式组建的协同创新载体。三方各有所长、形成互补。北京邮电大学在信息通信、计算机、人工智能等领域拥有深厚的科研积累和人才优势;星网数科依托中国卫星网络集团产业体系,拥有重要的平台资源和数字化应用能力;鸿擎科技则具备面向低轨卫星和大规模星座建设的系统能力与工程实践基础。根据合作协议,三方将围绕太空算力相关技术研究、工程验证、成果转化和人才培养开展协同创新,推动前沿科研成果更快进入真实的卫星工程和产业应用场景。这一中心的成立恰逢其时。随着低轨巨型星座建设持续加速,卫星的功能正在从单纯的通信和数据采集,向智能感知、数据预处理、协同计算和自主决策方向演进。未来卫星的网络化、智能化和算力化趋势,将更加注重卫星之间、天地之间以及算网之间",证券之星财经频道,Public web,https://finance.stockstar.com/SS2026072700026157.shtml,A_Active,,5,4,4,4.50,B,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。 编辑复核后调整为B级。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P020. Editorial override after atom review: explainer, duplicate coverage, or underlying event outside the window.",Pass_C_supplemental
+W31-E030,2026-07-27,2026-07-27,Global,Technology,Public scan,,推荐给朋友: 2026年芯片融资概览: 80 家公司、超 60 亿美元 - OFweek半导体网,"芝能智芯出品
+2026
+年第二季度,芯片融资情况一览。
+钱有的是,主要给了
+AI
+和它的配套。这一季有
+80
+家半导体初创企业拿到融资,合计超过
+60
+亿美元,其中
+18
+家单轮就破了
+1
+亿美元。",OFweek维科网,Public web,https://semi.ofweek.com/recommendfriends-30695334.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P054.,Pass_C_supplemental
+W31-E041,2026-07-27,2026-07-27,China,Policy,Public scan,,2026-2031年中国人工智能PC芯片行业重点企业发展分析及投资前景可行性评估报告_报告大厅,"第一章
+人工智能PC芯片产业相关概述
+一、人工智能PC芯片产业概述
+二、人工智能PC芯片产业发展历程
+第二节
+2021-2025年全球主要国家人工智能PC芯片产业分析
+一、美国
+二、印度
+三、澳大利亚
+四、日本
+第三节
+2026-2031年全球人工智能PC芯片产业发展趋势分析
+第二章
+2021-2025年中国人工智能PC芯片产业运行环境分析
+第一节
+2021-2025年中国宏观经济环境分析
+一、中国GDP分析
+二、消费价格指数分析
+三、城乡居民收入分析
+四、社会消费品零售总额
+五、全社会固定资产投资分析
+六、进出口总额及增长率分析
+第二节2021-2025年中国人工智能PC芯片产业政策环境分析
+一、人工智能PC芯片产业政策解读
+二、人工智能PC芯片产业振兴规划
+三、人工智能PC芯片产业进出口政策分析
+第三章
+2021-2025年中国人工智能PC芯片行业市场供需调查分析
+第一节
+2021-2025年中国人工智能PC芯片行业市场供给分析
+一、人工智能PC芯片行业市场供给分析
+二、影响供给的因素分析
+第二节
+2021-2025年中国人工智能PC芯片行业市场需求分析
+一、人工智能PC芯片行业市场需求分析
+二、影响需求的因素分析
+第三节
+2021-2025年中国人工智能PC芯片产业发展存在问题分析
+第四章
+2021-2025年中国人工智能PC芯片行业供给规模统计分析
+第一节
+2021-2025年全国人工智能PC芯片行业供给规模分析
+第二节
+2021-2025年主要地区人工智能PC芯片供给规模分析
+第三节
+2021-2025年人工智能PC芯片行业供给规模集中度分析
+第五章
+2021-2025年中国人工智能PC芯片产业主要数据监测分析
+第一节
+2021-2025年中国人工智能PC芯片行业规模分析
+一、企业数量增长分析
+二、从业人数增长分析
+三、资产规模增长分析
+第二节
+2021-202",报告大厅,Public web,https://www.chinabgao.com/report/21104586.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P065.,Pass_C_supplemental
+W31-E048,2026-07-27,2026-07-27,Global,Technology,Public scan,,Chinese Gravity-1 Rocket Launches New Satellites From Sea,"A
+Gravity-1
+carrier
+rocket
+carrying
+nine
+satellites
+blasts
+off
+from
+waters
+off
+the
+coast
+of
+Shanghai,
+east
+China,
+July
+22,
+2026.
+The
+Taiyuan
+Satellite
+Launch
+Center
+launched
+the
+commercial
+rocket
+at
+10:54
+a.m.
+(Beijing
+time),
+placing
+the
+nine
+satellites
+into
+their
+designated
+orbits.
+(PHOTO:
+XINHUA)
+Editor:SONG
+Ziyan",中国科技网,Public web,https://www.stdaily.com/web/English/2026-07/27/content_554132.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P072.,Pass_C_supplemental
+W31-E052,2026-07-27,2026-07-27,China,Policy,Public scan,,"美国商业航天迎来近二十年来规模最大的监管改革,以大幅加快卫星部署审批速度;美“星舰”完成第13次试飞,成功发射20颗新一代“星链”卫星;脑机接口迎重大突破,可帮助患者恢复视力--《投资早参》_腾讯新闻","每经编辑:彭水萍(一)重要市场新闻美国太空探索技术公司重型运载火箭“星舰”于美国中部时间7月24日下午从得克萨斯州南部的发射基地升空,实施第13次试飞。火箭第一级“超级重型”助推器在墨西哥湾附近海域溅落,第二级“星舰”飞船完成亚轨道飞行,并于印度洋溅落。第二级“星舰”飞船飞行期间,6台发动机运行正常,并部署20颗新一代“星链”卫星。(二)行业掘金1、北京时间7月25日,美国联邦通信委员会(FCC)正式发布命令,决定全面改革卫星和地球站许可审批流程,以大幅加快卫星部署审批速度,将以往长达数年的审查期压缩至几个月甚至几周,从而更好地支撑商业低轨卫星的快速部署和持续扩张。FCC新规也试图建立一套更适应超大规模卫星星座发展的监管框架,加快美国卫星互联网建设节奏。此次重大改革的核心,是建立现代化、标准化的“许可流水线”。FCC将提升许可处理速度、增强监管可预测性、扩大创新与运营灵活性。美国卫星监管模式开始从传统规则体系向适应大规模星座时代的新框架转型。点评:随着太空资源竞争日益激烈,卫星互联网已成为全球科技竞争的新高地。未来太空经济将会成为一个新的产业领域,涉及卫星通信、卫星导航、卫星遥感、太空旅游等多个方面。星地通信产业规模预计到2030年将达到2000亿元—4000亿元,年均复合增长率在10%—28%之间。星地通信产业正站在从“概念验证”向“规模化应用”的关键转折点,随着技术成熟、成本下降和应用场景拓展,未来十年将形成“天地一体、万物互联”的新型通信格局,成为推动数字经济高质量发展的重要引擎。概念股包括广联航空、金利华电、天银机电等。2、7月25日,美国初创公司Science
+Corp.已获批在欧盟地区销售一款可帮助“地图样萎缩”(GA)患者恢复部分视力的视网膜芯片。这是美国脑机接口(BCI)公司首次将相关设备大规模推向患者市场,也是该公司迈向脑机接口商业化的重要里程碑,其长期目",腾讯网,Public web,https://news.qq.com/rain/a/20260727A038X000,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P077.,Pass_C_supplemental
+W31-E108,2026-07-27,2026-07-27,China,Financing,semiconductor,铭镓半导体,铭镓半导体完成Pre-B轮融资,新型半导体人工晶体材料研发商；原始金额：超1.5亿元；投资方：千曦资本，芯禾资本，安阳经开集团，粤科金融，天鹰资本，洪泰基金；人民币换算：150000000.00；美元换算：22093263.03。,东方财富网,综合媒体,https://wap.eastmoney.com/a/202607273822367681.html,A_Active,https://www.qcc.com/product/1c15c3b8b073447eaa0d582cfadbecf8.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F146.,Manual_Import
+W31-E109,2026-07-27,2026-07-27,China,Financing,semiconductor,准懋科技,准懋科技完成A轮融资,MEMS惯性芯片解决方案提供商；原始金额：-；投资方：一元航天；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/bef47bb21796a7f5b0ace11c93998264.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F147. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E110,2026-07-27,2026-07-27,China,Financing,commercial_space,云途飞行,云途飞行完成Pre-A轮融资,电动涵道风扇推进系统供应商；原始金额：数千万元；投资方：浦东基金，莫干山基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/db759a2a8cd5097eaee683e1fb98015e.html,Manual,,4,3,4,3.70,B,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,"来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 CNY。 Origin ID: W31-F148. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E111,2026-07-27,2026-07-27,China,Financing,semiconductor,芯亿集成电路,芯亿集成电路完成天使+轮融资,集成电路设计服务商；原始金额：-；投资方：锡创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/3fae646fc469ae11351e4bbd5c4f2eb0.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F149. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E112,2026-07-27,2026-07-27,China,Financing,semiconductor,超吉芯科技,超吉芯科技完成天使轮融资,光电集成芯片制造商；原始金额：-；投资方：中科神光，硅港资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/1c5ce4ecc3dc9028b34909561190c206.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F150. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E113,2026-07-27,2026-07-27,China,Financing,ai,星联创新,星联创新完成天使轮融资,太空算力产业化服务商；原始金额：-；投资方：铂莲投资，柳成荫资产，水木创投，天津星承嘉盛管理咨询合伙企业（有限合伙），厦门光莆投资有限公司；人民币换算：N/A；美元换算：N/A。,腾讯新闻,综合媒体,https://news.qq.com/rain/a/20260729A01T7500,A_Active,https://www.qcc.com/product/a755864c0723a60e3021c73ed248fcf7.html,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 未披露。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F151. Stage 4 financing 30% cap compression.,Manual_Import
+W31-E114,2026-07-27,2026-07-27,China,Financing,semiconductor,汇芯珑光,汇芯珑光完成天使轮融资,集成电路芯片及产品制造商；原始金额：-；投资方：合肥国投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/90a555b12c14aa4457f02b2b719454f5.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F152. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E120,2026-07-27,2026-07-27,Global,Financing,ai,Multiverse Computing,Multiverse Computing完成C轮融资,金融量子计算技术研发商；原始金额：5.7亿美元；投资方：ForgePoint Capital，GP Bullhound，BNPP Solar Impulse Venture Fund，Tikehau Capital，Orange Ventures，NAventures，Zouk Capital，Sett，EIC Fund，惠普，Santander Alternative Investments，Scania Invest，Qatar Development Bank，Hazten Scale-Up Fund，Kutxa Fundazioa；人民币换算：3869958000.00；美元换算：570000000.00。,Multiverse Computing,公司公告,https://multiversecomputing.com/resources/multiverse-computing-announces-series-c-fundraising-targeting-up-to-usd570m-eur500m-to-power,A_Active,https://www.qcc.com/product/680d28b37f3a4cb0b6607e6eed1f9095.html,3,4,3,3.30,B,相关性3/5、产业影响4/5、新颖性3/5；加权3.30。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境外）清单 + 行业归属：AI算力/AI基础设施；原始币种 USD。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F158.,Manual_Import
+W31-S005,2026-07-27,2026-07-27,US,Policy,data_center,U.S. Department of Energy,DOE reiterates ratepayer-protection and self-funded grid expansion policy for AI data centers,A DOE policy article argues that data-center developers should fund new generation and transmission under the federal Ratepayer Protection Pledge while using closed-loop cooling and on-site infrastructure.,U.S. Department of Energy,Government policy article,https://www.energy.gov/em/articles/op-ed-truth-about-ai-data-centers,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E007,2026-07-28,2026-07-28,Global,Technology,Public scan,,硅基生命奔向星辰:深度拆解“太空算力”的狂想与现实_腾讯新闻,"太空算力(Space
+Computing
+/
+Orbital
+Computing)是地面算力的一种备份,当地面数据中心和网络发生状况时,太空算力可以作为应急算力补充。太空算力不是简单地把地面机房搬到太空,而是直接把抗辐射芯片、存储模块、小型计算单元部署到每一颗在轨卫星上,再通过成百上千颗卫星组网,让整个近地轨道形成一张分布式的算力网络,在地球轨道上构建集计算、存储、网络于一体的空间信息基础设施。太空算力,工作模式直接升级为“天数天算”或“天基主算”。卫星在捕获数据的瞬间,直接在轨利用自带的
+AI
+芯片完成目标识别、气象分析或情报提取。由于星地数传带宽如同“小水管”,海量原始遥感数据往往要延迟数小时甚至数天才能在地面处理完毕。更前沿的设想是“地数天算”:当地面算力因电网过载或灾害瘫痪时,将地面数据反向传输给高空由太阳能永续驱动的卫星群进行计算。•天然的“超级冷库”:地面算力中心是名副其实的“吞水巨兽”和加热器,40%
+的电能都耗费在散热上。而太空中部分区域的背景温度逼近绝对零度(约
+-270°C),形成了天然的液氮级冷却池,散热效率极高且完全不消耗地面的宝贵水资源。•无限续航的能源供给:地面数据中心正饱受能耗和电网限制。而在太空中,太阳能发电效率是地面的数倍,不仅没有大气层阻挡、不受昼夜交替和天气影响,其自供电系统的边际发电成本甚至比地面发达经济体低
+20
+至
+80
+倍。•延迟的“物理外挂”:对于海啸、山火、地质灾害等应急场景,原始数据下载动辄数小时。太空算力可在轨进行数据“瘦身”,直接过滤掉
+90%
+的废片(如云层遮挡),仅将几
+KB
+的核心结论秒级推送至地面,实现真正的实时响应。•无盲区的全球算力网络:地面光纤再发达,面对占比
+70%
+的海洋和
+95%
+的网络盲区也无能为力。太空低轨星座的算力可以无死角覆盖无人区、极地与远洋,为全球智能终端提供全域协同。•单粒子效应与高能",腾讯网,Public web,https://news.qq.com/rain/a/20260728A0582D00,A_Active,,5,4,4,4.50,B,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。 编辑复核后调整为B级。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P010. Editorial override after atom review: explainer, duplicate coverage, or underlying event outside the window.",Pass_C_supplemental
+W31-E015,2026-07-28,2026-07-28,China,Technology,Public scan,,中国卫星“班车”_腾讯新闻,"7月24日7时33分,中科宇航力箭一号遥十五运载火箭在东风商业航天创新试验区点火升空,以“一箭五星”方式将辰光一号等5颗卫星精准送入预定轨道,发射任务取得圆满成功。北京商报记者获悉,此次发射后,力箭一号运载火箭累计发射卫星总数正式突破110颗,成为国内首个达成该成绩的民营商业火箭型号。华源证券研报指出,2026年上半年,中国航天延续高密度发射态势,商业航天承接2025年增长势头,产业逻辑持续深化。截至6月底,2026年上半年全球共完成154次航天发射,累计将2330颗卫星送入预定轨道。较去年同期的145次增加9次,这一增量全部来自中国。中国航天完成44次发射(含3次失利),较2025年同期的35次增长约26%;累计将223颗卫星送入预定轨道(含4颗由中国火箭执行发射的国外卫星),较去年同期的153颗增长约46%。从商业航天来看,上半年中国共完成30次商业发射,占全部发射任务约68%;商业火箭实施发射17次,占总发射次数约39%。同期入轨卫星中,商业卫星达到206颗,占全部入轨卫星约92%。力箭一号副总指挥孟祥福向北京商报等媒体表示,本次发射标志着力箭一号完成技术验证与工程摸索阶段,正式进入成熟批产、高频常态化发射周期,也是中科宇航商业化布局的里程碑。据了解,中科宇航计划下半年启动逐月常态化发射,逐步构建密集发射能力。交流中,有业内人士进一步向北京商报记者透露,未来发射节奏有望提升至“周更”,即每周执行发射。卫星“拼车”本次任务中,力箭一号遥十五运载火箭为5家客户提供拼车发射服务,依托成熟的一箭多星布局与精准分离技术,实现多星共轨搭载、发射运力共享。作为面向微小卫星市场的运载火箭,力箭一号已累计服务国内外客户超30家,其中国际客户6家,发射载荷覆盖商业光学遥感、量子通信、太空制造、空间算力、气象探测等十余个应用领域,并且承接了我国民营商业火箭全部海外卫星发射订单。北京商报记者",腾讯网,Public web,https://news.qq.com/rain/a/20260728A02J6T00,A_Active,https://www.sohu.com/a/1055442086_115865?scm=10001.1107_13-100000-0_922.0-0.0-1-0-0-0.a2_5X162X1658;https://news.qq.com/rain/a/20260727A0BLKC00,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 3 reports into one event atom: china_satellite_bus. Origin ID: W31-P025.,Pass_C_supplemental
+W31-E033,2026-07-28,2026-07-28,China,Technology,Public scan,,2026年中国AI芯片发展趋势报告_报告网,"2026年中国AI芯片发展趋势报告
+2026-07-28
+16:41:03上传人:Sh**er
+Aa
+小
+中
+大
+研究领域:覆盖人工智能、未来产业、汽车出行、大健康、消费生活、智能制造、电商零售、数字农业、智慧城市、金融科技、物流供应链、企业服务、双碳等多行业领域服务对象:包含国家部委、地方政府、央国企、互联网科技型公司以及外资500强和民营500强独创模型:亿数合创团队在10余年产业研究和咨询经验的基础上联合科研单位",报告网,Public web,https://www.baogao.com/jigou/1504380.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P057.,Pass_C_supplemental
+W31-E034,2026-07-28,2026-07-28,Global,Technology,Public scan,,商业航天:从发射革命到太空经济的商业闭环,"分享到微信打开微信,点击底部的“发现”,使用“扫一扫”即可将网页分享至朋友圈。
+商业航天:从发射革命到太空经济的商业闭环第一财经2026-07-28
+17:39:26责编:姚逸霄
+全栈产业逻辑的空间延伸,联动算力网络的空天地海一体化布局,聚焦商业航天全产业链商业化进程,探讨发射成本革命下的产业生态重构,太空基础设施向地面产业赋能的价值闭环。
+全栈产业逻辑的空间延伸,联动算力网络的空天地海一体化布局,聚焦商业航天全产业链商业化进程,探讨发射成本革命下的产业生态重构,太空基础设施向地面产业赋能的价值闭环。
+举报",第一财经,Public web,https://www.yicai.com/video/103295438.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P058.,Pass_C_supplemental
+W31-E045,2026-07-28,2026-07-28,China,Technology,Public scan,,"深耕商业航天:金融与产业共振,陪伴硬科技行稳致远_深圳新闻网","深圳新闻网2026年7月28日讯(记者
+朱琳
+通讯员
+于欣)近年来,中国商业航天发射进入规模化提速阶段。2025年底,20.3万颗卫星的频轨资源申报全面提速,太空资源的“抢位赛”已然白热化。日前,长征十号乙运载火箭成功实现一子级海上可控回收,标志着可重复使用火箭技术取得历史性突破,为低轨星座组网从“技术验证”迈向“规模化部署”提供了关键运力支撑。而竞赛的价值,正在大气层边缘被具象化。
+叩问苍穹:低轨气象数据的“中国方案”
+据介绍,魔方卫星成立于2018年,核心创始团队深耕航天系统研制领域十余年,坚持以工业化理念重塑卫星制造路径。2023年1月,魔方卫星承制的天目一号气象星座首批卫星成功入轨,全年完成6批22星研制交付,创下10天12星3连发的行业纪录。2024年12月,星座数据正式进入中国气象局业务系统,成为国内首个获准进入国家级数值天气预报业务系统的商业气象卫星数据,每日生成超3万条大气廓线,实现全球全天候海洋、大气层、电离层立体化探测。目前,公司已累计研制发射37颗卫星,在轨稳定运行超70星年。从部组件自研到整星批产,从星座组网到气象数据业务化应用,魔方卫星正以“中国方案”持续赋能低轨气象探测与商业航天高质量发展。
+成长之困:硬科技企业的资金瓶颈
+商业航天是一个典型的“三高”行业——高投入、高风险、高技术门槛。
+对于这样一家轻资产、重研发的硬科技企业,传统信贷模式往往难以匹配其发展节奏。企业缺乏“砖头瓦块”式的重资产抵押,财务报表也难以反映其技术壁垒与数据资产的真实价值,流动资金周转的压力成为制约发展的现实瓶颈。这一瓶颈如何破解,考验着金融服务的产业理解深度。
+投贷联动:以产业认知重构金融服务
+浙商银行深圳分行的答案是:跳出传统信贷“看抵押、看财报”的逻辑,以深刻的产业认知重构授信体系。该行多次深入魔方卫星调研,锚定企业“卫星研制+星座组网”的特征,将核心团队背景、投资",深圳新闻网,Public web,https://www.sznews.com/news/content/2026-07/28/content_32134662.htm,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P069.,Pass_C_supplemental
+W31-E050,2026-07-28,2026-07-28,US,Technology,Public scan,,火箭实验室获美国太空军2.66亿美元发射合同_新浪财经_新浪网,"火箭实验室公司(Rocket
+Lab)与美国太空军签署了一项价值2.66亿美元的发射合同。根据协议,该公司将为其执行最多18次亚轨道发射任务,以支持美国导弹防御能力建设,首飞任务定于2026年底前进行。
+据悉,这是火箭实验室迄今为止获得的最大规模单笔合同。该合同明确包含12次确定的亚轨道发射任务,并附带6次额外发射选项。绝大多数发射任务将依托位于阿拉斯加州科迪亚克太平洋航天港综合体的新建发射阵地进行。在此之前,该公司的发射活动主要集中在美国弗吉尼亚州及新西兰的发射场。此次任务的招标方美国太空军成立于2019年12月,主要负责实施全球太空军事行动,旨在维护美国及其盟友在太空领域的战略利益。
+针对此次合作,火箭实验室首席执行官彼得·贝克指出,该合同的体量反映了美国军方对公司运载能力的信任。他强调,公司将提供高频次的发射能力,以规模化、高响应速度满足美国紧迫的国家安全需求,从而确保美国在应对全球安全威胁时保持领先优势。
+近年来,火箭实验室与美国军工系统的利益捆绑日益紧密。作为全球少数具备轨道运载能力的企业之一,该公司已完成88次微小型火箭发射,主要将载荷送入近地轨道。其快速部署特征直接满足了军方迅速将侦察卫星送入太空的战术需求。今年3月,该公司获得五角大楼1.9亿美元合同,利用其“电子”号火箭协助测试高超音速飞行条件。同时,火箭实验室目前正与美国防务承包商RTX公司合作,共同参与开发美国“金穹”天基导弹防御系统。
+在深化军方业务布局的同时,火箭实验室正加速开展太空全产业链扩张。上月,该公司正式达成收购铱星通讯公司的协议,意图通过获取大规模卫星星座与无线网络资源,进一步在商业与防务市场中与美国太空探索技术公司(SpaceX)展开竞争。
+责任编辑:龙运翔",新浪财经,Public web,https://finance.sina.com.cn/stock/usstock/c/2026-07-28/doc-inikivui0427345.shtml,A_Active,https://www.topnews.cn/news/145ED4E645BB4A73;https://www.sohu.com/a/1056469704_115362?scm=10001.8085_13-8085_13.0.0-0-0-0-0.0;https://www.topnews.cn/news/145ED4E546B94973,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 4 reports into one event atom: rocketlab_266m_contract. Origin ID: W31-P074.,Pass_C_supplemental
+W31-E056,2026-07-28,2026-07-28,China,Technology,Public scan,,"云尖沐曦号卫星成功入轨,国产智算产业链开启太空计算新实践_双语频道_新闻中心_长江网_cjn.cn","At
+7:33
+a.m.
+on
+July
+24,
+2026,
+the
+Lijian-1
+Yao-15
+launch
+vehicle
+successfully
+launched
+five
+satellites,
+including
+the
+""Yunjian
+Muxi""
+smart
+computing
+satellite
+(Jitianxing
+A-04),
+into
+orbit
+from
+the
+Dongfeng
+Commercial
+Space
+Innovation
+Pilot
+Zone.
+2026年7月24日7时33分,力箭一号遥十五运载火箭在东风商业航天创新试验区成功将智能计算卫星""云尖沐曦号""卫星(吉天星A-04星)等5颗卫星发射入轨。作为三体计算星座创新生态的一员,""云尖沐曦号""在轨验证了国产智算芯片在真实太空环境中的可靠性,标志着国产智算产业链实现了从""地面验证""到""在轨实战""的关键跨越。
+""云尖沐曦号""卫星(吉天星A-04星)搭载力箭一号遥十五运载火箭成功发射入轨
+""云尖沐曦号""卫星由云尖信息、沐曦股份、浙大城市学院、巡天千河等合作伙伴共同研制,搭载了云尖信息与之江实验室联合研制的基于沐曦GPU芯片的智算载荷,和云尖信息与之江实验室联合研制的星载路由器,以及激光通信机,是三体计算星座在人工智能模型驱动卫星工作方式变革上的一次突破性探索。
+图源:""之江实验室""微信公众号
+三体计算星座是由之江实验室发起,全球合作伙伴共同建设的千星规模太空计算基础设施。本次发射由商业航天企业、人工智能企业、高校及科研机构等多元创新主体深度参与,从GPU芯片设计、智能计算板卡制造到卫星平台集成,产业链上下游协同创新所释放的聚变效能正在加速显现。云尖信息通过与之江实验室、沐曦股份等产业链合作伙伴紧密协作,正加速推进三体计算星座""算力上天、卫星互联和模型上天""。
+""此次任务成功将国产高性",长江网,Public web,http://news.cjn.cn/bsy/sy_20086/202607/t5324173.htm,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P084.,Pass_C_supplemental
+W31-E058,2026-07-28,2026-07-28,China,Policy,Public scan,,“天上办事”进度条再刷新,"浙江在线7月28日讯(记者
+王雨红)27日下午,“活力中国调研行”主题采访团来到之江实验室,记者被这里不断刷新的“人工智能上天”进度条震撼。
+在“三体计算星座”指挥控制大厅,数字大屏上跳动的数据,实时展示着在轨卫星的位置和状态。其中,就包括几天前刚加入的两位新成员——智能计算卫星“吉天星A-04星”及智能遥感卫星“西光贰号03星”。
+“7月24日7时33分,力箭一号遥十五运载火箭在东风商业航天创新试验区成功将这两颗卫星发射入轨。”回忆起那刻,之江实验室计算星座科研任务总体部技术总师李超仍十分兴奋。
+与以往不同的是,本次发射的两颗卫星,由商业航天企业、人工智能企业、高校及科研机构等多元创新主体共同参与,将太空AI的应用边界从对地观测、天文观测,延伸至气象感知与AI模型驱动的卫星智能化等多领域。
+以“西光贰号03星”为例,这是一颗气象卫星,数据在卫星上直接处理,预报结果直接在太空生成,只把精简后的结果传回地面,预报时间可从小时级缩短至分钟级。而传统气象预报,先由地面站、探空气球、气象卫星收集数据,再用超算求解复杂的大气物理方程,最后由人工修正,这套流程盲区多、数据更新慢,遇到突发性局地天气常常反应不过来。
+另一颗“吉天星A-04星”,则搭载之江实验室自研的具身智能卫星模型,具备健康自主管理、单星及多星任务的自主规划和执行能力,让卫星从“听指令干活”升级为“自己思考”。在设计制造环节,之江实验室、浙大城市学院联合团队将AI生成的胞元结构与3D打印技术相结合,实现了卫星主体结构制备的轻量化、一体化、高效化。
+三体计算星座是由之江实验室发起、全球合作伙伴共同建设的千星规模太空计算基础设施。那么,为何要把人工智能送上天?“人类在去火星的路上更需要计算和AI的陪伴”,“三体计算星座”指挥控制大厅里这句标语,道出了太空计算对于人工智能在宇宙探索中不可或缺的重要性。
+在中国工程院院士、之江",浙江在线,Public web,https://zjnews.zjol.com.cn/zjnews/202607/t20260728_31812738.shtml,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P086.,Pass_C_supplemental
+W31-E102,2026-07-28,2026-07-28,China,Financing,semiconductor,安牧泉科技,安牧泉科技完成D轮融资,半导体封装与测试服务商；原始金额：-；投资方：国创产投，新微资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/9de6c72930c8444cbe08e93d0de18854.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F140. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E103,2026-07-28,2026-07-28,China,Financing,semiconductor,领慧立芯,领慧立芯完成B轮融资,模拟及混合信号芯片设计商；原始金额：-；投资方：金石投资，南通富耀智能科技合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/87a4b0bf-ea12-4a24-b041-a9469cfae342.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F141. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E104,2026-07-28,2026-07-28,China,Financing,semiconductor,晶准通信,晶准通信完成A轮融资,半导体芯片技术研发商；原始金额：-；投资方：善达投资，同创伟业；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/da150781abc240cbbfbd017807efa3b9.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F142. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E105,2026-07-28,2026-07-28,China,Financing,semiconductor,联结科技,联结科技完成A轮融资,半导体封装材料研发商；原始金额：数千万元；投资方：中车基金，大宇资本，国发创投，华强创投，苏州天使母基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/1e9248111927fab2ac2fa35736632842.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Origin ID: W31-F143. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E106,2026-07-28,2026-07-28,China,Financing,commercial_space,天行探索,天行探索完成天使+轮融资,卫星应用服务商；原始金额：-；投资方：梅花创投，北京正凝之光科技中心（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/6f844dfbbccdb59e1710ba60a66a1f1b.html,Manual,,4,3,4,3.70,B,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。 未获独立公开来源确认，证据置信度上限为B级。,Brief,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,"来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F144. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E107,2026-07-28,2026-07-28,China,Financing,semiconductor,九万里未来,九万里未来完成天使轮融资,集成电路设计服务商；原始金额：-；投资方：红杉中国，华业天成，TREND CROWN LIMITED；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/a6dcc622fd89ed6b6e80a04e5a5ea42d.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F145. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E119,2026-07-28,2026-07-28,Global,Financing,ai,ZuriQ,ZuriQ完成种子轮融资,量子计算机研发商；原始金额：2240万欧元；投资方：Quantonation，FORWARD.one，Extantia，Firgun Ventures；人民币换算：173010880.00；美元换算：25482499.19。,ZuriQ,公司公告,https://zuriq.com/fundraise/zuriq-raises-25-5-million/,A_Active,https://www.qcc.com/product/9bf483d99c550894709fa8e8656bb32e.html,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境外）清单 + 行业归属：AI算力/AI基础设施；原始币种 EUR。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F157.,Manual_Import
+W31-E003,2026-07-29,2026-07-29,China,Technology,Public scan,,谢红军:如果把算力赋能到天上的卫星 卫星的时效性就会非常高,"谢红军:如果把算力赋能到天上的卫星
+卫星的时效性就会非常高
+发布于:上海市
+2026.07.29
+18:05",搜狐,Public web,https://www.sohu.com/a/1056328672_114986?scm=10004.52990_15-300008.0.0-0-0-0-0.1101.topic:52990:110041.0.9.a2_3X307,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P003.,Pass_C_supplemental
+W31-E005,2026-07-29,2026-07-29,China,Technology,Public scan,,活力中国调研行 | 算力搬上天 把AI送入太空_中国经济网--国家经济门户,"未来某一天,每个人拿起手机,都可以查看地球上每一个点位的实时情况?由之江实验室发起、全球合作伙伴共建的三体计算星座正在加速建设。针对传统模式下海量太空观测数据难以传回地面的痛点,项目依托“算力上天、卫星互联、模型上天”技术路线,打造面向太空人工智能创新的全球科技公共产品。(经济日报记者
+张思
+柳文)",中国经济网,Public web,http://yun.ce.cn/ZT/2026hlzgx/sp/202607/t20260729_3115268.shtml,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P007.,Pass_C_supplemental
+W31-E008,2026-07-29,2026-07-29,China,Technology,Public scan,,Space-AI computing solutions paving way for faster smart tech development - Chinadaily.com.cn,"By
+Li
+Jiaying
+in
+Hangzhou
+|
+China
+Daily
+|
+Updated:
+2026-07-29
+09:06
+Visitors
+learn
+about
+the
+Three-Body
+computing
+constellation,
+a
+space-AI
+orbital
+computing
+system,
+at
+Zhejiang
+Lab
+in
+Hangzhou,
+Zhejiang
+province,
+on
+Monday.
+MAN
+HUIQIAO/CHINA
+NEWS
+SERVICE
+Space
+computing
+is
+opening
+a
+new
+front
+in
+global
+artificial
+intelligence
+innovation,
+as
+a
+flood
+of
+satellite
+data
+strains
+ground-based
+processing
+and
+China's
+Three-Body
+computing
+constellation
+takes
+computing
+power
+and
+AI
+models
+into
+orbit
+to
+turn
+raw
+observations
+into
+usable
+intelligence
+at
+the
+source.
+""One
+remote-sensing
+satellite
+can
+generate
+about
+0.1
+petabyte
+of
+data
+per
+day.
+By
+a
+conservative
+estimate,
+more
+than
+3,000
+remote-sensing
+satellites
+will
+be
+in
+orbit
+by
+2032,
+together
+producing
+about
+300
+PB
+of
+data
+every
+day,""
+said
+Li
+Cha",中国日报网,Public web,https://global.chinadaily.com.cn/a/202607/29/WS6a6951fea310986e2b467d72.html,A_Active,https://en.hangzhou.com.cn/News/content/2026-07/30/content_9268052.html;https://www.ehangzhou.gov.cn/2026-07/29/c_298438.htm,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 3 reports into one event atom: space_ai_en_report. Origin ID: W31-P011.,Pass_C_supplemental
+W31-E021,2026-07-29,2026-07-29,China,Policy,Public scan,,2026年商业航天许可改革与竞争格局:环境法规豁免下的发展趋势及竞争分析_报告大厅,"中国报告大厅网讯,美国联邦航空管理局(FAA)于2026年7月28日提出新规,计划通过简化审批流程和豁免特定环境法规要求,加速商业航天活动许可。这一举措直指当前商业航天领域面临的许可效率瓶颈,引发行业对市场扩张、法规适应性及竞争态势的广泛关注。
+一、商业航天许可流程优化:审批周期缩短与竞争效率提升
+中国报告大厅发布的《2026-2031年中国航天行业专题研究及市场前景预测评估报告》指出,FAA现行许可审查周期为180天,但企业实际准备材料及完成环境评估的时间远超此周期。新规拟通过豁免《国家环境政策法》《濒危物种法》等13项法律的局部要求,减少跨机构重复审查,直接缩短企业申请时间。此举将显著降低发射活动的行政成本,推动SpaceX等企业更快响应市场需求,形成技术迭代与市场拓展的良性循环。
+二、环境法规豁免的实施:风险与市场扩张的平衡分析
+新规允许在特定情况下豁免环境法规,虽能加速商业航天项目落地,但可能引发生态与安全争议。目前美国交通部指出,现有流程中重复性评估导致的延误已成行业痛点。未来企业需在效率与合规性间寻求平衡,而政策松绑或将促使更多资本涌入商业航天赛道,加剧卫星发射、太空旅游等领域的竞争。
+三、商业航天市场加速:发射频率与企业战略调整趋势
+通过简化审批,FAA预期将释放商业航天市场的潜在活力。2026年数据显示,企业准备完整申请材料的时间成本长期高于法定审查周期,新规实施后,发射频率可能显著提升。竞争焦点将从行政合规转向技术创新与服务差异化,例如火箭回收效率、卫星网络部署速度等关键指标,进一步重塑行业竞争格局。
+政策驱动下的行业重构与长期挑战
+FAA新规通过豁免环境法规、优化审批流程,为商业航天企业提供了更灵活的运营空间,短期内将加速发射活动商业化进程。然而,长期来看,如何在效率与环境责任间保持平衡,以及如何防范市场过度集中带来的垄断风险,仍是行业参与者与监管机构",报告大厅,Public web,https://www.chinabgao.com/finance/us/322235.html,A_Active,https://m.chinabgao.com/finance/us/322235.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 2 reports into one event atom: commercial_space_license_report. Origin ID: W31-P043.,Pass_C_supplemental
+W31-E039,2026-07-29,2026-07-29,China,Technology,Public scan,,2026-2031年中国人工智能高性能计算芯片行业发展趋势分析与未来投资研究报告_报告大厅,"第一章
+2021-2025年中国人工智能高性能计算芯片行业发展概述
+第一节
+人工智能高性能计算芯片行业发展情况概述
+一、人工智能高性能计算芯片行业相关定义
+二、人工智能高性能计算芯片特点分析
+三、人工智能高性能计算芯片行业基本情况介绍
+四、人工智能高性能计算芯片行业经营模式
+五、人工智能高性能计算芯片行业需求主体分析
+第二节
+中国人工智能高性能计算芯片行业生命周期分析
+一、人工智能高性能计算芯片行业生命周期理论概述
+二、人工智能高性能计算芯片行业所属的生命周期分析
+第三节
+人工智能高性能计算芯片行业经济指标分析
+一、人工智能高性能计算芯片行业的赢利性分析
+二、人工智能高性能计算芯片行业的经济周期分析
+三、人工智能高性能计算芯片行业附加值的提升空间分析
+第二章
+2021-2025年全球人工智能高性能计算芯片行业市场发展现状分析
+第一节
+全球人工智能高性能计算芯片行业发展历程回顾
+第二节
+全球人工智能高性能计算芯片行业市场规模与区域分布情况
+第三节
+亚洲人工智能高性能计算芯片行业地区市场分析
+一、亚洲人工智能高性能计算芯片行业市场现状分析
+二、亚洲人工智能高性能计算芯片行业市场规模与市场需求分析
+三、亚洲人工智能高性能计算芯片行业市场前景分析
+第四节
+北美人工智能高性能计算芯片行业地区市场分析
+一、北美人工智能高性能计算芯片行业市场现状分析
+二、北美人工智能高性能计算芯片行业市场规模与市场需求分析
+三、北美人工智能高性能计算芯片行业市场前景分析
+第五节
+欧洲人工智能高性能计算芯片行业地区市场分析
+一、欧洲人工智能高性能计算芯片行业市场现状分析
+二、欧洲人工智能高性能计算芯片行业市场规模与市场需求分析
+三、欧洲人工智能高性能计算芯片行业市场前景分析
+第六节
+2026-2031年世界人工智能高性能计算芯片行业分布走势预测
+第七节
+2026-2031年全球人工智能高性能计算芯片行业",报告大厅,Public web,https://m.chinabgao.com/report/21120466.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P063.,Pass_C_supplemental
+W31-E044,2026-07-29,2026-07-29,China,Technology,Public scan,,北京航空航天大学人工智能学院未来创新研究空间基础教研平台项目中标公告-北京航空航天大学招标采购中心,"北京航空航天大学人工智能学院未来创新研究空间基础教研平台项目中标公告
+发布时间:2026-07-29
+点击次数:
+发布人:",北京航空航天大学招标采购中心,Public web,https://zbcg.buaa.edu.cn/info/1043/62066.htm,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P068.,Pass_C_supplemental
+W31-E054,2026-07-29,2026-07-29,China,Technology,Public scan,,China's Chengdu forges space computing hub amid national orbital push-Xinhua,"A
+Long
+March-2D
+carrier
+rocket
+carrying
+a
+space
+computing
+satellite
+constellation
+blasts
+off
+from
+the
+Jiuquan
+Satellite
+Launch
+Center
+in
+northwest
+China
+on
+May
+14,
+2025.
+(Photo
+by
+Wang
+Jiangbo/Xinhua)CHENGDU,
+July
+29
+(Xinhua)
+--
+As
+the
+global
+artificial
+intelligence
+(AI)
+race
+reshapes
+the
+computing
+landscape,
+China
+is
+accelerating
+the
+deployment
+of
+orbital
+computing
+infrastructure,
+with
+the
+southwestern
+hub
+of
+Chengdu
+emerging
+as
+a
+key
+engine
+in
+the
+country's
+ambitious
+push
+to
+build
+a
+next-generation
+space-based
+AI
+network.Given
+that
+terrestrial
+data
+centers
+hit
+physical
+limits
+in
+energy
+and
+land,
+this
+strategic
+pivot
+aims
+to
+break
+through
+these
+bottlenecks
+and
+provide
+a
+complementary
+computing
+dimension.
+Space-based
+platforms
+offer
+inexhaustible
+solar
+power,
+vacuum
+cooling,
+and
+global
+cov",Xinhuanet,Public web,https://english.news.cn/20260729/be25ea9a0d0c47ca8fc867f69b841e19/c.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P082.,Pass_C_supplemental
+W31-E057,2026-07-29,2026-07-29,China,Policy,Public scan,,2026-07-29 新闻晚报_行业资讯_资讯_航天新域,"热点资讯7月28日,中科宇航联合中科院力学所共建重点实验室,打造双科研平台;力鸿二号、三号分步试飞,自研变推力发动机支撑可重复使用运载器研发。SpaceX
+确认派遣船只打捞在印度洋漂浮的星舰
+S40,远洋打捞难度较大;用于第
+14
+次试飞的
+S41、B21
+测试顺利,有望月底开展发射任务。国内资讯企业资讯超捷股份全资子公司上海超捷空天科技完成工商注册,注册资本7000万元,业务涵盖火箭发射设备及发动机研发制造,标志着其向商业航天核心装备领域延伸。7
+月
+27
+日,穿越者载人航天发布采购预公告,公开遴选商业载人发射火箭合作伙伴,计划采购总计
+30
+次发射服务,助力亚轨道载人飞行商业化落地。深圳先登航天
+PZ-130
+液氧煤油发动机针栓式燃气发生器试车圆满成功,同时规划
+270
+吨液氧甲烷发动机,台州总装基地将于
+9
+月投产。投资资讯比羿激光完成数千万元新一轮融资,由涌铧投资领投,资金将用于星载激光通信产品产能建设,企业是巨型通信星座核心供应商。行业资讯据海阳发布消息,捷龙三号遥十二火箭计划
+8
+月
+5
+日从海阳近海海上发射,火箭由东方航天港总装出厂,是捷龙三号又一次海上发射任务。湖南商业航天(航空)创新联盟在长沙揭牌成立,同期举办全国商业航天创新创业大赛决赛,15个项目入围。航天五院西安分院推出多款轻量化小型星载铷钟,最轻仅
+1
+公斤,兼顾高精度与低成本,多款型号已实现批量交付、在轨稳定运行,适配商业卫星市场需求。千帆和GW星座核心配套企业格思信息启动增资扩股,拟引入战略投资者,2025年营收2.88亿元,净利润6367万元。国际资讯美国Rocket
+Lab获美国太空军2.66亿美元合同,将执行12次亚轨道发射以支持导弹防御测试,首飞不早于2026年底。瑞士意法半导体2026年Q2净收入34.9亿美元,同比增长26%%,AI数据中心和低轨卫星通信需求为主要增长动力。",www.spacenew.cn,Public web,http://www.spacenew.cn/news/show-92523.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P085.,Pass_C_supplemental
+W31-E081,2026-07-29,2026-07-29,Global,Policy,Public scan,,欧盟启动AI超级工厂建设计划 公共资金支持达100亿欧元 _ 东方财富网,"欧盟已启动招标,邀请企业申请建设最多七座由公共资金支持的人工智能数据中心,以推进其减少对海外技术依赖的战略。
+欧盟委员会周四(7月30日)在官网表示,这些设施被称为“AI超级工厂”(AI
+Gigafactories),将获得欧盟及成员国共计100亿欧元(约115亿美元)的公共资金支持,并有望撬动至少200亿欧元的私人投资。
+欧委会表示,企业和投资者可竞标两类项目:
+四座标准AI超级工厂:每座至少配备7.5万颗AI芯片,最高可获得5亿欧元公共资金支持;
+三座较大的AI超级工厂:每座至少配备10万颗AI芯片,最高可获得约10亿欧元公共资金支持。
+首批项目预计于2027年第一季度启动建设。由于后续扩建所需资金仍在谈判中,整个项目将分两个阶段实施。
+欧盟将这些AI超级工厂视为实现“科技主权”战略的重要支柱,希望借此减少对硅谷关键技术服务的依赖。
+欧盟委员会还表示,为扶持欧洲本土初创企业和成长型科技公司,部分采购流程可能仅向欧洲企业开放。
+欧委会同时强调,根据欧美贸易协议,欧盟已与AMD、英伟达和高通签署意向书,以确保参与竞标的联合体能够顺利获得所需AI芯片等关键硬件。
+此次启动数据中心项目招标,是欧盟区域科技战略的最新一步。但要指出的是,目前真正落实到位的公共资金仅有20亿欧元,其余资金仍需在欧盟下一轮预算中获得批准。
+该计划一直受到推进缓慢以及资金规模不足的困扰,与美国、亚洲及中东部分地区的大规模投资相比仍相形见绌。有数据显示,美国今年4月数据中心建设支出就已超过500亿美元。
+欧盟早在2025年便首次公布AI数据中心计划,当时承诺将“调动”200亿欧元资金,但并未明确公共资金与私人资本各自承担多少比例——这种不确定性曾引发有意参与竞标企业的不满。(文章来源:财联社)",东方财富网财经频道,Public web,https://finance.eastmoney.com/a/202607303827079612.html,A_Active,https://t.cj.sina.com.cn/articles/view/2868676035/aafc85c302001tsq4?finpagefr=p_104;https://www.toutiao.com/article/7668333041709859347/;https://news.qq.com/rain/a/20260730A0C05700;https://wap.eastmoney.com/a/202607303827079612.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作提供跨国算力、数据中心或商业航天政策的供给侧参照，需核验资金和执行主体。,用于比较不同地区在算力基础设施、公共资金与商业航天组织方式上的落地效率。,跟踪正式预算、项目遴选、基础设施投运及企业订单转化。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 5 reports into one event atom: eu_ai_gigafactory. Origin ID: W31-P116.,Pass_C_supplemental
+W31-E097,2026-07-29,2026-07-29,China,Financing,semiconductor,华辰芯光,华辰芯光完成B轮融资,半导体激光器芯片研发制造商；原始金额：超亿元；投资方：同创伟业，张江科投，洪山资本；人民币换算：N/A；美元换算：N/A。,投资界,行业媒体,https://news.pedaily.cn/202607/566972.shtml,A_Active,https://www.qcc.com/product/6742004280c24c599f9bffcb3771e153.html,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F135.,Manual_Import
+W31-E098,2026-07-29,2026-07-29,China,Financing,semiconductor,兴豪通信,兴豪通信完成A轮融资,集成电路系统提供商；原始金额：-；投资方：思存科技；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/bb380b6d914a4f05b4c7ef8cc7705a3a.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F136. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E099,2026-07-29,2026-07-29,China,Financing,semiconductor,天行微,天行微完成A轮融资,高性能传感器芯片供应商；原始金额：-；投资方：中财融商；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/07e04211e4a697840a71a9eeb5473ed3.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F137. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E100,2026-07-29,2026-07-29,China,Financing,semiconductor,黑玉科学,黑玉科学完成Pre-A+轮融资,类器官智能设备及芯片研发商；原始金额：-；投资方：谦石高新创投，山东科创，景信创投；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/1efcf861f2a34682a198f037357aaff7.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F138. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B. Stage 4 financing 30% cap compression.",Manual_Import
+W31-E101,2026-07-29,2026-07-29,China,Financing,ai,东方天算,东方天算完成天使轮融资,天基算力基础设施服务提供商；原始金额：-；投资方：讯飞创投，飞凡创投，孚腾资本，菡源资产，上饶市常鑫十号企业管理中心（有限合伙），嘉兴稷芯企业管理合伙企业（有限合伙），厦门市集美区睿高投资合伙企业（有限合伙）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/c483e8f8871e1a136f2f631f636a362a.html,Manual,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：AI算力/AI基础设施；原始币种 未披露。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F139. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-S003,2026-07-29,2026-07-29,US,Policy,semiconductor,U.S. Department of Commerce / NIST,Commerce signs seven CHIPS R&D letters of intent totaling $874 million,"The planned incentives cover co-packaged optics, AI memory, advanced packaging, compute architectures, substrates and photonic interconnects; final awards remain subject to diligence and approval.",NIST,Government,https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-S004,2026-07-29,2026-07-29,US,Policy,space_technology,NASA,NASA awards 18 NIAC studies for early-stage aerospace concepts,"NASA awarded $3.2 million across 18 Phase I studies, including concepts for space situational awareness, distributed spacecraft and advanced exploration systems; these are studies, not approved missions.",NASA,Government,https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-S007,2026-07-29,2026-07-29,US,Policy,space_science,NASA,NASA schedules coordinated eclipse research and public data coverage for August,NASA set a coordinated observation plan using high-altitude aircraft and student balloon teams to study the solar corona and atmospheric response during the August eclipse.,NASA,Government program,https://www.nasa.gov/news-release/nasa-sets-coverage-for-august-northern-hemisphere-total-solar-eclipse/,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-S012,2026-07-29,2026-07-29,US,Technology,space_science,NASA Curiosity,Curiosity identifies a large field of honeycomb textures on Mars,"NASA reported a newly imaged field of polygonal fractures and associated chemistry measurements, extending the rover's evidence set on ancient Martian water processes.",NASA,Government,https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/,S_Core,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E004,2026-07-30,2026-07-30,China,Technology,Public scan,,"算力的下一站,在太空:三体计算星座加速组网,离千星还有多远?|活力中国调研行_腾讯新闻","财联社7月30日讯(记者
+汪斌)首发12颗计算卫星完成整轨组网一年多后,由之江实验室发起,全球合作伙伴共建的“三体计算星座”又有新进展。近日,财联社记者在“活力中国调研行”浙江主题采访活动中从之江实验室获悉,随着近期又有两颗卫星发射升空,星座组网进程加速推进。目前卫星搭载的AI模型已进入在轨验证阶段,预计约三个月后取得阶段性结果。这也是浙江探索太空计算的一条新路径。依托数字经济、民营制造业和新型研发机构,浙江正在把芯片、卫星、火箭、无人机和数据应用串成一条链。太空AI由此越过概念展示,开始检验多星协同和行业落地。不过,技术上星不等于商业闭环跑通,眼下这一赛道仍处于工程验证和需求培育期。之江实验室调研现场
+财联社记者/摄数据下不来,算力先上去为什么要把人工智能送入太空?之江实验室计算星座科研任务总体部技术总师李超对财联社记者表示,当前,卫星仍主要遵循“采集数据、传回地面、集中处理”的传统模式,太空数据的价值没有被充分释放。现实瓶颈首先是数据下不来。之江实验室三体计算星座团队告诉财联社记者,受星地通信带宽限制,当前在太空产生的数据约有90%难以回传;即使能够下传,其中也可能夹杂被云层遮挡等无效遥感影像。低轨卫星约一个半小时绕地球一圈,经过地面站上空的通信窗口只有数分钟,一次遥测或遥感任务的数据回传可能需要约一小时,难以满足火灾、洪水等应急场景的时效要求。数据规模还在增长。据公开报道,以2032年前后全球约3000颗遥感卫星为例测算,其每天可能产生约300PB数据。这并非统一的行业统计,但说明了同一个问题:如果所有原始数据都先传回地面,带宽和地面算力将同时承压。三体计算星座给出的方案是“算力上天、卫星互联、模型上天”。依托互联星座的太空AI模型能力,数据能在轨进行处理、分析、判别。地面用户收到的将不再只是一幅待分析的影像,而可能是火点位置、受灾面积或林地变化等具体结果。2025年",腾讯网,Public web,https://news.qq.com/rain/a/20260730A0C7C300,A_Active,https://t.cj.sina.com.cn/articles/view/2868676035/aafc85c302001tsqi?finpagefr=p_104;https://www.toutiao.com/article/7668339501592232483/;https://c.m.163.com/news/a/L34EK0P105198CJN.html;https://m.163.com/dy/article/L34EK0P105198CJN.html,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 5 reports into one event atom: three_body_report. Origin ID: W31-P004.,Pass_C_supplemental
+W31-E006,2026-07-30,2026-07-30,China,Technology,Public scan,,AI在太空能干点啥? - 新京报,"你见过把AI算力送上太空的操作吗?本期探访之江实验室,解锁三体计算星座从地面到深空,智能计算还能怎么改变世界?评论区聊聊你的看法",新京报网,Public web,https://www.bjnews.com.cn/detail/1785383985129472.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P008.,Pass_C_supplemental
+W31-E028,2026-07-30,2026-07-30,China,Technology,Public scan,,“我们这一批商业航天人有信心 有能力 更有决心” 落实国家战略 扛起行业发展重任_北京时间,"#新时代
+新担当
+新作为#商业航天被确立为新型支柱性产业,这是国家给出的战略方向。这也要求国内商业航天企业沉下心打磨产品,依靠航天技术赋能各行各业。我们这一代商业航天从业者,有信心、有决心落实国家战略,扛起行业发展重任。
+#新时代
+新担当
+新作为#商业航天被确立为新型支柱性产业,这是国家给出的战略方向。这也要求国内商业航天企业沉下心打磨产品,依靠航天技术赋能各行各业。我们这一代商业航天从业者,有信心、有决心落实国家战略,扛起行业发展重任。
+#新时代
+新担当
+新作为#商业航天被确立为新型支柱性产业,这是国家给出的战略方向。这也要求国内商业航天企业沉下心打磨产品,依靠航天技术赋能各行各业。我们这一代商业航天从业者,有信心、有决心落实国家战略,扛起行业发展重任。
+#新时代
+新担当
+新作为#商业航天被确立为新型支柱性产业,这是国家给出的战略方向。这也要求国内商业航天企业沉下心打磨产品,依靠航天技术赋能各行各业。我们这一代商业航天从业者,有信心、有决心落实国家战略,扛起行业发展重任。",北京时间,Public web,https://item.btime.com/46ubu4ikp6880nbj3i7op9smi3t,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P052.,Pass_C_supplemental
+W31-E035,2026-07-30,2026-07-30,China,Technology,Public scan,,"SpaceX专题研究报告:以低成本入轨能力打造供给侧壁垒,构建轨道发射、低轨卫星通信与AI基础设施一体化平台(40页)-并购家","航天业务(Space)需求分为外部客户付费任务+内部星座部署消耗。航天业务收入主要来自外部的商业及政府客户发射、航天器开
+发和任务服务;内部航天需求(如Starlink卫星部署)不确认为收入,将发射成本资本化至卫星资产,对互联业务(Connectivity)
+/AI资产建设具有基础设施价值。
+外部客户需求:商业航天活动持续增长。美国联邦航空管理局(FAA)预计美国商业航天授权运营次数将从FY2026的177-225次提升
+至FY2034的259-566次,增长来源包括卫星部署与替换、在轨服务、月地空间活动、火星探索和太空旅游等。美国卫星产业协会
+(SIA)
+披露
+2025
+年商业采购发射次数达到
+296
+次,同比增长
+32%,显示商业卫星和多元太空任务持续推升外部发射需求。
+内部星座部署需求:Starlink升级带来持续入轨运力消耗。Starlink卫星组网需伴随补星、容量升级和代际切换,将持续消耗发射能
+力。SpaceX已向国际电信联盟(ITU)提交第一代、第二代Starlink星座申请共计发射约4.2万颗卫星,截至2026年3月底SpaceX运营
+超9600颗活跃的Starlink宽带与通信卫星,星座扩容预期明确。
+文件下载
+资源名称:SpaceX专题研究报告:以低成本入轨能力打造供给侧壁垒,构建轨道发射、低轨卫星通信与AI基础设施一体化平台(40页)
+解压密码:",并购家行业报告网,Public web,https://ipoipo.cn/post/27331.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P059.,Pass_C_supplemental
+W31-E065,2026-07-30,2026-07-30,China,Technology,Public scan,,史上最大IPO中SpaceX具体何时上市?|美国证券交易委员会|太空探索技术公司|埃隆·马斯克|证券相关基金|纳斯达克基金_新浪新闻,"SpaceX于2026年6月12日正式在纳斯达克挂牌上市,创下全球史上最大IPO纪录,但上市后股价经历剧烈波动,短短一个月内从高点腰斩,引发市场对高估值泡沫的广泛讨论。
+一、SpaceX上市时间与IPO规模
+1.
+上市时间表
+SpaceX的上市进程经过多轮推进,最终在2026年6月完成挂牌。
+2025年12月,SpaceX向员工通报正在筹备IPO。
+2026年4月1日,SpaceX向SEC秘密提交S-1注册文件。
+2026年5月20-21日,SpaceX正式向SEC公开提交S-1招股书,确认上市计划。
+2026年6月11日确定发行价,6月12日正式在纳斯达克开始交易。
+2.
+IPO核心数据
+SpaceX此次IPO创下多项历史纪录,具体关键数据如下。
+数据项具体信息股票代码SPCX发行价每股135美元发行规模约5.556亿股募资总额约750亿美元(基础募资),超额配售后达860亿美元IPO估值约1.75-2万亿美元首日开盘价174美元,较发行价高开29%首日收盘价160.95美元,收涨约19%历史地位超越沙特阿美2019年294亿美元纪录,成为全球史上最大IPO
+二、上市后的股价表现
+1.
+初期急涨与快速回落
+SpaceX上市后股价经历了典型的“过山车”行情。
+上市头三个交易日,股价从135美元的发行价一路冲高至225.64美元的历史高点,总市值一度逼近3万亿美元。
+短短三天后,股价开始剧烈回调,6月22日单日暴跌16.4%,单日市值蒸发约4000亿美元。
+后续走势持续疲软,从高点到7月初已下跌约三分之一。
+2.
+跌破发行价与市值腰斩
+截至2026年7月底,SpaceX的股价表现已从火爆转为低迷。
+7月15-16日,SpaceX股价首次跌破135美元的IPO发行价,盘中最低触及132.75美元。
+7月27日,股价跌至113.5美元,较历史高点回撤约49.7%,市值降至约1.",新浪网,Public web,https://k.sina.com.cn/article_7879776490_1d5abd8ea068019d7q.html,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P095.,Pass_C_supplemental
+W31-E093,2026-07-30,2026-07-30,China,Financing,semiconductor,天曜新材料,天曜新材料完成A轮融资,半导体材料碲锌镉研发商；原始金额：-；投资方：国元资本，沈阳智核医疗科技有限公司；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/7489d9f3cc195756ff30339ef530ac52.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F131. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E094,2026-07-30,2026-07-30,China,Financing,semiconductor,神芯科技,神芯科技完成天使+轮融资,植入式脑机接口芯片技术研发商；原始金额：数千万元；投资方：中赢创投，元航资本，天鹰资本，启迪之星，水木清华校友种子基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/e8b107ac044f91f1fbeffd640a12fa01.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 CNY。 Origin ID: W31-F132. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E095,2026-07-30,2026-07-30,China,Financing,semiconductor,悦谱半导体,悦谱半导体完成天使+轮融资,半导体设备供应商；原始金额：-；投资方：景祥资本；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/0a78db23cd6346bfa31e97f9957a3c70.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F133. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E115,2026-07-30,2026-07-30,Global,Financing,commercial_space,K2 Space,K2 Space完成D轮融资,卫星技术研发商；原始金额：5亿美元；投资方：Kleiner Perkins，Iconiq Capital，谷歌资本，光速全球，Altimeter Capital，Spark Capital，ARK Investment Management，T.Rowe Price；人民币换算：3394700000.00；美元换算：500000000.00。,企查查（境外）,Manual financing import,https://www.qcc.com/product/70458d420cd52aa8bc680dd84efa5bbb.html,Manual,,4,4,4,4.00,B,相关性4/5、产业影响4/5、新颖性4/5；加权4.00。 未获独立公开来源确认，证据置信度上限为B级。,Brief,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,"来自企查查（境外）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 USD。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F153. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E116,2026-07-30,2026-07-30,Global,Financing,semiconductor,Eliyan,Eliyan完成C轮融资,半导体互连器研发商；原始金额：1.45亿美元；投资方：Cisco，Lumentum；人民币换算：984463000.00；美元换算：145000000.00。,企查查（境外）,Manual financing import,https://www.qcc.com/product/5ffce0f672a3a4ae2412d1cd3f066cc1.html,Manual,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境外）清单 + 行业归属：半导体核心环节；原始币种 USD。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F154. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E009,2026-07-31,2026-07-31,China,Policy,Public scan,,赋能太空AI创新 共同应对全球挑战 三体计算星座:让算力乘着卫星上天_新闻频道_中国青年网,"“今天,我们不必急于回答(三体计算)星座的应用问题。基础设施最核心的价值,在于它留给别人巨大的创新空间。”在近日“活力中国调研行”主题采访活动中,中国工程院院士、之江实验室主任王坚这样说。
+三体计算星座是之江实验室发起、全球伙伴参与共建的千星规模太空计算星座,通过“算力上天、卫星互联、模型上天”,把人工智能送上太空,旨在打造赋能太空人工智能创新的全球科技公共产品,推动太空科研范式变革,解决人类面临的共性挑战。据介绍,位于杭州的之江实验室坚守非营利性新型研发机构定位,不生产卫星、不与市场主体争利,而是以科技创新为支点,撬动商业航天、人工智能等领域的多元创新主体深度参与。
+7月24日,力箭一号遥十五运载火箭成功将智能计算卫星“吉天星A-04星”(“云尖沐曦号”卫星)及智能遥感卫星“西光贰号03星”(星火传明气象卫星)发射入轨。截至目前,三体计算星座已部署了20个人工智能模型,支持深空探测、协作水资源测绘、大气监测、自主野火监测等应用场景。三体计算星座组网进程加速推进,多元主体共商共建共享共发展释放的创新聚变效能正在加速显现。
+计算星座科研任务总体部技术总师李超介绍,卫星搭载了之江实验室自研的具身智能卫星模型,可对卫星任务执行、数据处理及指令下发等各环节进行智能管控,使卫星具备健康自主管理、单星及多星任务的自主规划和执行能力,实现星座从“单星智能”向“多星协同智能”管控的跃升。
+例如,传统气象预报依赖地面站、探空气球和气象卫星采集数据,面临观测盲区多、数据更新慢等挑战,对突发性局地天气的捕捉能力有限。此次发射的星火传明气象卫星部署了气象模型,将推动气象预报生成方式发生转变――卫星在轨直接处理数据并产出预报,仅下传轻量化预报结果,可将预报时间从小时级缩短至分钟级。
+李超介绍,三体计算星座部署的各模型已成功执行多次在轨任务。2025年11月12日,三体计算星座在常规任务拍摄地表影像",中国青年网,Public web,https://news.youth.cn/gn/202607/t20260731_16792379.htm,A_Active,https://www.sohu.com/a/1056909268_119038?scm=10004.52990_15-300008.0.0-0-0-0-0.1101.topic:52990:110041.0.9.a2_3X307,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 2 reports into one event atom: three_body_youth_report. Origin ID: W31-P014.,Pass_C_supplemental
+W31-E022,2026-07-31,2026-07-31,Global,Policy,Public scan,,广东省科学技术厅关于征求2026~2027年度广东省重点领域研发计划“低空与商业航天”专项申报指南意见的通知_报告网,"各有关单位:
+为深入贯彻党的二十大和二十届历次全会精神以及习近平总书记视察广东重要讲话、重要指示精神,按照省委、省政府关于国民经济和社会发展“十五五”规划及科技强省建设具体部署,落实省委、省政府关于科技支撑低空经济、商业航天等产业高质量发展的工作要求,加快构建产业科技互促双强的现代化产业体系。经调研论证,组织编制了《2026~2027年度广东省重点领域研发计划“低空与商业航天”专项申报指南(征求意见稿)》(以下简称“申报指南”,见附件1)。
+为提高项目组织的公平性、科学性和精准性,现将申报指南向社会征求意见。有关修改意见和建议请按照附件2格式填写,并以单位名义于2026年8月7日前通过本网站提交。我厅将会同有关部门、专业机构和领域专家,认真研究意见建议,修改完善指南并适时向社会发布。征集到的意见将不再逐一反馈、回复。",报告网,Public web,https://www.baogao.com/zhengce/a2641a59-1cab-470d-8bd7-ba457593e889.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作提供跨国算力、数据中心或商业航天政策的供给侧参照，需核验资金和执行主体。,用于比较不同地区在算力基础设施、公共资金与商业航天组织方式上的落地效率。,跟踪正式预算、项目遴选、基础设施投运及企业订单转化。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P045.,Pass_C_supplemental
+W31-E031,2026-07-31,2026-07-31,China,Policy,Public scan,,2026-07-31 新闻晚报_行业资讯_资讯_航天新域,"热点资讯据统计,2026
+上半年海外商业航天发生
+52
+起融资,披露总额约
+65.03
+亿美元;榜单梳理十大融资头部企业,业务覆盖
+SAR
+卫星、在轨服务、商业空间站、可复用火箭等赛道。国内资讯投资资讯新成立民营火箭企业经纬火箭完成
+1
+亿元天使轮融资,采取跳级路线直接研发千吨级运载火箭,规划两年半实现首箭首飞,布局重载可复用火箭谱系。行业资讯中国卫星导航系统管理办公室
+31
+日通报,北斗卫星导航系统全面完成在轨升级。系统将持续稳定运行,丰富导航技术手段,朝着
+2035
+年建成综合时空体系目标推进。我国两大低轨星座加速组网,政策与资本持续助力卫星互联网发展,但行业仍面临应用场景不足、商业模式待突破等难题,亟需打通产业商业闭环。国际资讯美国NASA确认罗曼太空望远镜定于8月30日搭乘猎鹰重型火箭发射,较原计划提前九个月;航天器将奔赴L2点开展巡天观测,与地面天文台形成观测互补。亚马逊未能按期达成柯伊伯星座阶段性组网目标,FCC
+驳回其延期申请,作出临时剥夺频谱优先权、不予退还保证金等处置,但保留其整体发射许可。欧洲LATAM
+航空集团与
+SES
+达成合作,将为超
+60
+架新机型搭载多轨道机上联网服务,依托新型天线升级客舱网络,持续完善拉美航空出行服务体系。",www.spacenew.cn,Public web,http://www.spacenew.cn/news/show-93115.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P055.,Pass_C_supplemental
+W31-E036,2026-07-31,2026-07-31,China,Technology,Public scan,,芯擎科技上半年融资超2亿美元 加速车载芯片全球规模化交付-上海证券报·中国证券网,"芯擎科技上半年融资超2亿美元
+加速车载芯片全球规模化交付凡本报注明“来源:上海证券报”、“来源:上海证券报·中国证券网”和“来源:上海证券报微信公众号”的所有原创作品,著作权均属于本报所有。未经本报书面授权,任何组织不得以任何方式加以使用,包括转载、摘编、复制或建立镜像,本报保留追责的权利。如需获得授权请联系本报版权运营中心:021-38967792,bq@cnstock.com。",上海证券报,Public web,https://www.cnstock.com/commonDetail/753459,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P060.,Pass_C_supplemental
+W31-E049,2026-07-31,2026-07-31,China,Technology,Public scan,,China startet neue Testsatelliten für Kommunikationstechnologie - Xinhua | German.news.cn,"TAIYUAN,
+30.
+Juli
+2026
+(Xinhuanet)
+--
+Eine
+modifizierte
+Trägerrakete
+vom
+Typ
+„Langer
+Marsch-6“,
+die
+Testsatelliten
+für
+neue
+Kommunikationstechnologien
+befördert,
+hebt
+vom
+Weltraumbahnhof
+Taiyuan
+Satellite
+Launch
+Center
+in
+der
+nordchinesischen
+Provinz
+Shanxi
+ab,
+30.
+Juli
+2026.
+Die
+Satelliten
+wurden
+um
+9:00
+Uhr
+(Ortszeit
+Beijing)
+gestartet
+und
+erreichten
+erfolgreich
+ihre
+vorgesehenen
+Umlaufbahnen.Sie
+werden
+hauptsächlich
+für
+Dienste
+wie
+Satellitenkommunikation,
+Rundfunk
+und
+Fernsehen
+sowie
+Datenübertragung
+eingesetzt
+und
+werden
+zudem
+entsprechende
+Technologietests
+und
+-verifizierungen
+durchführen.Der
+Start
+war
+die
+660.
+Flugmission
+einer
+Trägerrakete
+vom
+Typ
+„Langer
+Marsch“.
+(Foto
+von
+Wang
+Yapeng/Xinhua)(Foto
+von
+Wang
+Yapeng/Xinhua)(Foto
+von
+Wang
+Yapeng/Xinhua)",新华网,Public web,https://german.news.cn/20260731/a13b324fd2264dec86fb8411d810ab03/c.html,A_Active,https://sdxw.iqilu.com/w/article/YS0yMS0xNzMyNzAzNA.html;https://slstnews.xjtvs.com.cn/News/Article?ArticleId=4303183&NewspaperGroupId=0;https://www.xkb.com.cn/articleDetail/513372;https://www.tmtpost.com/nictation/8084737.html;https://dzrb.dzng.com/general/0/NEWS3572829BPFZQSLPBSHTE;https://www.toutiao.com/article/7668139165925655083/;https://xinwen.bjd.com.cn/content/s6a6ab175e4b03fa51a823b2e.html;https://www.thepaper.cn/newsDetail_forward_33684240;https://news.china.com/social/1007/20260731/49645458.html;https://3g.china.com/act/news/1007/20260731/49645458.html;https://www.jiemian.com/article/14848067.html;https://www.toutiao.com/article/7668132657187832372/;https://news.ifeng.com/c/8vB2VMkVovY;https://news.sina.com.cn/c/2026-07-30/doc-inikpxkr5226018.shtml;https://slstnews.xjtvs.com.cn/share/ArticleShare?ArticleId=4303183;https://xinwen.bjd.com.cn/content/s6a6abedfe4b0e45f3fd5611e.html;https://french.news.cn/20260730/0a3883ed9ab74d9b8174974d09af95d0/c.html;https://www.sohu.com/a/1056652458_115376?scm=10004.52990_15-300008.0.0-0-0-0-0.1101.topic:52990:110041.0.9.a2_3X307,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 19 reports into one event atom: comsat_27_launch. Origin ID: W31-P073.,Pass_C_supplemental
+W31-E086,2026-07-31,2026-07-31,China,Policy,Public scan,,"2026全球数据中心基础设施大会首发|院士领衔,100+头部企业已确认,500人齐聚上海_凤凰网","01
+大会背景2026年,全球AI算力需求进入指数级增长通道。预计2030年国内AI算力芯片市场规模将突破1.6万亿元,年复合增长率达50%。伴随《AIDC基础设施规范》预发布,数据中心建设全面迈入标准化新阶段。单机柜功率密度已跃升至20kW以上,远期向兆瓦级演进,驱动供电、散热、运维体系系统性重构。一个万卡级智算集群的配电基础设施投入可达数十亿元,“算电协同”从概念走向工程实践。上海智能算力规模已突破120EFLOPS,徐汇“模速空间”集聚300余家大模型企业,全区AI企业超1700家,大模型备案占全市六成以上。AICC
+2026全球数据中心基础设施大会定于2026年10月16日在上海举办,以「主论坛+双技术分论坛+VIP闭门产业对接会」架构,聚焦数据中心全生命周期建设、能源架构与智能化运维,打造立足上海、辐射长三角的产业交流与项目落地平台。02
+大会概览•名称:AICC
+2026全球数据中心基础设施大会•时间:2026年10月16日(周五)•地点:上海•规模:500+人•展区:800m2+•形式:主论坛
++
+建设与运维分论坛+
+配电与能源分论坛+
+VIP产业对接座谈会(闭门)03
+大会亮点01
+100+产业链头部企业确认参会截至目前,已有100余家数据中心产业链企业确认参会,覆盖数据中心建设和运维、设计、EPC总包、算力芯片、高密度配电、固态变压器、液冷散热、检测认证等全产业链环节。三大运营商、字节跳动、小红书、百度智能云、腾讯、阿里、道达尔能源、埃克森美孚、陶氏化学、英维克、同飞股份、科华数据、SGS、TUV莱茵等行业龙头均在列。参会收益:不用辗转多场展会,一次性对接业主、EPC、设备、方案等全品类供应商。02
+双技术论坛:建设运维与配电能源•“数据中心建设与运维分论坛”覆盖工程产品化、模块化交付、建设与运维一体化设计、水质管理、漏液监测、设备维护策略、液冷系统架构设",品牌主场,Public web,https://biz.ifeng.com/c/8vDNLgLFus1,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P124.,Pass_C_supplemental
+W31-E087,2026-07-31,2026-07-31,China,Financing,commercial_space,馥昶空间,馥昶空间完成B+轮融资,卫星电源系统解决方案提供商；原始金额：-；投资方：川发引导基金，中信新未来投资，鸿富资产；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/00ec9a3dafe1895956ff0577b510c7a1.html,Manual,,4,3,4,3.70,B,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。 未获独立公开来源确认，证据置信度上限为B级。,Brief,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,"来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F125. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E089,2026-07-31,2026-07-31,China,Financing,semiconductor,必博半导体,必博半导体完成A+轮融资,5G工业物联及车联网芯片厂商；原始金额：-；投资方：武汉高科产投，成都技转创投，传化集团，新化股份，探路者，科发资本，建德国投，个人（华灿桥）；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/18de9310e801a64879294b918b13cecf.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F127. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E090,2026-07-31,2026-07-31,China,Financing,commercial_space,应龙卫星,应龙卫星完成A轮融资,民用遥感卫星服务提供商；原始金额：-；投资方：国核投资；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/cbf2bd07e294a6006119a8f54c8f5ce0.html,Manual,,4,3,4,3.70,B,相关性4/5、产业影响3/5、新颖性4/5；加权3.70。 未获独立公开来源确认，证据置信度上限为B级。,Brief,资本继续流向运载、卫星和空间基础设施，但披露金额不等同于技术或商业验证。,用于观察商业航天供给侧扩张、估值锚和潜在合作标的。,跟踪资金到账、产品里程碑、发射计划和后续客户合同。,"来自企查查（境内）清单 + 行业归属：商业航天/卫星/火箭/遥感；原始币种 未披露。 Stage 3三类公开来源查询均已执行；未找到可确认本轮融资且可解析的一手或可信媒体页面，保留企查查为主数据来源。 Origin ID: W31-F128. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E091,2026-07-31,2026-07-31,China,Financing,semiconductor,伏羲半导体,伏羲半导体完成天使+轮融资,国产化服务器计算机管理芯片服务商；原始金额：-；投资方：深圳联道资产；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/bb79f9e800f998afe81ea71a1adedfbe.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F129. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-E092,2026-07-31,2026-07-31,China,Financing,semiconductor,求是光谱,求是光谱完成股权融资,光谱成像芯片设计研发商；原始金额：-；投资方：安徽创投，一汽红旗基金；人民币换算：N/A；美元换算：N/A。,企查查（境内）,Manual financing import,https://www.qcc.com/product/e5a87349-f6be-4722-9c3b-0b521480be17.html,Manual,,2,3,3,2.50,B,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。 未获独立公开来源确认，证据置信度上限为B级。,Brief,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,"来自企查查（境内）清单 + 行业归属：半导体核心环节；原始币种 未披露。 Origin ID: W31-F130. Evidence-confidence cap: no independent public confirmation, so priority cannot exceed B.",Manual_Import
+W31-S006,2026-07-31,2026-07-31,US,Policy,space_technology,NASA / GSA,NASA opens new Flight Dynamics Research Facility at Langley,"The new federal wind-tunnel facility supports aircraft, rocket, reentry-capsule and spacecraft testing, replacing aging infrastructure under NASA Langley's campus revitalization program.",NASA,Government,https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/,S_Core,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作改变许可、频谱、研发资金或公共基础设施供给条件，需区分已生效安排与仍待审批/执行的部分。,用于判断美国政策工具如何压缩商业航天和算力基础设施的落地周期，并校准国内政策与产业支持差异。,跟踪正式规则、最终拨款、执行时间表及受益主体是否转化为订单或部署。,Recovered during Stage 4 audit because the earlier Stage 2 builder omitted Pass A/B official-source results.,Pass_A_B_recovery
+W31-E071,2026-08-01,2026-08-01,Global,Technology,Public scan,,快讯-格隆汇,"首页
+>
+快讯
+>
+快讯详情
+2026-08-01
+格隆汇8月1日|SpaceX:24颗星链卫星的部署已确认。",格隆汇,Public web,https://www.gelonghui.com/live/2587372,A_Active,,3,3,3,3.00,B,相关性3/5、产业影响3/5、新颖性3/5；加权3.00。,Brief,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P102.,Pass_C_supplemental
+W31-E037,2026-08-02,2026-08-02,China,Policy,Public scan,,朱雀三回收在即 商业航天布局机会凸显- CFi.CN 中财网,"朱雀三回收在即
+商业航天布局机会凸显
+时间:2026年08月02日
+17:11:27
+中财网
+数据显示,微软Azure云服务收入同比增43%,全年首次突破1000亿美元,亚马逊AWS云服务净销售额同比增长37%,创近18个季度最高增速。同时,蓝箭航天朱雀三号遥二静态点火完成,预计8月中旬择机发射,一子级设计复用可达20次。SpaceX星舰完成第13次试飞,国内星河动力智神星一号计划8月中下旬首飞,北京卫星小镇发布完整产业生态体系,全国首个商业航天产品可靠性平台即将上线,美国FAA拟简化13项环境法规以加快商业发射审批。
+一份研报观点认为,上述事件密集发生,显示商业航天技术验证与政策支持正同步推进。研报指出,云巨头业绩加速或阶段性缓释AI投入变现疑虑,有望修复光模块、液冷、高速连接等算力硬件链风险偏好。研报认为,一旦朱雀三实现垂直回收,民营火箭将完成从成功入轨到回收复用的产业闭环,估值逻辑将从概念想象切换至可复用验证,产业中长线催化将持续显现。
+研报指出,北京卫星小镇“双百双千”目标及可靠性平台上线,将打通供应链堵点,降低企业研发制造成本,推动卫星制造、载荷研发、数据应用全链条协同。基本面来看,上半年中国商业发射约30次,千帆、GW星座组网成为运力需求主引擎。这些积极进展均指向商业航天国产链加速,火箭、卫星及相关基础设施领域公司有望迎来更多投资催化。
+中财网",中财网股票频道,Public web,https://stock.cfi.cn/p20260802000210.html,A_Active,,2,4,3,2.80,B,相关性2/5、产业影响4/5、新颖性3/5；加权2.80。受相关性不高于2分的最高B级约束。,Brief,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P061.,Pass_C_supplemental
+W31-E001,2026-07-27,2026-07-27,China,Technology,Public scan,,2026年星载计算机的发展前景 - 2026-2032年中国星载计算机发展现状调研与市场前景分析报告 - 产业调研网,"星载计算机是航天器在轨运行的“大脑”,负责执行飞行控制、载荷数据处理、星间通信及自主决策等核心任务。随着商业航天的崛起与低轨卫星星座的密集部署,星载计算机正从传统高可靠、低性能向高性能、高算力与抗辐照并重变革。目前,为满足遥感图像实时处理与星上AI推理的迫切需求,基于SoC
+FPGA架构与先进制程的抗辐照芯片正逐步替代传统宇航级器件。通过软硬件协同设计与异构计算架构,新一代星载计算机在有效抵御太空高能粒子辐射的同时,实现了算力数量级的跃升,使卫星从单纯的“数据中继站”蜕变为具备边缘计算能力的“太空智能节点”。
+未来,星载计算机将全面拥抱太空算力网络与天地一体化协同,向分布式集群、软件定义与极致能效方向演进。产业调研网指出,在技术架构上,星载计算机将与星间激光通信技术深度融合,构建起高速、低延迟的太空算力骨干网,实现多颗卫星间的分布式计算与任务动态卸载。在软件生态方面,软件定义卫星(SDR)理念将推动星载计算机的操作系统与算法实现“在轨更新”,使卫星能够根据地面需求灵活重构功能,大幅延长在轨寿命并降低发射成本。此外,面对太空极端的热环境与有限的能源供给,星载计算机将在热管理设计与低功耗AI芯片架构上持续突破。随着AI增材制造与商业火箭成本的下降,星载计算机将迎来规模化部署的成本拐点,彻底释放太空经济的巨大潜能。
+据产业调研网(Cir.cn)《2026-2032年中国星载计算机发展现状调研与市场前景分析报告》,2025年星载计算机行业市场规模达
+亿元,预计2032年市场规模将达
+亿元,期间年均复合增长率(CAGR)达
+%。报告基于权威数据和长期市场监测,全面分析了星载计算机行业的市场规模、供需状况及竞争格局。报告梳理了星载计算机技术现状与未来方向,预测了市场前景与趋势,并评估了重点企业的表现与地位。同时,报告揭示了星载计算机细分领域的投资机遇与潜在风险,为投资者和企业提供了科",产业调研网,Public web,https://www.cir.cn/3/95/XingZaiJiSuanJiDeFaZhanQianJing.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P001. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E013,2026-07-27,2026-07-27,China,Technology,Public scan,,中国科学院等离子体物理研究所,"2026年第30周(2026.7.27——2026.8.2)
+2026-07-27|【大
+中
+小】【打印】【关闭】",中国科学院等离子体物理研究所,Public web,https://ipp.cas.cn/zhuanti/mzyy/202607/t20260727_851091.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P018.,Pass_C_supplemental
+W31-E019,2026-07-27,2026-07-27,China,Technology,Public scan,,航天基地2026年7月建筑工程质量安全监督信息公示-西安国家民用航天产业基地管理委员会,"航天基地2026年7月建筑工程质量安全监督信息公示
+浏览次数:次
+索引号
+2026-001445
+发布日期
+2026-07-27
+10:12
+来
+源
+建设工程质量安全监督站
+内容概述
+2026年7月建筑工程质量安全监督信息公示
+发布时间:2026-07-27
+10:12
+来源:建设工程质量安全监督站",西安国家民用航天产业基地,Public web,http://xcaib.xa.gov.cn/zwgk/zdxxgk/zdxm/2081563768366641153.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P041. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E026,2026-07-27,2026-07-27,China,Technology,Public scan,,金融-中国网,"金融
+2026-07-27
+2026-07-27
+2026-05-21
+2026-05-21
+2026-05-21
+2026-05-20
+2026-05-18
+2026-05-15
+2026-05-15
+2026-05-12
+2026-04-30
+2026-03-18
+2026-03-18
+2026-03-17
+2026-03-16
+2026-03-16
+2026-03-16
+2026-03-13
+2026-03-13
+2026-03-13
+2026-03-11
+2026-03-11
+2026-02-12
+2026-02-11
+2026-01-29
+2026-01-21
+2026-01-14
+2026-01-13
+2026-01-13
+2026-01-06",中国日报网,Public web,http://jilu.china.com.cn/node_1017972.htm,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P050. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E043,2026-07-27,2026-07-27,China,Policy,Public scan,,Sharon AI将于8月6日盘后发布2026年第二季度财报-顶端新闻,"来源:环球市场播报
+Sharon
+AI
+Holdings
+Inc.
+(NASDAQ:
+SHAZ)
+今日宣布,将于2026年8月6日(周四)美股收盘后发布其2026年第二季度财务业绩。公司管理层将于当天美国东部时间下午4:30召开电话会议及网络直播,讨论财报结果。
+Sharon
+AI是一家专注于人工智能和云端GPU计算基础设施的高性能计算公司,致力于为AI实验室、超大规模客户、研究机构和受监管行业提供集成计算、存储、网络和自动化的统一企业解决方案。公司近期业务发展势头强劲,于2026年2月完成纳斯达克IPO,募资1.25亿美元。公司还与英伟达建立了战略计算合作关系,计划部署高达72MW的AI工厂及多达4万块Grace
+Blackwell
+GB300
+GPU。
+在客户拓展方面,Sharon
+AI近期签署了多项重要合同,包括与一家全球人工智能实验室签订了价值13.2亿美元、为期五年的云计算服务协议,预计将于2027年上半年开始确认收入。此外,公司还与ESDS
+Software
+Solutions签订了价值12.5亿美元、为期五年的合同,预计收入将于2026年第三季度开始产生。
+根据公开的财务数据,市场预计Sharon
+AI第二季度营收约为754万美元,每股收益预期为-0.59美元。公司上一季度报告营收为29.4万美元,净亏损约1992万美元。",www.topnews.cn,Public web,https://www.topnews.cn/news/145ED4E545BA4475,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P067. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E070,2026-07-27,2026-07-27,China,Technology,Public scan,,2026年7月28日未来商业市场热点|bg|商业市场|热点_手机网易网,"2026年7月28日未来商业市场热点
+每日经济新闻
+2026-07-27
+22:55
+·四川
+·每日经济新闻官方网易号
+打开网易新闻
+查看更多视频
+2026年7月28日未来商业市场热点",网易,Public web,https://m.163.com/dy/article/L2SLHVMM0512B07B.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P101. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E072,2026-07-27,2026-07-27,China,Policy,Public scan,,2026-07-27 新闻晚报_行业资讯_资讯_航天新域,"热点资讯亚马逊旗下Kuiper向FCC提交申请,计划建设由5105颗卫星组成的Leo
+D2D直连手机低轨星座,依托收购的Globalstar频谱实现全球移动终端直连通信。国内资讯企业资讯星河动力更新
+IPO
+辅导进展,辅导机构为华泰联合证券;同时企业迎来歌未创投、合凡资产等机构新一轮投资。行业资讯南京航空航天大学联合发布""天鉴星座""碳监测遥感卫星计划,首颗试验卫星拟2026年10月发射,2029年12星组网。7
+月
+24
+日,海南商业航天发射场二期土建工程全部完工,正式转入设备调试合练阶段,新建双液体工位,建成后全年发射能力可达
+60
+次。7月22日,2026太空算力产业生态大会在成都召开,熊猫太空算力星座正式落地,规划部署1200颗卫星,众多头部企业签约共建太空算力产业生态。国际资讯美国7月25日,SpaceX在范登堡基地启用8手猎鹰9号执行星链17-51任务,顺利部署24颗星链V2
+Mini卫星,一级助推器完成海上回收。7
+月
+22
+日,战术通信企业
+Lite
+Coms
+斩获价值
+2200
+万美元合同,将为未公开国防客户提供卫星通信服务,保障复杂环境下稳定通信、支撑战备需求。",www.spacenew.cn,Public web,http://www.spacenew.cn/news/show-92058.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P103. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E077,2026-07-27,2026-07-27,China,Policy,Public scan,,人工智能数据中心技术特点及发展趋势:2026年超大规模基建项目解析与行业影响_报告大厅,"中国报告大厅网讯,2026年7月,全球人工智能领域迎来一项具有里程碑意义的基建计划。英伟达与OpenAI围绕俄亥俄州10吉瓦级数据中心项目的深度合作,不仅刷新了行业融资规模纪录,更揭示了超大规模人工智能基础设施的技术迭代方向。该数据中心规划总成本或超5000亿美元,其中英伟达为OpenAI提供的2500亿美元财务担保成为项目落地的关键支撑,其技术架构与融资模式为行业树立了全新标杆。
+一、人工智能数据中心基建模式创新,技术特点及发展趋势
+中国报告大厅发布的《2026-2031年中国数据中心行业专题研究及市场前景预测评估报告》指出,项目核心亮点在于软银能源子公司开发的10吉瓦级数据中心园区,首阶段将实现800兆瓦电力供应,计划于2028年完成基础建设。通过美国政府控制的电力分配机制,该项目整合了日本资本、美国政策支持与英伟达技术保障的多重优势。值得注意的是,电力使用权由美国商务部直接管理,这种政企协同的资源调配模式,为人工智能基础设施建设提供了可复制的范本。
+二、芯片采购与融资结构突破,人工智能数据中心技术特点及发展趋势
+英伟达不仅提供财务担保,更计划通过独立融资安排为OpenAI芯片采购配套3500亿美元资金。这种""基建+算力""的捆绑式合作,直接解决了超大规模模型训练的两大核心需求:稳定算力供给与巨额资金周转。数据显示,该项目最终成本中芯片采购占比可能超过70%,凸显了人工智能芯片在数据中心建设中的战略地位。通过技术绑定,英伟达确保了未来数年OpenAI算力采购的持续性,同时强化了在AI芯片领域的生态控制权。
+三、行业竞争格局重塑,人工智能数据中心技术特点及发展趋势
+除OpenAI外,Anthropic、微软、谷歌等科技巨头近期也密集接触美国商务部,争夺该项目电力使用权。这反映出当前人工智能产业的激烈竞争态势:头部企业正通过抢占超大规模算力基础设施,构建技术护城河。俄亥俄州",报告大厅,Public web,https://m.chinabgao.com/finance/us/318436.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P110. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E082,2026-07-27,2026-07-27,China,Policy,Public scan,,AI重塑数据中心所有权:多资产、多周期的新格局-AI基础设施-至顶网,"AI基础设施建设的规模通常以资金体量来衡量。Gartner预测,全球数据中心支出将在2026年达到6530亿美元,较去年增长31.7%。与此同时,内存成本上涨和供应紧张导致服务器价格在近几个月上涨了15%至20%。整个行业仍在持续争夺容量资源、抢购GPU、应对激增的需求。
+然而,鲜少有人关注的是,AI正在如何从根本上改变基础设施所有权的经济逻辑。
+一栋数据中心建筑的使用寿命可能长达数十年,电力和冷却基础设施或许能保持10至15年的生产力,而GPU、服务器等计算资产则遵循完全不同的更新周期。越来越多的组织正在意识到,将所有这些资产一视同仁的做法,已经无法反映运营的实际情况。
+这种关注重心的转变——从单纯获取基础设施,转向重新思考如何持有和融资——折射出数据中心行业更深层的变革。随着AI基础设施日趋复杂,组织机构被迫将投资策略与每类资产独特的经济生命周期相匹配。
+一项基础设施投资,多个经济时钟
+五年前,自主持有基础设施往往是默认选择。企业通常购买硬件并期望长期持有。如今,许多组织在哪些资产需要自有、哪些资产需要差异化融资、哪些场景下灵活性更具战略价值等问题上,变得更加审慎。
+一个有益的类比是购房。大多数房主不会用与房贷相同的还款期限来为厨房翻新融资,因为两者的使用寿命本就不同。然而,许多组织仍然将数据中心投资一概而论,好像建筑、电力系统、冷却设备和GPU都以相同的速度折旧。这种做法虽然简化了采购和财务处理,但当各类资产遵循不同生命周期时,往往会造成效率低下。
+这一转变也揭示出基础设施采购方在市场策略上日益扩大的分化。
+超大规模云服务商越来越多地提前10至12个月下达设备订单,凭借自身规模和规划周期锁定价格和供应。相比之下,新兴AI云服务商往往将速度置于优化之上,尽快抢占容量以满足眼前需求。
+这两类群体之间的差距正在不断拉大。有些组织以稳健有序的方式扩张,而另一些则处于""如火燎",至顶网,Public web,https://www.zhiding.cn/ai-infrastructure/2026/0727/3194492.shtml,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P118.,Pass_C_supplemental
+W31-E084,2026-07-27,2026-07-27,China,Technology,Public scan,,公告内容文档,"序号
+采购单位名称
+采购项目名称
+采购需求概况
+预算金额(万元)
+预计采购时间
+备注
+1
+郑州大学
+郑州大学医学前沿交叉学院、天健先进生物医学实验室(郑州大学)、代谢紊乱与食管癌防治全国重点实验室(郑州大学)人才学科建设设备采购项目
+120.00
+2026年8月
+2
+郑州大学
+郑州大学医学前沿交叉学院、天健先进生物医学实验室(郑州大学)、代谢紊乱与食管癌防治全国重点实验室(郑州大学)人才学科建设设备采购项目
+200.00
+2026年8月
+3
+郑州大学
+郑州大学医学前沿交叉学院、天健先进生物医学实验室(郑州大学)、代谢紊乱与食管癌防治全国重点实验室(郑州大学)人才学科建设设备采购项目
+228.00
+2026年8月
+4
+郑州大学
+郑州大学电气与信息工程学院人才学科平台科研设备采购项目
+200.00
+2026年8月
+5
+郑州大学
+郑州大学后勤保障部+郑州大学南校区17栋学生宿舍楼卫生保洁采购项目
+340.00
+2026年8月
+6
+郑州大学
+郑州大学电气与信息工程学院学科建设设备采购项目
+300.00
+2026年8月
+7
+郑州大学
+郑州大学中药提取、调配设备及智能控制管理系统,包括煎药包装、调剂设备等,能够满足小型、中型颗粒剂片剂、饮片等研究、平行批量制备、包装、分发、存储等功能。项目
+400.00
+2026年8月",新郑市政府采购网,Public web,https://xinzheng.zfcg.henan.gov.cn/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/07/1991883.htm,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P121.,Pass_C_supplemental
+W31-E011,2026-07-28,2026-07-28,China,Technology,Public scan,,工人日报-中工网,"太空算力行业布局速度加快
+事件:在结束不久的2026世界人工智能大会上,上海太空数字基建工程“星枢计划”首发星座正式对外发布;商汤集团股份有限公司宣布与成都国星宇航科技股份有限公司签署战略合作协议,双方将共建商汤算力星座;洞察时空(成都)科技有限公司也在大会上首次公开“数算一体AI星座”。
+点评:太空算力是指通过发射太空卫星组成“星座”,把人工智能的算力部署到太空中,让卫星不仅具备通信和遥感能力,还可以进行在轨数据处理和智能决策。
+随着人工智能产业爆发式增长,算力需求强劲,地面数据中心面临能源、土地、散热等多重挑战。相比之下,太空中天然的真空超低温环境和取之不尽的太阳能,满足“绿色数据中心”的要求。此外,星座一旦建成,太空算力还能覆盖地面网络难以触达的沙漠、海洋等区域,实现全球普惠。
+根据预测,到2035年,太空经济规模将达到1.8万亿美元。许多企业正在加紧相关布局,并且已经有了较为明确的市场方向。比如,“星枢计划”项目将为气象、应急、自然资源等领域提供太空算力和遥感服务。
+太空算力产业前景广阔,但目前仍处于基础设施建设的起步阶段。未来一段时期里,该行业还要迈过成本、维护和应用三道坎,才能迎来爆发式发展和规模化落地的时期。
+多家航司增加国际航线
+事件:上半年,多家航空公司增加了在国际航线中的投入。以三大航为例,国航、东航、南航国际ASK(可用座公里,反映航司运力投入)分别同比增长4.1%、5.93%和13.06%。东航依托上海枢纽,暑期新增上海至阿德莱德、第比利斯等国际航线,并布局塔什干等中亚市场;国航重点恢复欧洲长航线网络;南航依托广州枢纽,暑运期间计划执行国际及地区航线超过130条,重点加密欧洲、非洲、东南亚及中西亚市场。
+点评:受二季度国际油价大幅上涨影响,今年上半年三大航均有不同程度亏损。面对盈利压力,努力恢复、发展国际航线成为包括三大航在内的多家航空公司寻求业绩",中工网,Public web,https://www.workercn.cn/papers/grrb/2026/07/28/6/news-2.html,A_Active,,5,4,4,4.50,C,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。 编辑复核后调整为C级。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P016. Editorial override after atom review: explainer, duplicate coverage, or underlying event outside the window.",Pass_C_supplemental
+W31-E023,2026-07-28,2026-07-28,China,Policy,Public scan,,说明 - 政策解读,"说明
+来源:
+市科技局
+发布时间:2026-07-28
+17:12
+累计次数:次
+字体:[
+大
+中
+小
+]",南通市科学技术局,Public web,https://kjj.nantong.gov.cn/ntskjj/zcjd/content/ab351743-fd12-4288-9fe5-2d04ad845724.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P046.,Pass_C_supplemental
+W31-E038,2026-07-28,2026-07-28,China,Technology,Public scan,,宇航学院《人工智能A》、《航天器结构优化设计》、《高校实验安全与管理》智能体课程建设服务竞价结果公示-北京航空航天大学招标采购中心,"宇航学院《人工智能A》、《航天器结构优化设计》、《高校实验安全与管理》智能体课程建设服务竞价结果公示
+发布时间:2026-07-28
+点击次数:
+发布人:宇航学院
+项目信息
+项目名称
+《人工智能A》、《航天器结构优化设计》、《高校实验安全与管理》智能体课程建设服务
+追踪号
+202607280008
+采购单位名称
+宇航学院
+成交信息
+成
+交
+价
+280000元
+成交供应商
+上海智慧知到网络科技有限公司
+采
+购
+清
+单
+序号
+名
+称
+规格型号
+数
+量
+1
+《人工智能A》、《航天器结构优化设计》、《高校实验安全与管理》智能体课程建设服务
+/
+1项
+公示期从2026年07月28日起至2026年07月29日18:00止。
+各供应商或者其他利害关系人对本项目的过程及结果有异议的,可在公示期内以书面形式(包括联系人、地址、联系电话)将意见反馈至北京航空航天大学宇航学院;
+监督人:徐老师,联系方式:
+010-61716889,邮箱:10521@buaa.edu.cn。",北京航空航天大学招标采购中心,Public web,https://zbcg.buaa.edu.cn/info/1049/62039.htm,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P062. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E059,2026-07-28,2026-07-28,China,Policy,Public scan,,余杭时报数字报-三体计算星座再添两颗新星,"(通讯员
+陈航
+记者
+陈坚)
+7月24日7时33分,力箭一号遥十五运载火箭在东风商业航天创新试验区成功将智能计算卫星“吉天星A-04星”(“云尖沐曦号”卫星)及智能遥感卫星“西光贰号03星”(星火传明气象卫星)发射入轨。双星入列,三体计算星座组网进程加速推进,多元主体共商共建共享共发展释放的创新聚变效能正在加速显现。
+三体计算星座是由之江实验室发起,全球合作伙伴共同建设的千星规模太空计算基础设施。本次发射的两颗卫星由商业航天企业、人工智能企业、高校及科研机构等多元创新主体深度参与,将太空AI的应用边界从对地观测、天文观测延伸至气象感知与AI模型驱动的卫星智能化等多领域,进一步丰富三体计算星座的创新生态与应用图谱。
+AI驱动
+卫星智能化迈出关键一步
+“云尖沐曦号”卫星由云尖信息、沐曦股份、浙大城市学院、巡天千河等合作伙伴共同研制。卫星搭载了之江实验室自研的具身智能卫星模型,可智能管控卫星任务执行、数据处理及指令下发等各环节,使卫星具备健康自主管理、单星及多星任务的自主规划和执行能力,实现星座从“单星智能”向“多星协同智能”管控的跃升。
+卫星还搭载了基于沐曦GPU的智算载荷,通过与云尖信息、沐曦股份等产业链合作伙伴紧密协作,三体计算星座正加速推进“算力上天、卫星互联和模型上天”。
+“此次任务成功将国产高性能GPU送入太空,并完成其在轨工作可靠性验证。”云尖信息技术股份有限公司高级副总裁费跃建表示,此次发射也是具身智能卫星模型的首次在轨探索验证。
+在设计制造环节,之江实验室、浙大城市学院联合团队将AI生成的胞元结构与3D打印技术相结合,“这种全新思路实现了卫星主体结构制备的轻量化、一体化、高效化,将有力支撑卫星产业的发展。”浙大城市学院汤慧萍教授表示。
+模型上天
+探索太空AI全新应用场景
+星火传明气象卫星部署了复旦大学、上海科学智能研究院研制的伏羲、大禹气象模型,以及杭州米塔碳",余杭新闻网,Public web,https://yhcb.eyh.cn/html/2026-07/28/content_82168_3678952.htm,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P087. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E060,2026-07-28,2026-07-28,China,Technology,Public scan,,spacex市值最终能达到 - 大陇网,"SpaceX于2026年6月12日上市,上市初期因市场狂热,市值曾一度突破2.6万亿美元。
+但随后因星舰试飞失利、限售股解禁预期、估值重算及科技股回调等多重利空,股价持续暴跌,最新市值不足1.5万亿美元,...",wenchuang.dalw.com.cn,Public web,https://wenchuang.dalw.com.cn/tags-147576.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P090. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E063,2026-07-28,2026-07-28,China,Technology,Public scan,,2026年7月29日,"当前位置:首页>政府信息公开>法定主动公开内容>场地信息
+2026年7月29日
+来源:州公共资源交易服务中心
+发布日期:2026-07-28
+16:22
+[
+字体:大
+中
+小
+]
+【打印本页】
+分享到:",凉山彝族自治州人民政府,Public web,https://ggzyjy.lsz.gov.cn/zfxxgk/fdzdgknr/cdxx/202607/t20260728_3005289.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P093.,Pass_C_supplemental
+W31-E066,2026-07-28,2026-07-28,China,Policy,Public scan,,关于2026年省预算内基本建设投资应用场景培育和开放专项投资计划拟支持项目的公示 - 湖南省发展和改革委员会,"根据省预算内专项管理有关要求,现将2026年省预算内基本建设投资应用场景培育和开放专项投资计划拟支持项目予以公示,公示期限为3个工作日(2026年7月28日-7月30日)。
+在此期间,欢迎社会各界对拟支持项目的真实性、有无违反国家相关法律法规和政策规定等情况,向省发改委改革处提出反馈意见,并具体列举异议理由和相关证明材料。单位意见请加盖单位公章并注明联系方式,个人意见请注明真实姓名、身份证号码和联系方式。
+受理单位:湖南省发展改革委改革处
+联系电话:0731-89990831
+电子邮箱:fgwggc@hunan.gov.cn
+通讯地址:长沙市湘府西路8号
+邮政编码:410004
+附件:2026年省预算内基本建设投资应用场景培育和开放专项投资计划拟支持项目
+附件:2026年省预算内基本建设投资应用场景培育和开放专项投资计划拟支持项目",湖南省发展和改革委员会,Public web,http://fgw.hunan.gov.cn/fgw/xxgk_70899/tzgg/202607/t20260728_34035485.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P096. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E073,2026-07-28,2026-07-28,China,Technology,Public scan,,2026年7月27日新闻,"2026年7月27日新闻
+2026-07-28
+来源:
+浏览次数:1
+打印
+2026年7月27日新闻",鹿泉区人民政府,Public web,https://sjzlq.gov.cn/columns/72d3f19d-42ba-4e4a-8525-200bcbf1dfef/202607/28/7a74968a-2643-4689-a3a5-70957947d5e8.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P104. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E074,2026-07-28,2026-07-28,China,Technology,Public scan,,2026年7月29日未来商业市场热点|商业市场|热点_手机网易网,"2026年7月29日未来商业市场热点
+每日经济新闻
+2026-07-28
+23:50
+·四川
+·每日经济新闻官方网易号
+打开网易新闻
+查看更多视频
+2026年7月29日未来商业市场热点",网易,Public web,https://m.163.com/dy/article/L2VB3QHG0512B07B.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P105. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E075,2026-07-28,2026-07-28,China,Technology,Public scan,,2026年7月26日新闻,"2026年7月26日新闻
+2026-07-28
+来源:
+浏览次数:1
+打印
+2026年7月26日新闻",鹿泉区人民政府,Public web,https://sjzlq.gov.cn/columns/72d3f19d-42ba-4e4a-8525-200bcbf1dfef/202607/28/37d4d3a6-5d6e-4094-a7bf-115cde383f4b.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P106. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E016,2026-07-29,2026-07-29,China,Policy,Public scan,,行政许可信息-西安国家民用航天产业基地管理委员会,"航天基地关于2026年7月29日建设项目环境影响评价文件受理情况的公示
+航天基地行政审批与企业服务局
+2026-07-29",西安国家民用航天产业基地,Public web,https://xcaib.xa.gov.cn/zwgk/zdxxgk/hzzq/hzxkxx/list/26.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P038. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E017,2026-07-29,2026-07-29,Global,Policy,Public scan,,2025-2030年中國商業航天產業深度研究及發展前景投資預測分析報告-中商產業研究院,"2025-2030年中國商業航天產業深度研究及發展前景投資預測分析報告
+第一章
+商業航天產業相關概述1.1
+商業航天基本介紹1.1.1
+商業航天概念1.1.2
+商業航天行業特點1.1.3
+商業航天與航天發射的區別1.2
+商業航天類型闡述1.2.1
+商業航天活動1.2.2
+商業航天運輸1.2.3
+商業航天載荷第二章
+2023-2025年國際商業航天產業發展狀況及經驗借鑒2.1
+全球商業航天產業發展分析2.1.1
+發展背景分析2.1.2
+發展歷程分析2.1.3
+政策環境分析2.1.4
+商業航天規模2.1.5
+商業航天發射2.1.6
+商業航天應用2.1.7
+市場競爭格局2.1.8
+行業發展動態2.1.9
+發展經驗啟示2.2
+歐洲商業航天產業發展分析2.2.1
+商業航天政策環境2.2.2
+商業航天發展概況2.2.3
+商業航天發展模式2.2.4
+歐盟太空發射困境2.2.5
+歐洲太空探索挑戰2.3
+美國商業航天產業發展分析2.3.1
+商業航天地位分析2.3.2
+商業航天發展階段2.3.3
+商業航天監管制度2.3.4
+商業航天發展戰略2.3.5
+商業航天發射數據2.3.6
+商業航天企業布局2.3.7
+商業航天典型項目2.3.8
+海上發射平臺試飛2.4
+俄羅斯商業航天產業發展分析2.4.1
+商業航天發展背景2.4.2
+商業航天發展概況2.4.3
+商業航天企業動態2.4.4
+俄羅斯航天戰略項目2.5
+其他國家商業航天發展分析2.5.1
+日本2.5.2
+巴西2.5.3
+印度第三章
+2023-2025年中國商業航天產業發展環境分析3.1
+商業航天經濟環境分析3.1.1
+國內宏觀經濟概況3.1.2
+中國工業經濟運行3.1.3
+中國對外經濟運行3.1.4
+中國固定資產投資3.1.5
+宏觀經濟展望分析3.2
+航天工業發展環境分析3.2.1
+航天工業發展歷程3.2.2
+航天工業能力布局3.2.3
+機械",中商情报网,Public web,https://big5.askci.com/reports/20250818/1705103261275550791034524270.shtml,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作提供跨国算力、数据中心或商业航天政策的供给侧参照，需核验资金和执行主体。,用于比较不同地区在算力基础设施、公共资金与商业航天组织方式上的落地效率。,跟踪正式预算、项目遴选、基础设施投运及企业订单转化。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P039. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E018,2026-07-29,2026-07-29,Global,Policy,Public scan,,2025-2030年中國商業航天行業深度分析及發展前景研究預測報告-中商產業研究院,"2025-2030年中國商業航天行業深度分析及發展前景研究預測報告
+第一章
+商業航天產業相關概述1.1
+商業航天基本介紹1.1.1
+商業航天概念1.1.2
+商業航天行業特點1.1.3
+商業航天與航天發射的區別1.2
+商業航天類型闡述1.2.1
+商業航天活動1.2.2
+商業航天運輸1.2.3
+商業航天載荷第二章
+2022-2024年國際商業航天產業發展狀況及經驗借鑒2.1
+全球商業航天產業發展分析2.1.1
+發展背景分析2.1.2
+政策環境分析2.1.3
+經濟總量規模2.1.4
+商業航天規模2.1.5
+行業發展動態2.1.6
+發展經驗啟示2.2
+歐洲商業航天產業發展分析2.2.1
+商業航天政策環境2.2.2
+商業航天發展概況2.2.3
+商業航天發展模式2.2.4
+歐盟太空發射困境2.2.5
+歐洲太空探索挑戰2.3
+美國商業航天產業發展分析2.3.1
+商業航天發展階段2.3.2
+商業航天政策環境2.3.3
+商業航天發射數據2.3.4
+商業航天軍情動態2.3.5
+商業航天企業布局2.3.6
+商業航天典型項目2.3.7
+海上發射平臺試飛2.4
+俄羅斯商業航天產業發展分析2.4.1
+商業航天發展背景2.4.2
+商業航天發展概況2.4.3
+商業航天企業動態2.4.4
+俄羅斯航天戰略項目2.5
+其他國家商業航天發展分析2.5.1
+日本2.5.2
+巴西2.5.3
+印度第三章
+2022-2024年中國商業航天產業發展環境分析3.1
+商業航天經濟環境分析3.1.1
+世界經濟形勢分析3.1.2
+國內宏觀經濟概況3.1.3
+中國工業經濟運行3.1.4
+中國對外經濟運行3.1.5
+中國固定資產投資3.1.6
+國內宏觀經濟展望3.2
+航天工業發展環境分析3.2.1
+航天工業發展歷程3.2.2
+航天工業能力布局3.2.3
+機械工業運行情況3.2.4
+電子行業發展狀況3.3
+商業航天技術環境分析3.3.",中商情报网,Public web,https://big5.askci.com/reports/20241227/1702324657273529015362520358.shtml,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作提供跨国算力、数据中心或商业航天政策的供给侧参照，需核验资金和执行主体。,用于比较不同地区在算力基础设施、公共资金与商业航天组织方式上的落地效率。,跟踪正式预算、项目遴选、基础设施投运及企业订单转化。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P040. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E042,2026-07-29,2026-07-29,China,Policy,Public scan,,"商业火箭融资重新升温,资本到底在押注什么?_腾讯新闻","据你好太空不完全统计,2026年上半年13家商业火箭企业完成19轮融资,披露总额近70亿元。资金重新流入火箭赛道,钱流向了哪里,为什么是现在,资本又在依据什么做判断?2026年,商业火箭赛道的融资节奏明显加快。据你好太空不完全统计,截至目前2026年共有13家企业完成19轮融资,披露融资总额近70亿元。从金额分布看,头部集中效应显著,星际荣耀D++轮单笔即占50.37亿元;从时间分布看,融资节奏逐月提速,5月和6月均达到四起。以下为具体融资情况:半年内连续完成多轮融资的公司有五家,它们的共同点是:都没有在主流路线上做跟随,而是在回收方式和动力系统上各自探索了不同的方向。有在回收方式上做差异化选择的:空间致航走局部回收路线一子级仅回收发动机舱段,通过空中伞降加气囊回收;千亿航天选择气动减速回收,采用大攻角再入构型,落地时以舵面替代支腿。宇石空间押注筷子回收,由塔架机械臂在空中夹住返回的火箭。三条路线都在尝试让回收更省运力、更省成本。星火空间和微光启航则更多在动力系统上做文章:星火空间走电循环路线,使用电动泵代替传统涡轮泵,减掉了燃气涡轮及70%阀门和80%管路,系统大幅简化。其""烈焰二号""单发推力10吨,自研“进化一号”火箭计划2027年首飞。微光启航选择的是全碳纤维箭体加全流量分级燃烧循环液氧甲烷发动机的组合。箭体方面,“微光一号”是中国首款全碳纤维火箭,其3.8米级碳纤维共底贮箱已完成工程件制造与验证试验,在全国范围内率先打通了碳纤维贮箱从材料到工艺的全流程;发动机方面,“华光一号”是先进的全流量分级燃烧循环液氧甲烷发动机,目前已完成核心部件研发及双预燃室液流试验等验证工作。3月和7月两轮融资合计两亿多元,核心投向就是这两项技术从方案进入工程落地。2025年12月,上交所明确商业火箭企业可适用科创板第五套IPO上市标准,并强调火箭公司需满足:“在申报时至少实现采用可重复使",腾讯网,Public web,https://news.qq.com/rain/a/20260729A06GQA00,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P066. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E076,2026-07-29,2026-07-29,China,Technology,Public scan,,关于发放2025年度第二批知识产权质押融资补助资金的通知,"关于发放2025年度第二批知识产权质押融资补助资金的通知
+发布日期:
+2026-07-29
+发布机构:
+晋城市市场监督管理局",晋城在线,Public web,https://xxgk.jcgov.gov.cn/szfgzbm/jcsscjdglj/fdzdgknr_31503/zscqbh/202607/t20260729_2375954.shtml,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P109.,Pass_C_supplemental
+W31-E079,2026-07-29,2026-07-29,China,Policy,Public scan,,【招标公告】2026-2027年一汽资本控股AI开发技术服务项目-吉林招标网,"2026-2027年一汽资本控股AI开发技术服务项目
+2026-2027年一汽资本控股AI开发技术服务项目招标公告1.
+招标条件本招标项目招标人为一汽资本控股有限公司,实际使用单位为一汽资本控股有限公司,招标项目资金来自企业自筹,出资比例为100%。该项目已具备招标条件,现对本项目进行招标。2.
+项目概况与招标内容2.1招标服务名称:2026-2027年一汽资本控股AI开发技术服务项目2.2实施地点:现场服务或固定工作地点的服务(投标人自行租赁并在采购人备案的工作场所或采购人办公场所)2.3服务期限:自【合同签订之日】起1年2.4最高投标限价:有,(含税)人民币***元
+3.
+投标人资格要求3.1本次招标要求投标人须具有与本招标项目相应的能力,并具备如下所列的条件:3.1.1资质要求:投标人应是依法从事经营,有能力完成招标项目的法人或其他组织,登记状态应为正常或存续(在营、开业、在册)状态,通过ISO9001(质量管理体系)认证;通过ISO20000(信息技术服务管理体系)认证;通过ISO27001(信息安全管理体系)认证;具有CMMI5(软件能力成熟度模型集成五级)及以上认证;具有高新技术企业认证。投标人的体系认证信息以开标当日全国认证认可信息公共服务平台(http://cx.cnca.cn/)查询结果为准,证书状态应显示为有效;投标人的CMMI证书信息以开标当日在CMMI官网(https://cmmiinstitute.com/pars/?StateId=9119590b-1b5f-4ca0-89ce-f0e02a4917b8)查询网址结果为准;投标人的高新技术企业认证以开标当日官网(http://www.innocom.gov.cn/)查询结果为准,状态应显示为有效。3.1.2财务要求:提交投标人2024、2025年审计报告通过注册会计师行业统一监管平台(
+http",剑鱼标讯官网,Public web,https://jilin.jianyu360.cn/jybx/20260729_26072873632121.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P113. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E080,2026-07-29,2026-07-29,China,Technology,Public scan,,公告内容文档,"序号
+采购单位名称
+采购项目名称
+采购需求概况
+预算金额(万元)
+预计采购时间
+备注
+1
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设设计服务项目
+98.01
+2026年8月
+2
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设项目
+8,380.25
+2026年8月
+3
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设监理服务项目
+142.26
+2026年8月
+4
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设造价咨询服务项目
+48.00
+2026年8月
+5
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设项目密码测评及等保测评项目
+150.00
+2026年8月
+6
+鹤壁市鹤山区姬家山园区发展中心
+鹤壁市鹤山区姬家山园区发展中心鹤山区姬家山园区新型数字基础设施建设项目软件测试服务项目
+57.80
+2026年8月",洛阳市政府采购网,Public web,https://luoyang.zfcg.henan.gov.cn/cmsweb35rc67w/hebi/zgxx/cgyx/webinfo/2026/07/1994000.htm,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P115.,Pass_C_supplemental
+W31-E117,2026-07-29,2026-07-29,Global,Financing,semiconductor,ChipAgents,ChipAgents完成A+轮融资,人工智能科技研发商；原始金额：6000万美元；投资方：B Capital，Bessemer Venture Partners，MediaTek，ScOp Venture Capital，Micron，Ericsson；人民币换算：407364000.00；美元换算：60000000.00。,Business Wire,Newswire,https://www.businesswire.com/news/home/20260729819576/en/ChipAgents-Expands-Series-A-Funding-to-%24134-Million-as-Demand-Grows-for-Agentic-AI-in-Semiconductor-Design,A_Active,https://www.qcc.com/product/d9eda6e96d7b2a646ab961de7c42ac31.html,2,3,3,2.50,C,相关性2/5、产业影响3/5、新颖性3/5；加权2.50。受相关性不高于2分的最高B级约束。,Database_Only,本轮融资反映芯片或AI基础设施的资本供给变化，需结合产品量产、客户和收入证据判断质量。,用于更新算力产业链融资基准、竞争格局和潜在项目池。,跟踪交割、量产、客户验证、收入兑现及下一轮估值变化。,来自企查查（境外）清单 + 行业归属：半导体核心环节；原始币种 USD。 Stage 3三类公开来源查询完成并命中；企查查降为交叉验证。 Origin ID: W31-F155. Stage 4 financing 30% cap compression.,Manual_Import
+W31-E010,2026-07-30,2026-07-30,China,Policy,Public scan,,太空算力风起 星载相控阵芯片成算力底座 上游厂商迎估值重塑,"近日,在2026世界人工智能大会“未来计算
+未来算力”专题论坛上,上海标志性太空数字基建工程“星枢计划”首发星座正式发布,工程验证阶段将发射2颗算力星加12颗边缘计算星,商业部署阶段规划50颗算力星加100颗边缘计算星,远期迈向千星级部署。近期,北京成立太空智算研究院、太空算力产业创新中心,天津组建太空数智基础设施联合攻关体,多地密集布局,标志着商业航天正从“组网建设”向更高维度的“太空算力建设”升级。这一升级背后,是AI时代地面数据中心面临能源与散热瓶颈的现实。太空数据中心可直接利用大气层外充沛的太阳能,具备能源与散热优势,被视为破解算力瓶颈的重要方向。据第三方机构测算,到2035年在轨数据中心市场规模有望达390亿美元,复合增速高达67%,是新一轮太空经济的核心引擎。国内产业化亦在提速:由之江实验室主导、联合国星宇航等打造的“三体计算星座”已完成首发12颗计算卫星组网并实现星间互联,长期规划扩展至数千颗。赛道升级不仅带来估值溢价,更直接改变卫星硬件的价值分配。算力卫星、高通量卫星对相控阵天线的通道数需求大幅扩容——机构测算,单星T/R通道数有望从当前约3000个提升至8000至10000个,甚至更多,将带动T/R组件、T/R芯片需求量成倍增长;即便单通道价格趋于下行,该环节在整星中仍属高价值量环节(目前约400万元/整星),成长弹性突出。作为卫星载荷中技术难度最大、成本占比最高的环节,星载相控阵T/R芯片正成为卫星算力的核心硬件底座。由此,一批上游硬件厂商有望享受“赛道升级+产品增量”的双重红利。在射频与相控阵芯片环节,铖昌科技、臻镭科技、国博电子等作为国内星载T/R芯片核心供应商受到关注,产品打破国外垄断并深度配套主流星座载荷。其中,铖昌科技(001270.SZ)是国内少数能提供宇航级相控阵T/R芯片完整解决方案的企业,星载产品已在多系列遥感卫星实现常态化批量交付,",证券时报,Public web,https://stcn.com/article/detail/4048858.html,A_Active,,5,4,4,4.50,C,相关性5/5、产业影响4/5、新颖性4/5；加权4.50。 编辑复核后调整为C级。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P015. Editorial override after atom review: explainer, duplicate coverage, or underlying event outside the window.",Pass_C_supplemental
+W31-E024,2026-07-30,2026-07-30,China,Policy,Public scan,,从“仰望星空”到“产业升空” 中国银行赋能商业航天高质量发展,"“十五五”开局之年,作为新质生产力典型代表的商业航天领域捷报频传,勾勒出我国商业航天产业体系不断升级的全新图景。中国银行积极贯彻落实国家“十五五”规划关于建设航天强国的部署要求,近日发布《中国银行支持商业航天产业链高质量发展工作方案》,围绕商业航天新技术、新产品、新场景发展需求,构建“股、贷、债、租、保”一体化、全周期金融服务体系,支持“箭、星、场、频、网”产业链一体化发展。截至2026年6月末,中国银行已累计服务商业航天火箭研制、卫星制造、星座网络企业数量近400家、授信余额超160亿元,分别较年初增加11.8%和10.6%。赋能星箭制造
+助力核心技术自主攻坚商业航天正激活着从新材料、精密制造到电子信息等全产业链创新动能。围绕运载火箭制造与商业卫星制造等核心环节,中国银行依托“股贷协同”双轮驱动,从源头保障火箭运载与组网能力提升。针对某民营火箭制造商快速发展需求,中国银行提升中长期信用贷款额度,并拉长贷款期限。同时,依托AIC股权投资基金提供股权投资,中国银行全方位支持企业发动机研发、试制全周期资金需求,助力国产火箭动力核心技术实现自主突破。在卫星研制领域,中国银行强化投贷联动,将相关制造企业纳入“中银科创贯通式培育计划”,配套AIC股权融资和中长期贷款额度,支持公司卫星整星、单机产品制造和研发。同时,中国银行还通过旗下综合经营公司中银证券的子公司完成对某通信卫星制造项目投资,并配套低息普惠贷款,稳步陪伴企业从小到大、由研到产,夯实星箭协同研制底座。护航发射组网
+支持基础设施建设运营如果将商业火箭比作“飞机”,商业卫星比作“乘客”,商业航天发射场就是供“乘客”登机、“飞机”起飞的“机场”。中国银行综合运用中长期流动资金贷款、项目贷款等,切实支持发射基础设施建设的扩容升级。近年来,中国银行为某商业航天发射场开通绿色审批通道,仅用时一周便完成中长期流动资金贷款审批,保障了发射",中国银行,Public web,https://www.boc.cn/aboutboc/bi1/202607/t20260730_25682067.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P047. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E027,2026-07-30,2026-07-30,China,Technology,Public scan,,党工委、管委会部门(单位)2026年度目标责任书(自贸办)--自贸办,"索
+引
+号
+11610405MB2998054Y/2026-000229
+发布时间
+2026-07-30
+08:40",杨凌示范区,Public web,https://ftz.yangling.gov.cn/zfxxgk/fdzdgknr/mbkh/2082627571834212354.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P051.,Pass_C_supplemental
+W31-E029,2026-07-30,2026-07-30,China,Technology,Public scan,,中国新型储能发展报告(2026)---国家能源局,"中国新型储能发展报告(2026)---国家能源局
+中国新型储能发展报告(2026)
+发布时间:2026-07-30
+来源:国家能源局
+大中小",国家能源局,Public web,http://www.nea.gov.cn/20260730/0a1e9823b7a14e8ba16e82c34b3bea2b/c.html,A_Active,https://www.chinapower.org.cn/detail/460491.html,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 2 reports into one event atom: energy_storage_report. Origin ID: W31-P053. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E053,2026-07-30,2026-07-30,China,Technology,Public scan,,2026-07-30 新闻晚报_行业资讯_资讯_航天新域,"热点资讯美国太空军授予
+SpaceX
+总价值
+16
+亿美元发射订单,计划
+2027
+年底前完成
+18
+次猎鹰
+9
+发射,部署天基感知与瞄准相关军事卫星星座。北京时间
+7
+月
+30
+日,我国在太原卫星发射中心用长征六号改火箭成功发射通信技术试验卫星二十七号
+A/B
+星,系长征系列第
+660
+次飞行。国内资讯企业资讯依托天合光能技术基础的天赋星际布局空间光伏赛道,实现三类电池技术全覆盖,已斩获海外小批量高价值星载太阳翼订单。星源空间自研太阳翼随北邮四号卫星成功入轨,完成首次整星在轨供电任务,标志企业空间电源产品工程化在轨应用取得重要突破。行业资讯北京卫星小镇首次发布产业生态体系,20家企业签约入驻,13家机构签署战略合作,聚焦卫星制造、太空算力等方向。温州海洋经济发展示范区聚焦海上风电、商业航天等赛道,产业增速领跑全市,集聚龙头项目,稳步推进海空装备千亿产业集群建设。国际资讯美国7
+月
+28
+日消息,Sphinx
+Defense
+斩获美国太空军合同,将研发
+GRIFFON
+云原生地面软件框架,替代
+AEHF
+系统,助力美军
+ESS
+战略卫星通信与核指挥体系现代化。美国太空系统司令部
+Victus
+Haze
+任务完成首次公开太空追逃演练,Jackal
+卫星追踪逃逸的
+Puma
+卫星,验证自主非合作交会跟踪与星上轨道计算能力。",www.spacenew.cn,Public web,http://www.spacenew.cn/news/show-92814.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P080. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E062,2026-07-30,2026-07-30,China,Technology,Public scan,,SpaceX IPO 进展解析:估值、发行安排、风险与 Pre-IPO 区别-web3.0-PHP中文网,"本文围绕
+spacex
+即将推进的
+ipo
+进程展开,重点梳理公司的业务基础、估值框架、发行安排,以及投资者普遍关心的风险点,帮助读者更清楚地理解这家公司为什么备受关注,以及这次上市事件的核心看点是什么。
+伊隆·马斯克旗下的航天与通信企业
+SpaceX(太空探索技术公司),在私人市场一直是关注度极高的公司之一,也被视为全球太空基础设施领域最有代表性的企业之一。根据原文信息,公司已于
+2026
+年
+5
+月
+20
+日向美国证券交易委员会提交
+S-1
+登记申报书,并在
+2026
+年
+6
+月
+1
+日递交修订文件,整体节奏显示其正按计划推进首次公开募股(IPO)。
+按照披露内容,SpaceX
+计划以
+1.75
+万亿美元的目标估值募资
+750
+亿至
+800
+亿美元,并拟于
+2026
+年
+6
+月
+11
+日最终确定发行价格,最早于
+2026
+年
+6
+月
+12
+日在纳斯达克和纳斯达克德州交易所以股票代码
+SPCX
+开始交易。
+对于很多普通读者来说,真正关心的问题通常不是“热不热门”,而是几个更实际的点:SpaceX
+IPO
+到底是什么、普通投资者能不能参与、当前估值是否偏高,以及上市之后可能面临哪些风险。这也是本文希望重点解释清楚的部分。
+什么是
+SpaceX
+IPO?SpaceX
+预计什么时候上市?
+先用更直白的话来说,IPO
+就是公司第一次把股票放到公开市场上交易。对
+SpaceX
+而言,这意味着它的火箭发射、卫星通信以及人工智能相关业务,未来有机会以公开股票的形式进入资本市场,让更多投资者可以通过证券账户接触到这家公司。
+如果按照目前披露的时间表推进,公司将在
+2026
+年
+6
+月
+4
+日至
+8
+日完成机构路演,之后确定最终发行价格,并最早于
+2026
+年
+6
+月
+12
+日开始公开交易。
+这次
+IPO
+之所以受到高度关注,原因不只是公司知名度高,还因为
+SpaceX
+的业务横跨航天、",php中文网,Public web,https://www.php.cn/faq/2906551.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P092. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E068,2026-07-30,2026-07-30,Global,Technology,Public scan,,oceanbase_标签_网易出品,"相关内容
+网易号
+硅星Breaknews
+2026-07-29
+网易号
+WEMONEY研究室
+2026-07-09
+无障碍浏览
+进入关怀版",网易财经,Public web,https://money.163.com/keywords/0/6/006f006300650061006e0062006100730065/1.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P099. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E078,2026-07-30,2026-07-30,China,Technology,Public scan,,2026年7月31日,"当前位置:首页>政府信息公开>法定主动公开内容>场地信息
+2026年7月31日
+来源:州公共资源交易服务中心
+发布日期:2026-07-30
+16:08
+[
+字体:大
+中
+小
+]
+【打印本页】
+分享到:",凉山彝族自治州人民政府,Public web,https://ggzyjy.lsz.gov.cn/zfxxgk/fdzdgknr/cdxx/202607/t20260730_3006010.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P112. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E085,2026-07-30,2026-07-30,China,Policy,Public scan,,北京市经济和信息化局 北京市财政局 关于印发2026年北京市高精尖产业发展项目资金和支持中小企业发展资金实施指南(第二批)的通知_政策文件_北京市经济和信息化局,"各有关单位:为贯彻落实中央经济工作会议“推动科技创新和产业创新融合发展”“以科技创新引领新质生产力发展,建设现代化产业体系”的会议精神和工作要求,稳定预期、激发活力,促进产业高质量发展,塑造发展新动能新优势,根据《北京市高精尖产业发展项目资金管理办法》等文件规定,现发布2026年北京市高精尖产业发展项目资金和支持中小企业发展资金实施指南(第二批)(以下简称实施指南)。一、重点支持方向方向1
+人工智能赋能新型工业化高质量数据集建设奖励。围绕北京市人工智能赋能新型工业化高质量数据集需求清单,对完成合规交易,有效提升模型、智能体等应用性能,具备明确应用价值与产业带动作用的高质量数据集,按规模、质量及应用效果等给予建设单位分档资金奖励:单个数据集首次交易奖励最高不超过100万元,每复卖一次可增加奖励不超过20万元,同一数据集累计奖励金额不超过200万元。单个企业年度累计可申报不超过10个数据集,累计奖励不超过500万元。(详见附件1)方向2
+人工智能大模型应用补贴。重点支持信息软件业、工业企业购买非关联方的Token,开展智能体开发应用、工业智能化升级和AIGC等人工智能应用,根据其Token实际使用情况给予资金支持。按照最高不超过补贴期内认定的Token费用的30%予以补贴,最高不超过1000万元。(详见附件2)方向3
+战略新兴及未来产业并购贷款贴息。鼓励企业围绕“十五五”时期战略新兴产业、未来产业开展并购,增强企业创新发展能力,培育世界一流企业。对通过并购实现健全核心技术体系、增强产业链供应链韧性和安全水平、打造第二增长曲线的工业和信息软件业企业,对其并购贷款支付的利息分年度给予事后贴息,贴息率不超过人民银行公布的同期中长期贷款市场报价利率(LPR),贴息期限不超过3年,单个并购项目年度贴息金额不超过5000万元。(详见附件3)方向4
+区域性股权市场“挂牌倍增”奖励。支持规范运",北京市经济和信息化局,Public web,https://jxj.beijing.gov.cn/zwgk/2024zcwj/202607/t20260730_4801241.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P123. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E020,2026-07-31,2026-07-31,China,Technology,Public scan,,"Policies concerning expats, foreign enterprises in July 2026","Policies
+concerning
+expats,
+foreign
+enterprises
+in
+July
+2026
+Updated:
+July
+31,
+2026
+15:21
+english.www.gov.cn",中国政府网,Public web,http://english.www.gov.cn/policies/featured/202607/31/content_WS6a6c4cf2c6d00ca5f9a0c804.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P042.,Pass_C_supplemental
+W31-E025,2026-07-31,2026-07-31,China,Policy,Public scan,,2026-2031年中国商业造船产业运行态势及投资规划深度研究报告_报告大厅,"2026-2031年中国商业造船产业运行态势及投资规划深度研究报告
+【报告编号】:
+No.21131455
+【最新修订】:
+2026-07-31
+19:23:38
+【
+关
+键
+字】:
+商业造船
+【报告格式】:
+电子版或纸介版
+【交付方式】:
+Email发送或EMS快递
+【报告价格】:
+纸介版:RMB
+7800元
+电子版:RMB
+7500
+元
+两个版本:RMB
+8000
+元
+【订购热线】:
+全国24小时服务:
+400-817-8000
+北京:
+010-58247071
+/
+58247072
+福建:
+0592-5337135
+/
+5337136
+本研究报告是由宇博智业在大量周密的市场调研基础上,并依据了国家统计局、国家商务部、国家发改委、国务院发展研究中心、国家经济信息中心、国家工业和信息化部等数据及资料。对我国商业造船行业的市场前景、重点企业以及国家相关产业政策进行了全面分析。报告重点分析了我国商业造船行业的经济发展与现状,以及我国商业造船行业进展与投资机会,并对商业造船行业投资前景作了分析研判,是商业造船企业、科研单位、高校等单位准确了解目前行业发展动态,把握市场机遇及方向等不可多得的决策参考。
+本报告由中国报告大厅出版发行,报告著作权归宇博智业
+所有。本报告是宇博智业的研究与统计成果,有偿提供给
+购买报告的客户使用。未获得宇博智业书面授权,任何网
+站或媒体不得转载或引用,否则宇博智业有权依法追究其
+法律责任。如需订阅研究报告,请直接联系本网站,以便
+获得全程优质完善服务。
+第一章
+商业造船行业概况
+第一节商业造船行业简介
+第二节
+商业造船行业分类
+第三节
+商业造船行业发展特点
+第四节
+商业造船行业在国民经济中的地位
+第五节
+商业造船行业趋势概述
+第二章
+2021-2025年全球商业造船行业发展状况分析
+第一节
+2021-2025年全球商业造船行业运行概况
+一、全球商业造",报告大厅,Public web,https://m.chinabgao.com/report/21131455.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P048. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E032,2026-07-31,2026-07-31,China,Technology,Public scan,,联发科50亿美元融资 抢占AI数据中心芯片市场- CFi.CN 中财网,"联发科50亿美元融资
+抢占AI数据中心芯片市场
+时间:2026年07月31日
+19:42:16
+中财网
+联发科董事会批准50亿美元融资预算,用于支持长期增长并扩展AI数据中心芯片业务。
+公司希望降低对智能手机的依赖,转向为云服务商供应定制AI芯片(ASIC)。随着AI基础设施支出快速增长,这一高增长、高利润领域为联发科带来新机遇。
+联发科将2027年定制AI芯片可寻址市场规模上调至800亿美元,目标市场份额从此前10-15%提高至15-20%。首款定制AI芯片计划第四季度投产,第二款芯片预计2028年量产。公司预计2026年该业务营收将超过20亿美元。
+尽管第二季度移动芯片营收同比下降20%,全球智能手机出货量下滑明显,但联发科整体季度营收仍录得1.2%增长。
+受AI业务前景提振,联发科股价当日收涨9.9%,今年以来累计涨幅达148.6%。
+中财网",中国财经信息网,Public web,https://cfi.cn/p20260731002465.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P056. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E040,2026-07-31,2026-07-31,China,Technology,Public scan,,2026-07-31 新闻早报_行业资讯_资讯_航天新域,"热点资讯之江实验室三体计算星座在轨测试取得突破,氦星光联星载终端实现超
+192
+小时零断链星间激光通信,创下商业航天稳链时长新纪录。国内资讯行业资讯无锡氦星光联在三体计算星座测试创下星间激光通信长稳链新纪录,近期多家无锡航天企业卫星接连成功发射,无锡商业航天加速发展。7
+月,资阳市委书记袁泉推进招商引资、临近空间与商业航天产业发展,统筹民生保障、文化传承、防汛抗旱等工作,推动全市高质量发展。北京亦庄商业航天开放日活动落地全国首个商业航天产品可靠性平台,由三方共建,将打通产业供应链痛点,助力经开区商业航天全产业链发展。国际资讯英国多国联合依托乔德雷尔班克望远镜验证长基线多基地雷达太空态势感知技术,可精准监测空间碎片,但预算削减或导致相关设备
+2028
+年关停。美国SpaceX
+计划
+7
+月
+31
+日从卡纳维拉尔角发射猎鹰
+9
+号执行
+NROL-95
+机密任务,助推器将陆地回收,这是
+NRO2026
+年第四次发射。范登堡太空军基地启动
+“未来太空港”
+建设计划,推进设施升级扩容以承接增长的发射任务,依托
+“太空港
+2036”
+愿景打造大容量现代化发射综合体。",www.spacenew.cn,Public web,http://www.spacenew.cn/news/show-93011.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P064. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E046,2026-07-31,2026-07-31,China,Technology,Public scan,,航天科技集团3项成果入选国资央企“双百”战略资源体系_中国航天科技集团,"来源:中国航天报
+日期:2026年07月31日
+字体:【大】【中】【小】
+日前,2026世界人工智能大会期间,国务院国资委在“智赋新质
+全域焕新”企业人工智能高质量发展论坛正式发布第二批央企人工智能战略性高价值场景和行业高质量数据集,上线AI开源“焕新社区”2.0,启动国资央企智能软件工厂联合筑基工程。其中,中国航天科技集团有限公司“飞行器地面试验场景”“遥感星座场景”入选人工智能战略性高价值场景,“航天领域数据集”入选行业高质量数据集。
+此次发布的央企人工智能领域系列成果,构筑起涵盖开源生态、场景落地、数据流通、智能算力等全链条的能力布局,标志着央企以人工智能赋能实体经济进入体系化推进新阶段。
+下一步,国务院国资委将深入推进央企“AI+”专项行动,聚焦高价值场景,加快人工智能赋能千行百业,主动向产业链开放场景资源,联合上下游同题共答、协同创新;加强关键要素供给,加快算力基础设施建设,深化算电协同,提升全链条数据治理能力,夯实智能化产业发展底座;推动开源开放,培育互利共赢产业生态,为加快构建现代化产业体系、打造智能经济新形态注入强劲动能。
+(科轩)",www.spacechina.com,Public web,https://www.spacechina.com/n25/n2014789/n2014804/c4661081/content.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P070. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E047,2026-07-31,2026-07-31,China,Technology,Public scan,,2026年8月2日,"当前位置:首页>政府信息公开>法定主动公开内容>场地信息
+2026年8月2日
+来源:州公共资源交易服务中心
+发布日期:2026-07-31
+16:05
+[
+字体:大
+中
+小
+]
+【打印本页】
+分享到:",凉山彝族自治州人民政府,Public web,https://ggzyjy.lsz.gov.cn/zfxxgk/fdzdgknr/cdxx/202607/t20260731_3006378.html,A_Active,,1,2,2,1.50,C,相关性1/5、产业影响2/5、新颖性2/5；加权1.50。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P071.,Pass_C_supplemental
+W31-E061,2026-07-31,2026-07-31,Global,Technology,Public scan,,图解丨2026年8月财经大事件前瞻,"图解丨2026年8月财经大事件前瞻11
+小时前37.0kSpaceX上市后首份季报8月4日盘后发布2026年8月全球重点财经大事件,如下图:相关主题/热点格隆汇声明:文中观点均来自原作者,不代表格隆汇观点及立场。特别提醒,投资决策需建立在独立思考之上,本文内容仅供参考,不作为实际操作建议,交易风险自担。",格隆汇,Public web,https://m.gelonghui.com/p/5849045,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P091. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E064,2026-07-31,2026-07-31,Global,Technology,Public scan,,2026上半年国际十大融资最多的商业航天公司_腾讯新闻,"据你好太空不完全统计,2026年上半年,国外商业航天共发生52起融资事件,已披露融资金额合计约65.03亿美元,折合人民币约440亿元。其中排名前10的企业,融资金额均达到了2亿美元。今天,我们就来看看:2026上半年国际十大融资最多的商业航天公司。融资金额:6.7亿美元创始团队:创始人Shey
+Sabripour曾担任洛克希德·马丁公司航天器设计总监及萤火虫航天首席技术官,拥有近三十年的通信卫星设计和开发经验融资用途:主要用于建设总部、扩大制造能力以及整合研发与生产环节,提升本土批产能力公司介绍:CesiumAstro专注于有源相控阵通信有效载荷、卫星平台和在轨通信系统等,主要产品包括Element卫星平台和Vireo
+Ka288、Nightingale等相控阵有效载荷,其客户涵盖雷神技术公司、火箭实验室等,并与美国空军、太空军、NASA签有合同,同时为NASA月球任务开发关键导航技术。融资金额:6.5亿美元创始团队:联合创始人Even
+Rogers、Kyle
+Zakrzewski均为美国空军和太空军退伍军人融资用途:推出新产品、大规模扩建工厂以及扩大运营规模,计划在年底前将员工人数几乎翻倍至500人公司介绍:True
+Anomaly为美国国家安全任务设计和制造航天器、软件以及有效载荷,产品主要包括高机动自主轨道飞行器Jackal和任务软件平台Mosaic,已中标美国太空军
+“仙女座”计划,并入选天基拦截器项目。融资金额:5.5亿美元创始团队:首席执行官Dan
+Jablonsky曾先后担任火箭公司Ursa
+Major的董事长和卫星公司Maxar
+Technologies的总裁,在航空航天和国防领域拥有丰富的领导经验融资用途:扩大产能和开发差异化解决方案公司介绍:Sierra
+Space为美国国防承包商Sierra
+Nevada
+Corporation子公司,专注于为国家任",腾讯网,Public web,https://news.qq.com/rain/a/20260731A05Z2F00,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P094. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E083,2026-07-31,2026-07-31,China,Policy,Public scan,,2026年全球AI算力基建与云服务竞争格局:150亿贷款背后的产业动向_报告大厅,"中国报告大厅网讯,当前全球AI产业竞争进入算力基建新阶段,头部企业通过资金链整合与技术合作加速布局。某数据中心开发商正与多家银行商议150亿美元贷款,用于建设与Anthropic合作的得克萨斯州数据中心园区。该项目将采用谷歌TPU芯片,并由后者为电力与租赁费用提供担保。与此同时,某投资机构在出售资产组合时保留了全部Anthropic股权,凸显市场对AI基础设施的长期信心。
+一、数据中心基建扩张与谷歌TPU芯片的市场渗透,发展趋势及竞争分析
+中国报告大厅发布的《2026-2031年中国数据中心行业专题研究及市场前景预测评估报告》指出,数据显示,该数据中心园区规划电力容量达1.6吉瓦,远超多数区域级数据中心规模。谷歌通过TPU芯片供应及财务担保深度绑定
+Anthropic,既巩固了其在AI芯片领域的技术优势,又通过基础设施合作扩大云服务市场份额。这种“芯片+基建”捆绑模式可能成为未来算力竞争的关键策略,迫使其他厂商在硬件自研与资本投入上加速布局。
+二、150亿美元贷款背后的产业资金链重构,发展趋势及竞争分析
+银行对此次数据中心项目的巨额授信,反映出金融机构对AI基建长期回报的乐观预期。与传统数据中心融资不同,该交易引入谷歌作为关键担保方,形成“科技企业+金融机构”的协同支持模式。这种创新融资结构或将吸引更多资本进入AI算力领域,推动行业进入更高规模的产能扩张周期。
+三、区域化算力节点的战略价值,发展趋势及竞争分析
+选择得克萨斯州作为新园区所在地,既考虑其充沛的电力资源与低运营成本,也瞄准美国中南部日益增长的算力需求。高密度TPU芯片部署将使该区域成为Anthropic模型训练的核心节点,直接挑战其他云服务商在区域市场的算力供应能力。这种“点对点”竞争模式或将引发新一轮数据中心选址热潮,进一步加剧区域算力资源争夺。
+2026年AI产业竞争已从算法创新转向基础设施的深度博弈。谷歌",报告大厅,Public web,https://m.chinabgao.com/finance/us/323833.html,A_Active,https://www.chinabgao.com/finance/us/323833.html,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该动作通过产业规划、地方专项或工程组织推动太空算力与商业航天供给，需区分正式项目与远期目标。,用于判断国内星座、算力基础设施和关键供应链何时从政策信号转化为可执行项目与采购需求。,跟踪首批部署、正式资金、技术指标、供应商名单及是否形成公开采购或客户合同。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Stage 3 merged 2 reports into one event atom: ai_infra_report. Origin ID: W31-P119. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E067,2026-08-01,2026-08-01,Global,Technology,Public scan,,diffusion_标签_网易出品,"相关内容
+网易号
+FounderPark
+2026-07-18
+网易号
+晚点LatePost
+2026-07-16
+网易号
+CreateAMind
+2025-08-16
+网易号
+机器学习与Python社区
+2025-07-04
+网易号
+硅星Breaknews
+2024-11-29
+网易号
+硅星Breaknews
+2024-10-23
+无障碍浏览
+进入关怀版",凤凰网,Public web,https://news.163.com/keywords/0/6/0064006900660066007500730069006f006e/1.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P097. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
+W31-E069,2026-08-02,2026-08-02,Global,Technology,Public scan,,行星际_标签_网易出品,"相关内容
+网易号
+中科院国家空间科学中心
+2026-07-09
+网易号
+中科院国家空间科学中心
+2025-10-22
+网易号
+中科院国家空间科学中心
+2025-09-15
+网易号
+中科院国家空间科学中心
+2025-04-30
+网易号
+中科院国家空间科学中心
+2025-03-21
+网易号
+中科院国家空间科学中心
+2024-11-13
+网易号
+cnBeta.COM
+2024-07-10
+无障碍浏览
+进入关怀版",凤凰网,Public web,https://news.163.com/keywords/8/4/884c661f9645/1.html,A_Active,,1,1,1,1.00,C,相关性1/5、产业影响1/5、新颖性1/5；加权1.00。受相关性不高于2分的最高B级约束。,Database_Only,该节点提供了运载、在轨服务、通信链路或任务工程的新增验证，价值取决于后续实测数据与规模化复用。,用于校准星上算力所依赖的载体、链路、任务运营和在轨基础设施成熟度。,跟踪下一次任务节点、测试结果、在轨数据、合同执行和可复用性指标。,"Pass C opened; dated in weekly window. Stage 2 retains all dated public hits without relevance filtering. Origin ID: W31-P100. Excluded as metadata pollution, navigation shell, stale report page, or unrelated notice.",Pass_C_supplemental
