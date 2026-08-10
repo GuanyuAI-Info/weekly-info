@@ -1,0 +1,552 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>W32 融资情报库</title><style>@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap");
+
+
+:root {
+  --ivory: #faf9f5;
+  --ivory-warm: #f0eee6;
+  --ivory-deep: #e3dacc;
+  --ink: #141413;
+  --ink-soft: #3d3d3a;
+  --mid-gray: #b0aea5;
+  --light-gray: #e8e6dc;
+  --terracotta: #d97757;
+  --olive: #788c5d;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+.masthead {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 30px 32px 26px;
+  border-bottom: 1px solid var(--light-gray);
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  letter-spacing: .09em;
+}
+
+.hero {
+  max-width: 1180px;
+  margin: 0 auto;
+  min-height: 630px;
+  padding: 72px 72px 64px;
+  background: var(--ink);
+  color: var(--ivory);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 80px;
+  align-items: end;
+}
+.hero-kicker, .section-kicker, .meta-line, .card-index, footer, .lock-masthead, .lock-week {
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: .08em;
+}
+.hero-kicker { font-size: 13px; margin-bottom: 38px; }
+.hero h1 {
+  margin: 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(60px, 7.3vw, 96px);
+  line-height: .98;
+  font-weight: 400;
+  letter-spacing: -.045em;
+}
+.hero h1 em {
+  color: inherit;
+  font-style: normal;
+  text-decoration: underline 5px var(--terracotta);
+  text-underline-offset: 10px;
+}
+.hero-copy > p { margin: 42px 0 0; color: #d8d5cd; font-size: 18px; }
+.metric-rail { border-left: 1px solid #454542; padding-left: 30px; }
+.metric-rail div { padding: 20px 0; border-bottom: 1px solid #454542; }
+.metric-rail strong { display: block; font-family: "Fraunces", Georgia, serif; font-size: 46px; line-height: 1; font-weight: 400; }
+.metric-rail span { display: block; margin-top: 8px; color: #b9b7b0; font-size: 14px; }
+
+.category-nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--light-gray);
+}
+.category-nav a {
+  padding: 28px 32px;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-right: 1px solid var(--light-gray);
+}
+.category-nav a:last-child { border-right: 0; }
+.category-nav a:hover { color: var(--terracotta); }
+.category-nav a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+
+.rating-legend {
+  max-width: 1116px;
+  margin: 80px auto 0;
+  padding: 34px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--light-gray);
+}
+.legend-title { font-family: "Fraunces", Georgia, serif; font-size: 30px; }
+.rating-legend p { max-width: 660px; margin: 8px 0 0; color: var(--ink-soft); }
+.legend-marks { display: flex; align-items: center; gap: 24px; }
+.legend-marks > div { display: flex; align-items: center; gap: 7px; font-family: "JetBrains Mono", monospace; font-size: 14px; }
+.rating { width: 48px; height: 48px; display: inline-grid; place-items: center; border: 1px solid currentColor; font-family: "Fraunces", Georgia, serif; font-size: 26px; line-height: 1; }
+.rating-s, .rating-a { color: var(--terracotta); }
+.rating-b { color: var(--ink); }
+.rating-c { color: #85837b; }
+
+.category-section { max-width: 1116px; margin: 110px auto 0; scroll-margin-top: 28px; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; padding-bottom: 30px; border-bottom: 2px solid var(--ink); }
+.section-kicker { font-size: 12px; color: var(--ink-soft); }
+.section-heading h2 { margin: 10px 0 0; font-family: "Fraunces", Georgia, serif; font-size: 56px; font-weight: 400; letter-spacing: -.025em; }
+.section-count { display: flex; align-items: baseline; gap: 8px; }
+.section-count strong { font-family: "Fraunces", Georgia, serif; font-size: 54px; font-weight: 400; }
+.section-count span { color: var(--ink-soft); }
+
+.financing-card {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 28px;
+  padding: 40px 0 42px;
+  border-bottom: 1px solid var(--light-gray);
+}
+.card-index { padding-top: 5px; color: var(--mid-gray); font-size: 13px; }
+.card-heading { display: flex; justify-content: space-between; gap: 30px; }
+.meta-line { display: flex; flex-wrap: wrap; gap: 9px 20px; color: var(--ink-soft); font-size: 13px; }
+.meta-line span + span::before { content: "·"; margin-right: 20px; color: var(--mid-gray); }
+.card-heading h3 { margin: 12px 0 0; font-size: 32px; line-height: 1.18; letter-spacing: -.02em; }
+.score-block { display: flex; align-items: center; gap: 12px; flex: 0 0 auto; }
+.score-number { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--ink-soft); }
+.amount-line { margin: 24px 0 26px; font-family: "Fraunces", Georgia, serif; font-size: 30px; line-height: 1.2; }
+.detail-grid { margin: 0; display: grid; grid-template-columns: 1.05fr 1.8fr .8fr; gap: 30px; }
+.detail-grid div { padding-top: 15px; border-top: 1px solid var(--light-gray); }
+.detail-grid dt { margin-bottom: 8px; color: var(--mid-gray); font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: .08em; }
+.detail-grid dd { margin: 0; font-size: 17px; color: var(--ink-soft); }
+.expand-button {
+  width: 100%;
+  margin-top: 28px;
+  padding: 22px 0;
+  border: 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+.expand-button:hover { color: var(--terracotta); }
+
+footer {
+  max-width: 1116px;
+  margin: 110px auto 0;
+  padding: 30px 0 52px;
+  border-top: 1px solid var(--ink);
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.lock-screen { min-height: 100vh; background: var(--ink); color: var(--ivory); padding: 32px; display: flex; flex-direction: column; }
+.lock-masthead { max-width: 1180px; width: 100%; margin: 0 auto; padding-bottom: 24px; border-bottom: 1px solid #454542; font-size: 12px; }
+.lock-week { color: var(--terracotta); font-size: 13px; }
+
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .masthead { padding: 22px 20px; }
+  .masthead span:first-child { display: none; }
+  .hero { min-height: auto; padding: 58px 24px 40px; grid-template-columns: 1fr; gap: 50px; }
+  .hero h1 { font-size: 58px; }
+  .metric-rail { display: grid; grid-template-columns: 1fr 1fr; padding: 0; border-left: 0; border-top: 1px solid #454542; }
+  .metric-rail div { padding-right: 18px; }
+  .category-nav { grid-template-columns: 1fr; }
+  .category-nav a { padding: 18px 20px; border-right: 0; border-bottom: 1px solid var(--light-gray); }
+  .rating-legend, .category-section, footer { margin-left: 20px; margin-right: 20px; }
+  .rating-legend { margin-top: 55px; display: block; }
+  .legend-marks { margin-top: 25px; gap: 15px; }
+  .rating { width: 42px; height: 42px; font-size: 22px; }
+  .category-section { margin-top: 78px; }
+  .section-heading h2 { font-size: 42px; }
+  .section-count strong { font-size: 38px; }
+  .financing-card { grid-template-columns: 1fr; gap: 8px; padding: 32px 0; }
+  .card-heading h3 { font-size: 28px; }
+  .amount-line { font-size: 26px; }
+  .detail-grid { grid-template-columns: 1fr; gap: 18px; }
+  footer { display: block; }
+  footer span { display: block; margin-bottom: 8px; }
+  .lock-screen { padding: 22px; }
+}
+[hidden]{display:none!important}.overflow-item{display:none}.category-section.expanded .overflow-item{display:grid}.report-return{max-width:1116px;margin:48px auto 0}.previous-button{display:inline-block;margin-top:18px;padding:12px 16px;border:1px solid var(--light-gray);border-radius:8px;background:var(--ivory-deep);color:var(--ink);font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;font-weight:500;letter-spacing:.02em;text-decoration:none}.previous-button:hover{border-color:var(--terracotta);color:var(--terracotta)}.previous-button:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px}
+.financing-card{grid-template-columns:52px minmax(0,1fr);gap:20px;padding:25px 0 27px}.card-index{padding-top:3px}.card-heading{gap:22px}.card-heading h3{margin-top:8px;font-size:25px;line-height:1.16}.business-copy{margin-top:8px;color:var(--ink-soft);font-size:14px;line-height:1.45}.meta-line{font-size:12px}.rating{width:38px;height:38px;font-size:20px}.score-block{gap:8px}.amount-line{margin:15px 0 18px;font-size:23px}.detail-grid{gap:20px}.detail-grid div{padding-top:10px}.detail-grid dt{margin-bottom:5px;font-size:11px}.detail-grid dd{font-size:14px;line-height:1.42}.expand-button{margin-top:20px;padding:15px 0;font-size:15px}
+@media(max-width:760px){.financing-card{grid-template-columns:1fr;gap:5px;padding:22px 0}.card-heading h3{font-size:23px}.amount-line{font-size:21px}.rating{width:36px;height:36px;font-size:19px}}
+</style></head><body>
+    <div class="dashboard-shell" id="dashboard"><main><header class="masthead"><span>观宇投融资</span><span>融资情报库 · 2026 W32</span></header>
+    <section class="hero"><div class="hero-copy"><div class="hero-kicker">WEEKLY CAPITAL INTELLIGENCE</div><h1>资本继续进入<br><em>空间数据、链路</em><br>与关键芯片。</h1><p>2026年8月3日至8月9日 · W32融资筛选结果</p></div><div class="metric-rail"><div><strong>57</strong><span>筛入融资</span></div><div><strong>3</strong><span>行业板块</span></div><div><strong>1</strong><span>A级事件</span></div><div><strong>55</strong><span>B级事件</span></div></div></section>
+    <nav class="category-nav" aria-label="融资分类"><a href="#category-0">商业航天</a><a href="#category-1">芯片与半导体</a><a href="#category-2">AI 算力</a></nav>
+    <section class="rating-legend"><div><span class="legend-title">相关性评级</span><p>评分沿用W32阶段4复核结果；独立公开来源充分的强相关事件可评S/A，企查查单一证据统一封顶为B。</p></div><div class="legend-marks"><div><span class="rating rating-s">S</span><span>0</span></div><div><span class="rating rating-a">A</span><span>1</span></div><div><span class="rating rating-b">B</span><span>55</span></div><div><span class="rating rating-c">C</span><span>1</span></div></div></section>
+    <section class="category-section" id="category-0"><div class="section-heading"><div><div class="section-kicker">COMMERCIAL SPACE</div><h2>商业航天</h2></div><div class="section-count"><strong>15</strong><span>项融资</span></div></div><div class="financing-list"><article class="financing-card">
+      <div class="card-index">01</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>E轮</span><span>北京市</span></div><h3>星际荣耀</h3><p class="business-copy">商业运载火箭发射系统解决方案提供商</p></div>
+      <div class="score-block"><span class="rating rating-a">A</span><span class="score-number">4.00</span></div></div>
+      <div class="amount-line">约10亿元 · RMB 10.00亿 · USD 147.27M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>航空航天与国防</dd></div><div><dt>投资方</dt><dd>义柏资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">02</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>Pre-C轮</span><span>烟台市</span></div><h3>东方空间</h3><p class="business-copy">运载火箭和新型空天运输工具设计制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数亿元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>航空航天与国防</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">03</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>A+轮</span><span>杭州市</span></div><h3>亿维特</h3><p class="business-copy">电动垂直起降飞行器研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数亿元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>航空航天与国防</dd></div><div><dt>投资方</dt><dd>上城资本；普华资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">04</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>Pre-A+轮</span><span>苏州市</span></div><h3>光年探索</h3><p class="business-copy">商业航天高端结构产品研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数千万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>航空航天与国防</dd></div><div><dt>投资方</dt><dd>建投投资；鼎心资本；国发文鑫</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">05</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>天使轮</span><span>贵阳市</span></div><h3>知一宇航</h3><p class="business-copy">全球精准气象海洋及空间环境信息服务提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>贵州创新赋能大数据投资基金；贵州科风投；钧天航宇（无锡）装备技术发展有限公司</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">06</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>种子轮</span><span>海外</span></div><h3>Endeavor Optical Networks</h3><p class="business-copy">卫星通信网络开发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">1075万美元 · RMB 7300万 · USD 10.75M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>卫星通信网络开发商</dd></div><div><dt>投资方</dt><dd>General Catalyst；Andreessen Horowitz</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">07</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>天使+轮</span><span>北京市</span></div><h3>清博空天</h3><p class="business-copy">太空安全服务提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数千万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>航空航天与国防</dd></div><div><dt>投资方</dt><dd>明荟致远投资；湖南兴湘投资；泰亚投资</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">08</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>天使轮</span><span>成都市</span></div><h3>中科星能</h3><p class="business-copy">空天特种电源研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>成都技转创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">09</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>天使轮</span><span>南京市</span></div><h3>凌鹊卫星</h3><p class="business-copy">卫星通信服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数千万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>泽宇智能</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">10</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>种子轮</span><span>海外</span></div><h3>EON Networks</h3><p class="business-copy">地球轨道天基激光洲际数据传输系统研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">1075万美元 · RMB 7300万 · USD 10.75M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>地球轨道天基激光洲际数据传输系统研发商</dd></div><div><dt>投资方</dt><dd>General Catalyst；Andreessen Horowitz；XYZ Ventures；Upfront Ventures；Main Object</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">11</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使轮</span><span>省直辖县级行政区划</span></div><h3>亚神航空科技</h3><p class="business-copy">航空航天科技研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>社会服务</dd></div><div><dt>投资方</dt><dd>斯通伍德·耀石</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">12</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使轮</span><span>北京市</span></div><h3>拓宇揽月</h3><p class="business-copy">卫星技术研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>鼎峰科创；中科创星；启榕创投；前海母基金；中航联创</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">13</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使+轮</span><span>杭州市</span></div><h3>星辰基石</h3><p class="business-copy">高可靠宇航芯片供应商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">约亿元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>浙大友创资本；上海电科；上海天使会</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">14</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使+轮</span><span>上海市</span></div><h3>鲸鹏芯海</h3><p class="business-copy">航天高能效系统芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.80</span></div></div>
+      <div class="amount-line">数千万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>中赢创投；Calterah；复容投资；创享投资；鼎华智能系统</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">15</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>A轮</span><span>美国</span></div><h3>Aurelius Systems</h3><p class="business-copy">激光反无人机系统研发商</p></div>
+      <div class="score-block"><span class="rating rating-c">C</span><span class="score-number">2.70</span></div></div>
+      <div class="amount-line">4000万美元 · RMB 2.72亿 · USD 40.00M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>激光反无人机系统研发商</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article></div><button class="expand-button" type="button" aria-expanded="false"><span>展开其余 7 条</span><span aria-hidden="true">↓</span></button></section><section class="category-section" id="category-1"><div class="section-heading"><div><div class="section-kicker">CHIPS & SEMICONDUCTORS</div><h2>芯片与半导体</h2></div><div class="section-count"><strong>34</strong><span>项融资</span></div></div><div class="financing-list"><article class="financing-card">
+      <div class="card-index">01</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>D轮</span><span>韩国</span></div><h3>DEEPX</h3><p class="business-copy">高性能AI半导体和计算解决方案提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">420亿韩元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>高性能AI半导体和计算解决方案提供商</dd></div><div><dt>投资方</dt><dd>DS Asset Management；BNW Investment</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">02</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>B轮</span><span>英国</span></div><h3>Olix</h3><p class="business-copy">AI芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">3.12亿美元 · RMB 21.19亿 · USD 312.00M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>AI芯片研发商</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">03</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>天使+轮</span><span>三明市</span></div><h3>中伟半导体</h3><p class="business-copy">全固态电池材料及半导体级超高纯金属材料供应商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>金属及金属矿</dd></div><div><dt>投资方</dt><dd>金桥基金</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">04</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>A轮</span><span>合肥市</span></div><h3>九川智能</h3><p class="business-copy">电路板产销商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>机械设备</dd></div><div><dt>投资方</dt><dd>正菱基金；光大控股</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">05</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>C+轮</span><span>厦门市</span></div><h3>云天半导体</h3><p class="business-copy">半导体系统封装集成方案及量产服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>创合鑫材基金</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">06</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>C轮</span><span>深圳市</span></div><h3>开步电子</h3><p class="business-copy">高端电阻产品研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>鑫世晟</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">07</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>B轮</span><span>杭州市</span></div><h3>泽达半导体</h3><p class="business-copy">电子元器件制造生产商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>裕太微</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">08</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>天使轮</span><span>北京市</span></div><h3>灵感港</h3><p class="business-copy">电子元器件制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>环保</dd></div><div><dt>投资方</dt><dd>真知创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">09</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>天使轮</span><span>合肥市</span></div><h3>神玑技术</h3><p class="business-copy">智能驾驶芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>金浦投资；常盛投资；朗玛峰创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">10</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>A轮</span><span>杭州市</span></div><h3>九宸微电子</h3><p class="business-copy">AI MCU芯片服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商贸零售</dd></div><div><dt>投资方</dt><dd>泰芯资本；浙大联创投资</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">11</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>B轮</span><span>北京市</span></div><h3>俊丰未来</h3><p class="business-copy">电子功能新材料研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>金沙江联合资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">12</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>B轮</span><span>天津市</span></div><h3>巽霖科技</h3><p class="business-copy">陶瓷和玻璃电子基板表面金属化技术研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">约2亿元 · RMB 2.00亿 · USD 29.45M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>英诺基金；千乘资本；海目星；光莆股份；金雨茂物；海通开元；北岸控股；同鑫资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">13</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>A轮</span><span>杭州市</span></div><h3>恒脉微</h3><p class="business-copy">一体化MEMS微型泵器件研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>启明创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">14</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>A轮</span><span>深圳市</span></div><h3>有维光电</h3><p class="business-copy">固体激光器及晶体材料服务提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>三元生物</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">15</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>B轮</span><span>无锡市</span></div><h3>漠石科技</h3><p class="business-copy">功率半导体关键封装材料供应商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>苏民投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">16</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>B轮</span><span>苏州市</span></div><h3>篆芯半导体</h3><p class="business-copy">半导体技术研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>奇安投资；万通发展；水木清华校友种子基金；卓源亚洲；利河伯资本；张江科投；北京元大投资有限公司；苏州白洞科技合伙企业（有限合伙）</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">17</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>B轮</span><span>绍兴市</span></div><h3>埃瓦科技</h3><p class="business-copy">视觉感知AI芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>国科京东方；创米科技；宁波大鲸投资合伙企业（有限合伙）</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">18</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>A轮</span><span>青岛市</span></div><h3>墨氪智能</h3><p class="business-copy">半导体检测服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>财通集团</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">19</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>A轮</span><span>广州市</span></div><h3>广纳四维</h3><p class="business-copy">微纳光学器件研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">约2亿元 · RMB 2.00亿 · USD 29.45M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>机械设备</dd></div><div><dt>投资方</dt><dd>纳米基金；纳珍投资；知识城集团；金科君创；广州产投基金；成都技转创投；广州基金；美的资本；广金基金</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">20</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>A轮</span><span>上海市</span></div><h3>捷飞科半导体</h3><p class="business-copy">车载半导体设计服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>光庭信息</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">21</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>A轮</span><span>武汉市</span></div><h3>星辰技术</h3><p class="business-copy">封装技术解决方案提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">22</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>Pre-A轮</span><span>苏州市</span></div><h3>知芯传感</h3><p class="business-copy">MEMS芯片研发生产商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>中芯聚源投资</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">23</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>A轮</span><span>杭州市</span></div><h3>芯宇半导体</h3><p class="business-copy">半导体科技研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>初辉资本；信远正合</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">24</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>B轮</span><span>北京市</span></div><h3>量装半导体</h3><p class="business-copy">半导体器件制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>北京国管；亦庄产投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">25</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>B轮</span><span>南京市</span></div><h3>铌奥光电</h3><p class="business-copy">薄膜铌酸锂材料芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">数亿元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">26</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>C轮</span><span>北京市</span></div><h3>博视像元</h3><p class="business-copy">高端光学影像部件研发制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>中信建投资本；北京国管；朗玛峰创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">27</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使轮</span><span>苏州市</span></div><h3>晶和半导体</h3><p class="business-copy">宽禁带半导体材料异质集成与高端装备自主研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>曙光数创；芯禾资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">28</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>A轮</span><span>上海市</span></div><h3>特普斯</h3><p class="business-copy">边缘AI算力芯片研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>道禾投资；上海禾三三企业管理合伙企业（有限合伙）</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">29</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使轮</span><span>南通市</span></div><h3>芯光元晶体</h3><p class="business-copy">电子专用材料制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>金雨茂物</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">30</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>A轮</span><span>苏州市</span></div><h3>容道社</h3><p class="business-copy">半导体设备制造商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>西安航投汇星千象产业投资有限公司</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">31</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>A轮</span><span>丽水市</span></div><h3>浙江广芯微电子</h3><p class="business-copy">半导体晶圆代工商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>芯立电子；北京昌科金投资；凯联资本；华西证券</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">32</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>A轮</span><span>宁波市</span></div><h3>米德方格</h3><p class="business-copy">模拟芯片设计研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>浙江昇锋投资管理有限公司</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">33</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>天使+轮</span><span>苏州市</span></div><h3>芯灵光子</h3><p class="business-copy">高性能光子感知器件模组和系统研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">数百万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商业服务</dd></div><div><dt>投资方</dt><dd>元禾原点</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card overflow-item">
+      <div class="card-index">34</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>Pre-A+轮</span><span>杭州市</span></div><h3>镓仁半导体</h3><p class="business-copy">宽禁带半导体材料研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>远致创投；中车时代高新投资；境界投资；方广资本；毅岭资本；动力谷创投；苏州钰锦诚咨询合伙企业（有限合伙）</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article></div><button class="expand-button" type="button" aria-expanded="false"><span>展开其余 26 条</span><span aria-hidden="true">↓</span></button></section><section class="category-section" id="category-2"><div class="section-heading"><div><div class="section-kicker">AI COMPUTE</div><h2>AI 算力</h2></div><div class="section-count"><strong>8</strong><span>项融资</span></div></div><div class="financing-list"><article class="financing-card">
+      <div class="card-index">01</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>A轮</span><span>武汉市</span></div><h3>倍瑞思</h3><p class="business-copy">定制化液冷落地解决方案提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>高易创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">02</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-03</span><span>A轮</span><span>合肥市</span></div><h3>幺正量子</h3><p class="business-copy">QCCD路线离子阱量子计算研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">数亿元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>深创投；广发信德；京铭资本；普华资本；启赋资本；兴泰资本；达晨财智；华控基金；首程控股；协鑫能科；灏浚投资；凯联资本；芯能创投；众为资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">03</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-04</span><span>种子轮</span><span>瑞士</span></div><h3>Exclaim Robotics</h3><p class="business-copy">数据中心运维机器人研发商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">495万美元 · RMB 3361万 · USD 4.95M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>数据中心运维机器人研发商</dd></div><div><dt>投资方</dt><dd>未披露</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">04</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-05</span><span>天使轮</span><span>上海市</span></div><h3>无界量子</h3><p class="business-copy">QPU等核心基础设施提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">数千万元</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>商贸零售</dd></div><div><dt>投资方</dt><dd>复旦科创；险峰；前海母基金；中赢创投</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">05</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>B轮</span><span>新加坡</span></div><h3>Acrab</h3><p class="business-copy">全栈式人工智能计算平台提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">1.3亿美元 · RMB 8.83亿 · USD 130.00M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>全栈式人工智能计算平台提供商</dd></div><div><dt>投资方</dt><dd>Vertex Growth Fund；Vertex Ventures SEA &amp; India</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">06</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>股权融资</span><span>海外</span></div><h3>Volta AI</h3><p class="business-copy">人工智能基础设施提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.30</span></div></div>
+      <div class="amount-line">3亿美元 · RMB 20.37亿 · USD 300.00M</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>人工智能基础设施提供商</dd></div><div><dt>投资方</dt><dd>Andreessen Horowitz；Altimeter Capital；英伟达；个人（Michael Dell）</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">07</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-06</span><span>天使轮</span><span>南京市</span></div><h3>南芥智能</h3><p class="business-copy">人工智能基础设施平台提供商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.00</span></div></div>
+      <div class="amount-line">-</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>信息技术</dd></div><div><dt>投资方</dt><dd>鼎信资本</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article><article class="financing-card">
+      <div class="card-index">08</div><div class="card-main"><div class="card-heading"><div>
+      <div class="meta-line"><span>2026-08-07</span><span>股权融资</span><span>澳大利亚</span></div><h3>Firmus</h3><p class="business-copy">AI基础设施服务商</p></div>
+      <div class="score-block"><span class="rating rating-b">B</span><span class="score-number">3.50</span></div></div>
+      <div class="amount-line">20亿美元 · RMB 135.81亿 · USD 2.00B</div><dl class="detail-grid">
+      <div><dt>行业</dt><dd>AI基础设施服务商</dd></div><div><dt>投资方</dt><dd>英伟达；Coatue；黑石集团；Jane Street Capital</dd></div><div><dt>估值</dt><dd>未披露</dd></div>
+      </dl></div></article></div></section><div class="report-return"><a class="previous-button" href="老板版_2026-W32.html">← 返回 W32 周报</a></div>
+    <footer><span>GUANYU CAPITAL INTELLIGENCE</span><span>W32 · INTERNAL</span></footer></main></div>
+    <script>(()=>{document.querySelectorAll('.expand-button').forEach(btn=>btn.addEventListener('click',()=>{const section=btn.closest('.category-section'),expanded=section.classList.toggle('expanded'),hidden=section.querySelectorAll('.overflow-item').length;btn.setAttribute('aria-expanded',String(expanded));btn.children[0].textContent=expanded?'收起其余条目':`展开其余 ${hidden} 条`;btn.children[1].textContent=expanded?'↑':'↓'}))})();</script></body></html>
