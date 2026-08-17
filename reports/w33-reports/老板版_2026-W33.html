@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W33</title>
+<!-- Design direction: refined industrial intelligence dossier -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#faf9f5; --ivory-warm:#f0eee6; --ivory-deep:#e3dacc;
+  --ink:#141413; --ink-soft:#3d3d3a; --mid-gray:#b0aea5; --light-gray:#e8e6dc;
+  --terracotta:#d97757;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;}
+body{
+  background:var(--ivory); color:var(--ink);
+  font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.55;
+  padding:64px 32px; max-width:1040px; margin:0 auto;
+}
+.serif{font-family:"Fraunces",Georgia,serif;}
+.mono{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);}
+.u-terra{text-decoration:underline; text-decoration-color:var(--terracotta); text-decoration-thickness:3px; text-underline-offset:4px;}
+section{margin-top:65px;}
+h2.section{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:44px; line-height:1.1; margin-bottom:32px;}
+.cat{font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft);}
+hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
+
+/* Masthead */
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--ink); padding-bottom:20px; flex-wrap:wrap; gap:16px;}
+.masthead .title{font-family:"Fraunces",Georgia,serif; font-size:30px; font-weight:600;}
+.masthead .meta{text-align:right;}
+.scanline{margin-top:14px;}
+
+/* Hero dark card */
+.hero{background:var(--ink); color:var(--ivory); padding:56px 48px; margin-top:40px; display:grid; grid-template-columns:1.6fr 1fr; gap:48px;}
+.hero .claim{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:40px; line-height:1.18;}
+.hero .claim .u-terra{text-decoration-color:var(--terracotta);}
+.hero .rail{display:flex; flex-direction:column; gap:0; border-left:1px solid #44423d; padding-left:28px;}
+.hero .rail .metric{padding:12px 0; border-bottom:1px solid #2c2b29;}
+.hero .rail .metric:last-child{border-bottom:0;}
+.hero .rail .num{font-family:"Fraunces",Georgia,serif; font-size:30px; line-height:1;}
+.hero .rail .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid-gray); margin-top:6px;}
+
+/* mission-log proof strip */
+.proof{margin-top:24px; border:1px solid var(--light-gray); background:var(--ivory-warm);}
+.proof .row{display:grid; grid-template-columns:120px 1fr; gap:20px; padding:14px 22px; border-bottom:1px solid var(--light-gray); align-items:baseline;}
+.proof .row:last-child{border-bottom:0;}
+.proof .d{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.06em; color:var(--ink-soft);}
+.proof .t{font-size:16px;}
+
+/* threads */
+.threads{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--light-gray);}
+.thread{padding:28px 26px; border-right:1px solid var(--light-gray);}
+.thread:last-child{border-right:0;}
+.thread h3{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+.thread .shape{margin:14px 0; }
+.thread .ledger-item, .thread .ladder-item, .thread .capital-item{padding:8px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.45;}
+.thread .ledger-item .mono, .thread .ladder-item .mono, .thread .capital-item .mono{display:block; font-size:11px; margin-bottom:2px;}
+.thread p.judge{font-size:15px; line-height:1.5; color:var(--ink-soft); margin-top:14px;}
+
+/* dossier cards */
+.cards{display:flex; flex-direction:column; gap:48px;}
+.card{background:var(--ivory-warm); border:1px solid var(--light-gray); border-radius:8px; padding:30px 32px;}
+.card.lead{background:var(--ivory-deep);}
+.card .metarow{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:14px;}
+.card .metarow .mono{font-size:12px;}
+.card .pri{font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.1em; border:1px solid var(--ink); padding:2px 8px;}
+.card h3.eh{font-family:"Inter Tight"; font-weight:600; font-size:22px; line-height:1.3; margin-bottom:14px;}
+.card.lead h3.eh{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:27px;}
+.card .body p{margin-bottom:9px; font-size:16px; line-height:1.55;}
+.card .body p b{font-weight:600;}
+.card.lead .body{display:grid; grid-template-columns:1fr 1fr; gap:8px 32px;}
+.anchor{font-family:"JetBrains Mono",monospace; font-size:14px; letter-spacing:0.04em; color:var(--ink-soft); margin-top:8px; display:block;}
+.timeline-card{display:grid; grid-template-columns:96px 1fr; gap:24px;}
+.timeline-card .daterail{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--terracotta); border-right:1px solid var(--light-gray); padding-right:16px;}
+
+/* source link */
+.src{font-family:"JetBrains Mono",monospace; font-size:14px; margin-top:18px; display:block;}
+.src a{color:var(--ink-soft); text-decoration:underline; text-decoration-color:currentColor; transition:color 0.15s ease;}
+.src a:hover{color:var(--terracotta);}
+.src a:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+.previous-button{display:inline-block; margin-top:18px; padding:12px 16px; border:1px solid var(--light-gray); border-radius:8px; background:var(--ivory-deep); color:var(--ink); font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; font-weight:500; letter-spacing:.02em; text-decoration:none;}
+.previous-button:hover{border-color:var(--terracotta); color:var(--terracotta);}
+.previous-button:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+
+/* financing supplement */
+.finsup{max-width:720px; font-size:17px; line-height:1.6;}
+
+/* action memo */
+.memo{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--ink);}
+.memo .col{padding:24px 24px; border-right:1px solid var(--light-gray);}
+.memo .col:last-child{border-right:0;}
+.memo .col h4{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px; color:var(--ink);}
+.memo .col .item{padding:12px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.5;}
+
+.colophon{margin-top:80px; padding-top:20px; border-top:1px solid var(--ink); font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.06em; color:var(--ink-soft);}
+
+@media (max-width:720px){
+  body{padding:48px 20px;}
+  .hero{grid-template-columns:1fr; gap:28px; padding:36px 24px;}
+  .hero .claim{font-size:30px;}
+  .hero .rail{border-left:0; border-top:1px solid #44423d; padding-left:0; padding-top:20px;}
+  .threads{grid-template-columns:1fr;} .thread{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .card.lead .body{grid-template-columns:1fr;}
+  .timeline-card{grid-template-columns:1fr;} .timeline-card .daterail{border-right:0; border-bottom:1px solid var(--light-gray); padding-bottom:8px;}
+  .memo{grid-template-columns:1fr;} .memo .col{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .proof .row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. Masthead -->
+<header class="masthead">
+  <div class="title serif">中美太空算力周报</div>
+  <div class="meta">
+    <div class="mono">2026-W33 · 2026.08.10–2026.08.16</div>
+    <div class="mono">Compiled 2026.08.17 · Internal use</div>
+  </div>
+</header>
+<div class="scanline mono">Pass A/B/C完成 · 境内166条 / 境外39条融资已导入 · Stage 4门禁全通过</div>
+
+<!-- 2. Executive hero -->
+<div class="hero">
+  <div class="claim serif">江苏将太空计算与国产算力在轨验证写入三年行动计划，央视专题与低轨24组发射同周出现：主航道进入<span class="u-terra">政策任务与轨道基础设施</span>并行推进期；工程成熟度仍需在轨实测与付费调用确认。</div>
+  <div class="rail">
+    <div class="metric"><div class="num serif">154</div><div class="lbl">候选事件</div></div>
+    <div class="metric"><div class="num serif">70</div><div class="lbl">正文</div></div>
+    <div class="metric"><div class="num serif">25.7%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">8</div><div class="lbl">S/A</div></div>
+  </div>
+</div>
+
+<div class="proof">
+  <div class="row"><div class="d">08/13</div><div class="t">江苏行动计划提出太空计算与国产算力在轨验证；央视专题报道产业加速落地。</div></div>
+  <div class="row"><div class="d">08/14</div><div class="t">四川算力网政策、北京空间安全专项与蓝箭动力试验中心规划同日出现。</div></div>
+  <div class="row"><div class="d">08/16</div><div class="t">卫星互联网低轨24组卫星成功发射，组网继续推进。</div></div>
+
+  <div style="padding:22px;background:var(--ivory-warm);">
+    <p style="max-width:860px;font-size:16px;line-height:1.65;color:var(--ink-soft);"><b>上周重点：</b>W32的核心增量是400 TOPS星载AI双星、FCC直连卫星规则与美国政府采购同周出现，关注点从概念性星座规模转向载荷参数、链路和可调用服务；W33进一步看到地方行动计划直接提出太空计算在轨验证。</p>
+    <!-- WEEKLY_NAV_START --><a href="../../../2026-W32/output/w32-reports/老板版_2026-W32.html" class="previous-button">← W32 周报</a><!-- WEEKLY_NAV_END -->
+  </div>
+</div>
+
+<!-- 3. Three threads -->
+<section>
+  <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
+  <div class="threads">
+    <div class="thread">
+      <span class="cat">POLICY</span>
+      <h3 class="serif">地方政策开始写入太空计算验证任务</h3>
+      <div class="shape">
+        <div class="ledger-item"><span class="mono">江苏</span>太空计算与国产算力在轨验证</div>
+        <div class="ledger-item"><span class="mono">四川</span>算力网与算电协同</div>
+        <div class="ledger-item"><span class="mono">北京</span>空间安全科研专项</div>
+      </div>
+      <p class="judge">政策信号更具体，但必须等待项目清单、预算和验收指标。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">TECHNOLOGY</span>
+      <h3 class="serif">组网、试验与快速发射能力继续补齐</h3>
+      <div class="shape">
+        <div class="ladder-item"><span class="mono">低轨24组</span>卫星互联网发射</div>
+        <div class="ladder-item"><span class="mono">蓝箭</span>先进动力试验中心</div>
+        <div class="ladder-item"><span class="mono">GHOST</span>移动发射场系统</div>
+      </div>
+      <p class="judge">轨道和运力基础设施扩张，商业能力仍需连续任务与调用数据。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">CAPITAL</span>
+      <h3 class="serif">资本仍偏芯片与供给侧扩张</h3>
+      <div class="shape">
+        <div class="capital-item"><span class="mono">36条</span>融资底库</div>
+        <div class="capital-item"><span class="mono">26条</span>芯片融资</div>
+        <div class="capital-item"><span class="mono">7条</span>商业航天融资</div>
+      </div>
+      <p class="judge">全部融资线索统一按B级处理，用资金到账、产品和客户订单过滤。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Core event dossier -->
+<section>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">8 条 S/A</span></h2>
+  <div class="cards">
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 中 · 08/13</span><span class="mono" style="color:var(--terracotta);">太空算力/商业航天/AI</span></div>
+      <h3 class="eh serif">央视：太空算力相关产业加速落地</h3>
+      <div class="body">
+          <p><b>判断</b> 央视将太空算力从单点项目上升为产业落地主题，但报道仍以产业信号为主。</p>
+          <p><b>影响</b> 主航道获得更高公共可见度，有利于政策、资本和客户认知形成共振。</p>
+          <p><b>对我们的意义</b> 拆解专题涉及的企业、载荷与订单，建立可核验参数清单。</p>
+          <p><b>后续跟踪</b> 看企业一手公告、在轨算力/功耗/时延和付费调用；无实测不外推成熟度。</p>
+      </div>
+      <span class="src"><a href="https://big5.cctv.com/gate/big5/tv.cctv.cn/2026/08/13/VIDEysga9sexRYeAZNZUcADW260813.shtml" target="_blank" rel="noopener noreferrer">Source: 央視網 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">S<br>政策<br>08/13</div>
+      <div>
+        <h3 class="eh">江苏商业航天三年行动计划提出太空计算与国产算力在轨验证</h3>
+        <div class="body">
+          <p><b>判断</b> 江苏省级行动计划明确提出太空计算与国产算力在轨验证，是本周最直接的政策增量。</p>
+          <p><b>影响</b> 地方产业政策开始把太空算力转换为工程验证任务和供给侧组织。</p>
+          <p><b>对我们的意义</b> 优先跟踪项目清单、牵头单位、载荷采购与测试标准，寻找可进入的验证环节。</p>
+          <p><b>后续跟踪</b> 看预算、申报指南、首批项目和验收指标；只有行动计划不足以确认订单。</p>
+        </div>
+        <span class="src"><a href="http://gxt.jiangsu.gov.cn/art/2026/8/13/art_6197_11815903.html" target="_blank" rel="noopener noreferrer">Source: 江苏省工业和信息化厅 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中 · 08/14</span><span class="mono" style="color:var(--terracotta);">AI算力基础设施</span></div>
+      <h3 class="eh serif">四川发布算力网政策，支持智算集群与算电协同</h3>
+      <div class="body">
+          <p><b>判断</b> 四川以算力网、智算集群和算电协同补强地面计算底座。</p>
+          <p><b>影响</b> 跨区域调度与能源协同会影响地面—空间混合计算的成本和接口条件。</p>
+          <p><b>对我们的意义</b> 把算力调度、能源成本和异构资源接口纳入太空算力商业模型。</p>
+          <p><b>后续跟踪</b> 看实施细则、补贴兑付、集群利用率和跨域调度量。</p>
+      </div>
+      <span class="src"><a href="https://www.km.gov.cn/c/2026-08-14/5104499.shtml" target="_blank" rel="noopener noreferrer">Source: 昆明市人民政府门户网站 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>政策<br>08/14</div>
+      <div>
+        <h3 class="eh">北京组织申报空间碎片与近地小行星防御科研专项</h3>
+        <div class="body">
+          <p><b>判断</b> 北京组织空间碎片与近地小行星防御专项申报，明确形成科研任务入口。</p>
+          <p><b>影响</b> 目标探测、轨道计算与快速响应可能带来空间数据处理需求。</p>
+          <p><b>对我们的意义</b> 评估星上筛选、目标识别、轨道计算和地面融合是否形成可复用能力。</p>
+          <p><b>后续跟踪</b> 看指南任务、入选单位、预算和交付指标；申报通知本身不是产业订单。</p>
+        </div>
+        <span class="src"><a href="https://jxj.beijing.gov.cn/jxdt/tzgg/202608/t20260814_4823330.html" target="_blank" rel="noopener noreferrer">Source: 北京市经济和信息化局 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中 · 08/11</span><span class="mono" style="color:var(--terracotta);">商业航天/卫星</span></div>
+      <h3 class="eh serif">自然资源部采购海洋卫星遥感监测技术服务</h3>
+      <div class="body">
+          <p><b>判断</b> 自然资源部以80万元预算采购海洋卫星遥感监测技术服务。</p>
+          <p><b>影响</b> 政府客户对空间数据服务存在明确采购，但单项目规模较小。</p>
+          <p><b>对我们的意义</b> 用履约需求反推数据时效、处理流程和客户可接受的服务边界。</p>
+          <p><b>后续跟踪</b> 看中标单位、服务内容、验收与续采；避免由单笔采购外推整体市场。</p>
+      </div>
+      <span class="src"><a href="https://www.mnr.gov.cn/gk/czgk/zfcg/zbxx/202608/t20260811_2936094.html" target="_blank" rel="noopener noreferrer">Source: 自然资源部门户网站 ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 中 · 08/14</span><span class="mono" style="color:var(--terracotta);">商业航天/卫星</span></div>
+      <h3 class="eh serif">蓝箭航天先进动力试验中心建设项目进入规划公示</h3>
+      <div class="body">
+          <p><b>判断</b> 蓝箭航天先进动力试验中心进入规划公示，运力基础设施继续扩张。</p>
+          <p><b>影响</b> 试验能力是液体火箭迭代、复用和批产节奏的关键约束。</p>
+          <p><b>对我们的意义</b> 把试验台能力、发动机产能和发射频次纳入国内低轨基础设施供给跟踪。</p>
+          <p><b>后续跟踪</b> 看开工、设备到位、试验能力与型号节点；规划公示不等于投产。</p>
+      </div>
+      <span class="src"><a href="https://huzgt.huzhou.gov.cn/col/col1229205023/art/2026/art_9532f5657dc74ce196bb9f4c1486b60d.html" target="_blank" rel="noopener noreferrer">Source: 湖州市自然资源和规划局 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>08/16</div>
+      <div>
+        <h3 class="eh">我国成功发射卫星互联网低轨24组卫星</h3>
+        <div class="body">
+          <p><b>判断</b> 低轨24组卫星成功发射，国内卫星互联网组网继续推进。</p>
+          <p><b>影响</b> 轨道节点增加为未来星间链路、边缘处理和数据服务提供基础设施。</p>
+          <p><b>对我们的意义</b> 跟踪卫星开通、链路容量、星载处理和应用侧调用，而非只计发射数量。</p>
+          <p><b>后续跟踪</b> 看在轨开通率、后续批次、网关与业务测试；发射成功不等于网络可商用。</p>
+        </div>
+        <span class="src"><a href="https://gzstv.com/a/d71da4f592ce484496ebd649872c8a90" target="_blank" rel="noopener noreferrer">Source: 贵视网 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 跨国 · 08/10</span><span class="mono" style="color:var(--terracotta);">商业航天/卫星</span></div>
+      <h3 class="eh serif">Rocket Lab发布可部署式GHOST移动发射场系统</h3>
+      <div class="body">
+          <p><b>判断</b> Rocket Lab推出可部署式GHOST移动发射场系统，强调快速、分布式发射能力。</p>
+          <p><b>影响</b> 移动发射设施可能提高小型任务响应与发射场韧性。</p>
+          <p><b>对我们的意义</b> 关注其对小卫星补网、应急任务与国防客户的交付价值。</p>
+          <p><b>后续跟踪</b> 看首个客户、实地部署时间、周转周期与发射成本；发布系统不等于已形成任务能力。</p>
+      </div>
+      <span class="src"><a href="https://www.space.com/space-exploration/launches-spacecraft/launching-anywhere-anytime-and-without-compromise-rocket-lab-unveils-new-ghost-portable-spaceport-system" target="_blank" rel="noopener noreferrer">Source: space.com ↗</a></span>
+    </article>
+
+  </div>
+</section>
+
+<!-- 5. Financing supplement -->
+<section>
+  <h2 class="section serif">融资其余条目</h2>
+  <p class="finsup">原始清单共205条，境内166→筛入32条、境外39→筛入4条，融资底库共36条，其中<b>芯片/半导体26条</b>、<b>商业航天/卫星7条</b>、<b>AI算力3条</b>。正文精选18条，占正文25.7%；全部融资条目均为B级。逐笔原始金额、人民币/美元换算、轮次、投资方、城市及估值见融资看板和数据库版。<br><a href="financing-dashboard-preview.html" class="previous-button">W33 融资看板 →</a></p>
+</section>
+
+<!-- 6. Action memo -->
+<section>
+  <h2 class="section serif">行动备忘</h2>
+  <div class="memo">
+    <div class="col">
+      <h4>机会</h4>
+      <div class="item">江苏行动计划给出太空计算在轨验证的明确政策入口，可围绕载荷、测试标准和数据接口跟踪项目化机会。</div>
+      <div class="item">低轨24组发射、动力试验中心和移动发射场表明轨道与运力基础设施仍在扩张。</div>
+    </div>
+    <div class="col">
+      <h4>风险</h4>
+      <div class="item">央视专题提高产业可见度，但不能替代企业一手参数和连续在轨数据。</div>
+      <div class="item">融资均为数据库线索且统一封顶B级，金额和轮次不能替代到账、量产与客户收入。</div>
+    </div>
+    <div class="col">
+      <h4>下周必须看</h4>
+      <div class="item">核验江苏行动计划的首批项目、牵头单位、预算与验收标准。</div>
+      <div class="item">追踪低轨24组开通、蓝箭试验中心开工、GHOST首个客户及融资项目公开公告。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Colophon -->
+<div class="colophon">中美太空算力周报 · 2026-W33 · Compiled 2026.08.17 · Internal use</div>
+
+</body>
+</html>
