@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W34</title>
+<!-- Design direction: refined industrial intelligence dossier -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#faf9f5; --ivory-warm:#f0eee6; --ivory-deep:#e3dacc;
+  --ink:#141413; --ink-soft:#3d3d3a; --mid-gray:#b0aea5; --light-gray:#e8e6dc;
+  --terracotta:#d97757;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;}
+body{
+  background:var(--ivory); color:var(--ink);
+  font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.55;
+  padding:64px 32px; max-width:1040px; margin:0 auto;
+}
+.serif{font-family:"Fraunces",Georgia,serif;}
+.mono{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);}
+.u-terra{text-decoration:underline; text-decoration-color:var(--terracotta); text-decoration-thickness:3px; text-underline-offset:4px;}
+section{margin-top:65px;}
+h2.section{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:44px; line-height:1.1; margin-bottom:32px;}
+.cat{font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft);}
+hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
+
+/* Masthead */
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--ink); padding-bottom:20px; flex-wrap:wrap; gap:16px;}
+.masthead .title{font-family:"Fraunces",Georgia,serif; font-size:30px; font-weight:600;}
+.masthead .meta{text-align:right;}
+.scanline{margin-top:14px;}
+
+/* Hero dark card */
+.hero{background:var(--ink); color:var(--ivory); padding:56px 48px; margin-top:40px; display:grid; grid-template-columns:1.6fr 1fr; gap:48px;}
+.hero .claim{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:40px; line-height:1.18;}
+.hero .claim .u-terra{text-decoration-color:var(--terracotta);}
+.hero .rail{display:flex; flex-direction:column; gap:0; border-left:1px solid #44423d; padding-left:28px;}
+.hero .rail .metric{padding:12px 0; border-bottom:1px solid #2c2b29;}
+.hero .rail .metric:last-child{border-bottom:0;}
+.hero .rail .num{font-family:"Fraunces",Georgia,serif; font-size:30px; line-height:1;}
+.hero .rail .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid-gray); margin-top:6px;}
+
+/* mission-log proof strip */
+.proof{margin-top:24px; border:1px solid var(--light-gray); background:var(--ivory-warm);}
+.proof .row{display:grid; grid-template-columns:120px 1fr; gap:20px; padding:14px 22px; border-bottom:1px solid var(--light-gray); align-items:baseline;}
+.proof .row:last-child{border-bottom:0;}
+.proof .d{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.06em; color:var(--ink-soft);}
+.proof .t{font-size:16px;}
+
+/* threads */
+.threads{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--light-gray);}
+.thread{padding:28px 26px; border-right:1px solid var(--light-gray);}
+.thread:last-child{border-right:0;}
+.thread h3{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+.thread .shape{margin:14px 0; }
+.thread .ledger-item, .thread .ladder-item, .thread .capital-item{padding:8px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.45;}
+.thread .ledger-item .mono, .thread .ladder-item .mono, .thread .capital-item .mono{display:block; font-size:11px; margin-bottom:2px;}
+.thread p.judge{font-size:15px; line-height:1.5; color:var(--ink-soft); margin-top:14px;}
+
+/* dossier cards */
+.cards{display:flex; flex-direction:column; gap:48px;}
+.card{background:var(--ivory-warm); border:1px solid var(--light-gray); border-radius:8px; padding:30px 32px;}
+.card.lead{background:var(--ivory-deep);}
+.card .metarow{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:14px;}
+.card .metarow .mono{font-size:12px;}
+.card .pri{font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.1em; border:1px solid var(--ink); padding:2px 8px;}
+.card h3.eh{font-family:"Inter Tight"; font-weight:600; font-size:22px; line-height:1.3; margin-bottom:14px;}
+.card.lead h3.eh{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:27px;}
+.card .body p{margin-bottom:9px; font-size:16px; line-height:1.55;}
+.card .body p b{font-weight:600;}
+.card.lead .body{display:grid; grid-template-columns:1fr 1fr; gap:8px 32px;}
+.anchor{font-family:"JetBrains Mono",monospace; font-size:14px; letter-spacing:0.04em; color:var(--ink-soft); margin-top:8px; display:block;}
+.timeline-card{display:grid; grid-template-columns:96px 1fr; gap:24px;}
+.timeline-card .daterail{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--terracotta); border-right:1px solid var(--light-gray); padding-right:16px;}
+
+/* source link */
+.src{font-family:"JetBrains Mono",monospace; font-size:14px; margin-top:18px; display:block;}
+.src a{color:var(--ink-soft); text-decoration:underline; text-decoration-color:currentColor; transition:color 0.15s ease;}
+.src a:hover{color:var(--terracotta);}
+.src a:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+.previous-button{display:inline-block; margin-top:18px; padding:12px 16px; border:1px solid var(--light-gray); border-radius:8px; background:var(--ivory-deep); color:var(--ink); font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; font-weight:500; letter-spacing:.02em; text-decoration:none;}
+.previous-button:hover{border-color:var(--terracotta); color:var(--terracotta);}
+.previous-button:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+
+/* financing supplement */
+.finsup{max-width:720px; font-size:17px; line-height:1.6;}
+
+/* action memo */
+.memo{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--ink);}
+.memo .col{padding:24px 24px; border-right:1px solid var(--light-gray);}
+.memo .col:last-child{border-right:0;}
+.memo .col h4{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px; color:var(--ink);}
+.memo .col .item{padding:12px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.5;}
+
+.colophon{margin-top:80px; padding-top:20px; border-top:1px solid var(--ink); font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.06em; color:var(--ink-soft);}
+
+@media (max-width:720px){
+  body{padding:48px 20px;}
+  .hero{grid-template-columns:1fr; gap:28px; padding:36px 24px;}
+  .hero .claim{font-size:30px;}
+  .hero .rail{border-left:0; border-top:1px solid #44423d; padding-left:0; padding-top:20px;}
+  .threads{grid-template-columns:1fr;} .thread{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .card.lead .body{grid-template-columns:1fr;}
+  .timeline-card{grid-template-columns:1fr;} .timeline-card .daterail{border-right:0; border-bottom:1px solid var(--light-gray); padding-bottom:8px;}
+  .memo{grid-template-columns:1fr;} .memo .col{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .proof .row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. Masthead -->
+<header class="masthead">
+  <div class="title serif">中美太空算力周报</div>
+  <div class="meta">
+    <div class="mono">2026-W34 · 2026.08.17–2026.08.23</div>
+    <div class="mono">Compiled 2026.08.26 · Internal use</div>
+  </div>
+</header>
+<div class="scanline mono">Pass A/B/C完成 · 境内225条 / 境外53条融资已标准化 · Stage 4门禁全通过</div>
+
+<!-- 2. Executive hero -->
+<div class="hero">
+  <div class="claim serif">美国将高频发射纳入国家级政策，Rocket Lab太空数据网络订单与NASA Starling自主导航验证同周出现：轨道基础设施开始沿<span class="u-terra">运力—链路—自主处理</span>形成可验证节点。</div>
+  <div class="rail">
+    <div class="metric"><div class="num serif">102</div><div class="lbl">入库事件</div></div>
+    <div class="metric"><div class="num serif">70</div><div class="lbl">正文</div></div>
+    <div class="metric"><div class="num serif">30.0%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">9</div><div class="lbl">S/A</div></div>
+  </div>
+</div>
+
+<div class="proof">
+  <div class="row"><div class="d">08/18</div><div class="t">Rocket Lab获太空数据网络1200万美元订单。</div></div>
+  <div class="row"><div class="d">08/20</div><div class="t">美国发布国家太空运输政策；Muon Space披露2.5亿美元C轮融资。</div></div>
+  <div class="row"><div class="d">08/21</div><div class="t">StarCloud融资、Skysight星座与算力衍生品征求意见同日出现。</div></div>
+
+  <div style="padding:22px;background:var(--ivory-warm);">
+    <p style="max-width:860px;font-size:16px;line-height:1.65;color:var(--ink-soft);"><b>上周重点：</b>W33看到地方行动计划直接提出太空计算在轨验证，且低轨组网与运力基础设施同步推进；W34进一步出现太空数据网络合同、星群自主导航验证与轨道数据中心大额融资。</p>
+    <!-- WEEKLY_NAV_START --><a href="../../../2026-W33/output/w33-reports/老板版_2026-W33.html" class="previous-button">← W33 周报</a><!-- WEEKLY_NAV_END -->
+  </div>
+</div>
+
+<!-- 3. Three threads -->
+<section>
+  <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
+  <div class="threads">
+    <div class="thread">
+      <span class="cat">POLICY</span>
+      <h3 class="serif">运力与算力交易同时进入政策层</h3>
+      <div class="shape">
+        <div class="ledger-item"><span class="mono">美国</span>国家太空运输政策</div>
+        <div class="ledger-item"><span class="mono">CFTC</span>算力衍生品征求意见</div>
+        <div class="ledger-item"><span class="mono">中国地方</span>算力券与算电协同</div>
+      </div>
+      <p class="judge">政策信号更具体，但仍要等待执行文件、预算与验收数据。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">TECHNOLOGY</span>
+      <h3 class="serif">链路、导航与遥感处理成为在轨能力节点</h3>
+      <div class="shape">
+        <div class="ladder-item"><span class="mono">Space Data Network</span>1200万美元订单</div>
+        <div class="ladder-item"><span class="mono">FALCON</span>星群自主导航</div>
+        <div class="ladder-item"><span class="mono">Skysight</span>低轨智能遥感星座</div>
+      </div>
+      <p class="judge">轨道数据链条更完整，商业能力仍需连续任务和客户调用。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">CAPITAL</span>
+      <h3 class="serif">资本开始直接押注轨道数据基础设施</h3>
+      <div class="shape">
+        <div class="capital-item"><span class="mono">StarCloud</span>轨道数据中心</div>
+        <div class="capital-item"><span class="mono">Muon Space</span>垂直一体化卫星平台</div>
+        <div class="capital-item"><span class="mono">21条</span>正文融资</div>
+      </div>
+      <p class="judge">融资额度较大，但必须与发射、交付和付费客户交叉验证。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Core event dossier -->
+<section>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">9 条 S/A</span></h2>
+  <div class="cards">
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">S</span><span class="mono">融资 · 跨国 · 08/21</span><span class="mono" style="color:var(--terracotta);">StarCloud</span></div>
+      <h3 class="eh serif">StarCloud完成A+轮融资</h3>
+      <div class="body">
+          <p><b>判断</b> StarCloud披露新一轮融资，轨道数据中心获得头部资本和产业方支持。</p>
+          <p><b>影响</b> 直接指向太空算力的运力、能源、散热与客户经济性验证。</p>
+          <p><b>对我们的意义</b> 拆解首批载荷、发射计划和客户，建立可核验的单位经济模型。</p>
+          <p><b>后续跟踪</b> 看公司正式公告解决⹟2.5亿/2亿美元差异，并跟踪发射、在轨算力和付费任务。</p>
+      </div>
+      <span class="src"><a href="https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/" target="_blank" rel="noopener noreferrer">Source: TechCrunch ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">S<br>政策<br>08/20</div>
+      <div>
+        <h3 class="eh">美国发布国家太空运输政策</h3>
+        <div class="body">
+          <p><b>判断</b> 美国发布国家太空运输政策，把高频发射和轨道基础设施供给纳入国家层面。</p>
+          <p><b>影响</b> 发射供给是大规模轨道算力的先决条件。</p>
+          <p><b>对我们的意义</b> 将政策拆成运力、发射场、安全与采购的可跟踪项目。</p>
+          <p><b>后续跟踪</b> 看部门执行文件、预算、年度发射节奏和商业合同。</p>
+        </div>
+        <span class="src"><a href="https://www.whitehouse.gov/presidential-actions/2026/08/national-security-presidential-memorandum-nspm-17/" target="_blank" rel="noopener noreferrer">Source: The White House ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 美 · 08/18</span><span class="mono" style="color:var(--terracotta);">Rocket Lab</span></div>
+      <h3 class="eh serif">Rocket Lab加入美国太空军Space Data Network并获1200万美元订单</h3>
+      <div class="body">
+          <p><b>判断</b> Rocket Lab进入太空数据网络联盟并获1200万美元订单。</p>
+          <p><b>影响</b> 多供应商光链路数据骨干开始出现实际合同。</p>
+          <p><b>对我们的意义</b> 重点跟踪星间与星地数据路由、互操作和网络管理能力。</p>
+          <p><b>后续跟踪</b> 看合同分解、交付时间、终端参数和联盟成员间联调。</p>
+      </div>
+      <span class="src"><a href="https://rss.globenewswire.com/news-release/2026/08/18/3347280/0/en/space-force-selects-rocket-lab-for-space-data-network-consortium-awarded-12m-in-contracts-to-support-global-military-communications-network.html" target="_blank" rel="noopener noreferrer">Source: Rocket Lab / GlobeNewswire ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">融资 · 跨国 · 08/20</span><span class="mono" style="color:var(--terracotta);">Muon Space</span></div>
+      <h3 class="eh serif">Muon Space完成C轮融资</h3>
+      <div class="body">
+          <p><b>判断</b> Muon Space完成2.5亿美元C轮融资，垂直一体化卫星平台获得扩产资金。</p>
+          <p><b>影响</b> 卫星平台、载荷与数据产品的垂直整合可缩短任务交付周期。</p>
+          <p><b>对我们的意义</b> 将其作为空间数据公司的融资与交付对标。</p>
+          <p><b>后续跟踪</b> 看产能、后续发射、客户合同与数据收入。</p>
+      </div>
+      <span class="src"><a href="https://www.govconwire.com/articles/muon-space-250m-series-c-eclipse" target="_blank" rel="noopener noreferrer">Source: GovCon Wire ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>08/17</div>
+      <div>
+        <h3 class="eh">美国国家侦察局向HawkEye 360授予商业射频能力增强合同</h3>
+        <div class="body">
+          <p><b>判断</b> NRO向HawkEye 360授予商业射频能力增强合同。</p>
+          <p><b>影响</b> 商业星座数据产品继续嵌入国家级情报工作流。</p>
+          <p><b>对我们的意义</b> 跟踪射频数据的采购模式、处理时效和多星融合要求。</p>
+          <p><b>后续跟踪</b> 看合同规模、任务周期、交付指标和后续扩容。</p>
+        </div>
+        <span class="src"><a href="https://www.nro.gov/news-media-featured-stories/news-media-press-releases/Archived-Press-Releases/Press-Release-Article/Article/4568861/nro-awards-operational-commercial-radio-frequency-capabilities-augmentation-con/" target="_blank" rel="noopener noreferrer">Source: National Reconnaissance Office ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美 · 08/21</span><span class="mono" style="color:var(--terracotta);">AST SpaceMobile</span></div>
+      <h3 class="eh serif">AST SpaceMobile获准开展800MHz卫星直连终端测试</h3>
+      <div class="body">
+          <p><b>判断</b> AST SpaceMobile获准开展800MHz卫星直连终端测试。</p>
+          <p><b>影响</b> D2D从许可讨论走向真实频段与商用终端验证。</p>
+          <p><b>对我们的意义</b> 评估蜂窝频谱、卫星载荷和终端生态的协同路径。</p>
+          <p><b>后续跟踪</b> 看测试范围、链路质量、终端适配和商用许可。</p>
+      </div>
+      <span class="src"><a href="https://www.lightreading.com/satellite/ast-spacemobile-s-800mhz-tests-milestone-for-d2d-says-at-t" target="_blank" rel="noopener noreferrer">Source: Light Reading ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 美 · 08/21</span><span class="mono" style="color:var(--terracotta);">CFTC</span></div>
+      <h3 class="eh serif">CFTC就算力衍生品合约上市征求意见</h3>
+      <div class="body">
+          <p><b>判断</b> CFTC就算力衍生品合约上市征求意见。</p>
+          <p><b>影响</b> 算力资源开始被视为可标准化、可交易与可监管的金融标的。</p>
+          <p><b>对我们的意义</b> 提前研究算力定价、交付标准和地理/能源属性对轨地混合计算的影响。</p>
+          <p><b>后续跟踪</b> 看评论期反馈、产品规则、基准价格和交付定义。</p>
+      </div>
+      <span class="src"><a href="https://www.federalregister.gov/documents/2026/08/21/2026-17163/request-for-comment-on-the-listing-of-compute-derivatives-contracts" target="_blank" rel="noopener noreferrer">Source: Federal Register / CFTC ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>08/21</div>
+      <div>
+        <h3 class="eh">四象科技发布Skysight低轨智能遥感卫星星座计划</h3>
+        <div class="body">
+          <p><b>判断</b> 四象科技发布Skysight低轨智能遥感卫星星座计划。</p>
+          <p><b>影响</b> 多模态遥感星座将扩大在轨数据产生、筛选与智能处理需求。</p>
+          <p><b>对我们的意义</b> 跟踪国内遥感星座中星上处理、时效和数据产品化的实际进展。</p>
+          <p><b>后续跟踪</b> 看首星时间、载荷与算力参数、数据时效和客户。</p>
+        </div>
+        <span class="src"><a href="https://www.news.cn/tech/20260821/7bffbcb5567c4fc9bfbd0fefbb9ec61f/c.html" target="_blank" rel="noopener noreferrer">Source: 新华网 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美 · 08/17</span><span class="mono" style="color:var(--terracotta);">NASA Starling</span></div>
+      <h3 class="eh serif">NASA Starling验证FALCON自主空间导航技术</h3>
+      <div class="body">
+          <p><b>判断</b> NASA Starling完成FALCON自主空间导航验证。</p>
+          <p><b>影响</b> 星群可减少对持续地面支持与GNSS的依赖，是分布式在轨计算的基础能力。</p>
+          <p><b>对我们的意义</b> 将自主导航与星间通信、分布式任务调度联合评估。</p>
+          <p><b>后续跟踪</b> 看定位精度、自主运行时长、算力负载和后续任务采用。</p>
+      </div>
+      <span class="src"><a href="https://www.nasa.gov/blogs/smallsatellites/2026/08/17/nasas-starling-mission-opens-new-frontiers-in-space-navigation" target="_blank" rel="noopener noreferrer">Source: NASA ↗</a></span>
+    </article>
+
+  </div>
+</section>
+
+<!-- 5. Financing supplement -->
+<section>
+  <h2 class="section serif">融资其余条目</h2>
+  <p class="finsup">标准化清单共278条，境内225条、境外53条；行业筛选后融资底库53条，正文精选21条，其中<b>芯片/半导体13条</b>、<b>商业航天/卫星5条</b>、<b>AI算力3条</b>。看板保留原始金额、人民币/美元换算、轮次、投资方、城市与估值，且无密码直接打开。<br><a href="financing-dashboard-preview.html" class="previous-button">W34 融资看板 →</a></p>
+</section>
+
+<!-- 6. Action memo -->
+<section>
+  <h2 class="section serif">行动备忘</h2>
+  <div class="memo">
+    <div class="col">
+      <h4>机会</h4>
+      <div class="item">太空数据网络出现实际订单，可围绕光链路、互操作和网络管理跟踪供应链。</div>
+      <div class="item">Starling自主导航和Skysight智能遥感提供在轨分布式计算的任务场景。</div>
+    </div>
+    <div class="col">
+      <h4>风险</h4>
+      <div class="item">StarCloud融资金额存在数据库与独立媒体标题差异，未获官方文本前不宜定论。</div>
+      <div class="item">规划、测试和融资不等于在轨规模化服务，仍需参数与付费调用。</div>
+    </div>
+    <div class="col">
+      <h4>下周必须看</h4>
+      <div class="item">跟踪国家太空运输政策的执行文件和Space Data Network后续合同。</div>
+      <div class="item">核对StarCloud融资公告，并跟踪FALCON性能、Skysight首星与Muon Space交付节点。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Colophon -->
+<div class="colophon">中美太空算力周报 · 2026-W34 · Compiled 2026.08.26 · Internal use</div>
+
+</body>
+</html>
