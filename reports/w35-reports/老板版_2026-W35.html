@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W35</title>
+<!-- Design direction: refined industrial intelligence dossier -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#faf9f5; --ivory-warm:#f0eee6; --ivory-deep:#e3dacc;
+  --ink:#141413; --ink-soft:#3d3d3a; --mid-gray:#b0aea5; --light-gray:#e8e6dc;
+  --terracotta:#d97757;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;}
+body{
+  background:var(--ivory); color:var(--ink);
+  font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.55;
+  padding:64px 32px; max-width:1040px; margin:0 auto;
+}
+.serif{font-family:"Fraunces",Georgia,serif;}
+.mono{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);}
+.u-terra{text-decoration:underline; text-decoration-color:var(--terracotta); text-decoration-thickness:3px; text-underline-offset:4px;}
+section{margin-top:65px;}
+h2.section{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:44px; line-height:1.1; margin-bottom:32px;}
+.cat{font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft);}
+hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
+
+/* Masthead */
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--ink); padding-bottom:20px; flex-wrap:wrap; gap:16px;}
+.masthead .title{font-family:"Fraunces",Georgia,serif; font-size:30px; font-weight:600;}
+.masthead .meta{text-align:right;}
+.scanline{margin-top:14px;}
+
+/* Hero dark card */
+.hero{background:var(--ink); color:var(--ivory); padding:56px 48px; margin-top:40px; display:grid; grid-template-columns:1.6fr 1fr; gap:48px;}
+.hero .claim{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:40px; line-height:1.18;}
+.hero .claim .u-terra{text-decoration-color:var(--terracotta);}
+.hero .rail{display:flex; flex-direction:column; gap:0; border-left:1px solid #44423d; padding-left:28px;}
+.hero .rail .metric{padding:12px 0; border-bottom:1px solid #2c2b29;}
+.hero .rail .metric:last-child{border-bottom:0;}
+.hero .rail .num{font-family:"Fraunces",Georgia,serif; font-size:30px; line-height:1;}
+.hero .rail .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid-gray); margin-top:6px;}
+
+/* mission-log proof strip */
+.proof{margin-top:24px; border:1px solid var(--light-gray); background:var(--ivory-warm);}
+.proof .row{display:grid; grid-template-columns:120px 1fr; gap:20px; padding:14px 22px; border-bottom:1px solid var(--light-gray); align-items:baseline;}
+.proof .row:last-child{border-bottom:0;}
+.proof .d{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.06em; color:var(--ink-soft);}
+.proof .t{font-size:16px;}
+
+/* threads */
+.threads{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--light-gray);}
+.thread{padding:28px 26px; border-right:1px solid var(--light-gray);}
+.thread:last-child{border-right:0;}
+.thread h3{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+.thread .shape{margin:14px 0; }
+.thread .ledger-item, .thread .ladder-item, .thread .capital-item{padding:8px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.45;}
+.thread .ledger-item .mono, .thread .ladder-item .mono, .thread .capital-item .mono{display:block; font-size:11px; margin-bottom:2px;}
+.thread p.judge{font-size:15px; line-height:1.5; color:var(--ink-soft); margin-top:14px;}
+
+/* dossier cards */
+.cards{display:flex; flex-direction:column; gap:48px;}
+.card{background:var(--ivory-warm); border:1px solid var(--light-gray); border-radius:8px; padding:30px 32px;}
+.card.lead{background:var(--ivory-deep);}
+.card .metarow{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:14px;}
+.card .metarow .mono{font-size:12px;}
+.card .pri{font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.1em; border:1px solid var(--ink); padding:2px 8px;}
+.card h3.eh{font-family:"Inter Tight"; font-weight:600; font-size:22px; line-height:1.3; margin-bottom:14px;}
+.card.lead h3.eh{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:27px;}
+.card .body p{margin-bottom:9px; font-size:16px; line-height:1.55;}
+.card .body p b{font-weight:600;}
+.card.lead .body{display:grid; grid-template-columns:1fr 1fr; gap:8px 32px;}
+.anchor{font-family:"JetBrains Mono",monospace; font-size:14px; letter-spacing:0.04em; color:var(--ink-soft); margin-top:8px; display:block;}
+.timeline-card{display:grid; grid-template-columns:96px 1fr; gap:24px;}
+.timeline-card .daterail{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--terracotta); border-right:1px solid var(--light-gray); padding-right:16px;}
+
+/* source link */
+.src{font-family:"JetBrains Mono",monospace; font-size:14px; margin-top:18px; display:block;}
+.src a{color:var(--ink-soft); text-decoration:underline; text-decoration-color:currentColor; transition:color 0.15s ease;}
+.src a:hover{color:var(--terracotta);}
+.src a:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+.previous-button{display:inline-block; margin-top:18px; padding:12px 16px; border:1px solid var(--light-gray); border-radius:8px; background:var(--ivory-deep); color:var(--ink); font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; font-weight:500; letter-spacing:.02em; text-decoration:none;}
+.previous-button:hover{border-color:var(--terracotta); color:var(--terracotta);}
+.previous-button:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+
+/* financing supplement */
+.finsup{max-width:720px; font-size:17px; line-height:1.6;}
+
+/* action memo */
+.memo{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--ink);}
+.memo .col{padding:24px 24px; border-right:1px solid var(--light-gray);}
+.memo .col:last-child{border-right:0;}
+.memo .col h4{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px; color:var(--ink);}
+.memo .col .item{padding:12px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.5;}
+
+.colophon{margin-top:80px; padding-top:20px; border-top:1px solid var(--ink); font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.06em; color:var(--ink-soft);}
+
+@media (max-width:720px){
+  body{padding:48px 20px;}
+  .hero{grid-template-columns:1fr; gap:28px; padding:36px 24px;}
+  .hero .claim{font-size:30px;}
+  .hero .rail{border-left:0; border-top:1px solid #44423d; padding-left:0; padding-top:20px;}
+  .threads{grid-template-columns:1fr;} .thread{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .card.lead .body{grid-template-columns:1fr;}
+  .timeline-card{grid-template-columns:1fr;} .timeline-card .daterail{border-right:0; border-bottom:1px solid var(--light-gray); padding-bottom:8px;}
+  .memo{grid-template-columns:1fr;} .memo .col{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .proof .row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. Masthead -->
+<header class="masthead">
+  <div class="title serif">中美太空算力周报</div>
+  <div class="meta">
+    <div class="mono">2026-W35 · 2026.08.24–2026.08.30</div>
+    <div class="mono">Compiled 2026.08.31 · Internal use</div>
+  </div>
+</header>
+<div class="scanline mono">Pass A/B/C完成 · 境内153条 / 境外48条融资已标准化 · Stage 4门禁全通过</div>
+
+<!-- 2. Executive hero -->
+<div class="hero">
+  <div class="claim serif">美国将发射容量、场址与优先空域拉入同一政策框架，Kepler商业光学中继与中美星上处理节点同步出现：太空算力正在沿<span class="u-terra">运力—链路—自主任务</span>形成可验证供给组合；若没有可调用容量与付费任务，阶段判断仍需下修。</div>
+  <div class="rail">
+    <div class="metric"><div class="num serif">89</div><div class="lbl">事件表</div></div>
+    <div class="metric"><div class="num serif">77</div><div class="lbl">正文</div></div>
+    <div class="metric"><div class="num serif">27.3%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">9</div><div class="lbl">核心 S/A</div></div>
+  </div>
+</div>
+
+<div class="proof">
+  <div class="row"><div class="d">08/25</div><div class="t">美国发布国家空间运输政策；FAA启动新发射场与关键走廊RFI。</div></div>
+  <div class="row"><div class="d">08/26</div><div class="t">上海规划将卫星互联网、星间激光链路和星载配套纳入产业部署。</div></div>
+  <div class="row"><div class="d">08/28–30</div><div class="t">Swift恢复观测；Kepler商业服务与中国星上处理节点共同提示链路和任务侧演进。</div></div>
+
+  <div style="padding:22px;background:var(--ivory-warm);">
+    <p style="max-width:860px;font-size:16px;line-height:1.65;color:var(--ink-soft);"><b>上周重点：</b>W34 的核心观察是太空数据网络订单、星群自主导航和轨道数据中心融资共同补齐“链路—自主处理—资本”三段证据。W35 进一步把发射容量与空域规则纳入国家政策，且出现商业光学中继服务和中国星上处理实测；但尚未形成可规模化调用的商业闭环。</p>
+    <!-- WEEKLY_NAV_START --><a href="../../../2026-W34/output/w34-reports/老板版_2026-W34.html" class="previous-button">← W34 周报</a><!-- WEEKLY_NAV_END -->
+  </div>
+</div>
+
+<!-- 3. Three threads -->
+<section>
+  <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
+  <div class="threads">
+    <div class="thread">
+      <span class="cat">POLICY</span>
+      <h3 class="serif">运力、场址与空域开始进入同一执行框架</h3>
+      <div class="shape">
+        <div class="ledger-item"><span class="mono">美国</span>国家空间运输政策</div>
+        <div class="ledger-item"><span class="mono">FAA</span>新发射场与优先空域 RFI</div>
+        <div class="ledger-item"><span class="mono">上海</span>卫星互联网产业规划</div>
+      </div>
+      <p class="judge">文本已给出方向；预算、许可、采购和实际发射节奏才是下一层证据。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">TECHNOLOGY</span>
+      <h3 class="serif">链路服务与星上自主处理出现并行节点</h3>
+      <div class="shape">
+        <div class="ladder-item"><span class="mono">Kepler</span>商业光学数据中继</div>
+        <div class="ladder-item"><span class="mono">NASA</span>自主任务工程方法</div>
+        <div class="ladder-item"><span class="mono">中国</span>星上健康管理/算力云试验</div>
+      </div>
+      <p class="judge">关键不在单点演示，而在可调用容量、任务时延和连续运行。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">CAPITAL</span>
+      <h3 class="serif">资本主要流向芯片供给侧与航天载体</h3>
+      <div class="shape">
+        <div class="capital-item"><span class="mono">13 条</span>芯片/半导体</div>
+        <div class="capital-item"><span class="mono">5 条</span>商业航天/卫星</div>
+        <div class="capital-item"><span class="mono">3 条</span>AI 算力</div>
+      </div>
+      <p class="judge">融资是供给侧热度信号，必须以到账、量产、发射和客户验证约束解读。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Core event dossier -->
+<section>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">9 条 S/A</span></h2>
+  <div class="cards">
+
+    <article class="card timeline-card">
+      <div class="daterail">S<br>政策<br>08/25</div>
+      <div>
+        <h3 class="eh">美国发布国家空间运输政策</h3>
+        <div class="body">
+          <p><b>判断</b> S级：美国国家空间运输政策要求扩大商业发射与再入基础设施、优化联邦靶场调度并部署关键发射走廊和频谱保障。</p>
+          <p><b>影响</b> 政策/采购信号直接影响商业航天部署条件或芯片、算力供给侧；应与具体预算、执行细则和项目清单交叉验证。</p>
+          <p><b>对我们的意义</b> 将其作为监管、供给和采购节奏的领先指标，而非直接等同于新增商业收入。</p>
+          <p><b>后续跟踪</b> 跟踪实施细则、预算/采购公告、入选企业及项目落地时间。</p>
+        </div>
+        <span class="src"><a href="https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy" target="_blank" rel="noopener noreferrer">Source: Federal Register / White House ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">S<br>政策<br>08/25</div>
+      <div>
+        <h3 class="eh">FAA就新建发射场与关键发射走廊优先空域征求意见</h3>
+        <div class="body">
+          <p><b>判断</b> S级：FAA发布RFI，就新建商业发射场选址及关键发射走廊优先空域的开发和使用征求行业意见。</p>
+          <p><b>影响</b> 政策/采购信号直接影响商业航天部署条件或芯片、算力供给侧；应与具体预算、执行细则和项目清单交叉验证。</p>
+          <p><b>对我们的意义</b> 将其作为监管、供给和采购节奏的领先指标，而非直接等同于新增商业收入。</p>
+          <p><b>后续跟踪</b> 跟踪实施细则、预算/采购公告、入选企业及项目落地时间。</p>
+        </div>
+        <span class="src"><a href="https://www.federalregister.gov/documents/2026/08/25/2026-17290/siting-new-spaceports-and-use-of-priority-airspace-for-critical-space-launch-corridors" target="_blank" rel="noopener noreferrer">Source: Federal Register / FAA ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 美国 · 08/24</span><span class="mono" style="color:var(--terracotta);">SpaceXAI / NVIDIA</span></div>
+      <h3 class="eh serif">SpaceXAI采用NVIDIA Vera CPU并规划Starmind太空AI卫星</h3>
+      <div class="body">
+          <p><b>判断</b> S级：NVIDIA披露SpaceXAI将采用Vera CPU扩展AI基础设施，首代Starmind卫星拟基于优化的Vera Rubin NVL72系统。</p>
+          <p><b>影响</b> 事件直接验证或扩展星上计算、在轨数据处理或航天器自主能力，是太空算力主航道的实证节点。</p>
+          <p><b>对我们的意义</b> 优先评估任务成熟度、可复制性和客户/任务扩张节奏。</p>
+          <p><b>后续跟踪</b> 跟踪在轨性能指标、后续任务部署、客户采用和软硬件架构细节。</p>
+      </div>
+      <span class="src"><a href="https://investor.nvidia.com/news/press-release-details/2026/SpaceXAI-Adopts-NVIDIA-Vera-CPU-to-Accelerate-Agentic-AI-at-Massive-Scale/default.aspx" target="_blank" rel="noopener noreferrer">Source: NVIDIA ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 跨国 · 08/24</span><span class="mono" style="color:var(--terracotta);">Kepler Communications</span></div>
+      <h3 class="eh serif">Kepler光学数据中继星座进入商业服务</h3>
+      <div class="body">
+          <p><b>判断</b> S级：Kepler宣布首批下一代光学数据中继卫星完成调试并向客户提供实时连接、在轨计算和托管载荷服务。</p>
+          <p><b>影响</b> 事件直接验证或扩展星上计算、在轨数据处理或航天器自主能力，是太空算力主航道的实证节点。</p>
+          <p><b>对我们的意义</b> 优先评估任务成熟度、可复制性和客户/任务扩张节奏。</p>
+          <p><b>后续跟踪</b> 跟踪在轨性能指标、后续任务部署、客户采用和软硬件架构细节。</p>
+      </div>
+      <span class="src"><a href="https://www.globenewswire.com/news-release/2026/08/24/3349844/0/en/kepler-delivers-optical-infrastructure-for-real-time-space-operations.html" target="_blank" rel="noopener noreferrer">Source: Kepler / GlobeNewswire ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 美国 · 08/25</span><span class="mono" style="color:var(--terracotta);">NASA</span></div>
+      <h3 class="eh serif">NASA发布面向自主空间任务的系统工程与故障管理方法</h3>
+      <div class="body">
+          <p><b>判断</b> S级：NASA发布将基于模型的系统工程与故障管理结合的方法，用于提升航天器自主任务能力。</p>
+          <p><b>影响</b> 事件直接验证或扩展星上计算、在轨数据处理或航天器自主能力，是太空算力主航道的实证节点。</p>
+          <p><b>对我们的意义</b> 优先评估任务成熟度、可复制性和客户/任务扩张节奏。</p>
+          <p><b>后续跟踪</b> 跟踪在轨性能指标、后续任务部署、客户采用和软硬件架构细节。</p>
+      </div>
+      <span class="src"><a href="https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/" target="_blank" rel="noopener noreferrer">Source: NASA ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 中国 · 08/25</span><span class="mono" style="color:var(--terracotta);">商业航天/卫星</span></div>
+      <h3 class="eh serif">航天垂直大模型“华山”健康管理模块完成星上在轨实测验证-中新网</h3>
+      <div class="body">
+          <p><b>判断</b> A级：航天垂直大模型“华山”健康管理模块完成星上在轨实测验证-中新网</p>
+          <p><b>影响</b> 事件直接验证或扩展星上计算、在轨数据处理或航天器自主能力，是太空算力主航道的实证节点。</p>
+          <p><b>对我们的意义</b> 优先评估任务成熟度、可复制性和客户/任务扩张节奏。</p>
+          <p><b>后续跟踪</b> 跟踪在轨性能指标、后续任务部署、客户采用和软硬件架构细节。</p>
+      </div>
+      <span class="src"><a href="https://www.chinanews.com.cn/sh/2026/08-25/10684178.shtml" target="_blank" rel="noopener noreferrer">Source: chinanews.com.cn ↗</a></span>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 中国 · 08/30</span><span class="mono" style="color:var(--terracotta);">太空算力/AI</span></div>
+      <h3 class="eh serif">全球首个太空算力云实现常态化在轨试验服务</h3>
+      <div class="body">
+          <p><b>判断</b> A级：全球首个太空算力云实现常态化在轨试验服务</p>
+          <p><b>影响</b> 事件直接验证或扩展星上计算、在轨数据处理或航天器自主能力，是太空算力主航道的实证节点。</p>
+          <p><b>对我们的意义</b> 优先评估任务成熟度、可复制性和客户/任务扩张节奏。</p>
+          <p><b>后续跟踪</b> 跟踪在轨性能指标、后续任务部署、客户采用和软硬件架构细节。</p>
+      </div>
+      <span class="src"><a href="https://www.stdaily.com/web/gdxw/2026-08/30/content_572166.html" target="_blank" rel="noopener noreferrer">Source: stdaily.com ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>政策<br>08/24</div>
+      <div>
+        <h3 class="eh">上海印发新型工业化“十五五”规划，部署卫星互联网与关键配套</h3>
+        <div class="body">
+          <p><b>判断</b> A级：上海市发布新型工业化“十五五”规划，提出推进商业航天、卫星互联网、星载相控阵天线和手机直连卫星等关键配套。</p>
+          <p><b>影响</b> 政策/采购信号直接影响商业航天部署条件或芯片、算力供给侧；应与具体预算、执行细则和项目清单交叉验证。</p>
+          <p><b>对我们的意义</b> 将其作为监管、供给和采购节奏的领先指标，而非直接等同于新增商业收入。</p>
+          <p><b>后续跟踪</b> 跟踪实施细则、预算/采购公告、入选企业及项目落地时间。</p>
+        </div>
+        <span class="src"><a href="https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html" target="_blank" rel="noopener noreferrer">Source: 上海市人民政府 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中国 · 08/26</span><span class="mono" style="color:var(--terracotta);">上海市人民政府</span></div>
+      <h3 class="eh serif">上海印发战略性新兴产业“十五五”规划，明确商业航天和卫星互联网赛道</h3>
+      <div class="body">
+          <p><b>判断</b> A级：上海市发布战略性新兴产业“十五五”规划，明确推动卫星互联网与北斗、6G、AI融合，加快千帆星座低轨组网及星间激光链路、星载相控阵天线等配套。</p>
+          <p><b>影响</b> 政策/采购信号直接影响商业航天部署条件或芯片、算力供给侧；应与具体预算、执行细则和项目清单交叉验证。</p>
+          <p><b>对我们的意义</b> 将其作为监管、供给和采购节奏的领先指标，而非直接等同于新增商业收入。</p>
+          <p><b>后续跟踪</b> 跟踪实施细则、预算/采购公告、入选企业及项目落地时间。</p>
+      </div>
+      <span class="src"><a href="https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html" target="_blank" rel="noopener noreferrer">Source: 上海市人民政府 ↗</a></span>
+    </article>
+
+  </div>
+</section>
+
+<!-- 5. Financing supplement -->
+<section>
+  <h2 class="section serif">融资其余条目</h2>
+  <p class="finsup">本周标准化原始清单为境内153条、境外48条；按行业边界筛入29条融资底库，未设海外条目进入本周相关融资池。扣除上方核心 cards（本期无融资 card）后，正文保留<b>芯片/半导体13条</b>、<b>商业航天/卫星5条</b>、<b>AI 算力3条</b>，其余8条留数据库版。原始披露金额始终优先展示；有明确币种时同时保留人民币/美元换算，未披露金额不推算。逐笔轮次、投资方、城市、估值和换算审计请见 <a href="financing-dashboard-preview.html" class="previous-button">W35 融资看板 →</a>。</p>
+</section>
+
+<!-- 6. Action memo -->
+<section>
+  <h2 class="section serif">行动备忘</h2>
+  <div class="memo">
+    <div class="col">
+      <h4>机会</h4>
+      <div class="item">把发射场、优先空域与联邦靶场调度拆成政策跟踪清单，寻找可量化的发射供给改善。</div>
+      <div class="item">围绕光学中继、星上自主任务与健康管理，建立从器件到可调用服务的技术对标。</div>
+    </div>
+    <div class="col">
+      <h4>风险</h4>
+      <div class="item">国家政策和地方规划尚未等同于预算、订单或运营容量，不能以文本强度替代商业证据。</div>
+      <div class="item">融资披露仍多来自数据库，未验证到账、量产、发射或客户前不应推导收入。</div>
+    </div>
+    <div class="col">
+      <h4>下周必须看</h4>
+      <div class="item">观察FAA RFI的参与方、执行时间表以及国家运输政策对应部门的落实动作。</div>
+      <div class="item">核验Kepler服务客户、星上处理任务指标与商业航天融资项目的资金和发射节点。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Colophon -->
+<div class="colophon">中美太空算力周报 · 2026-W35 · Compiled 2026.08.31 · Internal use</div>
+
+</body>
+</html>
