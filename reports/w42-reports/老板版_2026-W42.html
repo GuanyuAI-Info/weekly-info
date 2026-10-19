@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W42</title>
+<!-- Design direction: refined industrial intelligence dossier -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#faf9f5; --ivory-warm:#f0eee6; --ivory-deep:#e3dacc;
+  --ink:#141413; --ink-soft:#3d3d3a; --mid-gray:#b0aea5; --light-gray:#e8e6dc;
+  --terracotta:#d97757;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;}
+body{
+  background:var(--ivory); color:var(--ink);
+  font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.55;
+  padding:64px 32px; max-width:1040px; margin:0 auto;
+}
+.serif{font-family:"Fraunces",Georgia,serif;}
+.mono{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);}
+.u-terra{text-decoration:underline; text-decoration-color:var(--terracotta); text-decoration-thickness:3px; text-underline-offset:4px;}
+section{margin-top:65px;}
+h2.section{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:44px; line-height:1.1; margin-bottom:32px;}
+.cat{font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft);}
+hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
+
+/* Masthead */
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--ink); padding-bottom:20px; flex-wrap:wrap; gap:16px;}
+.masthead .title{font-family:"Fraunces",Georgia,serif; font-size:30px; font-weight:600;}
+.masthead .meta{text-align:right;}
+.scanline{margin-top:14px;}
+
+/* Hero dark card */
+.hero{background:var(--ink); color:var(--ivory); padding:56px 48px; margin-top:40px; display:grid; grid-template-columns:1.6fr 1fr; gap:48px;}
+.hero .claim{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:40px; line-height:1.18;}
+.hero .claim .u-terra{text-decoration-color:var(--terracotta);}
+.hero .rail{display:flex; flex-direction:column; gap:0; border-left:1px solid #44423d; padding-left:28px;}
+.hero .rail .metric{padding:12px 0; border-bottom:1px solid #2c2b29;}
+.hero .rail .metric:last-child{border-bottom:0;}
+.hero .rail .num{font-family:"Fraunces",Georgia,serif; font-size:30px; line-height:1;}
+.hero .rail .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid-gray); margin-top:6px;}
+
+/* mission-log proof strip */
+.proof{margin-top:24px; border:1px solid var(--light-gray); background:var(--ivory-warm);}
+.proof .row{display:grid; grid-template-columns:120px 1fr; gap:20px; padding:14px 22px; border-bottom:1px solid var(--light-gray); align-items:baseline;}
+.proof .row:last-child{border-bottom:0;}
+.proof .d{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.06em; color:var(--ink-soft);}
+.proof .t{font-size:16px;}
+
+/* threads */
+.threads{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--light-gray);}
+.thread{padding:28px 26px; border-right:1px solid var(--light-gray);}
+.thread:last-child{border-right:0;}
+.thread h3{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+.thread .shape{margin:14px 0; }
+.thread .ledger-item, .thread .ladder-item, .thread .capital-item{padding:8px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.45;}
+.thread .ledger-item .mono, .thread .ladder-item .mono, .thread .capital-item .mono{display:block; font-size:11px; margin-bottom:2px;}
+.thread p.judge{font-size:15px; line-height:1.5; color:var(--ink-soft); margin-top:14px;}
+
+/* dossier cards */
+.cards{display:flex; flex-direction:column; gap:48px;}
+.card{background:var(--ivory-warm); border:1px solid var(--light-gray); border-radius:8px; padding:30px 32px;}
+.card.lead{background:var(--ivory-deep);}
+.card .metarow{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:14px;}
+.card .metarow .mono{font-size:12px;}
+.card .pri{font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.1em; border:1px solid var(--ink); padding:2px 8px;}
+.card h3.eh{font-family:"Inter Tight"; font-weight:600; font-size:22px; line-height:1.3; margin-bottom:14px;}
+.card.lead h3.eh{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:27px;}
+.card .body p{margin-bottom:9px; font-size:16px; line-height:1.55;}
+.card .body p b{font-weight:600;}
+.card.lead .body{display:grid; grid-template-columns:1fr 1fr; gap:8px 32px;}
+.anchor{font-family:"JetBrains Mono",monospace; font-size:14px; letter-spacing:0.04em; color:var(--ink-soft); margin-top:8px; display:block;}
+.timeline-card{display:grid; grid-template-columns:96px 1fr; gap:24px;}
+.timeline-card .daterail{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--terracotta); border-right:1px solid var(--light-gray); padding-right:16px;}
+
+/* source link */
+.src{font-family:"JetBrains Mono",monospace; font-size:14px; margin-top:18px; display:block;}
+.src a{color:var(--ink-soft); text-decoration:underline; text-decoration-color:currentColor; transition:color 0.15s ease;}
+.src a:hover{color:var(--terracotta);}
+.src a:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+.previous-button{display:inline-block; margin-top:18px; padding:12px 16px; border:1px solid var(--light-gray); border-radius:8px; background:var(--ivory-deep); color:var(--ink); font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; font-weight:500; letter-spacing:.02em; text-decoration:none;}
+.previous-button:hover{border-color:var(--terracotta); color:var(--terracotta);}
+.previous-button:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+
+/* financing supplement */
+.finsup{max-width:720px; font-size:17px; line-height:1.6;}
+
+/* action memo */
+.memo{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--ink);}
+.memo .col{padding:24px 24px; border-right:1px solid var(--light-gray);}
+.memo .col:last-child{border-right:0;}
+.memo .col h4{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px; color:var(--ink);}
+.memo .col .item{padding:12px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.5;}
+
+.colophon{margin-top:80px; padding-top:20px; border-top:1px solid var(--ink); font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.06em; color:var(--ink-soft);}
+
+@media (max-width:720px){
+  body{padding:48px 20px;}
+  .hero{grid-template-columns:1fr; gap:28px; padding:36px 24px;}
+  .hero .claim{font-size:30px;}
+  .hero .rail{border-left:0; border-top:1px solid #44423d; padding-left:0; padding-top:20px;}
+  .threads{grid-template-columns:1fr;} .thread{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .card.lead .body{grid-template-columns:1fr;}
+  .timeline-card{grid-template-columns:1fr;} .timeline-card .daterail{border-right:0; border-bottom:1px solid var(--light-gray); padding-bottom:8px;}
+  .memo{grid-template-columns:1fr;} .memo .col{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .proof .row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. Masthead -->
+<header class="masthead">
+  <div class="title serif">中美太空算力周报</div>
+  <div class="meta">
+    <div class="mono">2026-W42 · 2026.10.12–2026.10.18</div>
+    <div class="mono">Compiled 2026.10.19 · Internal use</div>
+  </div>
+</header>
+<div class="scanline mono">候选底库 143（含排除项） · 正文 78 · S/A 6 · 企查查境内133 / 境外49 · Pass B 86入口已尝试</div>
+
+<!-- 2. Executive hero -->
+<div class="hero">
+  <div class="claim serif">星算新增8颗卫星、Microchip补齐星载供电、BlackSky获得年度续约，轨道计算正形成<span class="u-terra">工程与付费证据</span>；下一步要用持续功耗、任务吞吐和真实调用验证可交付能力。</div>
+  <div class="rail">
+    <div class="metric"><div class="num serif">78</div><div class="lbl">正文事件</div></div>
+    <div class="metric"><div class="num serif">23.1%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">1 / 5</div><div class="lbl">S级 / A级</div></div>
+    <div class="metric"><div class="num serif">20 · 40 · 18</div><div class="lbl">政策 · 科技 · 融资</div></div>
+  </div>
+</div>
+
+<div class="proof">
+  <div class="row"><div class="d">10/12</div><div class="t">Maia300、Helion和Orion同周发布，地面推理系统进入新一轮集成竞争。</div></div>
+  <div class="row"><div class="d">10/14</div><div class="t">星算02组8颗卫星入轨；Microchip发布20A抗辐照GaN供电器件。</div></div>
+  <div class="row"><div class="d">10/15–16</div><div class="t">BlackSky年度成像续约；中国技术出口目录征求意见，GAO公开GeoXO风险审计。</div></div>
+
+</div>
+
+<!-- 3. Three threads -->
+<section>
+  <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
+  <div class="threads">
+    <div class="thread">
+      <span class="cat">政策</span>
+      <h3 class="serif">技术流转与部署许可成为执行约束</h3>
+      <div class="shape">
+        <div class="ledger-item"><span class="mono">中国</span>出口目录修订与临时登记</div>
+        <div class="ledger-item"><span class="mono">美国</span>Starship PEIS与GeoXO审计</div>
+        <div class="ledger-item"><span class="mono">地方</span>算力券、绿电与数据中心许可</div>
+      </div>
+      <p class="judge">中国侧的变化集中在技术出口边界和算力政策执行：商务部、科技部就技术目录修订征求意见并实施临时登记管理，地方算力券、绿色设施遴选与政府采购继续推进。美国侧，FAA启动Starship环境评价程序，GAO公开GeoXO审计报告；数据中心的资源与许可约束则下沉到州、县市层面。征求意见、提案与最终生效应分别判断。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">科技</span>
+      <h3 class="serif">新增节点之外，要看可交付任务</h3>
+      <div class="shape">
+        <div class="ladder-item"><span class="mono">星算02组</span>8颗计算卫星入轨</div>
+        <div class="ladder-item"><span class="mono">POL-05-20S-T</span>20A星载供电新品</div>
+        <div class="ladder-item"><span class="mono">BlackSky / HEO</span>七位数年度成像续约</div>
+      </div>
+      <p class="judge">星算02组8颗计算卫星入轨是本周最直接的主航道信号，报道所称50P总算力仍需在轨任务数据验证。Microchip的抗辐照GaN供电器件和BlackSky年度空间成像续约，分别补充硬件供给与付费需求证据。地面OCP新品密集，涉及推理芯片、内存、互连和供电；这些构成成本与技术参照，不能直接当作宇航级能力。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">融资</span>
+      <h3 class="serif">推理芯片与系统软件吸引资本</h3>
+      <div class="shape">
+        <div class="capital-item"><span class="mono">10 / 5 / 3</span>芯片 / 航天供给链 / AI</div>
+        <div class="capital-item"><span class="mono">16.25亿元</span>马赫心首轮融资协议</div>
+        <div class="capital-item"><span class="mono">23.1%</span>融资占正文</div>
+      </div>
+      <p class="judge">正文纳入18条资本事件：芯片10条、航天及航空供给链5条、AI算力3条，占正文23.1%。马赫心16.25亿元为融资协议金额，附加认购权单列；新芯航途与算苗的历史累计额不写成本轮金额。触点互动标注9月签约、10月披露；Fortastra公司已于10月8日公布，剔除本周正文。Horizon为项目资助，独立标明其性质。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Core event dossier -->
+<section>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">6 条 S/A</span></h2>
+  <div class="cards">
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 中国 · 10/14</span><span class="mono" style="color:var(--terracotta);">国星宇航 / 星算02组</span></div>
+      <h3 class="eh serif">星算02组8颗计算卫星入轨，推进云边协同组网</h3>
+      <div class="body">
+          <p><b>判断</b> 计算星座新增8个节点，基础设施扩容正在发生；50P是报道口径，尚不能推断持续可售算力。</p>
+          <p><b>影响</b> 中心与边缘节点协同会增加跨星调度、供电和热管理难度，硬件规模与软件可调用性必须一起验证。</p>
+          <p><b>对我们的意义</b> 建立卫星节点、任务类型、持续功耗与数据时延表，优先访谈真实调用方。</p>
+          <p><b>后续跟踪</b> 看星算02组是否公布独立任务吞吐、星间链路与长时运行数据；没有这些就保留工程验证阶段判断。</p>
+      </div>
+      <span class="src"><a href="https://www.chinanews.com.cn/gn/2026/10-15/10714922.shtml" target="_blank" rel="noopener noreferrer">Source: 央视新闻 / 中国新闻网 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>10/13</div>
+      <div>
+        <h3 class="eh">NASA通过CRS-35运送通信试验CubeSat</h3>
+        <div class="body">
+          <p><b>判断</b> 通信试验CubeSat获得实际发射入口，属于任务验证节点，产业影响尚有限。</p>
+          <p><b>影响</b> 小型试验降低通信与在轨软件的工程进入门槛，同时暴露部署、天线和链路管理问题。</p>
+          <p><b>对我们的意义</b> 把任务目标、通信参数及在轨结果分开记录，寻找可复用的测试窗口。</p>
+          <p><b>后续跟踪</b> 看CubeSat部署状态、首次链路建立与有效数据量；仅送达空间站不代表试验完成。</p>
+        </div>
+        <span class="src"><a href="https://www.nasa.gov/blogs/smallsatellites/2026/10/13/nasa-launches-cubesats-to-test-communications-build-experience/" target="_blank" rel="noopener noreferrer">Source: www.nasa.gov ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 美国 · 10/14</span><span class="mono" style="color:var(--terracotta);">FAA / SpaceX</span></div>
+      <h3 class="eh serif">FAA启动Starship-Super Heavy项目环境影响评价公众程序</h3>
+      <div class="body">
+          <p><b>判断</b> FAA启动新的PEIS范围界定，Starship扩大发射活动仍处审批程序中。</p>
+          <p><b>影响</b> 更高频次的重型发射可影响大型轨道载荷成本，但环境评价不等同于发射许可。</p>
+          <p><b>对我们的意义</b> 运力模型应使用已获批与已执行频次，申请上限另作情景变量。</p>
+          <p><b>后续跟踪</b> 看公众范围界定、PEIS草案与后续许可决定；不把SpaceX目标频次计入确定运力。</p>
+      </div>
+      <span class="src"><a href="https://www.federalregister.gov/documents/2026/10/14/2026-20963/notice-of-intent-to-prepare-a-programmatic-environmental-impact-statement-peis-open-public-scoping" target="_blank" rel="noopener noreferrer">Source: Federal Register ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/14</span><span class="mono" style="color:var(--terracotta);">Microchip</span></div>
+      <h3 class="eh serif">Microchip发布20A抗辐照GaN星载电源转换器</h3>
+      <div class="body">
+          <p><b>判断</b> 高电流抗辐照供电产品针对更强星载数字负载，补齐算力芯片之外的关键器件。</p>
+          <p><b>影响</b> 20A转换器为FPGA、ASIC等核心电源轨提供设计选择，系统仍需独立热、瞬态与辐射分析。</p>
+          <p><b>对我们的意义</b> 将电源转换效率、重量、辐射范围纳入星载计算BOM与功耗预算。</p>
+          <p><b>后续跟踪</b> 看POL-05-20S-T的客户设计导入与在轨应用；50krad等规格应按厂家试验条件解读。</p>
+      </div>
+      <span class="src"><a href="https://www.microchip.com/en-us/about/news-releases/products/microchip-expands-space-power-portfolio-with-new-radiation-tolerant-gan-pol-converter" target="_blank" rel="noopener noreferrer">Source: Microchip ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>10/15</div>
+      <div>
+        <h3 class="eh">BlackSky与HEO续签七位数年度空间目标成像合同</h3>
+        <div class="body">
+          <p><b>判断</b> 七位数年度续约比一次试点更能说明空间目标成像的付费需求。</p>
+          <p><b>影响</b> Gen-3影像接入HEO软件，数据采集和自动化分析形成重复采购链条。</p>
+          <p><b>对我们的意义</b> 把空间数据交付作为比纯算力规模更近的商业验证指标，核对客户复购与交付SLA。</p>
+          <p><b>后续跟踪</b> 看第三年合同的调用频率、Gen-3可用性及后续续约；合同总额没有完整披露，避免反推收入。</p>
+        </div>
+        <span class="src"><a href="https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Extends-HEO-Space-Domain-Awareness-Agreement-with-New-Seven-Figure-Non-Earth-Imaging-Contract-Featuring-Gen-3/default.aspx" target="_blank" rel="noopener noreferrer">Source: BlackSky IR ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中国 · 10/16</span><span class="mono" style="color:var(--terracotta);">商务部、科技部</span></div>
+      <h3 class="eh serif">中国就修订技术出口目录征求意见并实施临时登记管理</h3>
+      <div class="body">
+          <p><b>判断</b> 出口管理讨论扩展到AI与芯片技术，需要按具体条款判断研发与海外部署影响。</p>
+          <p><b>影响</b> 临时登记和拟修订目录可能改变技术合作流程，草案、登记措施与最终许可边界不能混用。</p>
+          <p><b>对我们的意义</b> 梳理芯片设计、模型、软件与海外算力部署的技术流转清单，逐项比照适用条款。</p>
+          <p><b>后续跟踪</b> 看征求意见后的正式目录、实施细则与登记办理案例；优先核验开源和自用等具体适用场景。</p>
+      </div>
+      <span class="src"><a href="https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html" target="_blank" rel="noopener noreferrer">Source: 商务部 ↗</a></span>
+    </article>
+
+  </div>
+</section>
+
+<!-- 5. Financing supplement -->
+<section>
+  <h2 class="section serif">融资其余条目</h2>
+  <p class="finsup">企查查原始清单境内133条、境外49条，初筛保留境内29条、境外6条；复核剔除10月8日已披露的Fortastra后，保留34条数据库融资线索，其中<b>芯片/半导体18条</b>、<b>商业航天/航空供给链2条</b>、<b>AI及相关基础设施14条</b>。本页核心卡片没有融资条目，完整明细另见融资库。明确金额样本包括人民币16.25亿元（约2.417亿美元）和2900万美元（约1.949亿元）；数亿元等表达保留原精度。汇率采用10月16日USD/CNY 6.7220，累计额、认购权和项目资助分别标注。<br><a class="previous-button" href="financing-dashboard-preview.html">W42 融资看板 →</a></p>
+</section>
+
+<!-- 6. Action memo -->
+<section>
+  <h2 class="section serif">行动备忘</h2>
+  <div class="memo">
+    <div class="col">
+      <h4>机会</h4>
+      <div class="item">围绕星算02组建立实际任务与资源利用率台账，访谈能发起调用和接收结果的客户，把运行能力与规划容量分开。</div>
+      <div class="item">关注星载电源、热控、内存和链路部件：计算节点增多后，系统约束会向这些环节传导。</div>
+    </div>
+    <div class="col">
+      <h4>风险</h4>
+      <div class="item">规划算力与芯片峰值不能等同于持续可售算力；地面OCP器件也不能直接视为宇航级能力。</div>
+      <div class="item">融资披露存在本轮与累计额、实际签约与收录日期差异；原始记录与公开校正必须同时保留。</div>
+    </div>
+    <div class="col">
+      <h4>下周必须看</h4>
+      <div class="item">星算02组是否披露在轨任务性能、跨星调用及持续供电数据，BlackSky续约能否给出可量化交付指标。</div>
+      <div class="item">技术出口目录的实施口径、FAA PEIS后续步骤，以及新推理机架的量产和客户部署节点。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Colophon -->
+<div class="colophon">中美太空算力周报 · 2026-W42 · Compiled 2026.10.19 · Internal use</div>
+
+</body>
+</html>
