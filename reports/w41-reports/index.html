@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美太空算力周报 · 2026-W41</title>
+<!-- Design direction: refined industrial intelligence dossier -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#faf9f5; --ivory-warm:#f0eee6; --ivory-deep:#e3dacc;
+  --ink:#141413; --ink-soft:#3d3d3a; --mid-gray:#b0aea5; --light-gray:#e8e6dc;
+  --terracotta:#d97757;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;}
+body{
+  background:var(--ivory); color:var(--ink);
+  font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px; line-height:1.55;
+  padding:64px 32px; max-width:1040px; margin:0 auto;
+}
+.serif{font-family:"Fraunces",Georgia,serif;}
+.mono{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft);}
+.u-terra{text-decoration:underline; text-decoration-color:var(--terracotta); text-decoration-thickness:3px; text-underline-offset:4px;}
+section{margin-top:65px;}
+h2.section{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:44px; line-height:1.1; margin-bottom:32px;}
+.cat{font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft);}
+hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
+
+/* Masthead */
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--ink); padding-bottom:20px; flex-wrap:wrap; gap:16px;}
+.masthead .title{font-family:"Fraunces",Georgia,serif; font-size:30px; font-weight:600;}
+.masthead .meta{text-align:right;}
+.scanline{margin-top:14px;}
+
+/* Hero dark card */
+.hero{background:var(--ink); color:var(--ivory); padding:56px 48px; margin-top:40px; display:grid; grid-template-columns:1.6fr 1fr; gap:48px;}
+.hero .claim{font-family:"Fraunces",Georgia,serif; font-weight:400; font-size:40px; line-height:1.18;}
+.hero .claim .u-terra{text-decoration-color:var(--terracotta);}
+.hero .rail{display:flex; flex-direction:column; gap:0; border-left:1px solid #44423d; padding-left:28px;}
+.hero .rail .metric{padding:12px 0; border-bottom:1px solid #2c2b29;}
+.hero .rail .metric:last-child{border-bottom:0;}
+.hero .rail .num{font-family:"Fraunces",Georgia,serif; font-size:30px; line-height:1;}
+.hero .rail .lbl{font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid-gray); margin-top:6px;}
+
+/* mission-log proof strip */
+.proof{margin-top:24px; border:1px solid var(--light-gray); background:var(--ivory-warm);}
+.proof .row{display:grid; grid-template-columns:120px 1fr; gap:20px; padding:14px 22px; border-bottom:1px solid var(--light-gray); align-items:baseline;}
+.proof .row:last-child{border-bottom:0;}
+.proof .d{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.06em; color:var(--ink-soft);}
+.proof .t{font-size:16px;}
+
+/* threads */
+.threads{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--light-gray);}
+.thread{padding:28px 26px; border-right:1px solid var(--light-gray);}
+.thread:last-child{border-right:0;}
+.thread h3{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+.thread .shape{margin:14px 0; }
+.thread .ledger-item, .thread .ladder-item, .thread .capital-item{padding:8px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.45;}
+.thread .ledger-item .mono, .thread .ladder-item .mono, .thread .capital-item .mono{display:block; font-size:11px; margin-bottom:2px;}
+.thread p.judge{font-size:15px; line-height:1.5; color:var(--ink-soft); margin-top:14px;}
+
+/* dossier cards */
+.cards{display:flex; flex-direction:column; gap:48px;}
+.card{background:var(--ivory-warm); border:1px solid var(--light-gray); border-radius:8px; padding:30px 32px;}
+.card.lead{background:var(--ivory-deep);}
+.card .metarow{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:14px;}
+.card .metarow .mono{font-size:12px;}
+.card .pri{font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.1em; border:1px solid var(--ink); padding:2px 8px;}
+.card h3.eh{font-family:"Inter Tight"; font-weight:600; font-size:22px; line-height:1.3; margin-bottom:14px;}
+.card.lead h3.eh{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:27px;}
+.card .body p{margin-bottom:9px; font-size:16px; line-height:1.55;}
+.card .body p b{font-weight:600;}
+.card.lead .body{display:grid; grid-template-columns:1fr 1fr; gap:8px 32px;}
+.anchor{font-family:"JetBrains Mono",monospace; font-size:14px; letter-spacing:0.04em; color:var(--ink-soft); margin-top:8px; display:block;}
+.timeline-card{display:grid; grid-template-columns:96px 1fr; gap:24px;}
+.timeline-card .daterail{font-family:"JetBrains Mono",monospace; font-size:14px; color:var(--terracotta); border-right:1px solid var(--light-gray); padding-right:16px;}
+
+/* source link */
+.src{font-family:"JetBrains Mono",monospace; font-size:14px; margin-top:18px; display:block;}
+.src a{color:var(--ink-soft); text-decoration:underline; text-decoration-color:currentColor; transition:color 0.15s ease;}
+.src a:hover{color:var(--terracotta);}
+.src a:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+.previous-button{display:inline-block; margin-top:18px; padding:12px 16px; border:1px solid var(--light-gray); border-radius:8px; background:var(--ivory-deep); color:var(--ink); font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; font-weight:500; letter-spacing:.02em; text-decoration:none;}
+.previous-button:hover{border-color:var(--terracotta); color:var(--terracotta);}
+.previous-button:focus-visible{outline:2px solid var(--terracotta); outline-offset:2px;}
+
+/* financing supplement */
+.finsup{max-width:720px; font-size:17px; line-height:1.6;}
+
+/* action memo */
+.memo{display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid var(--ink);}
+.memo .col{padding:24px 24px; border-right:1px solid var(--light-gray);}
+.memo .col:last-child{border-right:0;}
+.memo .col h4{font-family:"JetBrains Mono",monospace; font-size:13px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px; color:var(--ink);}
+.memo .col .item{padding:12px 0; border-top:1px solid var(--light-gray); font-size:15px; line-height:1.5;}
+
+.colophon{margin-top:80px; padding-top:20px; border-top:1px solid var(--ink); font-family:"JetBrains Mono",monospace; font-size:12px; letter-spacing:0.06em; color:var(--ink-soft);}
+
+@media (max-width:720px){
+  body{padding:48px 20px;}
+  .hero{grid-template-columns:1fr; gap:28px; padding:36px 24px;}
+  .hero .claim{font-size:30px;}
+  .hero .rail{border-left:0; border-top:1px solid #44423d; padding-left:0; padding-top:20px;}
+  .threads{grid-template-columns:1fr;} .thread{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .card.lead .body{grid-template-columns:1fr;}
+  .timeline-card{grid-template-columns:1fr;} .timeline-card .daterail{border-right:0; border-bottom:1px solid var(--light-gray); padding-bottom:8px;}
+  .memo{grid-template-columns:1fr;} .memo .col{border-right:0; border-bottom:1px solid var(--light-gray);}
+  .proof .row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- 1. Masthead -->
+<header class="masthead">
+  <div class="title serif">中美太空算力周报</div>
+  <div class="meta">
+    <div class="mono">2026-W41 · 2026.10.05–2026.10.11</div>
+    <div class="mono">Compiled 2026.10.20 · Internal use</div>
+  </div>
+</header>
+<div class="scanline mono">事件库117 · 正文73 · A级9 · 境内104 / 境外98 · Pass B 86入口已尝试</div>
+
+<!-- 2. Executive hero -->
+<div class="hero">
+  <div class="claim serif">北京规划点名太空算力，Axiom披露在轨节点通信、Microchip收购抗辐照芯片商，<span class="u-terra">系统供给正在补齐</span>；下一步须以任务吞吐、持续功耗和付费调用检验商业交付。</div>
+  <div class="rail">
+    <div class="metric"><div class="num serif">117</div><div class="lbl">事件库</div></div>
+    <div class="metric"><div class="num serif">73</div><div class="lbl">正文事件</div></div>
+    <div class="metric"><div class="num serif">27.4%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">0 / 9</div><div class="lbl">S级 / A级</div></div>
+  </div>
+</div>
+
+<div class="proof">
+  <div class="row"><div class="d">10/05</div><div class="t">地卫二发布计算双星方案，Unibap与Leonardo宣布平台开发合作。</div></div>
+  <div class="row"><div class="d">10/06</div><div class="t">北京规划提出探索太空算力；Axiom披露ARC节点通信进展。</div></div>
+  <div class="row"><div class="d">10/08–09</div><div class="t">星火传明披露A轮；Microchip收购VORAGO；NASA发布空间站最终RFP。</div></div>
+
+  <div style="padding:22px;background:var(--ivory-warm);">
+    <p style="max-width:860px;font-size:16px;line-height:1.65;color:var(--ink-soft);"><b>上周重点：</b>W40中，Google Suncatcher原型入轨、AMD航天级AI SoC早期出样与Firefly／Starcloud月轨载荷协议构成硬件和任务线索；FCC频谱与NASA采购提供政策入口，Satlyt融资指向星上AI软件。上一期强调，入轨、出样与签约都不能替代持续功耗、有效任务与客户验证。</p>
+    <!-- WEEKLY_NAV_START --><!-- PREVIOUS_WEEK_BUTTON --><!-- WEEKLY_NAV_END -->
+  </div>
+</div>
+
+<!-- 3. Three threads -->
+<section>
+  <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
+  <div class="threads">
+    <div class="thread">
+      <span class="cat">政策</span>
+      <h3 class="serif">探索规划与采购流程并行</h3>
+      <div class="shape">
+        <div class="ledger-item"><span class="mono">北京</span>探索太空算力</div>
+        <div class="ledger-item"><span class="mono">NASA</span>商业空间站最终RFP</div>
+        <div class="ledger-item"><span class="mono">FCC</span>C波段协调征评</div>
+      </div>
+      <p class="judge">中国侧，北京基础设施规划明确提出探索太空算力，湖北、山东等地继续布局算力网络与空间网络；这些是规划与执行入口，不等于专项采购已落地。美国侧，NASA发布商业空间站最终RFP，空间核动力合作和FCC的C波段协调征评同步推进。政策信号正在从方向表述向采购流程、能源和数据通道约束延伸。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">科技</span>
+      <h3 class="serif">联网、开发与发布分层判断</h3>
+      <div class="shape">
+        <div class="ladder-item"><span class="mono">ARC</span>节点通信进展</div>
+        <div class="ladder-item"><span class="mono">iX20</span>定制平台开发</div>
+        <div class="ladder-item"><span class="mono">双星</span>推理与计算分工方案</div>
+      </div>
+      <p class="judge">Axiom与Kepler披露两个ARC节点的通信进展，Unibap与Leonardo合作开发星载计算平台，地卫二发布计算双星方案。三者证据层级不同：在轨联网、合作开发与产品发布不能混同。地面AI系统的互连、资源隔离与电力优化提供对照，但不直接构成宇航级能力；下一步看真实任务吞吐、持续功耗和交付。</p>
+    </div>
+    <div class="thread">
+      <span class="cat">融资</span>
+      <h3 class="serif">宇航电子与计算链路获支持</h3>
+      <div class="shape">
+        <div class="capital-item"><span class="mono">10 / 7 / 3</span>芯片 / 航天 / AI</div>
+        <div class="capital-item"><span class="mono">VORAGO</span>抗辐照处理器并购</div>
+        <div class="capital-item"><span class="mono">27.4%</span>融资占正文</div>
+      </div>
+      <p class="judge">正文保留20条资本事件：芯片10条、商业航天7条、AI算力3条，占正文27.4%。Microchip收购VORAGO和星火传明A轮最直接关联宇航电子与空间计算；鲲游超10亿元、Oxide 4.45亿美元及VEIR 1.1亿美元提供地面供应链对照。部分条目仅有企查查记录，原始金额与公开校正并存，累计融资不写成本轮金额。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Core event dossier -->
+<section>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">9 条 S/A</span></h2>
+  <div class="cards">
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 中国 · 10/05</span><span class="mono" style="color:var(--terracotta);">地卫二;Oman Lens</span></div>
+      <h3 class="eh serif">地卫二在IAC发布高算力双星及阿曼双星方案</h3>
+      <div class="body">
+          <p><b>判断</b> 直接发布空间计算双星架构；公司文案未给逐星发射与验收信息，不能认定本周完成在轨性能验证。</p>
+          <p><b>影响</b> 推理决策星与计算星的分工提出明确系统方案，仍需轨道测试和任务数据验证。</p>
+          <p><b>对我们的意义</b> 比较任务调度、模型载荷及光链路接口，不照搬宣传峰值。</p>
+          <p><b>后续跟踪</b> 卫星身份、发射与调试日期、可复现性能和实际业务负载。</p>
+      </div>
+      <span class="src"><a href="https://star.vision/zh-CN/newsroom/4520261008" target="_blank" rel="noopener noreferrer">Source: 地卫二 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>10/05</div>
+      <div>
+        <h3 class="eh">Unibap与Leonardo合作开发Space Guardian星载计算平台</h3>
+        <div class="body">
+          <p><b>判断</b> 定制星载计算平台合作直接相关，但尚非披露金额的量产订单。</p>
+          <p><b>影响</b> 星上处理进入遥感星座方案设计，商业进展应以交付和任务采用验证。</p>
+          <p><b>对我们的意义</b> 关注平台适配和边缘处理接口，区分开发合作与已部署服务。</p>
+          <p><b>后续跟踪</b> 采购数量、交付计划、平台验证和星座任务安排。</p>
+        </div>
+        <span class="src"><a href="https://unibap.com/news/unibap-space-solutions-joins-forces-with-leonardo-to-strengthen-space-based-isr-capabilities/" target="_blank" rel="noopener noreferrer">Source: Unibap ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/05</span><span class="mono" style="color:var(--terracotta);">Axiom Space;Redwire</span></div>
+      <h3 class="eh serif">Redwire获Axiom第二模块两翼ROSA太阳阵后续合同</h3>
+      <div class="body">
+          <p><b>判断</b> 已授予太阳阵后续合同，关联空间站电力供给；未披露金额和交付功率。</p>
+          <p><b>影响</b> 模块供电供应链进一步明确，但不等同于轨道数据中心订单。</p>
+          <p><b>对我们的意义</b> 将载体能源和计算载荷需求分开评估。</p>
+          <p><b>后续跟踪</b> 太阳阵交付、功率预算及空间站模块时间表。</p>
+      </div>
+      <span class="src"><a href="https://axiomspace.com/release/redwire-follow-on-contract-second-module" target="_blank" rel="noopener noreferrer">Source: Axiom Space ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中国 · 10/06</span><span class="mono" style="color:var(--terracotta);">北京市人民政府</span></div>
+      <h3 class="eh serif">北京十五五基础设施规划提出探索太空算力</h3>
+      <div class="body">
+          <p><b>判断</b> 规划明确点名太空算力，但探索性部署不等于专项预算或采购落地。</p>
+          <p><b>影响</b> 太空算力进入地方基础设施规划口径，政策信号增强，商业需求尚待项目化。</p>
+          <p><b>对我们的意义</b> 跟踪北京相关项目申报与伙伴，不据此推算收入。</p>
+          <p><b>后续跟踪</b> 专项资金、责任单位、采购清单及执行细则。</p>
+      </div>
+      <span class="src"><a href="https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261008_4893026.html" target="_blank" rel="noopener noreferrer">Source: 北京市人民政府 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>10/06</div>
+      <div>
+        <h3 class="eh">Axiom与Kepler披露ARC两个在轨计算节点及地面后量子密码迁移</h3>
+        <div class="body">
+          <p><b>判断</b> 在轨计算节点通信进展直接相关；PQC仅地面演示，尚非在轨安全计算验收。</p>
+          <p><b>影响</b> 轨道节点联网正在得到验证，商业化仍缺吞吐、利用率和付费负载证据。</p>
+          <p><b>对我们的意义</b> 对照自身星间通信与工作负载迁移方案，区分联网能力与计算服务。</p>
+          <p><b>后续跟踪</b> 在轨PQC测试、实测吞吐及客户调用。</p>
+        </div>
+        <span class="src"><a href="https://www.axiomspace.com/release/axiom-space-kepler-ready-orbital-computing-for-quantum-era" target="_blank" rel="noopener noreferrer">Source: Axiom Space ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">融资 · 中国 · 10/08</span><span class="mono" style="color:var(--terracotta);">星火传明</span></div>
+      <h3 class="eh serif">星火传明披露完成A轮融资，投向星上AI与激光地面站</h3>
+      <div class="body">
+          <p><b>判断</b> 太空算力企业A轮融资与主航道直接相关；金额及投资方未披露，不做规模推断。</p>
+          <p><b>影响</b> 资本继续支持空间计算路线，但融资完成不证明技术或收入成熟。</p>
+          <p><b>对我们的意义</b> 跟踪产品定位与客户，避免按未披露金额做估值比较。</p>
+          <p><b>后续跟踪</b> 融资用途、载荷任务、客户合同与公开技术验证。</p>
+      </div>
+      <span class="src"><a href="https://www.36kr.com/p/4016831197613956" target="_blank" rel="noopener noreferrer">Source: 36氪（硬氪授权稿） ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 美国 · 10/09</span><span class="mono" style="color:var(--terracotta);">NASA</span></div>
+      <h3 class="eh serif">NASA发布商业空间站最终RFP</h3>
+      <div class="body">
+          <p><b>判断</b> 最终RFP打开商业空间站采购路径，但尚未授标。</p>
+          <p><b>影响</b> 商业空间站从意向走向明确采购流程，为后续在轨科研与计算载荷提供载体。</p>
+          <p><b>对我们的意义</b> 跟踪承包方和接口机会，不将合同上限当成交付收入。</p>
+          <p><b>后续跟踪</b> 投标主体、授标、认证和服务采购节点。</p>
+      </div>
+      <span class="src"><a href="https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/" target="_blank" rel="noopener noreferrer">Source: NASA ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>科技<br>10/09</div>
+      <div>
+        <h3 class="eh">SpaceX发射21颗SDA Tranche1传输层卫星</h3>
+        <div class="body">
+          <p><b>判断</b> 21颗传输层卫星发射是低轨数据网络部署节点，不代表全部链路已运营。</p>
+          <p><b>影响</b> 传输网络扩容为未来分布式空间处理提供承载条件。</p>
+          <p><b>对我们的意义</b> 关注星间链路与任务接入，而非只统计发射数量。</p>
+          <p><b>后续跟踪</b> 入网测试、光链路连通及任务服务验收。</p>
+        </div>
+        <span class="src"><a href="https://spaceflightnow.com/2026/10/09/spacex-to-make-another-attempt-to-launch-21-data-satellites-for-space-development-agency/" target="_blank" rel="noopener noreferrer">Source: Spaceflight Now ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">融资 · 美国 · 10/09</span><span class="mono" style="color:var(--terracotta);">Microchip;VORAGO Technologies</span></div>
+      <h3 class="eh serif">Microchip宣布收购抗辐照处理器供应商VORAGO</h3>
+      <div class="body">
+          <p><b>判断</b> 已完成抗辐照处理器供应商收购，直接作用于宇航电子供给；未披露金额且公司预计财务影响不重大。</p>
+          <p><b>影响</b> 抗辐照MCU/MPU与工艺整合进入更大供应平台，后续协同仍待执行。</p>
+          <p><b>对我们的意义</b> 跟踪器件路线、供货与认证，不将并购等同新产品在轨验证。</p>
+          <p><b>后续跟踪</b> 整合路线、产品供货、价格与任务采用情况。</p>
+      </div>
+      <span class="src"><a href="https://ir.microchip.com/news-events/press-releases/detail/1419/microchip-technology-acquires-vorago-technologies" target="_blank" rel="noopener noreferrer">Source: Microchip IR ↗</a></span>
+    </article>
+
+  </div>
+</section>
+
+<!-- 5. Financing supplement -->
+<section>
+  <h2 class="section serif">融资其余条目</h2>
+  <p class="finsup">企查查原始清单境内104条、境外98条，初筛保留32条和23条，另补公开融资与并购；去重后的公司明细见独立融资库。扣除上方两项融资核心事件，数据库其余保留<b>芯片/半导体29条</b>、<b>商业航天10条</b>、<b>AI及计算基础设施14条</b>。明确金额样本为3000万元人民币（约446万美元）、4.45亿美元（约29.96亿元人民币），激光通信样本400万欧元保留原币；数亿元不推算精确值。换算采用10月9日USD/CNY 6.7330；累计与单轮口径分开，未公开验证条目标明企查查来源，完整明细见数据库。<br><a class="previous-button" href="financing-dashboard-preview.html">W41 融资看板 →</a></p>
+</section>
+
+<!-- 6. Action memo -->
+<section>
+  <h2 class="section serif">行动备忘</h2>
+  <div class="memo">
+    <div class="col">
+      <h4>机会</h4>
+      <div class="item">围绕ARC、地卫二和Unibap建立节点、载荷与接口台账，把可用功能、公司归属声明和未来方案分别记录。</div>
+      <div class="item">关注VORAGO抗辐照器件整合和空间站电力供应，比较供货、任务认证与系统功耗预算。</div>
+    </div>
+    <div class="col">
+      <h4>风险</h4>
+      <div class="item">产品发布不代表新卫星已完成入轨和性能验收；地面PQC迁移不代表在轨安全计算已验证。</div>
+      <div class="item">探索性规划、RFP和融资都不是确定收入。采购授标、技术交付和付费调用需要分别验证。</div>
+    </div>
+    <div class="col">
+      <h4>下周必须看</h4>
+      <div class="item">ARC在轨工作负载与PQC测试是否公布，地卫二是否提供逐星身份、发射和调试信息，Unibap是否明确交付时间。</div>
+      <div class="item">北京专项执行清单、NASA授标与认证节点，以及VORAGO并购后的供货和产品路线变化。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Colophon -->
+<div class="colophon">中美太空算力周报 · 2026-W41 · Compiled 2026.10.20 · Internal use</div>
+
+</body>
+</html>
