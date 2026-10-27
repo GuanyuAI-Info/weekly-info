@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>中美太空算力周报 · 2026-W42</title>
+<title>中美太空算力周报 · 2026-W43</title>
 <!-- Design direction: refined industrial intelligence dossier -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -121,147 +121,252 @@ hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
 <header class="masthead">
   <div class="title serif">中美太空算力周报</div>
   <div class="meta">
-    <div class="mono">2026-W42 · 2026.10.12–2026.10.18</div>
-    <div class="mono">Compiled 2026.10.19 · Internal use</div>
+    <div class="mono">2026-W43 · 2026.10.19–2026.10.25</div>
+    <div class="mono">Compiled 2026.10.27 · Internal use</div>
   </div>
 </header>
-<div class="scanline mono">候选底库 143（含排除项） · 正文 78 · S/A 6 · 企查查境内133 / 境外49 · Pass B 86入口已尝试</div>
+<div class="scanline mono">事件库127（含排除审计项） · 正文76 · S/A16 · 企查查境内122／境外74 · Pass B 86入口已尝试</div>
 
 <!-- 2. Executive hero -->
 <div class="hero">
-  <div class="claim serif">星算新增8颗卫星、Microchip补齐星载供电、BlackSky获得年度续约，轨道计算正形成<span class="u-terra">工程与付费证据</span>；下一步要用持续功耗、任务吞吐和真实调用验证可交付能力。</div>
+  <div class="claim serif">EraDrive获得自主模块采购，Pelican-12进入调试，太空算力平台推出测试版，主线正由节点扩容转向<span class="u-terra">任务与服务交付</span>；能否成立，要看模块验收、在轨任务和付费调用。</div>
   <div class="rail">
-    <div class="metric"><div class="num serif">78</div><div class="lbl">正文事件</div></div>
-    <div class="metric"><div class="num serif">23.1%</div><div class="lbl">融资占正文</div></div>
-    <div class="metric"><div class="num serif">1 / 5</div><div class="lbl">S级 / A级</div></div>
-    <div class="metric"><div class="num serif">20 · 40 · 18</div><div class="lbl">政策 · 科技 · 融资</div></div>
+    <div class="metric"><div class="num serif">127</div><div class="lbl">事件底库（含审计项）</div></div>
+    <div class="metric"><div class="num serif">76</div><div class="lbl">完整版正文</div></div>
+    <div class="metric"><div class="num serif">26.3%</div><div class="lbl">融资占正文</div></div>
+    <div class="metric"><div class="num serif">1 / 15</div><div class="lbl">S级 / A级</div></div>
   </div>
 </div>
 
 <div class="proof">
-  <div class="row"><div class="d">10/12</div><div class="t">Maia300、Helion和Orion同周发布，地面推理系统进入新一轮集成竞争。</div></div>
-  <div class="row"><div class="d">10/14</div><div class="t">星算02组8颗卫星入轨；Microchip发布20A抗辐照GaN供电器件。</div></div>
-  <div class="row"><div class="d">10/15–16</div><div class="t">BlackSky年度成像续约；中国技术出口目录征求意见，GAO公开GeoXO风险审计。</div></div>
+  <div class="row"><div class="d">10/19</div><div class="t">EraDrive自主模块获采购；Reflex披露NVIDIA拟投资星载处理平台。</div></div>
+  <div class="row"><div class="d">10/20–21</div><div class="t">太空算力平台测试版上线；Pelican-12入轨调试，NASA评估Tanager数据。</div></div>
+  <div class="row"><div class="d">10/23</div><div class="t">瑞启深空融资支持遥感AI卫星；Portal早期在轨检查与Dragonfly航电仿真披露。</div></div>
 
+  <div style="padding:22px;background:var(--ivory-warm);">
+    <p style="max-width:860px;font-size:16px;line-height:1.65;color:var(--ink-soft);"><b>上周重点：</b>W42以星算02组8颗计算卫星入轨为最直接的扩容信号，Microchip抗辐照GaN供电器件补充星载负载供电选择，BlackSky年度成像续约提供重复采购证据；中国技术出口目录征求意见和FAA Starship环境评价则提示技术流转与运力部署仍受具体程序约束。</p>
+    <!-- WEEKLY_NAV_START --><a class="previous-button" href="reports/w42-reports/老板版_2026-W42.html">← W42 周报</a><!-- WEEKLY_NAV_END -->
+  </div>
 </div>
 
-<!-- WEEKLY_NAV_START --><a class="previous-button" href="reports/w41-reports/老板版_2026-W41.html">← W41 周报</a><!-- WEEKLY_NAV_END -->
 <!-- 3. Three threads -->
 <section>
   <h2 class="section serif">三条<span class="u-terra">主线</span></h2>
   <div class="threads">
     <div class="thread">
       <span class="cat">政策</span>
-      <h3 class="serif">技术流转与部署许可成为执行约束</h3>
+      <h3 class="serif">采购比愿景更接近需求验证</h3>
       <div class="shape">
-        <div class="ledger-item"><span class="mono">中国</span>出口目录修订与临时登记</div>
-        <div class="ledger-item"><span class="mono">美国</span>Starship PEIS与GeoXO审计</div>
-        <div class="ledger-item"><span class="mono">地方</span>算力券、绿电与数据中心许可</div>
+        <div class="ledger-item"><span class="mono">中国</span>算力券执行、外空治理立场</div>
+        <div class="ledger-item"><span class="mono">美国</span>自主模块、遥感数据评估采购</div>
+        <div class="ledger-item"><span class="mono">边界</span>研究、最高额度与验收分开</div>
       </div>
-      <p class="judge">中国侧的变化集中在技术出口边界和算力政策执行：商务部、科技部就技术目录修订征求意见并实施临时登记管理，地方算力券、绿色设施遴选与政府采购继续推进。美国侧，FAA启动Starship环境评价程序，GAO公开GeoXO审计报告；数据中心的资源与许可约束则下沉到州、县市层面。征求意见、提案与最终生效应分别判断。</p>
+      <p class="judge">中国侧的新增证据主要来自算力券执行、服务商遴选与外空治理立场，上海天基计算相关方案仍只是大会预告。美国侧，EraDrive的自主模块采购、NASA遥感数据评估和网络整合采购研究，显示机构需求开始落到模块、数据与接口；合同上限、采购意向和已验收交付应分开。</p>
     </div>
     <div class="thread">
       <span class="cat">科技</span>
-      <h3 class="serif">新增节点之外，要看可交付任务</h3>
+      <h3 class="serif">从载荷入轨走向真实任务</h3>
       <div class="shape">
-        <div class="ladder-item"><span class="mono">星算02组</span>8颗计算卫星入轨</div>
-        <div class="ladder-item"><span class="mono">POL-05-20S-T</span>20A星载供电新品</div>
-        <div class="ladder-item"><span class="mono">BlackSky / HEO</span>七位数年度成像续约</div>
+        <div class="ladder-item"><span class="mono">Pelican-12</span>Jetson与中继原型调试</div>
+        <div class="ladder-item"><span class="mono">Portal</span>早期在轨检查，未完成推进演示</div>
+        <div class="ladder-item"><span class="mono">平台测试版</span>供需组织，不等于可售调用</div>
       </div>
-      <p class="judge">星算02组8颗计算卫星入轨是本周最直接的主航道信号，报道所称50P总算力仍需在轨任务数据验证。Microchip的抗辐照GaN供电器件和BlackSky年度空间成像续约，分别补充硬件供给与付费需求证据。地面OCP新品密集，涉及推理芯片、内存、互连和供电；这些构成成本与技术参照，不能直接当作宇航级能力。</p>
+      <p class="judge">本周从“送上去”进一步转向“如何处理和交付”：Pelican-12搭载Jetson与中继原型入轨，Portal平台完成早期检查，国内太空算力交易平台推出测试版。三者分别对应载荷、载体与供需组织，但均不能替代持续在轨推理、低时延交付和付费调用证据；地面AI新品只作成本和软件栈对照。</p>
     </div>
     <div class="thread">
       <span class="cat">融资</span>
-      <h3 class="serif">推理芯片与系统软件吸引资本</h3>
+      <h3 class="serif">区分交割、计划和累计</h3>
       <div class="shape">
-        <div class="capital-item"><span class="mono">10 / 5 / 3</span>芯片 / 航天供给链 / AI</div>
-        <div class="capital-item"><span class="mono">16.25亿元</span>马赫心首轮融资协议</div>
-        <div class="capital-item"><span class="mono">23.1%</span>融资占正文</div>
+        <div class="capital-item"><span class="mono">10 / 6 / 4</span>芯片／航天／AI正文条数</div>
+        <div class="capital-item"><span class="mono">12亿元</span>环天增资成交披露</div>
+        <div class="capital-item"><span class="mono">26.3%</span>融资占正文</div>
       </div>
-      <p class="judge">正文纳入18条资本事件：芯片10条、航天及航空供给链5条、AI算力3条，占正文23.1%。马赫心16.25亿元为融资协议金额，附加认购权单列；新芯航途与算苗的历史累计额不写成本轮金额。触点互动标注9月签约、10月披露；Fortastra公司已于10月8日公布，剔除本周正文。Horizon为项目资助，独立标明其性质。</p>
+      <p class="judge">完整版纳入20条资本事件：芯片10条、商业航天6条、AI算力4条，占正文26.3%。瑞启深空、环天智慧和国宇星辰支持遥感智能与在轨服务；Xona资金投向导航星座，Tenstorrent扩大地面AI硬件供给。Reflex为计划投资，国宇金额存在差异；累计额、历史轮次和未交割计划均不与本周已确认金额混算。</p>
     </div>
   </div>
 </section>
 
 <!-- 4. Core event dossier -->
 <section>
-  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">6 条 S/A</span></h2>
+  <h2 class="section serif">核心事件 <span class="mono" style="text-transform:none;letter-spacing:0;font-size:16px;color:var(--mid-gray);">14 条 S/A</span></h2>
   <div class="cards">
 
     <article class="card lead">
-      <div class="metarow"><span class="pri">S</span><span class="mono">科技 · 中国 · 10/14</span><span class="mono" style="color:var(--terracotta);">国星宇航 / 星算02组</span></div>
-      <h3 class="eh serif">星算02组8颗计算卫星入轨，推进云边协同组网</h3>
+      <div class="metarow"><span class="pri">S</span><span class="mono">政策 · 美国 · 10/19</span><span class="mono" style="color:var(--terracotta);">EraDrive;US Space Force</span></div>
+      <h3 class="eh serif">EraDrive披露获得1300万美元APFIT卫星自主模块采购</h3>
       <div class="body">
-          <p><b>判断</b> 计算星座新增8个节点，基础设施扩容正在发生；50P是报道口径，尚不能推断持续可售算力。</p>
-          <p><b>影响</b> 中心与边缘节点协同会增加跨星调度、供电和热管理难度，硬件规模与软件可调用性必须一起验证。</p>
-          <p><b>对我们的意义</b> 建立卫星节点、任务类型、持续功耗与数据时延表，优先访谈真实调用方。</p>
-          <p><b>后续跟踪</b> 看星算02组是否公布独立任务吞吐、星间链路与长时运行数据；没有这些就保留工程验证阶段判断。</p>
+          <p><b>判断</b> 采购将卫星视觉自主软件推进模块采购；整机模块尚未飞行，不能把历史软件实验等同整机验证。</p>
+          <p><b>影响</b> 太空军将采购数量未披露的Era-Node视觉自主模块；Era-Core软件已在NASA Starling执行至少七次实验，但完整Era-Node尚未在轨飞行。</p>
+          <p><b>对我们的意义</b> 把卫星自主模块列为产品与采购对标，比较软件实验、整机首飞和采购验收三个阶段的差异。</p>
+          <p><b>后续跟踪</b> 交付数量、验收与首飞</p>
       </div>
-      <span class="src"><a href="https://www.chinanews.com.cn/gn/2026/10-15/10714922.shtml" target="_blank" rel="noopener noreferrer">Source: 央视新闻 / 中国新闻网 ↗</a></span>
+      <span class="src"><a href="https://payloadspace.com/exclusive-eradrive-lands-13m-dod-award-for-autonomy-module/" target="_blank" rel="noopener noreferrer">Source: Payload ↗</a></span>
     </article>
 
     <article class="card timeline-card">
-      <div class="daterail">A<br>科技<br>10/13</div>
+      <div class="daterail">A<br>融资<br>10/19</div>
       <div>
-        <h3 class="eh">NASA通过CRS-35运送通信试验CubeSat</h3>
+        <h3 class="eh">国宇星辰披露A轮融资，投资方与媒体金额口径不同</h3>
         <div class="body">
-          <p><b>判断</b> 通信试验CubeSat获得实际发射入口，属于任务验证节点，产业影响尚有限。</p>
-          <p><b>影响</b> 小型试验降低通信与在轨软件的工程进入门槛，同时暴露部署、天线和链路管理问题。</p>
-          <p><b>对我们的意义</b> 把任务目标、通信参数及在轨结果分开记录，寻找可复用的测试窗口。</p>
-          <p><b>后续跟踪</b> 看CubeSat部署状态、首次链路建立与有效数据量；仅送达空间站不代表试验完成。</p>
+          <p><b>判断</b> 星载AI决策与在轨服务平台获得资本支持，金额存在数千万元与近亿元冲突。</p>
+          <p><b>影响</b> 沂景资本署名稿称国宇星辰完成数千万元A轮融资，由沂景资本领投、复星创富和路遥资本跟投，用于系列化太空机器人研制、批产和商业拓展；科创板日报10月19日写近亿元，企查查记约亿元。金额存在差异，精确金额和交割日待确认。</p>
+          <p><b>对我们的意义</b> 关注星载感知、决策和托管服务接口；不把历史在轨验证写成本周突破。</p>
+          <p><b>后续跟踪</b> 精确轮次金额、星迹源二号在轨作业验证</p>
         </div>
-        <span class="src"><a href="https://www.nasa.gov/blogs/smallsatellites/2026/10/13/nasa-launches-cubesats-to-test-communications-build-experience/" target="_blank" rel="noopener noreferrer">Source: www.nasa.gov ↗</a></span>
+        <span class="src"><a href="https://finance.sina.com.cn/roll/2026-10-20/doc-inivvsvq0885391.shtml" target="_blank" rel="noopener noreferrer">Source: 沂景资本（新浪转载） ↗</a></span>
       </div>
     </article>
 
     <article class="card">
-      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 美国 · 10/14</span><span class="mono" style="color:var(--terracotta);">FAA / SpaceX</span></div>
-      <h3 class="eh serif">FAA启动Starship-Super Heavy项目环境影响评价公众程序</h3>
+      <div class="metarow"><span class="pri">A</span><span class="mono">融资 · 欧洲 · 10/19</span><span class="mono" style="color:var(--terracotta);">Reflex Aerospace</span></div>
+      <h3 class="eh serif">Reflex披露NVIDIA计划少数股权投资，金额未披露</h3>
       <div class="body">
-          <p><b>判断</b> FAA启动新的PEIS范围界定，Starship扩大发射活动仍处审批程序中。</p>
-          <p><b>影响</b> 更高频次的重型发射可影响大型轨道载荷成本，但环境评价不等同于发射许可。</p>
-          <p><b>对我们的意义</b> 运力模型应使用已获批与已执行频次，申请上限另作情景变量。</p>
-          <p><b>后续跟踪</b> 看公众范围界定、PEIS草案与后续许可决定；不把SpaceX目标频次计入确定运力。</p>
+          <p><b>判断</b> NVIDIA拟投资直接关联卫星制造和星载处理平台，但金额未披露且未确认交割。</p>
+          <p><b>影响</b> Reflex10月19日公告NVIDIA计划进行少数股权投资，拟支持巴伐利亚卫星产能扩张及星载处理平台开发；财务条款未披露，未确认已交割。2025年11月5000万欧元A轮仅为历史背景。</p>
+          <p><b>对我们的意义</b> 关注卫星平台与GPU软件生态绑定，区分资本意向和已提供的算力产品。</p>
+          <p><b>后续跟踪</b> 投资交割与处理平台器件、载荷、首飞里程碑</p>
       </div>
-      <span class="src"><a href="https://www.federalregister.gov/documents/2026/10/14/2026-20963/notice-of-intent-to-prepare-a-programmatic-environmental-impact-statement-peis-open-public-scoping" target="_blank" rel="noopener noreferrer">Source: Federal Register ↗</a></span>
+      <span class="src"><a href="https://www.reflexaerospace.com/press-releases/reflex-aerospace-scales-european-satellite-production-backed-by-planned-nvidia-investment" target="_blank" rel="noopener noreferrer">Source: Reflex Aerospace ↗</a></span>
     </article>
 
     <article class="card lead">
-      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/14</span><span class="mono" style="color:var(--terracotta);">Microchip</span></div>
-      <h3 class="eh serif">Microchip发布20A抗辐照GaN星载电源转换器</h3>
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/20</span><span class="mono" style="color:var(--terracotta);">Planet;NVIDIA;SES Space &amp; Defense</span></div>
+      <h3 class="eh serif">Planet Pelican-12入轨并开始调试星载AI及中继载荷</h3>
       <div class="body">
-          <p><b>判断</b> 高电流抗辐照供电产品针对更强星载数字负载，补齐算力芯片之外的关键器件。</p>
-          <p><b>影响</b> 20A转换器为FPGA、ASIC等核心电源轨提供设计选择，系统仍需独立热、瞬态与辐射分析。</p>
-          <p><b>对我们的意义</b> 将电源转换效率、重量、辐射范围纳入星载计算BOM与功耗预算。</p>
-          <p><b>后续跟踪</b> 看POL-05-20S-T的客户设计导入与在轨应用；50krad等规格应按厂家试验条件解读。</p>
+          <p><b>判断</b> Jetson与星间中继原型入轨提供星上处理加快速下传的工程路径，仍处调试。</p>
+          <p><b>影响</b> Planet宣布Pelican-12完成首次联系并进入调试；搭载NVIDIA Jetson星载边缘计算平台以及拟经SES O3b mPOWER下传影像的星间通信原型。第二代Pelican设计目标为30厘米级影像，尚非本次在轨性能已验证。</p>
+          <p><b>对我们的意义</b> 重点对比星上预处理和星间中继是否共同降低数据交付延迟，索取在轨任务输出而非设计指标。</p>
+          <p><b>后续跟踪</b> 在轨推理输出、延迟及链路测试</p>
       </div>
-      <span class="src"><a href="https://www.microchip.com/en-us/about/news-releases/products/microchip-expands-space-power-portfolio-with-new-radiation-tolerant-gan-pol-converter" target="_blank" rel="noopener noreferrer">Source: Microchip ↗</a></span>
+      <span class="src"><a href="https://www.businesswire.com/news/home/20261016907221/en/Planet-Launches-Pelican-12-Satellite" target="_blank" rel="noopener noreferrer">Source: Planet（Business Wire） ↗</a></span>
     </article>
 
     <article class="card timeline-card">
-      <div class="daterail">A<br>科技<br>10/15</div>
+      <div class="daterail">A<br>科技<br>10/20</div>
       <div>
-        <h3 class="eh">BlackSky与HEO续签七位数年度空间目标成像合同</h3>
+        <h3 class="eh">太空算力交易平台测试版上线</h3>
         <div class="body">
-          <p><b>判断</b> 七位数年度续约比一次试点更能说明空间目标成像的付费需求。</p>
-          <p><b>影响</b> Gen-3影像接入HEO软件，数据采集和自动化分析形成重复采购链条。</p>
-          <p><b>对我们的意义</b> 把空间数据交付作为比纯算力规模更近的商业验证指标，核对客户复购与交付SLA。</p>
-          <p><b>后续跟踪</b> 看第三年合同的调用频率、Gen-3可用性及后续续约；合同总额没有完整披露，避免反推收入。</p>
+          <p><b>判断</b> 太空算力服务开始以平台形式组织供需，但测试版展示不等于商业调用成交。</p>
+          <p><b>影响</b> 10月20日推出的测试版汇聚太空算力、数据集、AI模型及Token服务，开展线上展示与供需对接；试运营首批入驻包括微纳星空、天仪研究院、中科卫星、星火传明等。</p>
+          <p><b>对我们的意义</b> 核查平台是否开放真实算力调用、计费和结算接口，再判断接入还是竞争；不能凭入驻名单推算收入。</p>
+          <p><b>后续跟踪</b> 可调用接口、价格及真实订单</p>
         </div>
-        <span class="src"><a href="https://ir.blacksky.com/news-events/press-releases/news-details/2026/BlackSky-Extends-HEO-Space-Domain-Awareness-Agreement-with-New-Seven-Figure-Non-Earth-Imaging-Contract-Featuring-Gen-3/default.aspx" target="_blank" rel="noopener noreferrer">Source: BlackSky IR ↗</a></span>
+        <span class="src"><a href="https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwyrf6385760.shtml" target="_blank" rel="noopener noreferrer">Source: 人民财讯（新浪转载） ↗</a></span>
       </div>
     </article>
 
     <article class="card">
-      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中国 · 10/16</span><span class="mono" style="color:var(--terracotta);">商务部、科技部</span></div>
-      <h3 class="eh serif">中国就修订技术出口目录征求意见并实施临时登记管理</h3>
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 美国 · 10/21</span><span class="mono" style="color:var(--terracotta);">NASA;Planet Labs Federal</span></div>
+      <h3 class="eh serif">NASA授予Planet Tanager高光谱数据评估任务订单</h3>
       <div class="body">
-          <p><b>判断</b> 出口管理讨论扩展到AI与芯片技术，需要按具体条款判断研发与海外部署影响。</p>
-          <p><b>影响</b> 临时登记和拟修订目录可能改变技术合作流程，草案、登记措施与最终许可边界不能混用。</p>
-          <p><b>对我们的意义</b> 梳理芯片设计、模型、软件与海外算力部署的技术流转清单，逐项比照适用条款。</p>
-          <p><b>后续跟踪</b> 看征求意见后的正式目录、实施细则与登记办理案例；优先核验开源和自用等具体适用场景。</p>
+          <p><b>判断</b> 高光谱数据评估订单提供真实政府需求验证，不等于长期批量订阅。</p>
+          <p><b>影响</b> NASA CSDA将评估逾25万平方公里Tanager存档与新采集覆盖，涉及L1C和L2A数据；Tanager提供400多个连续光谱通道、30米分辨率。订单金额未披露，评估不是全面长期采购承诺。</p>
+          <p><b>对我们的意义</b> 将NASA数据评估指标作为遥感智能数据产品验证清单，区分评估采购与规模订阅。</p>
+          <p><b>后续跟踪</b> 评估结果与后续订单</p>
       </div>
-      <span class="src"><a href="https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html" target="_blank" rel="noopener noreferrer">Source: 商务部 ↗</a></span>
+      <span class="src"><a href="https://www.businesswire.com/news/home/20261021824897/en/" target="_blank" rel="noopener noreferrer">Source: Planet via Business Wire ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/21</span><span class="mono" style="color:var(--terracotta);">SpaceX;Starship;Starmind</span></div>
+      <h3 class="eh serif">SpaceX季度披露更新算力与Starship下一步计划</h3>
+      <div class="body">
+          <p><b>判断</b> 季度披露把地面算力及拟发轨道原型纳入路线图，尚无可用空间数据中心。</p>
+          <p><b>影响</b> SpaceX于美国10/20发布季度结果并在电话会上讨论地面算力扩容、下一次Starship双级塔架捕获及后续在轨补加注计划；Starmind数据中心原型为2027拟发射载荷，不是在轨运行产品。</p>
+          <p><b>对我们的意义</b> 把竞争者轨道数据中心原型列为路线图监测项；预算和产品比较仍按未在轨、未对外可用处理。</p>
+          <p><b>后续跟踪</b> SEC后续披露与原型实际发射</p>
+      </div>
+      <span class="src"><a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm" target="_blank" rel="noopener noreferrer">Source: SpaceX SEC 8-K;Ars Technica ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>融资<br>10/21</div>
+      <div>
+        <h3 class="eh">环天智慧12亿元增资项目10月21日成交，20家参与</h3>
+        <div class="body">
+          <p><b>判断</b> 12亿元增资支持遥感星座和地面业务，反映载体平台资本投入；估值为比例推算。</p>
+          <p><b>影响</b> 泰伯援引上海联合产权交易所成交信息：20家投资方合计出资12亿元，对应约39.9734%股权，资金用于星座组网等建设及流动资金。约30亿元投后估值为按出资比例折算，不是独立估值报告。</p>
+          <p><b>对我们的意义</b> 比较星座运营商自建数据链与外部算力服务采购边界。</p>
+          <p><b>后续跟踪</b> 交易所成交原件、实际资金用途和星座部署</p>
+        </div>
+        <span class="src"><a href="https://www.taibo.cn/newsflashes/31616259" target="_blank" rel="noopener noreferrer">Source: 泰伯网 ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">融资 · 美国 · 10/22</span><span class="mono" style="color:var(--terracotta);">Xona Space Systems</span></div>
+      <h3 class="eh serif">Xona宣布2.5亿美元D轮融资，估值24.5亿美元</h3>
+      <div class="body">
+          <p><b>判断</b> 低轨导航融资支持星座制造与部署，增强时空基准和服务管线；2027供服仍是计划。</p>
+          <p><b>影响</b> Xona10月22日创始人公告2.5亿美元D轮融资，Future Ventures领投，估值24.5亿美元，资金支持制造、星座部署和导航运营；累计融资超过5.7亿美元不能当本轮金额。</p>
+          <p><b>对我们的意义</b> 评估精准授时定位服务与星地计算协同的接口条件。</p>
+          <p><b>后续跟踪</b> 首批卫星调试、商用接收机与2027服务承诺</p>
+      </div>
+      <span class="src"><a href="https://www.xonaspace.com/news/series-d" target="_blank" rel="noopener noreferrer">Source: Xona ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">政策 · 中国 · 10/23</span><span class="mono" style="color:var(--terracotta);">中国</span></div>
+      <h3 class="eh serif">发布关于加强外空治理的中国立场</h3>
+      <div class="body">
+          <p><b>判断</b> 外空治理立场涉及商业航天监管与安全边界，影响在轨数据服务合规设计。</p>
+          <p><b>影响</b> 文件提出开放共享、遵守国际法治、维护共同安全、规范商业航天和深化国际合作；要求在鼓励外空经济的同时完善国家监管体系。</p>
+          <p><b>对我们的意义</b> 将外空安全、国家许可和数据服务责任边界列入产品合规清单，不把立场文件当作具体许可。</p>
+          <p><b>后续跟踪</b> 国内许可及执行制度</p>
+      </div>
+      <span class="src"><a href="https://ps.china-office.gov.cn/zgyw/202610/t20261023_12046095.htm" target="_blank" rel="noopener noreferrer">Source: 中国驻巴勒斯坦办事处 ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>政策<br>10/23</div>
+      <div>
+        <h3 class="eh">Orbital Operations披露最高3500万美元低温机动航天器原型合同</h3>
+        <div class="body">
+          <p><b>判断</b> 原型合同支持航天器机动能力验证，关系在轨载体可达性；最高额度非实际收入。</p>
+          <p><b>影响</b> 公司获DoD原型OTA支持，计划开展全尺寸Astraeus在轨演示；金额为最高合同额度。同期披露700万美元种子扩展轮，累计融资约1600万美元，不能把合同额当融资额。</p>
+          <p><b>对我们的意义</b> 评估在轨机动演示是否形成载荷托管和边缘计算需求，商务判断只用已披露合同条件。</p>
+          <p><b>后续跟踪</b> 原型里程碑与合同拨付</p>
+        </div>
+        <span class="src"><a href="https://payloadspace.com/exclusive-dod-taps-orbital-operations-for-cryogenic-spacecraft-demo/" target="_blank" rel="noopener noreferrer">Source: Payload ↗</a></span>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/23</span><span class="mono" style="color:var(--terracotta);">Portal Space Systems;TRL11;Zenno;Atomic-6</span></div>
+      <h3 class="eh serif">Portal披露Starburst-1完成分离通信与太阳翼展开</h3>
+      <div class="body">
+          <p><b>判断</b> 星载边缘处理载荷随平台进入早期在轨检查；未完成推进或处理性能演示。</p>
+          <p><b>影响</b> Starburst-1在10/20 Bandwagon-5发射后完成早期检查并建立地面通信；载荷包括TRL11视频及边缘处理、Zenno姿控及Atomic-6防护材料。氨推进系统点火仍为未来几天计划，不能写成已完成机动。</p>
+          <p><b>对我们的意义</b> 核查平台可供边缘处理载荷的功耗、通信和任务控制接口，未实测前不假设其处理性能。</p>
+          <p><b>后续跟踪</b> 推进点火及边缘载荷实测</p>
+      </div>
+      <span class="src"><a href="https://payloadspace.com/inside-starbursts-first-flight-and-portals-new-bothell-office/" target="_blank" rel="noopener noreferrer">Source: Payload ↗</a></span>
+    </article>
+
+    <article class="card lead">
+      <div class="metarow"><span class="pri">A</span><span class="mono">科技 · 美国 · 10/23</span><span class="mono" style="color:var(--terracotta);">NASA;Johns Hopkins APL;Dragonfly</span></div>
+      <h3 class="eh serif">Dragonfly完成类飞行航电实时首飞全流程仿真</h3>
+      <div class="body">
+          <p><b>判断</b> 类飞行航电闭环仿真验证自主导航计算集成，不是目的地真实飞行。</p>
+          <p><b>影响</b> NASA披露在类飞行计算试验台上完成Dragonfly最完整首飞仿真，集成飞行软件、导航摄像机、IMU和激光雷达模拟数据；GPU生成图像以匹配20—70毫秒相机曝光。不是在土卫六飞行，实际航电验证仍待后续。</p>
+          <p><b>对我们的意义</b> 借鉴视觉、IMU及激光雷达闭环的验证组织方法，为星载自主计算建立地面测试矩阵。</p>
+          <p><b>后续跟踪</b> 飞行航电硬件及环境试验</p>
+      </div>
+      <span class="src"><a href="https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/" target="_blank" rel="noopener noreferrer">Source: NASA ↗</a></span>
+    </article>
+
+    <article class="card timeline-card">
+      <div class="daterail">A<br>融资<br>10/23</div>
+      <div>
+        <h3 class="eh">瑞启深空宣布完成超亿元天使+轮融资</h3>
+        <div class="body">
+          <p><b>判断</b> 直接布局光学AI卫星与数据交付，融资支持工程部署；首星仍未发射。</p>
+          <p><b>影响</b> 公司向36氪披露近日完成超亿元天使+轮融资，东吴创新领投，苏创投、火炬电子、乾融资本、金雨茂物跟投，资金用于卫星研制、发射、地面系统及早期商业交付。首颗光学AI试验卫星处于出厂在即状态，年末发射仍是计划，不能写成已在轨。</p>
+          <p><b>对我们的意义</b> 跟踪太空遥感智能数据产品的交付接口与客户结构，不把融资当在轨能力。</p>
+          <p><b>后续跟踪</b> 首星发射、在手订单交付与回款</p>
+        </div>
+        <span class="src"><a href="https://www.36kr.com/p/4038309503997065" target="_blank" rel="noopener noreferrer">Source: 36氪 ↗</a></span>
+      </div>
     </article>
 
   </div>
@@ -270,7 +375,7 @@ hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
 <!-- 5. Financing supplement -->
 <section>
   <h2 class="section serif">融资其余条目</h2>
-  <p class="finsup">企查查原始清单境内133条、境外49条，初筛保留境内29条、境外6条；复核剔除10月8日已披露的Fortastra后，保留34条数据库融资线索，其中<b>芯片/半导体18条</b>、<b>商业航天/航空供给链2条</b>、<b>AI及相关基础设施14条</b>。本页核心卡片没有融资条目，完整明细另见融资库。明确金额样本包括人民币16.25亿元（约2.417亿美元）和2900万美元（约1.949亿元）；数亿元等表达保留原精度。汇率采用10月16日USD/CNY 6.7220，累计额、认购权和项目资助分别标注。<br><a class="previous-button" href="financing-dashboard-preview.html">W42 融资看板 →</a></p>
+  <p class="finsup">企查查境内122条→复核保留43条，境外74条→11条；另补2条公开资本事件，共56条融资及资本线索。扣除上方5张强相关融资卡，余下<b>芯片/半导体29条</b>、<b>商业航天/卫星10条</b>、<b>AI算力12条</b>。人民币披露从数千万元至超10亿元，美元从1100万至15亿美元；15亿美元约合人民币100.77亿元，1000万欧元保留原币。换算参考10月23日USD/CNY 6.7180；模糊金额、累计额和计划投资不强行合计。逐笔核验与差异见数据库及融资筛选审计。<br><a class="previous-button" href="financing-dashboard-preview.html">W43 融资看板 →</a></p>
 </section>
 
 <!-- 6. Action memo -->
@@ -279,24 +384,24 @@ hr.hair{border:0; border-top:1px solid var(--light-gray); margin:0;}
   <div class="memo">
     <div class="col">
       <h4>机会</h4>
-      <div class="item">围绕星算02组建立实际任务与资源利用率台账，访谈能发起调用和接收结果的客户，把运行能力与规划容量分开。</div>
-      <div class="item">关注星载电源、热控、内存和链路部件：计算节点增多后，系统约束会向这些环节传导。</div>
+      <div class="item">用自主模块采购、NASA数据评估及平台接口逐项核验需求，把模块、数据产品和算力调用放到同一交付链，而不是只比较计算峰值。</div>
+      <div class="item">围绕Pelican和Portal建立载荷资源、任务输出、下行延迟台账，为星载处理与中继链路选型收集可验证数据。</div>
     </div>
     <div class="col">
       <h4>风险</h4>
-      <div class="item">规划算力与芯片峰值不能等同于持续可售算力；地面OCP器件也不能直接视为宇航级能力。</div>
-      <div class="item">融资披露存在本轮与累计额、实际签约与收录日期差异；原始记录与公开校正必须同时保留。</div>
+      <div class="item">载荷入轨和首次联系不代表AI推理与中继已达到设计性能；测试版平台上线也不等于产生付费任务或可确认收入。</div>
+      <div class="item">Reflex为计划投资、国宇金额有差异；资本投入与工程计划均不能替代交割、在轨任务和客户验收证据。</div>
     </div>
     <div class="col">
       <h4>下周必须看</h4>
-      <div class="item">星算02组是否披露在轨任务性能、跨星调用及持续供电数据，BlackSky续约能否给出可量化交付指标。</div>
-      <div class="item">技术出口目录的实施口径、FAA PEIS后续步骤，以及新推理机架的量产和客户部署节点。</div>
+      <div class="item">核查EraDrive模块交付及首飞安排、Planet中继和推理任务输出；没有验收与实测数据，就不把采购或调试上调为商业运行。</div>
+      <div class="item">关注瑞启首星、国宇下一代机器人、Reflex处理平台的可观察节点，以及太空算力平台是否给出接口、价格和真实调用记录。</div>
     </div>
   </div>
 </section>
 
 <!-- 7. Colophon -->
-<div class="colophon">中美太空算力周报 · 2026-W42 · Compiled 2026.10.19 · Internal use</div>
+<div class="colophon">中美太空算力周报 · 2026-W43 · Compiled 2026.10.27 · Internal use</div>
 
 </body>
 </html>
